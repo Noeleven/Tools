@@ -1,0 +1,7 @@
+curl -H " X-Auth-Key:n7mye8wn" -d " timePeriod=10080&endTime=2016-05-23T00:00:00Z" "http://newlens-api.networkbench.com/api/latest/accounts/1223008/mobileApp/9568/charts/mobile-application-performance.json"
+
+
+https://report.tingyun.com/mobile/mobileApplication/selectFilter/http/host/uri.json?&mobileAppId=9573&mobileAppVersionFilterId=&timeType=1&timePeriod=30&endTime=&baseonId=1&reqType=2&pageNo=1&pageSize=100&hostId=424892
+
+
+https://report.tingyun.com/mobile/mobileApplication/selectFilter/http/host/uri.json?&mobileAppId=9573&mobileAppVersionFilterId=&timeType=1&timePeriod=30&endTime=&baseonId=1&reqType=2&pageNo=1&pageSize=3&hostId=424892&jsessionid-mobile=74560e81-f5ee-495f-b83e-2bd3acfc56e9&ty_app_uid=3ea928c539ef59f890fbab9aa75134ae&m_lvt_93daecc2db29efa5d83566cf580e84af=1465805470&Hm_lpvt_93daecc2db29efa5d83566cf580e84af=1465805470&jsessionid-saas=8aeb5dd3-a8f4-4f46-b621-e517ae728310&ty_saas_uid=8cae47be9b88053d97a5065c074932eb&ty_lb_uid=f83142ca-a6570574
