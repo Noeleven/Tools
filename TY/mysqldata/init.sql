@@ -327,7 +327,36 @@ VALUES
 ('api.com.trip.recommendTravelList','目的地攻略-推荐行程列表接口','1.0.0'),
 ('api.com.trip.dest.getAbroadCountry','目的地攻略-首页-世界-国外-目的地接口（按大洲）','1.0.0'),
 ('api.com.route.product.getRouteLineDetail','行程详情（时间价格表页面）','1.0.0'),
-('api.com.trip.client.areadests','搜索-国内国外热门目的地列表接口','1.0.0');
+('api.com.trip.client.areadests','搜索-国内国外热门目的地列表接口','1.0.0'),
+('/clutter/client/validateAuthenticationCode.do','短信校验码校验',''),   
+('/clutter/mobile/html5/order/getGroupAdviceNote.do', '获取团体通知',''),   
+('/clutter/client/firstLogIn.do','首次登录',''), 
+('/clutter/client/sendMobileAuthMessage.do','发送手机短信验证码',''), 
+('/clutter/client/refreshSessionId.do','刷新session',''), 
+('/clutter/client/updateUserPhone.do','更换手机',''), 
+('/clutter/client/updateUserPassWorld.do','更改密码',''), 
+('/clutter/client/sendAuthCode.do','发送图形验证码',''), 
+('/clutter/client/getSessionId.do','获取session',''), 
+('/*.html','html文件',''), 
+('/*.css','css文件',''), 
+('/clutter/router/rest.do','',''), 
+('POST /*.htm','htm文件',''), 
+('/login.asp','登录页',''), 
+('/clutter(null)','',''),
+('/client-service/router/rest.do','',''),
+('/new/api/router/rest.do','',''),
+('/api/router/rest.do','',''),
+('/trip/router/rest.do','',''),
+('/clutter/trainPay/toPay.do','火车支付',''),
+('/clutter/flightPay/toPay.do','飞机支付',''),
+('/clutter/hotelPay/toPay.do','酒店支付',''),
+('/activity/index.php','',''),
+('/bullet/index.php','',''),
+('/bullet/index.php?s=/Api/autoStation','',''),
+('/bullet/index.php?s=/Api/getBootAd','获取引导广告',''),
+('/bullet/index.php?s=/HtmlLocalization/getAppImage','获取APP首页图片',''),
+('/bullet/index.php?s=/Api/getInfos','','');
+
 
 TRUNCATE table ty_host;
 INSERT INTO ty_host (`host_id`,`des`)

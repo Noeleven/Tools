@@ -1,0 +1,19 @@
+#一 获取数据
+#1.登录听云，获取取数据的URL，存入对应的文件
+#1.1 性能数据，取ios api3g2 api3g mlvmama 三份数据
+#1.2 rpm数据，分别取ios和android的api3g2 api3g mlvmama 一共6份数据
+
+2.使用curl自动获取并保存数据，卡在cookie这里
+
+#二 分析数据并入响应时间表
+#1.json取出数据，分别写入数据酷
+
+#三 分析数据并入rpm表
+#1.json数据取出
+2.android和ios的version或者lvversion版本一致的，求和
+3.根据rpm计算日访问量，*24*60
+4.存入数据库表
+
+四 联合查询输出结果
+1.联合查询 匹配 method des post https lvversion version value rpm
+2.输出为文件，导入excel

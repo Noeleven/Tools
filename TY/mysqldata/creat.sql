@@ -23,6 +23,7 @@ CREATE TABLE `ty_host` (
 DROP TABLE IF EXISTS `ty_s`;
 CREATE TABLE `ty_s` (
   `s_id` int(10) NOT NULL AUTO_INCREMENT,
+  `host_id` int(10) NOT NULL,
   `method` char(100) NOT NULL,
   `version` char(10) NOT NULL,
   `lvversion` char(10) NOT NULL,
@@ -37,6 +38,7 @@ CREATE TABLE `ty_s` (
 DROP TABLE IF EXISTS `ty_r`;
 CREATE TABLE `ty_r` (
   `r_id` int(10) NOT NULL AUTO_INCREMENT,
+  `host_id` int(10) NOT NULL,
   `method` char(100) NOT NULL,
   `version` char(10) NOT NULL,
   `lvversion` char(10) NOT NULL,
