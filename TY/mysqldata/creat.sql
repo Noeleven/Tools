@@ -27,9 +27,9 @@ CREATE TABLE `ty_s` (
   `method` char(100) NOT NULL,
   `version` char(10) NOT NULL,
   `lvversion` char(10) NOT NULL,
-  `http` char(10) NOT NULL,
-  `get` char(10) NOT NULL,
-  `value` char(10) NOT NULL,
+  `https` char(10) NOT NULL,
+  `post` char(10) NOT NULL,
+  `response` char(10) NOT NULL,
   `des` char(100) NOT NULL,
   PRIMARY KEY (`s_id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 auto_increment=1;
@@ -38,14 +38,10 @@ CREATE TABLE `ty_s` (
 DROP TABLE IF EXISTS `ty_r`;
 CREATE TABLE `ty_r` (
   `r_id` int(10) NOT NULL AUTO_INCREMENT,
-  `host_id` int(10) NOT NULL,
   `method` char(100) NOT NULL,
-  `version` char(10) NOT NULL,
-  `lvversion` char(10) NOT NULL,
-  `http` char(10) NOT NULL,
-  `get` char(10) NOT NULL,
-  `value` char(10) NOT NULL,
-  `des` char(100) NOT NULL,
+  `version` char(10) ,
+  `post` char(10) ,
+  `rpm` char(10) NOT NULL,
   PRIMARY KEY (`r_id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 auto_increment=1;
 

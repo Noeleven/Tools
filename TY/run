@@ -1,0 +1,9 @@
+#!/bin/bash
+
+nohup sh /rd/shellstudy/Tools/TY/reshandle.sh && echo "please wait....\n"
+time /rd/shellstudy/Tools/TY/rpmhandle.sh
+echo "done\n please check your report: Report"
+
+
+
+

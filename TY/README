@@ -17,3 +17,35 @@
 四 联合查询输出结果
 1.联合查询 匹配 method des post https lvversion version value rpm
 2.输出为文件，导入excel
+
+
+#api3g2.lvmama.com 424892
+##api3g.lvmama.com 424891
+##m.lvmama.com	41699
+##ios 9568 android 9573
+#
+#1.通过听云登录
+#找到app ios 获取指定时间的api3g2 m.lvmama.com api3g 的接口响应url请求
+#需要cookie
+#
+#https://report.tingyun.com/mobile/mobileApplication/selectFilter/http/host/uri.json?&mobileAppId=9568&mobileAppVersionFilterId=&timeType=2&timePeriod=20160&endTime=2016-06-15%2000%3A00&baseonId=1&searchKey=api3g2&reqType=2&pageNo=1&pageSize=2000&hostId=424892
+#
+#https://report.tingyun.com/mobile/mobileApplication/selectFilter/http/host/uri.json?&mobileAppId=9568&mobileAppVersionFilterId=&timeType=2&timePeriod=20160&endTime=2016-06-15%2000%3A00&baseonId=1&searchKey=api3g&reqType=2&pageNo=1&pageSize=1000&hostId=424891
+#
+#https://report.tingyun.com/mobile/mobileApplication/selectFilter/http/host/uri.json?&mobileAppId=9573&mobileAppVersionFilterId=&timeType=2&timePeriod=20160&endTime=2016-06-15%2000%3A00&baseonId=1&searchKey=lvmama&reqType=2&pageNo=1&pageSize=1000&hostId=41699
+#
+#
+#吞吐量
+#android 指定时间 吞吐量请求
+#https://report.tingyun.com/mobile/mobileApplication/selectFilter/http/host/uri.json?&mobileAppId=9573&mobileAppVersionFilterId=&timeType=2&timePeriod=20160&endTime=2016-06-15%2000%3A00&baseonId=3&searchKey=lvmama&reqType=2&pageNo=1&pageSize=5000&hostId=424892
+#
+#https://report.tingyun.com/mobile/mobileApplication/selectFilter/http/host/uri.json?&mobileAppId=9573&mobileAppVersionFilterId=&timeType=2&timePeriod=20160&endTime=2016-06-15%2000%3A00&baseonId=3&searchKey=lvmama&reqType=2&pageNo=1&pageSize=1000&hostId=424891
+#
+https://report.tingyun.com/mobile/mobileApplication/selectFilter/http/host/uri.json?&mobileAppId=9573&mobileAppVersionFilterId=&timeType=2&timePeriod=20160&endTime=2016-06-15%2000%3A00&baseonId=3&searchKey=lvmama&reqType=2&pageNo=1&pageSize=1000&hostId=41699
+#
+#ios 指定时间 吞吐量请求
+https://report.tingyun.com/mobile/mobileApplication/selectFilter/http/host/uri.json?&mobileAppId=9568&mobileAppVersionFilterId=&timeType=2&timePeriod=20160&endTime=2016-06-15%2000%3A00&baseonId=3&searchKey=lvmama&reqType=2&pageNo=1&pageSize=5000&hostId=424892
+#
+https://report.tingyun.com/mobile/mobileApplication/selectFilter/http/host/uri.json?&mobileAppId=9568&mobileAppVersionFilterId=&timeType=2&timePeriod=20160&endTime=2016-06-15%2000%3A00&baseonId=3&searchKey=lvmama&reqType=2&pageNo=1&pageSize=1000&hostId=424891
+#
+https://report.tingyun.com/mobile/mobileApplication/selectFilter/http/host/uri.json?&mobileAppId=9568&mobileAppVersionFilterId=&timeType=2&timePeriod=20160&endTime=2016-06-15%2000%3A00&baseonId=3&searchKey=lvmama&reqType=2&pageNo=1&pageSize=1000&hostId=41699

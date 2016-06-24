@@ -24,22 +24,23 @@ password=lvmama
 grep name ${res_api3g2} | awk -F "\"" '{print $4}' > tmp
 lines=`wc -l tmp | awk -F " " '{print $1}'`
 echo 'use tingyun;' > $dores
-echo 'insert into ty_s (`method`,`version`,`lvversion`,`http`,`get`,`value`,`des`,`host_id`) VALUE' >> $dores
+echo 'TRUNCATE ty_s;' > $dores
+echo 'insert into ty_s (`method`,`version`,`lvversion`,`https`,`post`,`response`,`des`,`host_id`) VALUE' >> $dores
 
 for i in `seq 1 ${lines}`
 do
 	info=`sed -n ${i}p tmp`
 	if [[ $info =~ "method" ]];then
-		if [[ $info =~ "productId" ]];then continue;
+		if [[ $info =~ "productId" ]] || [[ $info =~ "keyword" ]];then continue;
 		else
-			method=`echo $info |sed 's/\&/\n/g' |grep method | cut -d '=' -f 2`
+			method=`echo $info |sed 's/ /\&/g;s/\&/\n/g' |grep method | cut -d '=' -f 2`
 			value=`grep value ${res_api3g2} | sed -n ${i}p | awk -F ":" '{print $2}'|sed "s/ //g;s/\r//g" `
 			host_id=`grep host_id ${res_api3g2} | sed -n ${i}p | awk -F ":" '{print $2}'|sed "s/ //g;s/\r//g;s/\,//g" `
 			des=`mysql -u$username -p$password tingyun -N -e "select des from api where method='${method}'"`
 			if [[ $info =~ "POST" ]];then post=POST;else  post=NO;fi
 			if [[ $info =~ "https" ]];then https=HTTPS;else https=NO; fi
 			if [[ $info =~ "lvversion" ]];then lvversion=`echo $info | grep -o '7\.[0-9]\.[0-9]'`;else lvversion=NO;fi
-			if [[ $info =~ "version" ]];then version=`echo $info | grep -o '[0-9]\.0\.0'`;else version=NO; fi
+			if [[ $info =~ "&version" ]];then version=`echo $info | grep -o '[0-9]\.0\.0'`;else version=NO; fi
 			
 			if [ $i -eq $lines ];then
 			echo "('${method}','${version}','${lvversion}','${https}','${post}','${value}','${des}','${host_id}');" >> $dores
@@ -55,7 +56,7 @@ done
 #res_api3g
 grep name ${res_api3g} | awk -F "\"" '{print $4}' > tmp1
 lines1=`wc -l tmp1 | awk -F " " '{print $1}'`
-echo 'insert into ty_s (`method`,`version`,`lvversion`,`http`,`get`,`value`,`des`,`host_id`) VALUE' >> $dores
+echo 'insert into ty_s (`method`,`version`,`lvversion`,`https`,`post`,`response`,`des`,`host_id`) VALUE' >> $dores
 
 for o in `seq 1 ${lines1}`
 do
@@ -87,6 +88,7 @@ mlvmamaapi=(
 /new/api/router/rest.do
 /api/router/rest.do
 /trip/router/rest.do
+/client-service/router/rest.do
 /clutter/trainPay/toPay.do
 /clutter/flightPay/toPay.do
 /clutter/hotelPay/toPay.do
@@ -94,17 +96,18 @@ mlvmamaapi=(
 /bullet/index.php
 /bullet/index.php?s=/Api/autoStation
 /bullet/index.php?s=/Api/getBootAd
+/bullet/index.php?s=Api/statusSwitch
 /bullet/index.php?s=/HtmlLocalization/getAppImage
 /bullet/index.php?s=/Api/getInfos
 )
 
 grep name ${res_mlvmama} | awk -F "\"" '{print $4}' > tmp2
-echo 'insert into ty_s (`method`,`version`,`lvversion`,`http`,`get`,`value`,`des`,`host_id`) VALUE' >> $dores
+echo 'insert into ty_s (`method`,`version`,`lvversion`,`https`,`post`,`response`,`des`,`host_id`) VALUE' >> $dores
 
 for u in ${mlvmamaapi[@]}
 do
 	grep -nw ${u}$ tmp2 > info2
-	lines2=`grep -nw ${u}$ tmp2 | cut -d ":" -f1`
+	#lines2=`grep -nw ${u}$ tmp2 | cut -d ":" -f1`
 	
 	cat info2 | while read line
 	do
@@ -133,6 +136,8 @@ do
 done
 
 rm -f tmp* info2
+
+mysql -plvmama < /rd/shellstudy/Tools/TY/mysqldata/dores.sql
 
 exit 0
 
