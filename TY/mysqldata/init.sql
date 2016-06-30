@@ -1,4 +1,3 @@
-
 use tingyun
 TRUNCATE table api;
 INSERT INTO `api` (`method`,`des`,`version`)
@@ -44,7 +43,7 @@ VALUES
 ('api.com.ticket.order.inputTicketOrder','门票填写订单','1.0.0'),
 ('api.com.trip.other.postlosc','下单后LOSC码提交接口','1.0.0'),
 ('api.com.user.geteTicket','电子票列表','1.0.0'),
-('api.com.user.getUserProvinceCities','查询指定的省、市信息列表','1.0.0'),
+('api.com.user.getUserProvinceCities','查询指定的省市信息列表','1.0.0'),
 ('api.com.cmt.getLatitudeScores','获取各品类点评维度评分','1.0.0'),
 ('api.com.ship.computeRoomsAndPriceByPersons','计算邮轮房间数和价格','1.0.0'),
 ('api.com.route.order.createOrder','【免登陆快捷下单】创建订单','1.0.0'),
@@ -59,7 +58,7 @@ VALUES
 ('api.com.user.getUser','查询用户个人信息','1.0.0'),
 ('api.com.groupbuy.getAbroadIndexList','首页出境游(7.1版本)','2.0.0'),
 ('api.com.groupbuy.getArroundIndexList','首页周边游(7.1版本)','2.0.0'),
-('api.com.groupbuy.getSeckillListByProductMark','获取秒杀的列表By产品标签（尾品、爆款、秒杀）(7.4版本)','1.0.0'),
+('api.com.groupbuy.getSeckillListByProductMark','获取秒杀的列表By产品标签（尾品爆款秒杀）(7.4版本)','1.0.0'),
 ('api.com.groupbuy.getShipIndexList','首页游轮(7.1版本)','2.0.0'),
 ('api.com.resorthotel.getGoodsDetail','度假酒店房型详情','1.0.0'),
 ('api.com.duiba.handle.duibanotice','','1.0.0'),
@@ -81,7 +80,7 @@ VALUES
 ('api.com.order.getWaitPaymentTimeSecond','获取支付等待时间','1.0.0'),
 ('api.com.hotel.search.getHomeHotelConditions','7.1酒店搜索首页获取价格/星级','1.0.0'),
 ('api.com.groupbuy.getTicketIndexList','首页门票(7.1版本)','2.0.0'),
-('api.com.groupbuy.getSellPackageInfo','秒杀、团购详情页套餐接口(7.4版本)','1.0.0'),
+('api.com.groupbuy.getSellPackageInfo','秒杀团购详情页套餐接口(7.4版本)','1.0.0'),
 ('api.com.user.getNewCouponCount','计算优惠券数量','1.0.0'),
 ('api.com.visa.product.province','选择省份接口','1.0.0'),
 ('api.com.route.search.autoCompleteRoute','线路搜索自动补全','1.0.0'),
@@ -94,7 +93,7 @@ VALUES
 ('api.com.ship.computeRoomsAndPrice','计算邮轮房间数和价格','1.0.0'),
 ('api.com.user.sso.register','客户端【普通注册】接口','1.0.0'),
 ('api.com.favorite.getFavoriteList','新版收藏列表','1.0.0'),
-('api.com.order.getOrder','查询机票、火车票，VST订单详情','1.0.0'),
+('api.com.order.getOrder','查询机票火车票，VST订单详情','1.0.0'),
 ('api.com.init.addDeviceToken','初始化token','1.0.0'),
 ('api.com.route.common.product.getRouteDetails','查询线路产品详情（7.5）','1.0.0'),
 ('api.com.user.getContact','获取用户相关的所有联系人','1.0.0'),
@@ -108,7 +107,7 @@ VALUES
 ('api.com.ship.getProductDetail','获取组合邮轮详情','1.0.0'),
 ('api.com.route.product.getRouteDetails','线路产品详情','1.0.0'),
 ('api.com.validateCode.login.checkImageAuthCode','校验【登录】是否需要图形验证码','1.0.0'),
-('api.com.trip.dest.destHomePageCount','目的地聚合页景点、酒店、签证button数量','1.0.0'),
+('api.com.trip.dest.destHomePageCount','目的地聚合页景点酒店签证button数量','1.0.0'),
 ('api.com.resorthotel.order.inputOrder','度假酒店填写订单','1.0.0'),
 ('api.com.resorthotel.getMoneyDetails','度假酒店费用明细','1.0.0'),
 ('api.com.route.quickorder.countRoutePriceQuickOrder','【免登陆快捷下单】线路快捷下单计算价格','1.0.0'),
@@ -147,7 +146,7 @@ VALUES
 ('api.com.home.getStations','新版获取出发站点信息（7.2）','1.0.0'),
 ('api.com.ticket.quickorder.checkTicketQuickOrder','校验门票快捷下单订单','1.0.0'),
 ('api.com.route.search.getFreeTourFromTicet','自由行/景+酒搜索','1.0.0'),
-('api.com.search.getVerPlaceList','酒店搜索获取地标、商圈和景区','1.0.0'),
+('api.com.search.getVerPlaceList','酒店搜索获取地标商圈和景区','1.0.0'),
 ('api.com.ticket.order.getTicketCircusActInfos','获长隆门票场次信息（7.4）','1.0.0'),
 ('api.com.order.createOrder','创建酒店订单','1.0.0'),
 ('api.com.groupbuy.getGroupbuyList','查询团购列表页数据','1.0.0'),
@@ -206,7 +205,7 @@ VALUES
 ('api.com.wifiphonecard.order.inputWifiPhoneCardOrder','wifi/电话卡下单必填项以及下单页面基本信息接口','1.0.0'),
 ('api.com.cmt.wirteComment','写点评接口','1.0.0'),
 ('api.com.train.order.submitorder','提交订单到本地数据库','1.0.0'),
-('api.com.certif.findEbkCertifByOrderIdAndCertifId','查询指定订单与凭证对应的详细信息，包括订单信息、游客信息','1.0.0'),
+('api.com.certif.findEbkCertifByOrderIdAndCertifId','查询指定订单与凭证对应的详细信息，包括订单信息游客信息','1.0.0'),
 ('api.com.wifi.order.createWifiOrder','wifi/电话卡创建订单接口','1.0.0'),
 ('api.com.cmt.getRecommendedComments','7.5获取点评成功页的推荐点评信息','1.0.0'),
 ('api.com.file.baseUploadImg','上传图片','1.0.0'),
@@ -239,7 +238,7 @@ VALUES
 ('api.com.route.order.commitIntentionOrder','提交意向订单','1.0.0'),
 ('api.com.wifi.getWifiFetchCityInfo','wifi详情页内的取还信息接口','1.0.0'),
 ('api.com.resorthotel.order.getUserCouponList','获取该产品下用户可用优惠券列表','1.0.0'),
-('api.com.trip.dest.feedback','目的地详情页反馈（想去、去过）接口','1.0.0'),
+('api.com.trip.dest.feedback','目的地详情页反馈（想去去过）接口','1.0.0'),
 ('api.com.wifi.getFetchSiteList','wifi下单取/还件网点列表','1.0.0'),
 ('api.com.user.commitPayment','提交充值','1.0.0'),
 ('api.com.ticket.weather.getForeignWeatherInfo','获取国外天气预报信息（7.4.1）','1.0.0'),
@@ -252,7 +251,7 @@ VALUES
 ('api.com.user.userLoginByUserNameAndPassword','用户登录验证','1.0.0'),
 ('api.com.resorthotel.order.checkOrder','校验订单','1.0.0'),
 ('api.com.user.getBonusIncome','查询奖金存款收入记录','1.0.0'),
-('api.com.certif.updateEbkCertifStatus','更新指定订单与凭证对应的详细信息，包括订单信息、游客信息','1.0.0'),
+('api.com.certif.updateEbkCertifStatus','更新指定订单与凭证对应的详细信息，包括订单信息游客信息','1.0.0'),
 ('api.com.store.localstore','获取当前所在地门店信息','1.0.0'),
 ('api.com.ship.order.getUserCouponList','获取游轮可用优惠券列表','1.0.0'),
 ('api.com.visa.sendAuthCodeMsg','微信签证查询接口发送短信','1.0.0'),
@@ -298,7 +297,7 @@ VALUES
 ('api.com.route.inner.product.getInnerLineDetail','国内行程结构化接口信息since7.5','1.0.0'),
 ('api.com.ship.checkShipTravel','游轮提交游玩人和紧急联系人','1.0.0'),
 ('api.com.search.autoCompleteHotel','酒店自动补全','1.0.0'),
-('api.com.route.product.getLocalRouteDetail','关联销售里的当地游产品详情（只有产品特色、行程、须知）','1.0.0'),
+('api.com.route.product.getLocalRouteDetail','关联销售里的当地游产品详情（只有产品特色行程须知）','1.0.0'),
 ('api.com.wifi.findWifiListCity','获取筛选条件中的取还城市id','1.0.0'),
 ('api.com.cmt.getPicMarks','7.5拉取点评标签','1.0.0'),
 ('api.com.trip.relatedGuideInfo','目的地攻略-攻略详情接口','1.0.0'),
@@ -323,11 +322,21 @@ VALUES
 ('api.com.order.cancelOrder','取消酒店订单','1.0.0'),
 ('api.com.customizaion.createCustomization','产品定制','1.0.0'),
 ('api.com.file.getIcon','图片压缩','1.0.0'),
-('api.com.token.saveEbkUserToken','保存token、IMIS系统唯一标识并和用户、供应商、用户信息','1.0.0'),
+('api.com.token.saveEbkUserToken','保存tokenIMIS系统唯一标识用户供应商用户信息','1.0.0'),
 ('api.com.trip.recommendTravelList','目的地攻略-推荐行程列表接口','1.0.0'),
 ('api.com.trip.dest.getAbroadCountry','目的地攻略-首页-世界-国外-目的地接口（按大洲）','1.0.0'),
 ('api.com.route.product.getRouteLineDetail','行程详情（时间价格表页面）','1.0.0'),
 ('api.com.trip.client.areadests','搜索-国内国外热门目的地列表接口','1.0.0'),
+('api.com.cmt.getRelatedList','相关点评列表','1.0.0'),
+('api.com.groupbuy.getSeckillProductsByMark','根据时间和产品标签获取秒杀产品列表','1.0.0'),
+('api.com.groupbuy.ticket.order.countTicketPrice','门票订单计算总价','1.0.0'),
+('api.com.groupbuy.ticket.order.createOrder','提交门票订单','1.0.0'),
+('api.com.groupbuy.ticket.order.inputTicketOrder','门票填写订单','1.0.0'),
+('api.com.pass.getVstPassPdf','获得vst通关码图片','1.0.0'),
+('api.com.route.goods.findGoodsTimePrice','商品的价格日历表','1.0.0'),
+('api.com.route.goods.getHotelCombGoodsInfo','酒店套餐产品底下的商品集合接口','1.0.0'),
+('api.com.user.addOrderContact','订单内游玩人保存（国内线路）','1.0.0'),
+('api.com.user.addShipOrderContact','订单内游玩人保存（游轮）','1.0.0'),
 ('/clutter/client/validateAuthenticationCode.do','短信校验码校验',''),
 ('/clutter/mobile/html5/order/getGroupAdviceNote.do','获取团体通知',''),
 ('/clutter/client/firstLogIn.do','首次登录',''),
@@ -361,10 +370,9 @@ VALUES
 TRUNCATE table ty_host;
 INSERT INTO ty_host (`host_id`,`des`)
 VALUES
-('424892','api3g2.lvmama.com'),
-('424891','api3g.lvmama.com'),
-('41699','m.lvmama.com');
-
+('424892','api3g2'),
+('424891','api3g'),
+('41699','mlvmama');
 
 
 

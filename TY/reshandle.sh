@@ -24,7 +24,7 @@ password=lvmama
 grep name ${res_api3g2} | awk -F "\"" '{print $4}' > tmp
 lines=`wc -l tmp | awk -F " " '{print $1}'`
 echo 'use tingyun;' > $dores
-echo 'TRUNCATE ty_s;' > $dores
+echo 'TRUNCATE ty_s;' >> $dores
 echo 'insert into ty_s (`method`,`version`,`lvversion`,`https`,`post`,`response`,`des`,`host_id`) VALUE' >> $dores
 
 for i in `seq 1 ${lines}`
@@ -42,16 +42,13 @@ do
 			if [[ $info =~ "lvversion" ]];then lvversion=`echo $info | grep -o '7\.[0-9]\.[0-9]'`;else lvversion=NO;fi
 			if [[ $info =~ "&version" ]];then version=`echo $info | grep -o '[0-9]\.0\.0'`;else version=NO; fi
 			
-			if [ $i -eq $lines ];then
-			echo "('${method}','${version}','${lvversion}','${https}','${post}','${value}','${des}','${host_id}');" >> $dores
-			else
 			echo "('${method}','${version}','${lvversion}','${https}','${post}','${value}','${des}','${host_id}')," >> $dores
-			fi
 		fi
 	else
 	continue
 	fi
 done
+sed -i "\$s#),#);#g" $dores
 
 #res_api3g
 grep name ${res_api3g} | awk -F "\"" '{print $4}' > tmp1
@@ -75,13 +72,9 @@ do
 	lvversion=''
 	if [[ $info1 =~ "https" ]];then https=HTTPS;else https=NO; fi
 		
-	if [ $o -eq $lines1 ];then
-	echo "('${method}','${version}','${lvversion}','${https}','${post}','${value}','${des}','${host_id}');" >> $dores
-	else
 	echo "('${method}','${version}','${lvversion}','${https}','${post}','${value}','${des}','${host_id}')," >> $dores
-	fi
 done
-
+sed -i "\$s#),#);#g" $dores
 #$res_mlvmama
 #android 才有一些具体接口，包含大量的商品信息，需要过滤
 mlvmamaapi=(
