@@ -12,7 +12,8 @@ if [ "$#" != 2 ]; then
 	exit 2
 fi
 set -x
-URL="http://api3g2.lvmama.com/api/router/rest.do?method=api.com.visa.product.getVisaGroupDate&clientTimestamp=1463389668243&firstChannel=ANDROID&formate=json&globalLatitude=31.241902&osVersion=6.0&lvversion=7.6.0&udid=869161026900324&globalLongitude=121.398379&secondChannel=LVMM&lvtukey=9bc70cb90814f4df7efa80680e4213be&IS_DEBUG=1&goodsId=2400185&version=1.0.0&lvsessionid=29ec7fb4-0893-4399-809b-62ec26072322"
+#URL="http://m.lvmama.com/api/router/rest.do?method=api.com.ticket.quickorder.inputTicketQuickOrder&version=1.0.0&lvversion=7.6.1&IS_DEBUG=1&productId=622407&goodsIds=2777050&lvkey=37cc1b191999a8f49c82255b33ac9e80"
+URL="http://m.lvmama.com/api/router/rest.do?method=api.com.ticket.quickorder.inputTicketQuickOrder&version=1.0.0&lvversion=7.6.1&IS_DEBUG=1&productId=622407&goodsIds=2777050&visitDate=2016-08-06&lvkey=131b060073f1578dce6ac8a03e8520a"
 NAME=`echo $URL | cut -d = -f 2 | awk -F "&" '{print $1}'`
 CYCLE=$1
 SLEEPTIME=$2
@@ -26,7 +27,7 @@ RFILE=end_$NAME
 
 function getLog(){
 now=`date +%Y-%m-%d_%H:%M`
-curl "$URL" > $SFILE
+curl --limit-rate 500k "$URL" > $SFILE
 echo $now >> $LFILE
 sed 's/,/\n/g' $SFILE |grep debugMsg| awk -F '\"' '{ print $4 }' | sed 's/ms/ms\n/g' >> $LFILE
 }
@@ -34,7 +35,7 @@ sed 's/,/\n/g' $SFILE |grep debugMsg| awk -F '\"' '{ print $4 }' | sed 's/ms/ms\
 for i in `seq ${CYCLE}`
 do
 getLog
-if [ $i != $CTCLE ];then
+if [ $i != $CYCLE ];then
 sleep ${SLEEPTIME}
 fi
 done
@@ -62,9 +63,11 @@ do
     echo "${lineinfo} avgCostTime: ${passavgTime}ms ${passrangeTime}ms " >> $RFILE
 done
 
-rm -f $SFILE $LFILE $TFILE
+#rm -f $SFILE $LFILE $TFILE
 
 #发邮件方法
 #echo "" | mutt -s "" -t someone
 
 cat $RFILE | mutt -s "${NAME}_LOG" zhangqiang@lvmama.com
+
+exit 0
