@@ -1,0 +1,55 @@
+2016-07-07_18:24:12
+[api.com.ticket.order.createOrder 1.0.0] costTime: 807ms
+\n\t[下单拦截器调用主站接口获取下单必填项] costTime: 6ms
+\n\t[调用主站接口  519大促实时判断余额] costTime: 22ms
+\n\t[调用主站穿点订单接口] costTime: 674ms
+2016-07-07_18:29:13
+[api.com.ticket.order.createOrder 1.0.0] costTime: 679ms
+\n\t[下单拦截器调用主站接口获取下单必填项] costTime: 6ms
+\n\t[调用主站接口  519大促实时判断余额] costTime: 33ms
+\n\t[调用主站穿点订单接口] costTime: 519ms
+2016-07-07_18:34:14
+[api.com.ticket.order.createOrder 1.0.0] costTime: 653ms
+\n\t[下单拦截器调用主站接口获取下单必填项] costTime: 10ms
+\n\t[调用主站接口  519大促实时判断余额] costTime: 28ms
+\n\t[调用主站穿点订单接口] costTime: 486ms
+2016-07-07_18:39:15
+[api.com.ticket.order.createOrder 1.0.0] costTime: 924ms
+\n\t[下单拦截器调用主站接口获取下单必填项] costTime: 15ms
+\n\t[调用主站接口  519大促实时判断余额] costTime: 24ms
+\n\t[调用主站穿点订单接口] costTime: 730ms
+2016-07-07_18:44:16
+[api.com.ticket.order.createOrder 1.0.0] costTime: 2387ms
+\n\t[下单拦截器调用主站接口获取下单必填项] costTime: 16ms
+\n\t[调用主站接口  519大促实时判断余额] costTime: 23ms
+\n\t[调用主站穿点订单接口] costTime: 2112ms
+2016-07-07_18:49:19
+[api.com.ticket.order.createOrder 1.0.0] costTime: 1012ms
+\n\t[下单拦截器调用主站接口获取下单必填项] costTime: 37ms
+\n\t[调用主站接口  519大促实时判断余额] costTime: 26ms
+\n\t[调用主站穿点订单接口] costTime: 794ms
+2016-07-07_18:54:20
+[api.com.ticket.order.createOrder 1.0.0] costTime: 1061ms
+\n\t[下单拦截器调用主站接口获取下单必填项] costTime: 22ms
+\n\t[调用主站接口  519大促实时判断余额] costTime: 25ms
+\n\t[调用主站穿点订单接口] costTime: 585ms
+2016-07-07_18:59:22
+[api.com.ticket.order.createOrder 1.0.0] costTime: 651ms
+\n\t[下单拦截器调用主站接口获取下单必填项] costTime: 19ms
+\n\t[调用主站接口  519大促实时判断余额] costTime: 25ms
+\n\t[调用主站穿点订单接口] costTime: 485ms
+2016-07-07_19:04:23
+[api.com.ticket.order.createOrder 1.0.0] costTime: 986ms
+\n\t[下单拦截器调用主站接口获取下单必填项] costTime: 21ms
+\n\t[调用主站接口  519大促实时判断余额] costTime: 30ms
+\n\t[调用主站穿点订单接口] costTime: 762ms
+2016-07-07_19:09:24
+[api.com.ticket.order.createOrder 1.0.0] costTime: 990ms
+\n\t[下单拦截器调用主站接口获取下单必填项] costTime: 17ms
+\n\t[调用主站接口  519大促实时判断余额] costTime: 36ms
+\n\t[调用主站穿点订单接口] costTime: 541ms
+
+[api.com.ticket.order.createOrder 1.0.0] avgCostTime: 1015ms TimeRange: 651 ~ 2387ms 
+[下单拦截器调用主站接口获取下单必填项] avgCostTime: 16.9ms TimeRange: 6 ~ 37ms 
+[调用主站接口  519大促实时判断余额] avgCostTime: ms TimeRange:  ~ ms 
+[调用主站穿点订单接口] avgCostTime: 768.8ms TimeRange: 485 ~ 2112ms 

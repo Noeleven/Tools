@@ -1,0 +1,197 @@
+2016-07-19_15:55:36
+[api.com.ticket.order.inputTicketOrder 2.0.0] costTime: 858ms
+\n\t[非组合套餐票 获取最近可定日期] costTime: 50ms
+\n\t\t[调用主站接口获取最近可定时间] costTime: 50ms
+\n\t\t\t[非组合套餐票 非期票 调用主站获取时间价格表接口（有缓存）] costTime: 49ms
+\n\t\t\t\t[非组合套餐票 非期票  实际调用主站获取渠道接口用来判断团购秒杀] costTime: 4ms
+\n\t\t\t\t[非组合套餐票 非期票  实际调用主站获取时间价格表接口 ] costTime: 41ms
+\n\t[调用主站接口获取非组合套餐票产品详情] costTime: 41ms
+\n\t[掉用主站获取门票商品详情] costTime: 2ms
+\n\t[获取下单必填项接口] costTime: 16ms
+\n\t[调用主站获取单门票时间价格表] costTime: 20ms
+\n\t\t[非组合套餐票 非期票  实际调用主站获取渠道接口用来判断团购秒杀] costTime: 3ms
+\n\t\t[非组合套餐票 非期票  实际调用主站获取时间价格表接口 ] costTime: 14ms
+\n\t[调用主站接口判断是不是长隆票] costTime: 7ms
+\n\t[获取TNT优惠活动] costTime: 7ms
+\n\t[获取TNT优惠活动] costTime: 11ms
+\n\t[获取TNT优惠活动] costTime: 11ms
+\n\t[获取TNT优惠活动] costTime: 10ms
+\n\t[获取TNT优惠活动] costTime: 8ms
+\n\t[获取TNT优惠活动] costTime: 51ms
+\n\t[获取TNT优惠活动] costTime: 8ms
+\n\t[获取TNT优惠活动] costTime: 16ms
+\n\t[获取TNT优惠活动] costTime: 8ms
+\n\t[获取TNT优惠活动] costTime: 9ms
+\n\t[获取TNT优惠活动] costTime: 6ms
+\n\t[获取TNT优惠活动] costTime: 11ms
+\n\t[获取TNT优惠活动] costTime: 6ms
+\n\t[获取TNT优惠活动] costTime: 11ms
+\n\t[获取TNT优惠活动] costTime: 7ms
+\n\t[获取TNT优惠活动] costTime: 7ms
+\n\t[获取TNT优惠活动] costTime: 6ms
+\n\t[获取TNT优惠活动] costTime: 8ms
+\n\t[获取TNT优惠活动] costTime: 5ms
+\n\t[获取TNT优惠活动] costTime: 7ms
+\n\t[获取TNT优惠活动] costTime: 10ms
+\n\t[获取TNT优惠活动] costTime: 7ms
+\n\t[获取TNT优惠活动] costTime: 10ms
+\n\t[获取TNT优惠活动] costTime: 8ms
+\n\t[获取TNT优惠活动] costTime: 6ms
+\n\t[获取TNT优惠活动] costTime: 8ms
+\n\t[获取TNT优惠活动] costTime: 8ms
+\n\t[调用主站获取单门票时间价格表] costTime: 101ms
+\n\t\t[非组合套餐票 非期票  实际调用主站获取渠道接口用来判断团购秒杀] costTime: 3ms
+\n\t\t[非组合套餐票 非期票  实际调用主站获取时间价格表接口 ] costTime: 92ms
+\n\t[获取下单必填项接口] costTime: 21ms
+\n\t[获取下单必填项接口] costTime: 13ms
+\n\t[获取下单必填项接口] costTime: 13ms
+\n\t[获取下单必填项接口] costTime: 13ms
+\n\t[获取下单必填项接口] costTime: 11ms
+\n\t[获取下单必填项接口] costTime: 18ms
+\n\t[调用主站接口获取优惠活动] costTime: 11ms
+2016-07-19_16:00:37
+[api.com.ticket.order.inputTicketOrder 2.0.0] costTime: 3287ms
+\n\t[非组合套餐票 获取最近可定日期] costTime: 46ms
+\n\t\t[调用主站接口获取最近可定时间] costTime: 46ms
+\n\t\t\t[非组合套餐票 非期票 调用主站获取时间价格表接口（有缓存）] costTime: 45ms
+\n\t\t\t\t[非组合套餐票 非期票  实际调用主站获取渠道接口用来判断团购秒杀] costTime: 9ms
+\n\t\t\t\t[非组合套餐票 非期票  实际调用主站获取时间价格表接口 ] costTime: 33ms
+\n\t[调用主站接口获取非组合套餐票产品详情] costTime: 31ms
+\n\t[掉用主站获取门票商品详情] costTime: 2ms
+\n\t[获取下单必填项接口] costTime: 33ms
+\n\t[调用主站获取单门票时间价格表] costTime: 21ms
+\n\t\t[非组合套餐票 非期票  实际调用主站获取渠道接口用来判断团购秒杀] costTime: 5ms
+\n\t\t[非组合套餐票 非期票  实际调用主站获取时间价格表接口 ] costTime: 11ms
+\n\t[调用主站接口判断是不是长隆票] costTime: 8ms
+\n\t[调用主站 获取关联销售商品列表] costTime: 2501ms
+\n\t[获取TNT优惠活动] costTime: 6ms
+\n\t[获取TNT优惠活动] costTime: 10ms
+\n\t[获取TNT优惠活动] costTime: 7ms
+\n\t[获取TNT优惠活动] costTime: 8ms
+\n\t[获取TNT优惠活动] costTime: 5ms
+\n\t[获取TNT优惠活动] costTime: 16ms
+\n\t[获取TNT优惠活动] costTime: 12ms
+\n\t[获取TNT优惠活动] costTime: 10ms
+\n\t[获取TNT优惠活动] costTime: 6ms
+\n\t[获取TNT优惠活动] costTime: 9ms
+\n\t[获取TNT优惠活动] costTime: 5ms
+\n\t[获取TNT优惠活动] costTime: 11ms
+\n\t[获取TNT优惠活动] costTime: 9ms
+\n\t[获取TNT优惠活动] costTime: 10ms
+\n\t[获取TNT优惠活动] costTime: 8ms
+\n\t[获取TNT优惠活动] costTime: 7ms
+\n\t[获取TNT优惠活动] costTime: 7ms
+\n\t[获取TNT优惠活动] costTime: 12ms
+\n\t[获取TNT优惠活动] costTime: 5ms
+\n\t[获取TNT优惠活动] costTime: 6ms
+\n\t[获取TNT优惠活动] costTime: 11ms
+\n\t[获取TNT优惠活动] costTime: 8ms
+\n\t[获取TNT优惠活动] costTime: 9ms
+\n\t[获取TNT优惠活动] costTime: 10ms
+\n\t[获取TNT优惠活动] costTime: 8ms
+\n\t[获取TNT优惠活动] costTime: 42ms
+\n\t[获取TNT优惠活动] costTime: 6ms
+\n\t[调用主站获取单门票时间价格表] costTime: 83ms
+\n\t\t[非组合套餐票 非期票  实际调用主站获取渠道接口用来判断团购秒杀] costTime: 3ms
+\n\t\t[非组合套餐票 非期票  实际调用主站获取时间价格表接口 ] costTime: 76ms
+\n\t[获取下单必填项接口] costTime: 13ms
+\n\t[获取下单必填项接口] costTime: 16ms
+\n\t[获取下单必填项接口] costTime: 14ms
+\n\t[获取下单必填项接口] costTime: 14ms
+\n\t[调用主站接口获取优惠活动] costTime: 7ms
+2016-07-19_16:05:41
+[api.com.ticket.order.inputTicketOrder 2.0.0] costTime: 740ms
+\n\t[非组合套餐票 获取最近可定日期] costTime: 1ms
+\n\t\t[调用主站接口获取最近可定时间] costTime: 1ms
+\n\t\t\t[非组合套餐票 非期票 调用主站获取时间价格表接口（有缓存）] costTime: 1ms
+\n\t[调用主站接口获取非组合套餐票产品详情] costTime: 37ms
+\n\t[掉用主站获取门票商品详情] costTime: 1ms
+\n\t[获取下单必填项接口] costTime: 17ms
+\n\t[调用主站获取单门票时间价格表] costTime: 20ms
+\n\t\t[非组合套餐票 非期票  实际调用主站获取渠道接口用来判断团购秒杀] costTime: 2ms
+\n\t\t[非组合套餐票 非期票  实际调用主站获取时间价格表接口 ] costTime: 16ms
+\n\t[调用主站接口判断是不是长隆票] costTime: 7ms
+\n\t[获取TNT优惠活动] costTime: 6ms
+\n\t[获取TNT优惠活动] costTime: 12ms
+\n\t[获取TNT优惠活动] costTime: 8ms
+\n\t[获取TNT优惠活动] costTime: 11ms
+\n\t[获取TNT优惠活动] costTime: 9ms
+\n\t[获取TNT优惠活动] costTime: 13ms
+\n\t[获取TNT优惠活动] costTime: 6ms
+\n\t[获取TNT优惠活动] costTime: 11ms
+\n\t[获取TNT优惠活动] costTime: 6ms
+\n\t[获取TNT优惠活动] costTime: 13ms
+\n\t[获取TNT优惠活动] costTime: 8ms
+\n\t[获取TNT优惠活动] costTime: 11ms
+\n\t[获取TNT优惠活动] costTime: 7ms
+\n\t[获取TNT优惠活动] costTime: 23ms
+\n\t[获取TNT优惠活动] costTime: 9ms
+\n\t[获取TNT优惠活动] costTime: 6ms
+\n\t[获取TNT优惠活动] costTime: 7ms
+\n\t[获取TNT优惠活动] costTime: 8ms
+\n\t[获取TNT优惠活动] costTime: 10ms
+\n\t[获取TNT优惠活动] costTime: 6ms
+\n\t[获取TNT优惠活动] costTime: 19ms
+\n\t[获取TNT优惠活动] costTime: 7ms
+\n\t[获取TNT优惠活动] costTime: 11ms
+\n\t[获取TNT优惠活动] costTime: 9ms
+\n\t[获取TNT优惠活动] costTime: 8ms
+\n\t[获取TNT优惠活动] costTime: 16ms
+\n\t[获取TNT优惠活动] costTime: 9ms
+\n\t[调用主站获取单门票时间价格表] costTime: 90ms
+\n\t\t[非组合套餐票 非期票  实际调用主站获取渠道接口用来判断团购秒杀] costTime: 5ms
+\n\t\t[非组合套餐票 非期票  实际调用主站获取时间价格表接口 ] costTime: 82ms
+\n\t[获取下单必填项接口] costTime: 15ms
+\n\t[获取下单必填项接口] costTime: 20ms
+\n\t[获取下单必填项接口] costTime: 20ms
+\n\t[获取下单必填项接口] costTime: 13ms
+\n\t[调用主站接口获取优惠活动] costTime: 7ms
+2016-07-19_16:10:42
+[api.com.ticket.order.inputTicketOrder 2.0.0] costTime: 807ms
+\n\t[非组合套餐票 获取最近可定日期] costTime: 45ms
+\n\t\t[调用主站接口获取最近可定时间] costTime: 45ms
+\n\t\t\t[非组合套餐票 非期票 调用主站获取时间价格表接口（有缓存）] costTime: 44ms
+\n\t\t\t\t[非组合套餐票 非期票  实际调用主站获取渠道接口用来判断团购秒杀] costTime: 3ms
+\n\t\t\t\t[非组合套餐票 非期票  实际调用主站获取时间价格表接口 ] costTime: 37ms
+\n\t[调用主站接口获取非组合套餐票产品详情] costTime: 37ms
+\n\t[掉用主站获取门票商品详情] costTime: 3ms
+\n\t[获取下单必填项接口] costTime: 19ms
+\n\t[调用主站获取单门票时间价格表] costTime: 19ms
+\n\t\t[非组合套餐票 非期票  实际调用主站获取渠道接口用来判断团购秒杀] costTime: 4ms
+\n\t\t[非组合套餐票 非期票  实际调用主站获取时间价格表接口 ] costTime: 12ms
+\n\t[调用主站接口判断是不是长隆票] costTime: 11ms
+\n\t[获取TNT优惠活动] costTime: 11ms
+\n\t[获取TNT优惠活动] costTime: 9ms
+\n\t[获取TNT优惠活动] costTime: 6ms
+\n\t[获取TNT优惠活动] costTime: 9ms
+\n\t[获取TNT优惠活动] costTime: 8ms
+\n\t[获取TNT优惠活动] costTime: 15ms
+\n\t[获取TNT优惠活动] costTime: 8ms
+\n\t[获取TNT优惠活动] costTime: 10ms
+\n\t[获取TNT优惠活动] costTime: 7ms
+\n\t[获取TNT优惠活动] costTime: 11ms
+\n\t[获取TNT优惠活动] costTime: 8ms
+\n\t[获取TNT优惠活动] costTime: 11ms
+\n\t[获取TNT优惠活动] costTime: 7ms
+\n\t[获取TNT优惠活动] costTime: 12ms
+\n\t[获取TNT优惠活动] costTime: 10ms
+\n\t[获取TNT优惠活动] costTime: 7ms
+\n\t[获取TNT优惠活动] costTime: 7ms
+\n\t[获取TNT优惠活动] costTime: 7ms
+\n\t[获取TNT优惠活动] costTime: 9ms
+\n\t[获取TNT优惠活动] costTime: 5ms
+\n\t[获取TNT优惠活动] costTime: 9ms
+\n\t[获取TNT优惠活动] costTime: 7ms
+\n\t[获取TNT优惠活动] costTime: 13ms
+\n\t[获取TNT优惠活动] costTime: 9ms
+\n\t[获取TNT优惠活动] costTime: 8ms
+\n\t[获取TNT优惠活动] costTime: 11ms
+\n\t[获取TNT优惠活动] costTime: 8ms
+\n\t[调用主站获取单门票时间价格表] costTime: 84ms
+\n\t\t[非组合套餐票 非期票  实际调用主站获取渠道接口用来判断团购秒杀] costTime: 5ms
+\n\t\t[非组合套餐票 非期票  实际调用主站获取时间价格表接口 ] costTime: 75ms
+\n\t[获取下单必填项接口] costTime: 25ms
+\n\t[获取下单必填项接口] costTime: 14ms
+\n\t[获取下单必填项接口] costTime: 15ms
+\n\t[获取下单必填项接口] costTime: 16ms
+\n\t[调用主站接口获取优惠活动] costTime: 8ms

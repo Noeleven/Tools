@@ -1,0 +1,418 @@
+2016-07-07_18:24:12
+[api.com.order.getRedPointCount 1.0.0] costTime: 528ms
+\n\t[显示红点数] costTime: 524ms
+\n\t\t[获取订单数量] costTime: 274ms
+\n\t\t\t[按状态查询订单列表] costTime: 110ms
+\n\t\t\t\t[仅查询订单数量时] costTime: 110ms
+\n\t\t\t\t\t[调用查询订单数量] costTime: 97ms
+\n\t\t\t\t\t[待审核] costTime: 3ms
+\n\t\t\t[按状态查询订单列表] costTime: 6ms
+\n\t\t\t\t[仅查询订单数量时] costTime: 6ms
+\n\t\t\t\t\t[调用查询订单数量] costTime: 6ms
+\n\t\t\t[按状态查询订单列表] costTime: 5ms
+\n\t\t\t\t[仅查询订单数量时] costTime: 5ms
+\n\t\t\t\t\t[调用查询订单数量] costTime: 5ms
+\n\t\t\t[按状态查询订单列表] costTime: 73ms
+\n\t\t\t\t[仅查询订单数量时] costTime: 73ms
+\n\t\t\t\t\t[待点评] costTime: 72ms
+\n\t\t\t[按状态查询订单列表] costTime: 71ms
+\n\t\t\t\t[仅查询订单数量时] costTime: 71ms
+\n\t\t\t\t\t[调用查询订单数量] costTime: 71ms
+\n\t\t[获取新电子票的数量] costTime: 13ms
+\n\t\t[获取新优惠券的数量] costTime: 4ms
+\n\t\t[获取可用优惠券数量] costTime: 53ms
+\n\t\t\t[获取优惠券列表] costTime: 51ms
+\n\t\t\t\t[查询优惠券] costTime: 51ms
+\n\t\t[获取电子票总数量] costTime: 110ms
+\n\t\t[查询钱包的奖金、存款金额] costTime: 70ms
+\n\t\t\t[查询奖金账户信息] costTime: 24ms
+\n\t\t\t[查询存款账户信息] costTime: 46ms
+\n\t\t\t\t[查询存款账户信息] costTime: 44ms
+\n\t\t\t\t\t[调用查询现金账户.] costTime: 3ms
+\n\t\t\t\t\t[查询手机号是否绑定] costTime: 3ms
+\n\t\t\t\t\t[查询现金账户] costTime: 4ms
+\n\t\t\t\t\t[查询付款] costTime: 6ms
+\n\t\t\t\t\t[查询退款] costTime: 7ms
+\n\t\t\t\t\t[查询提现] costTime: 10ms
+\n\t\t\t\t\t[查询充值] costTime: 7ms
+\n\t\t\t\t\t[查询是否可充值] costTime: 4ms
+2016-07-07_18:29:13
+[api.com.order.getRedPointCount 1.0.0] costTime: 258ms
+\n\t[显示红点数] costTime: 254ms
+\n\t\t[获取订单数量] costTime: 53ms
+\n\t\t\t[按状态查询订单列表] costTime: 18ms
+\n\t\t\t\t[仅查询订单数量时] costTime: 18ms
+\n\t\t\t\t\t[调用查询订单数量] costTime: 6ms
+\n\t\t\t\t\t[待审核] costTime: 3ms
+\n\t\t\t[按状态查询订单列表] costTime: 5ms
+\n\t\t\t\t[仅查询订单数量时] costTime: 5ms
+\n\t\t\t\t\t[调用查询订单数量] costTime: 5ms
+\n\t\t\t[按状态查询订单列表] costTime: 6ms
+\n\t\t\t\t[仅查询订单数量时] costTime: 6ms
+\n\t\t\t\t\t[调用查询订单数量] costTime: 6ms
+\n\t\t\t[按状态查询订单列表] costTime: 6ms
+\n\t\t\t\t[仅查询订单数量时] costTime: 5ms
+\n\t\t\t\t\t[待点评] costTime: 5ms
+\n\t\t\t[按状态查询订单列表] costTime: 6ms
+\n\t\t\t\t[仅查询订单数量时] costTime: 6ms
+\n\t\t\t\t\t[调用查询订单数量] costTime: 6ms
+\n\t\t[获取新电子票的数量] costTime: 16ms
+\n\t\t[获取新优惠券的数量] costTime: 4ms
+\n\t\t[获取可用优惠券数量] costTime: 49ms
+\n\t\t\t[获取优惠券列表] costTime: 47ms
+\n\t\t\t\t[查询优惠券] costTime: 46ms
+\n\t\t[获取电子票总数量] costTime: 63ms
+\n\t\t[查询钱包的奖金、存款金额] costTime: 69ms
+\n\t\t\t[查询奖金账户信息] costTime: 22ms
+\n\t\t\t[查询存款账户信息] costTime: 47ms
+\n\t\t\t\t[查询存款账户信息] costTime: 43ms
+\n\t\t\t\t\t[调用查询现金账户.] costTime: 4ms
+\n\t\t\t\t\t[查询手机号是否绑定] costTime: 3ms
+\n\t\t\t\t\t[查询现金账户] costTime: 4ms
+\n\t\t\t\t\t[查询付款] costTime: 7ms
+\n\t\t\t\t\t[查询退款] costTime: 6ms
+\n\t\t\t\t\t[查询提现] costTime: 10ms
+\n\t\t\t\t\t[查询充值] costTime: 7ms
+\n\t\t\t\t\t[查询是否可充值] costTime: 2ms
+2016-07-07_18:34:13
+[api.com.order.getRedPointCount 1.0.0] costTime: 350ms
+\n\t[显示红点数] costTime: 342ms
+\n\t\t[获取订单数量] costTime: 84ms
+\n\t\t\t[按状态查询订单列表] costTime: 24ms
+\n\t\t\t\t[仅查询订单数量时] costTime: 24ms
+\n\t\t\t\t\t[调用查询订单数量] costTime: 9ms
+\n\t\t\t\t\t[待审核] costTime: 4ms
+\n\t\t\t[按状态查询订单列表] costTime: 6ms
+\n\t\t\t\t[仅查询订单数量时] costTime: 6ms
+\n\t\t\t\t\t[调用查询订单数量] costTime: 6ms
+\n\t\t\t[按状态查询订单列表] costTime: 7ms
+\n\t\t\t\t[仅查询订单数量时] costTime: 7ms
+\n\t\t\t\t\t[调用查询订单数量] costTime: 7ms
+\n\t\t\t[按状态查询订单列表] costTime: 7ms
+\n\t\t\t\t[仅查询订单数量时] costTime: 7ms
+\n\t\t\t\t\t[待点评] costTime: 7ms
+\n\t\t\t[按状态查询订单列表] costTime: 6ms
+\n\t\t\t\t[仅查询订单数量时] costTime: 6ms
+\n\t\t\t\t\t[调用查询订单数量] costTime: 6ms
+\n\t\t[获取新电子票的数量] costTime: 20ms
+\n\t\t[获取新优惠券的数量] costTime: 10ms
+\n\t\t[获取可用优惠券数量] costTime: 50ms
+\n\t\t\t[获取优惠券列表] costTime: 44ms
+\n\t\t\t\t[查询优惠券] costTime: 42ms
+\n\t\t[获取电子票总数量] costTime: 99ms
+\n\t\t[查询钱包的奖金、存款金额] costTime: 78ms
+\n\t\t\t[查询奖金账户信息] costTime: 28ms
+\n\t\t\t[查询存款账户信息] costTime: 49ms
+\n\t\t\t\t[查询存款账户信息] costTime: 43ms
+\n\t\t\t\t\t[调用查询现金账户.] costTime: 5ms
+\n\t\t\t\t\t[查询手机号是否绑定] costTime: 3ms
+\n\t\t\t\t\t[查询现金账户] costTime: 2ms
+\n\t\t\t\t\t[查询付款] costTime: 7ms
+\n\t\t\t\t\t[查询退款] costTime: 7ms
+\n\t\t\t\t\t[查询提现] costTime: 9ms
+\n\t\t\t\t\t[查询充值] costTime: 7ms
+\n\t\t\t\t\t[查询是否可充值] costTime: 3ms
+2016-07-07_18:39:14
+[api.com.order.getRedPointCount 1.0.0] costTime: 409ms
+\n\t[显示红点数] costTime: 401ms
+\n\t\t[获取订单数量] costTime: 96ms
+\n\t\t\t[按状态查询订单列表] costTime: 21ms
+\n\t\t\t\t[仅查询订单数量时] costTime: 21ms
+\n\t\t\t\t\t[调用查询订单数量] costTime: 7ms
+\n\t\t\t\t\t[待审核] costTime: 3ms
+\n\t\t\t[按状态查询订单列表] costTime: 6ms
+\n\t\t\t\t[仅查询订单数量时] costTime: 6ms
+\n\t\t\t\t\t[调用查询订单数量] costTime: 6ms
+\n\t\t\t[按状态查询订单列表] costTime: 6ms
+\n\t\t\t\t[仅查询订单数量时] costTime: 6ms
+\n\t\t\t\t\t[调用查询订单数量] costTime: 6ms
+\n\t\t\t[按状态查询订单列表] costTime: 6ms
+\n\t\t\t\t[仅查询订单数量时] costTime: 6ms
+\n\t\t\t\t\t[待点评] costTime: 6ms
+\n\t\t\t[按状态查询订单列表] costTime: 6ms
+\n\t\t\t\t[仅查询订单数量时] costTime: 6ms
+\n\t\t\t\t\t[调用查询订单数量] costTime: 6ms
+\n\t\t[获取新电子票的数量] costTime: 21ms
+\n\t\t[获取新优惠券的数量] costTime: 8ms
+\n\t\t[获取可用优惠券数量] costTime: 81ms
+\n\t\t\t[获取优惠券列表] costTime: 42ms
+\n\t\t\t\t[查询优惠券] costTime: 40ms
+\n\t\t[获取电子票总数量] costTime: 116ms
+\n\t\t[查询钱包的奖金、存款金额] costTime: 79ms
+\n\t\t\t[查询奖金账户信息] costTime: 25ms
+\n\t\t\t[查询存款账户信息] costTime: 54ms
+\n\t\t\t\t[查询存款账户信息] costTime: 46ms
+\n\t\t\t\t\t[调用查询现金账户.] costTime: 5ms
+\n\t\t\t\t\t[查询手机号是否绑定] costTime: 3ms
+\n\t\t\t\t\t[查询现金账户] costTime: 2ms
+\n\t\t\t\t\t[查询付款] costTime: 7ms
+\n\t\t\t\t\t[查询退款] costTime: 6ms
+\n\t\t\t\t\t[查询提现] costTime: 10ms
+\n\t\t\t\t\t[查询充值] costTime: 7ms
+\n\t\t\t\t\t[查询是否可充值] costTime: 6ms
+2016-07-07_18:44:14
+[api.com.order.getRedPointCount 1.0.0] costTime: 596ms
+\n\t[显示红点数] costTime: 588ms
+\n\t\t[获取订单数量] costTime: 224ms
+\n\t\t\t[按状态查询订单列表] costTime: 20ms
+\n\t\t\t\t[仅查询订单数量时] costTime: 20ms
+\n\t\t\t\t\t[调用查询订单数量] costTime: 7ms
+\n\t\t\t\t\t[待审核] costTime: 5ms
+\n\t\t\t[按状态查询订单列表] costTime: 7ms
+\n\t\t\t\t[仅查询订单数量时] costTime: 7ms
+\n\t\t\t\t\t[调用查询订单数量] costTime: 7ms
+\n\t\t\t[按状态查询订单列表] costTime: 6ms
+\n\t\t\t\t[仅查询订单数量时] costTime: 6ms
+\n\t\t\t\t\t[调用查询订单数量] costTime: 6ms
+\n\t\t\t[按状态查询订单列表] costTime: 7ms
+\n\t\t\t\t[仅查询订单数量时] costTime: 7ms
+\n\t\t\t\t\t[待点评] costTime: 7ms
+\n\t\t\t[按状态查询订单列表] costTime: 9ms
+\n\t\t\t\t[仅查询订单数量时] costTime: 9ms
+\n\t\t\t\t\t[调用查询订单数量] costTime: 6ms
+\n\t\t[获取新电子票的数量] costTime: 90ms
+\n\t\t[获取新优惠券的数量] costTime: 28ms
+\n\t\t[获取可用优惠券数量] costTime: 53ms
+\n\t\t\t[获取优惠券列表] costTime: 39ms
+\n\t\t\t\t[查询优惠券] costTime: 37ms
+\n\t\t[获取电子票总数量] costTime: 110ms
+\n\t\t[查询钱包的奖金、存款金额] costTime: 83ms
+\n\t\t\t[查询奖金账户信息] costTime: 33ms
+\n\t\t\t[查询存款账户信息] costTime: 50ms
+\n\t\t\t\t[查询存款账户信息] costTime: 44ms
+\n\t\t\t\t\t[调用查询现金账户.] costTime: 3ms
+\n\t\t\t\t\t[查询手机号是否绑定] costTime: 3ms
+\n\t\t\t\t\t[查询现金账户] costTime: 3ms
+\n\t\t\t\t\t[查询付款] costTime: 7ms
+\n\t\t\t\t\t[查询退款] costTime: 7ms
+\n\t\t\t\t\t[查询提现] costTime: 11ms
+\n\t\t\t\t\t[查询充值] costTime: 7ms
+\n\t\t\t\t\t[查询是否可充值] costTime: 3ms
+2016-07-07_18:49:15
+[api.com.order.getRedPointCount 1.0.0] costTime: 343ms
+\n\t[显示红点数] costTime: 335ms
+\n\t\t[获取订单数量] costTime: 110ms
+\n\t\t\t[按状态查询订单列表] costTime: 31ms
+\n\t\t\t\t[仅查询订单数量时] costTime: 30ms
+\n\t\t\t\t\t[调用查询订单数量] costTime: 11ms
+\n\t\t\t\t\t[待审核] costTime: 3ms
+\n\t\t\t[按状态查询订单列表] costTime: 6ms
+\n\t\t\t\t[仅查询订单数量时] costTime: 6ms
+\n\t\t\t\t\t[调用查询订单数量] costTime: 6ms
+\n\t\t\t[按状态查询订单列表] costTime: 44ms
+\n\t\t\t\t[仅查询订单数量时] costTime: 44ms
+\n\t\t\t\t\t[调用查询订单数量] costTime: 44ms
+\n\t\t\t[按状态查询订单列表] costTime: 5ms
+\n\t\t\t\t[仅查询订单数量时] costTime: 5ms
+\n\t\t\t\t\t[待点评] costTime: 5ms
+\n\t\t\t[按状态查询订单列表] costTime: 6ms
+\n\t\t\t\t[仅查询订单数量时] costTime: 6ms
+\n\t\t\t\t\t[调用查询订单数量] costTime: 6ms
+\n\t\t[获取新电子票的数量] costTime: 13ms
+\n\t\t[获取新优惠券的数量] costTime: 2ms
+\n\t\t[获取可用优惠券数量] costTime: 61ms
+\n\t\t\t[获取优惠券列表] costTime: 60ms
+\n\t\t\t\t[查询优惠券] costTime: 59ms
+\n\t\t[获取电子票总数量] costTime: 80ms
+\n\t\t[查询钱包的奖金、存款金额] costTime: 69ms
+\n\t\t\t[查询奖金账户信息] costTime: 25ms
+\n\t\t\t[查询存款账户信息] costTime: 44ms
+\n\t\t\t\t[查询存款账户信息] costTime: 42ms
+\n\t\t\t\t\t[调用查询现金账户.] costTime: 4ms
+\n\t\t\t\t\t[查询手机号是否绑定] costTime: 3ms
+\n\t\t\t\t\t[查询现金账户] costTime: 2ms
+\n\t\t\t\t\t[查询付款] costTime: 7ms
+\n\t\t\t\t\t[查询退款] costTime: 7ms
+\n\t\t\t\t\t[查询提现] costTime: 11ms
+\n\t\t\t\t\t[查询充值] costTime: 6ms
+\n\t\t\t\t\t[查询是否可充值] costTime: 2ms
+2016-07-07_18:54:16
+[api.com.order.getRedPointCount 1.0.0] costTime: 339ms
+\n\t[显示红点数] costTime: 338ms
+\n\t\t[获取订单数量] costTime: 47ms
+\n\t\t\t[按状态查询订单列表] costTime: 19ms
+\n\t\t\t\t[仅查询订单数量时] costTime: 19ms
+\n\t\t\t\t\t[调用查询订单数量] costTime: 6ms
+\n\t\t\t\t\t[待审核] costTime: 2ms
+\n\t\t\t[按状态查询订单列表] costTime: 7ms
+\n\t\t\t\t[仅查询订单数量时] costTime: 7ms
+\n\t\t\t\t\t[调用查询订单数量] costTime: 7ms
+\n\t\t\t[按状态查询订单列表] costTime: 6ms
+\n\t\t\t\t[仅查询订单数量时] costTime: 6ms
+\n\t\t\t\t\t[调用查询订单数量] costTime: 6ms
+\n\t\t\t[按状态查询订单列表] costTime: 6ms
+\n\t\t\t\t[仅查询订单数量时] costTime: 6ms
+\n\t\t\t\t\t[待点评] costTime: 6ms
+\n\t\t\t[按状态查询订单列表] costTime: 6ms
+\n\t\t\t\t[仅查询订单数量时] costTime: 6ms
+\n\t\t\t\t\t[调用查询订单数量] costTime: 6ms
+\n\t\t[获取新电子票的数量] costTime: 10ms
+\n\t\t[获取新优惠券的数量] costTime: 2ms
+\n\t\t[获取可用优惠券数量] costTime: 37ms
+\n\t\t\t[获取优惠券列表] costTime: 37ms
+\n\t\t\t\t[查询优惠券] costTime: 37ms
+\n\t\t[获取电子票总数量] costTime: 174ms
+\n\t\t[查询钱包的奖金、存款金额] costTime: 68ms
+\n\t\t\t[查询奖金账户信息] costTime: 23ms
+\n\t\t\t[查询存款账户信息] costTime: 45ms
+\n\t\t\t\t[查询存款账户信息] costTime: 43ms
+\n\t\t\t\t\t[调用查询现金账户.] costTime: 3ms
+\n\t\t\t\t\t[查询手机号是否绑定] costTime: 3ms
+\n\t\t\t\t\t[查询现金账户] costTime: 4ms
+\n\t\t\t\t\t[查询付款] costTime: 7ms
+\n\t\t\t\t\t[查询退款] costTime: 7ms
+\n\t\t\t\t\t[查询提现] costTime: 11ms
+\n\t\t\t\t\t[查询充值] costTime: 6ms
+\n\t\t\t\t\t[查询是否可充值] costTime: 2ms
+2016-07-07_18:59:16
+[api.com.order.getRedPointCount 1.0.0] costTime: 277ms
+\n\t[显示红点数] costTime: 274ms
+\n\t\t[获取订单数量] costTime: 54ms
+\n\t\t\t[按状态查询订单列表] costTime: 21ms
+\n\t\t\t\t[仅查询订单数量时] costTime: 21ms
+\n\t\t\t\t\t[调用查询订单数量] costTime: 6ms
+\n\t\t\t\t\t[待审核] costTime: 3ms
+\n\t\t\t[按状态查询订单列表] costTime: 6ms
+\n\t\t\t\t[仅查询订单数量时] costTime: 6ms
+\n\t\t\t\t\t[调用查询订单数量] costTime: 6ms
+\n\t\t\t[按状态查询订单列表] costTime: 5ms
+\n\t\t\t\t[仅查询订单数量时] costTime: 5ms
+\n\t\t\t\t\t[调用查询订单数量] costTime: 5ms
+\n\t\t\t[按状态查询订单列表] costTime: 4ms
+\n\t\t\t\t[仅查询订单数量时] costTime: 4ms
+\n\t\t\t\t\t[待点评] costTime: 4ms
+\n\t\t\t[按状态查询订单列表] costTime: 7ms
+\n\t\t\t\t[仅查询订单数量时] costTime: 7ms
+\n\t\t\t\t\t[调用查询订单数量] costTime: 7ms
+\n\t\t[获取新电子票的数量] costTime: 14ms
+\n\t\t[获取新优惠券的数量] costTime: 3ms
+\n\t\t[获取可用优惠券数量] costTime: 46ms
+\n\t\t\t[获取优惠券列表] costTime: 43ms
+\n\t\t\t\t[查询优惠券] costTime: 41ms
+\n\t\t[获取电子票总数量] costTime: 88ms
+\n\t\t[查询钱包的奖金、存款金额] costTime: 69ms
+\n\t\t\t[查询奖金账户信息] costTime: 23ms
+\n\t\t\t[查询存款账户信息] costTime: 46ms
+\n\t\t\t\t[查询存款账户信息] costTime: 43ms
+\n\t\t\t\t\t[调用查询现金账户.] costTime: 4ms
+\n\t\t\t\t\t[查询手机号是否绑定] costTime: 3ms
+\n\t\t\t\t\t[查询现金账户] costTime: 2ms
+\n\t\t\t\t\t[查询付款] costTime: 8ms
+\n\t\t\t\t\t[查询退款] costTime: 6ms
+\n\t\t\t\t\t[查询提现] costTime: 10ms
+\n\t\t\t\t\t[查询充值] costTime: 7ms
+\n\t\t\t\t\t[查询是否可充值] costTime: 3ms
+2016-07-07_19:04:17
+[api.com.order.getRedPointCount 1.0.0] costTime: 325ms
+\n\t[显示红点数] costTime: 322ms
+\n\t\t[获取订单数量] costTime: 54ms
+\n\t\t\t[按状态查询订单列表] costTime: 19ms
+\n\t\t\t\t[仅查询订单数量时] costTime: 19ms
+\n\t\t\t\t\t[调用查询订单数量] costTime: 7ms
+\n\t\t\t\t\t[待审核] costTime: 3ms
+\n\t\t\t[按状态查询订单列表] costTime: 6ms
+\n\t\t\t\t[仅查询订单数量时] costTime: 6ms
+\n\t\t\t\t\t[调用查询订单数量] costTime: 6ms
+\n\t\t\t[按状态查询订单列表] costTime: 5ms
+\n\t\t\t\t[仅查询订单数量时] costTime: 5ms
+\n\t\t\t\t\t[调用查询订单数量] costTime: 5ms
+\n\t\t\t[按状态查询订单列表] costTime: 6ms
+\n\t\t\t\t[仅查询订单数量时] costTime: 6ms
+\n\t\t\t\t\t[待点评] costTime: 6ms
+\n\t\t\t[按状态查询订单列表] costTime: 5ms
+\n\t\t\t\t[仅查询订单数量时] costTime: 5ms
+\n\t\t\t\t\t[调用查询订单数量] costTime: 5ms
+\n\t\t[获取新电子票的数量] costTime: 12ms
+\n\t\t[获取新优惠券的数量] costTime: 4ms
+\n\t\t[获取可用优惠券数量] costTime: 66ms
+\n\t\t\t[获取优惠券列表] costTime: 65ms
+\n\t\t\t\t[查询优惠券] costTime: 64ms
+\n\t\t[获取电子票总数量] costTime: 120ms
+\n\t\t[查询钱包的奖金、存款金额] costTime: 66ms
+\n\t\t\t[查询奖金账户信息] costTime: 22ms
+\n\t\t\t[查询存款账户信息] costTime: 44ms
+\n\t\t\t\t[查询存款账户信息] costTime: 42ms
+\n\t\t\t\t\t[调用查询现金账户.] costTime: 4ms
+\n\t\t\t\t\t[查询手机号是否绑定] costTime: 3ms
+\n\t\t\t\t\t[查询现金账户] costTime: 4ms
+\n\t\t\t\t\t[查询付款] costTime: 6ms
+\n\t\t\t\t\t[查询退款] costTime: 6ms
+\n\t\t\t\t\t[查询提现] costTime: 11ms
+\n\t\t\t\t\t[查询充值] costTime: 5ms
+\n\t\t\t\t\t[查询是否可充值] costTime: 3ms
+2016-07-07_19:09:17
+[api.com.order.getRedPointCount 1.0.0] costTime: 309ms
+\n\t[显示红点数] costTime: 307ms
+\n\t\t[获取订单数量] costTime: 58ms
+\n\t\t\t[按状态查询订单列表] costTime: 24ms
+\n\t\t\t\t[仅查询订单数量时] costTime: 24ms
+\n\t\t\t\t\t[调用查询订单数量] costTime: 7ms
+\n\t\t\t\t\t[待审核] costTime: 3ms
+\n\t\t\t[按状态查询订单列表] costTime: 6ms
+\n\t\t\t\t[仅查询订单数量时] costTime: 6ms
+\n\t\t\t\t\t[调用查询订单数量] costTime: 6ms
+\n\t\t\t[按状态查询订单列表] costTime: 5ms
+\n\t\t\t\t[仅查询订单数量时] costTime: 5ms
+\n\t\t\t\t\t[调用查询订单数量] costTime: 5ms
+\n\t\t\t[按状态查询订单列表] costTime: 3ms
+\n\t\t\t\t[仅查询订单数量时] costTime: 3ms
+\n\t\t\t\t\t[待点评] costTime: 3ms
+\n\t\t\t[按状态查询订单列表] costTime: 7ms
+\n\t\t\t\t[仅查询订单数量时] costTime: 7ms
+\n\t\t\t\t\t[调用查询订单数量] costTime: 7ms
+\n\t\t[获取新电子票的数量] costTime: 13ms
+\n\t\t[获取新优惠券的数量] costTime: 4ms
+\n\t\t[获取可用优惠券数量] costTime: 61ms
+\n\t\t\t[获取优惠券列表] costTime: 60ms
+\n\t\t\t\t[查询优惠券] costTime: 59ms
+\n\t\t[获取电子票总数量] costTime: 101ms
+\n\t\t[查询钱包的奖金、存款金额] costTime: 70ms
+\n\t\t\t[查询奖金账户信息] costTime: 22ms
+\n\t\t\t[查询存款账户信息] costTime: 48ms
+\n\t\t\t\t[查询存款账户信息] costTime: 45ms
+\n\t\t\t\t\t[调用查询现金账户.] costTime: 4ms
+\n\t\t\t\t\t[查询手机号是否绑定] costTime: 3ms
+\n\t\t\t\t\t[查询现金账户] costTime: 3ms
+\n\t\t\t\t\t[查询付款] costTime: 6ms
+\n\t\t\t\t\t[查询退款] costTime: 8ms
+\n\t\t\t\t\t[查询提现] costTime: 11ms
+\n\t\t\t\t\t[查询充值] costTime: 7ms
+\n\t\t\t\t\t[查询是否可充值] costTime: 3ms
+
+[api.com.order.getRedPointCount 1.0.0] avgCostTime: 373.4ms TimeRange: 258 ~ 596ms 
+[显示红点数] avgCostTime: 368.5ms TimeRange: 254 ~ 588ms 
+[获取订单数量] avgCostTime: 105.4ms TimeRange: 47 ~ 274ms 
+[按状态查询订单列表] avgCostTime: 14.3ms TimeRange: 3 ~ 110ms 
+[仅查询订单数量时] avgCostTime: 14.26ms TimeRange: 3 ~ 110ms 
+[调用查询订单数量] avgCostTime: 11.125ms TimeRange: 5 ~ 97ms 
+[待审核] avgCostTime: 3.2ms TimeRange: 2 ~ 5ms 
+[按状态查询订单列表] avgCostTime: 14.3ms TimeRange: 3 ~ 110ms 
+[仅查询订单数量时] avgCostTime: 14.26ms TimeRange: 3 ~ 110ms 
+[调用查询订单数量] avgCostTime: 11.125ms TimeRange: 5 ~ 97ms 
+[按状态查询订单列表] avgCostTime: 14.3ms TimeRange: 3 ~ 110ms 
+[仅查询订单数量时] avgCostTime: 14.26ms TimeRange: 3 ~ 110ms 
+[调用查询订单数量] avgCostTime: 11.125ms TimeRange: 5 ~ 97ms 
+[按状态查询订单列表] avgCostTime: 14.3ms TimeRange: 3 ~ 110ms 
+[仅查询订单数量时] avgCostTime: 14.26ms TimeRange: 3 ~ 110ms 
+[待点评] avgCostTime: 12.1ms TimeRange: 3 ~ 72ms 
+[按状态查询订单列表] avgCostTime: 14.3ms TimeRange: 3 ~ 110ms 
+[仅查询订单数量时] avgCostTime: 14.26ms TimeRange: 3 ~ 110ms 
+[调用查询订单数量] avgCostTime: 11.125ms TimeRange: 5 ~ 97ms 
+[获取新电子票的数量] avgCostTime: 22.2ms TimeRange: 10 ~ 90ms 
+[获取新优惠券的数量] avgCostTime: 6.9ms TimeRange: 2 ~ 28ms 
+[获取可用优惠券数量] avgCostTime: 55.7ms TimeRange: 37 ~ 81ms 
+[获取优惠券列表] avgCostTime: 48.8ms TimeRange: 37 ~ 65ms 
+[查询优惠券] avgCostTime: 47.6ms TimeRange: 37 ~ 64ms 
+[获取电子票总数量] avgCostTime: 106.1ms TimeRange: 63 ~ 174ms 
+[查询钱包的奖金、存款金额] avgCostTime: 72.1ms TimeRange: 66 ~ 83ms 
+[查询奖金账户信息] avgCostTime: 24.7ms TimeRange: 22 ~ 33ms 
+[查询存款账户信息] avgCostTime: 45.4ms TimeRange: 42 ~ 54ms 
+[查询存款账户信息] avgCostTime: 45.4ms TimeRange: 42 ~ 54ms 
+[调用查询现金账户.] avgCostTime: 3.9ms TimeRange: 3 ~ 5ms 
+[查询手机号是否绑定] avgCostTime: 3ms TimeRange: 3 ~ 3ms 
+[查询现金账户] avgCostTime: 3.45ms TimeRange: 2 ~ 5ms 
+[查询付款] avgCostTime: 6.8ms TimeRange: 6 ~ 8ms 
+[查询退款] avgCostTime: 6.7ms TimeRange: 6 ~ 8ms 
+[查询提现] avgCostTime: 10.4ms TimeRange: 9 ~ 11ms 
+[查询充值] avgCostTime: 6.6ms TimeRange: 5 ~ 7ms 
+[查询是否可充值] avgCostTime: 3.1ms TimeRange: 2 ~ 6ms 

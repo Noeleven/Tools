@@ -1,0 +1,33 @@
+2016-07-07_18:24:12
+[api.com.ticket.quickorder.countQuickTicketPrice 1.0.0] costTime: 207ms
+\n\t[调用计算价格接口] costTime: 184ms
+2016-07-07_18:29:13
+[api.com.ticket.quickorder.countQuickTicketPrice 1.0.0] costTime: 209ms
+\n\t[调用计算价格接口] costTime: 195ms
+2016-07-07_18:34:13
+[api.com.ticket.quickorder.countQuickTicketPrice 1.0.0] costTime: 248ms
+\n\t[调用计算价格接口] costTime: 220ms
+2016-07-07_18:39:13
+[api.com.ticket.quickorder.countQuickTicketPrice 1.0.0] costTime: 244ms
+\n\t[调用计算价格接口] costTime: 235ms
+2016-07-07_18:44:14
+[api.com.ticket.quickorder.countQuickTicketPrice 1.0.0] costTime: 555ms
+\n\t[调用计算价格接口] costTime: 509ms
+2016-07-07_18:49:14
+[api.com.ticket.quickorder.countQuickTicketPrice 1.0.0] costTime: 231ms
+\n\t[调用计算价格接口] costTime: 189ms
+2016-07-07_18:54:15
+[api.com.ticket.quickorder.countQuickTicketPrice 1.0.0] costTime: 321ms
+\n\t[调用计算价格接口] costTime: 199ms
+2016-07-07_18:59:16
+[api.com.ticket.quickorder.countQuickTicketPrice 1.0.0] costTime: 193ms
+\n\t[调用计算价格接口] costTime: 175ms
+2016-07-07_19:04:16
+[api.com.ticket.quickorder.countQuickTicketPrice 1.0.0] costTime: 209ms
+\n\t[调用计算价格接口] costTime: 195ms
+2016-07-07_19:09:16
+[api.com.ticket.quickorder.countQuickTicketPrice 1.0.0] costTime: 433ms
+\n\t[调用计算价格接口] costTime: 231ms
+
+[api.com.ticket.quickorder.countQuickTicketPrice 1.0.0] avgCostTime: 285ms TimeRange: 193 ~ 555ms 
+[调用计算价格接口] avgCostTime: 233.2ms TimeRange: 175 ~ 509ms 

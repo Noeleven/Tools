@@ -1,0 +1,77 @@
+2016-07-07_18:24:12
+[api.com.resorthotel.getGoodsList 1.0.0] costTime: 247ms
+\n\t[房型列表接口（调用主站房型列表接口）] costTime: 6ms
+\n\t[房型列表接口（调用主站产品详情接口）] costTime: 36ms
+\n\t[房型列表接口（储备数据）] costTime: 62ms
+\n\t[房型列表接口（调用主站时间价格表接口）] costTime: 90ms
+\n\t房型列表接口（处理房型的基本信息，订购状态等逻辑）\n\t[房型列表接口（排序）] costTime: 0ms
+2016-07-07_18:29:13
+[api.com.resorthotel.getGoodsList 1.0.0] costTime: 167ms
+\n\t[房型列表接口（调用主站房型列表接口）] costTime: 3ms
+\n\t[房型列表接口（调用主站产品详情接口）] costTime: 53ms
+\n\t[房型列表接口（储备数据）] costTime: 52ms
+\n\t[房型列表接口（调用主站时间价格表接口）] costTime: 19ms
+\n\t房型列表接口（处理房型的基本信息，订购状态等逻辑）\n\t[房型列表接口（排序）] costTime: 0ms
+2016-07-07_18:34:13
+[api.com.resorthotel.getGoodsList 1.0.0] costTime: 1644ms
+\n\t[房型列表接口（调用主站房型列表接口）] costTime: 1378ms
+\n\t[房型列表接口（调用主站产品详情接口）] costTime: 61ms
+\n\t[房型列表接口（储备数据）] costTime: 77ms
+\n\t[房型列表接口（调用主站时间价格表接口）] costTime: 48ms
+\n\t房型列表接口（处理房型的基本信息，订购状态等逻辑）\n\t[房型列表接口（排序）] costTime: 0ms
+2016-07-07_18:39:15
+[api.com.resorthotel.getGoodsList 1.0.0] costTime: 217ms
+\n\t[房型列表接口（调用主站房型列表接口）] costTime: 25ms
+\n\t[房型列表接口（调用主站产品详情接口）] costTime: 58ms
+\n\t[房型列表接口（储备数据）] costTime: 64ms
+\n\t[房型列表接口（调用主站时间价格表接口）] costTime: 23ms
+\n\t房型列表接口（处理房型的基本信息，订购状态等逻辑）\n\t[房型列表接口（排序）] costTime: 0ms
+2016-07-07_18:44:16
+[api.com.resorthotel.getGoodsList 1.0.0] costTime: 856ms
+\n\t[房型列表接口（调用主站房型列表接口）] costTime: 35ms
+\n\t[房型列表接口（调用主站产品详情接口）] costTime: 38ms
+\n\t[房型列表接口（储备数据）] costTime: 516ms
+\n\t[房型列表接口（调用主站时间价格表接口）] costTime: 20ms
+\n\t房型列表接口（处理房型的基本信息，订购状态等逻辑）\n\t[房型列表接口（排序）] costTime: 0ms
+2016-07-07_18:49:18
+[api.com.resorthotel.getGoodsList 1.0.0] costTime: 198ms
+\n\t[房型列表接口（调用主站房型列表接口）] costTime: 34ms
+\n\t[房型列表接口（调用主站产品详情接口）] costTime: 45ms
+\n\t[房型列表接口（储备数据）] costTime: 54ms
+\n\t[房型列表接口（调用主站时间价格表接口）] costTime: 22ms
+\n\t房型列表接口（处理房型的基本信息，订购状态等逻辑）\n\t[房型列表接口（排序）] costTime: 0ms
+2016-07-07_18:54:18
+[api.com.resorthotel.getGoodsList 1.0.0] costTime: 450ms
+\n\t[房型列表接口（调用主站房型列表接口）] costTime: 39ms
+\n\t[房型列表接口（调用主站产品详情接口）] costTime: 71ms
+\n\t[房型列表接口（储备数据）] costTime: 70ms
+\n\t[房型列表接口（调用主站时间价格表接口）] costTime: 19ms
+\n\t房型列表接口（处理房型的基本信息，订购状态等逻辑）\n\t[房型列表接口（排序）] costTime: 0ms
+2016-07-07_18:59:19
+[api.com.resorthotel.getGoodsList 1.0.0] costTime: 294ms
+\n\t[房型列表接口（调用主站房型列表接口）] costTime: 34ms
+\n\t[房型列表接口（调用主站产品详情接口）] costTime: 59ms
+\n\t[房型列表接口（储备数据）] costTime: 59ms
+\n\t[房型列表接口（调用主站时间价格表接口）] costTime: 88ms
+\n\t房型列表接口（处理房型的基本信息，订购状态等逻辑）\n\t[房型列表接口（排序）] costTime: 0ms
+2016-07-07_19:04:19
+[api.com.resorthotel.getGoodsList 1.0.0] costTime: 239ms
+\n\t[房型列表接口（调用主站房型列表接口）] costTime: 36ms
+\n\t[房型列表接口（调用主站产品详情接口）] costTime: 60ms
+\n\t[房型列表接口（储备数据）] costTime: 70ms
+\n\t[房型列表接口（调用主站时间价格表接口）] costTime: 20ms
+\n\t房型列表接口（处理房型的基本信息，订购状态等逻辑）\n\t[房型列表接口（排序）] costTime: 0ms
+2016-07-07_19:09:20
+[api.com.resorthotel.getGoodsList 1.0.0] costTime: 454ms
+\n\t[房型列表接口（调用主站房型列表接口）] costTime: 27ms
+\n\t[房型列表接口（调用主站产品详情接口）] costTime: 56ms
+\n\t[房型列表接口（储备数据）] costTime: 63ms
+\n\t[房型列表接口（调用主站时间价格表接口）] costTime: 57ms
+\n\t房型列表接口（处理房型的基本信息，订购状态等逻辑）\n\t[房型列表接口（排序）] costTime: 0ms
+
+[api.com.resorthotel.getGoodsList 1.0.0] avgCostTime: 476.6ms TimeRange: 167 ~ 1644ms 
+[房型列表接口（调用主站房型列表接口）] avgCostTime: 161.7ms TimeRange: 3 ~ 1378ms 
+[房型列表接口（调用主站产品详情接口）] avgCostTime: 53.7ms TimeRange: 36 ~ 71ms 
+[房型列表接口（储备数据）] avgCostTime: 108.7ms TimeRange: 52 ~ 516ms 
+[房型列表接口（调用主站时间价格表接口）] avgCostTime: 40.6ms TimeRange: 19 ~ 90ms 
+[房型列表接口（排序）] avgCostTime: 0ms TimeRange: 0 ~ 0ms 

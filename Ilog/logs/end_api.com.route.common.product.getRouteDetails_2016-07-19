@@ -1,0 +1,60 @@
+2016-07-19_10:25:48
+[api.com.route.common.product.getRouteDetails 1.0.0] costTime: 2743ms
+\n\t[调用主站线路产品详情接口] costTime: 805ms
+\n\t[转换产品对象] costTime: 1829ms
+\n\t\t图片size:_1280_\n\t\t[调用主站交通信息] costTime: 4ms
+2016-07-19_10:26:01
+[api.com.route.common.product.getRouteDetails 1.0.0] costTime: 1191ms
+\n\t[调用主站线路产品详情接口] costTime: 6ms
+\n\t[转换产品对象] costTime: 906ms
+\n\t\t图片size:_1280_\n\t\t[调用主站交通信息] costTime: 6ms
+2016-07-19_10:36:03
+[api.com.route.common.product.getRouteDetails 1.0.0] costTime: 2199ms
+\n\t[调用主站线路产品详情接口] costTime: 774ms
+\n\t[转换产品对象] costTime: 1350ms
+\n\t\t图片size:_1280_\n\t\t[调用主站交通信息] costTime: 5ms
+2016-07-19_10:46:05
+[api.com.route.common.product.getRouteDetails 1.0.0] costTime: 1636ms
+\n\t[调用主站线路产品详情接口] costTime: 694ms
+\n\t[转换产品对象] costTime: 874ms
+\n\t\t图片size:_1280_\n\t\t[调用主站交通信息] costTime: 6ms
+2016-07-19_10:56:07
+[api.com.route.common.product.getRouteDetails 1.0.0] costTime: 2234ms
+\n\t[调用主站线路产品详情接口] costTime: 834ms
+\n\t[转换产品对象] costTime: 1115ms
+\n\t\t图片size:_1280_\n\t\t[调用主站交通信息] costTime: 5ms
+2016-07-19_11:06:10
+[api.com.route.common.product.getRouteDetails 1.0.0] costTime: 2178ms
+\n\t[调用主站线路产品详情接口] costTime: 1006ms
+\n\t[转换产品对象] costTime: 974ms
+\n\t\t图片size:_1280_\n\t\t[调用主站交通信息] costTime: 6ms
+2016-07-19_11:16:12
+[api.com.route.common.product.getRouteDetails 1.0.0] costTime: 2094ms
+\n\t[调用主站线路产品详情接口] costTime: 865ms
+\n\t[转换产品对象] costTime: 1155ms
+\n\t\t图片size:_1280_\n\t\t[调用主站交通信息] costTime: 4ms
+2016-07-19_11:26:14
+[api.com.route.common.product.getRouteDetails 1.0.0] costTime: 1934ms
+\n\t[调用主站线路产品详情接口] costTime: 789ms
+\n\t[转换产品对象] costTime: 1060ms
+\n\t\t图片size:_1280_\n\t\t[调用主站交通信息] costTime: 6ms
+2016-07-19_11:36:16
+[api.com.route.common.product.getRouteDetails 1.0.0] costTime: 2423ms
+\n\t[调用主站线路产品详情接口] costTime: 848ms
+\n\t[转换产品对象] costTime: 1475ms
+\n\t\t图片size:_1280_\n\t\t[调用主站交通信息] costTime: 5ms
+2016-07-19_11:46:19
+[api.com.route.common.product.getRouteDetails 1.0.0] costTime: 2108ms
+\n\t[调用主站线路产品详情接口] costTime: 919ms
+\n\t[转换产品对象] costTime: 1116ms
+\n\t\t图片size:_1280_\n\t\t[调用主站交通信息] costTime: 7ms
+2016-07-19_11:56:21
+[api.com.route.common.product.getRouteDetails 1.0.0] costTime: 2069ms
+\n\t[调用主站线路产品详情接口] costTime: 969ms
+\n\t[转换产品对象] costTime: 1005ms
+\n\t\t图片size:_1280_\n\t\t[调用主站交通信息] costTime: 5ms
+
+[api.com.route.common.product.getRouteDetails 1.0.0] avgCostTime: 2073.55ms TimeRange: 1191 ~ 2743ms 
+[调用主站线路产品详情接口] avgCostTime: 773.545ms TimeRange: 6 ~ 1006ms 
+[转换产品对象] avgCostTime: 1169ms TimeRange: 874 ~ 1829ms 
+[调用主站交通信息] avgCostTime: 5.36364ms TimeRange: 4 ~ 7ms 

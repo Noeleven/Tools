@@ -1,0 +1,224 @@
+2016-07-07_18:24:12
+[api.com.order.getOrder 2.0.0] costTime: 871ms
+\n\t[获取订单详情] costTime: 665ms
+\n\t\t[调用获取订单详情] costTime: 79ms
+\n\t\t[vst订单详情] costTime: 203ms
+\n\t\t\t[设置门票订单信息] costTime: 170ms
+\n\t\t\t\t[获取门票商品VO] costTime: 5ms
+\n\t\t\t\t[获取门票产品VO] costTime: 33ms
+\n\t\t\t\t\t[调用主站接口获取产品详情（实际调用）] costTime: 15ms
+\n\t\t\t\t[7.0 门票订单详情] costTime: 14ms
+\n\t\t\t\t[添加在线退款功能] costTime: 8ms
+\n\t\t\t[更正门票订单] costTime: 14ms
+\n\t\t\t[根据产品ID查询目的地列表] costTime: 10ms
+\n\t\t\t[根据ID查询目的地] costTime: 4ms
+\n\t\t[VST品类支付方式] costTime: 15ms
+\n\t\t获取订单渠道,orderId=31301649,paymentCode=ALIPAY_APP\n\t\t获取订单渠道,orderId=31301649,paymentCode=ALIPAY_WAP\n\t\t获取订单渠道,orderId=31301649,paymentCode=WEIXIN_APP\n\t\t获取订单渠道,orderId=31301649,paymentCode=UPOMP1_5\n\t\t获取订单渠道,orderId=31301649,paymentCode=ICBC\n\t\t获取订单渠道,orderId=31301649,paymentCode=YEEPAY\n\t\t[VST订单详情] costTime: 38ms
+\n\t\t[小驴分期是否支持该品类和产品id] costTime: 4ms
+\n\t\t[获取订单买赠信息] costTime: 27ms
+\n\t\t[查询用户] costTime: 4ms
+\n\t\t[查询用户现金账户] costTime: 5ms
+\n\t\t[获取VST支付等待时间] costTime: 131ms
+2016-07-07_18:29:13
+[api.com.order.getOrder 2.0.0] costTime: 476ms
+\n\t[获取订单详情] costTime: 475ms
+\n\t\t[调用获取订单详情] costTime: 77ms
+\n\t\t[vst订单详情] costTime: 114ms
+\n\t\t\t[设置门票订单信息] costTime: 96ms
+\n\t\t\t\t[获取门票商品VO] costTime: 0ms
+\n\t\t\t\t[获取门票产品VO] costTime: 1ms
+\n\t\t\t\t[7.0 门票订单详情] costTime: 3ms
+\n\t\t\t\t[添加在线退款功能] costTime: 7ms
+\n\t\t\t[更正门票订单] costTime: 10ms
+\n\t\t\t[根据产品ID查询目的地列表] costTime: 4ms
+\n\t\t\t[根据ID查询目的地] costTime: 3ms
+\n\t\t[VST品类支付方式] costTime: 1ms
+\n\t\t获取订单渠道,orderId=31301649,paymentCode=ALIPAY_APP\n\t\t获取订单渠道,orderId=31301649,paymentCode=ALIPAY_WAP\n\t\t获取订单渠道,orderId=31301649,paymentCode=WEIXIN_APP\n\t\t获取订单渠道,orderId=31301649,paymentCode=UPOMP1_5\n\t\t获取订单渠道,orderId=31301649,paymentCode=ICBC\n\t\t获取订单渠道,orderId=31301649,paymentCode=YEEPAY\n\t\t[VST订单详情] costTime: 55ms
+\n\t\t[小驴分期是否支持该品类和产品id] costTime: 3ms
+\n\t\t[获取订单买赠信息] costTime: 27ms
+\n\t\t[查询用户] costTime: 3ms
+\n\t\t[查询用户现金账户] costTime: 3ms
+\n\t\t[获取VST支付等待时间] costTime: 74ms
+2016-07-07_18:34:14
+[api.com.order.getOrder 2.0.0] costTime: 786ms
+\n\t[获取订单详情] costTime: 785ms
+\n\t\t[调用获取订单详情] costTime: 66ms
+\n\t\t[vst订单详情] costTime: 176ms
+\n\t\t\t[设置门票订单信息] costTime: 129ms
+\n\t\t\t\t[获取门票商品VO] costTime: 2ms
+\n\t\t\t\t[获取门票产品VO] costTime: 1ms
+\n\t\t\t\t[7.0 门票订单详情] costTime: 3ms
+\n\t\t\t\t[添加在线退款功能] costTime: 9ms
+\n\t\t\t[更正门票订单] costTime: 12ms
+\n\t\t\t[根据产品ID查询目的地列表] costTime: 6ms
+\n\t\t\t[根据ID查询目的地] costTime: 29ms
+\n\t\t[VST品类支付方式] costTime: 1ms
+\n\t\t获取订单渠道,orderId=31301649,paymentCode=ALIPAY_APP\n\t\t获取订单渠道,orderId=31301649,paymentCode=ALIPAY_WAP\n\t\t获取订单渠道,orderId=31301649,paymentCode=WEIXIN_APP\n\t\t获取订单渠道,orderId=31301649,paymentCode=UPOMP1_5\n\t\t获取订单渠道,orderId=31301649,paymentCode=ICBC\n\t\t获取订单渠道,orderId=31301649,paymentCode=YEEPAY\n\t\t[VST订单详情] costTime: 40ms
+\n\t\t[小驴分期是否支持该品类和产品id] costTime: 3ms
+\n\t\t[获取订单买赠信息] costTime: 27ms
+\n\t\t[查询用户] costTime: 5ms
+\n\t\t[查询用户现金账户] costTime: 5ms
+\n\t\t[获取VST支付等待时间] costTime: 107ms
+2016-07-07_18:39:15
+[api.com.order.getOrder 2.0.0] costTime: 816ms
+\n\t[获取订单详情] costTime: 815ms
+\n\t\t[调用获取订单详情] costTime: 75ms
+\n\t\t[vst订单详情] costTime: 336ms
+\n\t\t\t[设置门票订单信息] costTime: 282ms
+\n\t\t\t\t[获取门票商品VO] costTime: 3ms
+\n\t\t\t\t[获取门票产品VO] costTime: 165ms
+\n\t\t\t\t\t[调用主站接口获取产品详情（实际调用）] costTime: 160ms
+\n\t\t\t\t[7.0 门票订单详情] costTime: 3ms
+\n\t\t\t\t[添加在线退款功能] costTime: 7ms
+\n\t\t\t[更正门票订单] costTime: 8ms
+\n\t\t\t[根据产品ID查询目的地列表] costTime: 11ms
+\n\t\t\t[根据ID查询目的地] costTime: 33ms
+\n\t\t[VST品类支付方式] costTime: 1ms
+\n\t\t获取订单渠道,orderId=31301649,paymentCode=ALIPAY_APP\n\t\t获取订单渠道,orderId=31301649,paymentCode=ALIPAY_WAP\n\t\t获取订单渠道,orderId=31301649,paymentCode=WEIXIN_APP\n\t\t获取订单渠道,orderId=31301649,paymentCode=UPOMP1_5\n\t\t获取订单渠道,orderId=31301649,paymentCode=ICBC\n\t\t获取订单渠道,orderId=31301649,paymentCode=YEEPAY\n\t\t[VST订单详情] costTime: 41ms
+\n\t\t[小驴分期是否支持该品类和产品id] costTime: 3ms
+\n\t\t[获取订单买赠信息] costTime: 25ms
+\n\t\t[查询用户] costTime: 5ms
+\n\t\t[查询用户现金账户] costTime: 4ms
+\n\t\t[获取VST支付等待时间] costTime: 183ms
+2016-07-07_18:44:16
+[api.com.order.getOrder 2.0.0] costTime: 1908ms
+\n\t[获取订单详情] costTime: 1904ms
+\n\t\t[调用获取订单详情] costTime: 76ms
+\n\t\t[vst订单详情] costTime: 1505ms
+\n\t\t\t[设置门票订单信息] costTime: 107ms
+\n\t\t\t\t[获取门票商品VO] costTime: 9ms
+\n\t\t\t\t[获取门票产品VO] costTime: 5ms
+\n\t\t\t\t[7.0 门票订单详情] costTime: 12ms
+\n\t\t\t\t[添加在线退款功能] costTime: 5ms
+\n\t\t\t[更正门票订单] costTime: 1347ms
+\n\t\t\t[根据产品ID查询目的地列表] costTime: 8ms
+\n\t\t\t[根据ID查询目的地] costTime: 32ms
+\n\t\t[VST品类支付方式] costTime: 14ms
+\n\t\t获取订单渠道,orderId=31301649,paymentCode=ALIPAY_APP\n\t\t获取订单渠道,orderId=31301649,paymentCode=ALIPAY_WAP\n\t\t获取订单渠道,orderId=31301649,paymentCode=WEIXIN_APP\n\t\t获取订单渠道,orderId=31301649,paymentCode=UPOMP1_5\n\t\t获取订单渠道,orderId=31301649,paymentCode=ICBC\n\t\t获取订单渠道,orderId=31301649,paymentCode=YEEPAY\n\t\t[VST订单详情] costTime: 37ms
+\n\t\t[小驴分期是否支持该品类和产品id] costTime: 3ms
+\n\t\t[获取订单买赠信息] costTime: 24ms
+\n\t\t[查询用户] costTime: 3ms
+\n\t\t[查询用户现金账户] costTime: 4ms
+\n\t\t[获取VST支付等待时间] costTime: 80ms
+2016-07-07_18:49:18
+[api.com.order.getOrder 2.0.0] costTime: 655ms
+\n\t[获取订单详情] costTime: 654ms
+\n\t\t[调用获取订单详情] costTime: 109ms
+\n\t\t[vst订单详情] costTime: 267ms
+\n\t\t\t[设置门票订单信息] costTime: 92ms
+\n\t\t\t\t[获取门票商品VO] costTime: 3ms
+\n\t\t\t\t[获取门票产品VO] costTime: 2ms
+\n\t\t\t\t[7.0 门票订单详情] costTime: 7ms
+\n\t\t\t\t[添加在线退款功能] costTime: 8ms
+\n\t\t\t[更正门票订单] costTime: 138ms
+\n\t\t\t[根据产品ID查询目的地列表] costTime: 6ms
+\n\t\t\t[根据ID查询目的地] costTime: 30ms
+\n\t\t[VST品类支付方式] costTime: 2ms
+\n\t\t获取订单渠道,orderId=31301649,paymentCode=ALIPAY_APP\n\t\t获取订单渠道,orderId=31301649,paymentCode=ALIPAY_WAP\n\t\t获取订单渠道,orderId=31301649,paymentCode=WEIXIN_APP\n\t\t获取订单渠道,orderId=31301649,paymentCode=UPOMP1_5\n\t\t获取订单渠道,orderId=31301649,paymentCode=ICBC\n\t\t获取订单渠道,orderId=31301649,paymentCode=YEEPAY\n\t\t[VST订单详情] costTime: 35ms
+\n\t\t[小驴分期是否支持该品类和产品id] costTime: 6ms
+\n\t\t[获取订单买赠信息] costTime: 22ms
+\n\t\t[查询用户] costTime: 3ms
+\n\t\t[查询用户现金账户] costTime: 4ms
+\n\t\t[获取VST支付等待时间] costTime: 68ms
+2016-07-07_18:54:19
+[api.com.order.getOrder 2.0.0] costTime: 776ms
+\n\t[获取订单详情] costTime: 775ms
+\n\t\t[调用获取订单详情] costTime: 133ms
+\n\t\t[vst订单详情] costTime: 344ms
+\n\t\t\t[设置门票订单信息] costTime: 299ms
+\n\t\t\t\t[获取门票商品VO] costTime: 1ms
+\n\t\t\t\t[获取门票产品VO] costTime: 184ms
+\n\t\t\t\t\t[调用主站接口获取产品详情（实际调用）] costTime: 180ms
+\n\t\t\t\t[7.0 门票订单详情] costTime: 3ms
+\n\t\t\t\t[添加在线退款功能] costTime: 9ms
+\n\t\t\t[更正门票订单] costTime: 10ms
+\n\t\t\t[根据产品ID查询目的地列表] costTime: 7ms
+\n\t\t\t[根据ID查询目的地] costTime: 28ms
+\n\t\t[VST品类支付方式] costTime: 0ms
+\n\t\t获取订单渠道,orderId=31301649,paymentCode=ALIPAY_APP\n\t\t获取订单渠道,orderId=31301649,paymentCode=ALIPAY_WAP\n\t\t获取订单渠道,orderId=31301649,paymentCode=WEIXIN_APP\n\t\t获取订单渠道,orderId=31301649,paymentCode=UPOMP1_5\n\t\t获取订单渠道,orderId=31301649,paymentCode=ICBC\n\t\t获取订单渠道,orderId=31301649,paymentCode=YEEPAY\n\t\t[VST订单详情] costTime: 43ms
+\n\t\t[小驴分期是否支持该品类和产品id] costTime: 7ms
+\n\t\t[获取订单买赠信息] costTime: 31ms
+\n\t\t[查询用户] costTime: 3ms
+\n\t\t[查询用户现金账户] costTime: 3ms
+\n\t\t[获取VST支付等待时间] costTime: 81ms
+2016-07-07_18:59:20
+[api.com.order.getOrder 2.0.0] costTime: 608ms
+\n\t[获取订单详情] costTime: 607ms
+\n\t\t[调用获取订单详情] costTime: 79ms
+\n\t\t[vst订单详情] costTime: 257ms
+\n\t\t\t[设置门票订单信息] costTime: 99ms
+\n\t\t\t\t[获取门票商品VO] costTime: 1ms
+\n\t\t\t\t[获取门票产品VO] costTime: 2ms
+\n\t\t\t\t[7.0 门票订单详情] costTime: 3ms
+\n\t\t\t\t[添加在线退款功能] costTime: 13ms
+\n\t\t\t[更正门票订单] costTime: 123ms
+\n\t\t\t[根据产品ID查询目的地列表] costTime: 10ms
+\n\t\t\t[根据ID查询目的地] costTime: 25ms
+\n\t\t[VST品类支付方式] costTime: 1ms
+\n\t\t获取订单渠道,orderId=31301649,paymentCode=ALIPAY_APP\n\t\t获取订单渠道,orderId=31301649,paymentCode=ALIPAY_WAP\n\t\t获取订单渠道,orderId=31301649,paymentCode=WEIXIN_APP\n\t\t获取订单渠道,orderId=31301649,paymentCode=UPOMP1_5\n\t\t获取订单渠道,orderId=31301649,paymentCode=ICBC\n\t\t获取订单渠道,orderId=31301649,paymentCode=YEEPAY\n\t\t[VST订单详情] costTime: 37ms
+\n\t\t[小驴分期是否支持该品类和产品id] costTime: 3ms
+\n\t\t[获取订单买赠信息] costTime: 26ms
+\n\t\t[查询用户] costTime: 3ms
+\n\t\t[查询用户现金账户] costTime: 3ms
+\n\t\t[获取VST支付等待时间] costTime: 65ms
+2016-07-07_19:04:22
+[api.com.order.getOrder 2.0.0] costTime: 695ms
+\n\t[获取订单详情] costTime: 690ms
+\n\t\t[调用获取订单详情] costTime: 94ms
+\n\t\t[vst订单详情] costTime: 264ms
+\n\t\t\t[设置门票订单信息] costTime: 91ms
+\n\t\t\t\t[获取门票商品VO] costTime: 5ms
+\n\t\t\t\t[获取门票产品VO] costTime: 4ms
+\n\t\t\t\t[7.0 门票订单详情] costTime: 8ms
+\n\t\t\t\t[添加在线退款功能] costTime: 6ms
+\n\t\t\t[更正门票订单] costTime: 141ms
+\n\t\t\t[根据产品ID查询目的地列表] costTime: 8ms
+\n\t\t\t[根据ID查询目的地] costTime: 21ms
+\n\t\t[VST品类支付方式] costTime: 12ms
+\n\t\t获取订单渠道,orderId=31301649,paymentCode=ALIPAY_APP\n\t\t获取订单渠道,orderId=31301649,paymentCode=ALIPAY_WAP\n\t\t获取订单渠道,orderId=31301649,paymentCode=WEIXIN_APP\n\t\t获取订单渠道,orderId=31301649,paymentCode=UPOMP1_5\n\t\t获取订单渠道,orderId=31301649,paymentCode=ICBC\n\t\t获取订单渠道,orderId=31301649,paymentCode=YEEPAY\n\t\t[VST订单详情] costTime: 34ms
+\n\t\t[小驴分期是否支持该品类和产品id] costTime: 5ms
+\n\t\t[获取订单买赠信息] costTime: 23ms
+\n\t\t[查询用户] costTime: 5ms
+\n\t\t[查询用户现金账户] costTime: 4ms
+\n\t\t[获取VST支付等待时间] costTime: 76ms
+2016-07-07_19:09:28
+[api.com.order.getOrder 2.0.0] costTime: 991ms
+\n\t[获取订单详情] costTime: 983ms
+\n\t\t[调用获取订单详情] costTime: 107ms
+\n\t\t[vst订单详情] costTime: 590ms
+\n\t\t\t[设置门票订单信息] costTime: 545ms
+\n\t\t\t\t[获取门票商品VO] costTime: 5ms
+\n\t\t\t\t[获取门票产品VO] costTime: 413ms
+\n\t\t\t\t\t[调用主站接口获取产品详情（实际调用）] costTime: 341ms
+\n\t\t\t\t[7.0 门票订单详情] costTime: 41ms
+\n\t\t\t\t[添加在线退款功能] costTime: 10ms
+\n\t\t\t[更正门票订单] costTime: 18ms
+\n\t\t\t[根据产品ID查询目的地列表] costTime: 7ms
+\n\t\t\t[根据ID查询目的地] costTime: 3ms
+\n\t\t[VST品类支付方式] costTime: 3ms
+\n\t\t获取订单渠道,orderId=31301649,paymentCode=ALIPAY_APP\n\t\t获取订单渠道,orderId=31301649,paymentCode=ALIPAY_WAP\n\t\t获取订单渠道,orderId=31301649,paymentCode=WEIXIN_APP\n\t\t获取订单渠道,orderId=31301649,paymentCode=UPOMP1_5\n\t\t获取订单渠道,orderId=31301649,paymentCode=ICBC\n\t\t获取订单渠道,orderId=31301649,paymentCode=YEEPAY\n\t\t[VST订单详情] costTime: 38ms
+\n\t\t[小驴分期是否支持该品类和产品id] costTime: 3ms
+\n\t\t[获取订单买赠信息] costTime: 24ms
+\n\t\t[查询用户] costTime: 3ms
+\n\t\t[查询用户现金账户] costTime: 4ms
+\n\t\t[获取VST支付等待时间] costTime: 77ms
+
+[api.com.order.getOrder 2.0.0] avgCostTime: 858.2ms TimeRange: 476 ~ 1908ms 
+[获取订单详情] avgCostTime: 462.4ms TimeRange: 66 ~ 1904ms 
+[调用获取订单详情] avgCostTime: 89.5ms TimeRange: 66 ~ 133ms 
+[vst订单详情] avgCostTime: 405.6ms TimeRange: 114 ~ 1505ms 
+[设置门票订单信息] avgCostTime: 191ms TimeRange: 91 ~ 545ms 
+[获取门票商品VO] avgCostTime: 3.4ms TimeRange: 0 ~ 9ms 
+[获取门票产品VO] avgCostTime: 81ms TimeRange: 1 ~ 413ms 
+[调用主站接口获取产品详情（实际调用）] avgCostTime: 174ms TimeRange: 15 ~ 341ms 
+[7.0 门票订单详情] avgCostTime: 9.7ms TimeRange: 3 ~ 41ms 
+[添加在线退款功能] avgCostTime: 8.2ms TimeRange: 5 ~ 13ms 
+[更正门票订单] avgCostTime: 182.1ms TimeRange: 8 ~ 1347ms 
+[根据产品ID查询目的地列表] avgCostTime: 7.7ms TimeRange: 4 ~ 11ms 
+[根据ID查询目的地] avgCostTime: 20.8ms TimeRange: 3 ~ 33ms 
+[VST品类支付方式] avgCostTime: 5ms TimeRange: 0 ~ 15ms 
+[VST订单详情] avgCostTime: 39.8ms TimeRange: 34 ~ 55ms 
+[小驴分期是否支持该品类和产品id] avgCostTime: 4ms TimeRange: 3 ~ 7ms 
+[获取订单买赠信息] avgCostTime: 25.6ms TimeRange: 22 ~ 31ms 
+[查询用户] avgCostTime: 3.8ms TimeRange: 3 ~ 5ms 
+[查询用户现金账户] avgCostTime: 3.9ms TimeRange: 3 ~ 5ms 

@@ -1,0 +1,55 @@
+2016-07-07_18:24:12
+[api.com.search.searchHotel 3.0.0] costTime: 1031ms
+\n\t[封装查询所需参数 ] costTime: 0ms
+\n\t\thasSortOrFilter:false\n\t\t参数  ：{\"canFromCache\":false,\"cancelFlag\":\"y\",\"cityDistrictId\":\"60\",\"clientVersion\":0,\"distributors\":\"10000\",\"endDate\":\"20160709\",\"facilities\":\"\",\"filterAndSort\":false,\"keyword\":\"\",\"landmark\":\"\",\"page\":1,\"pageSize\":10,\"price\":\"\",\"saleFlag\":\"y\",\"searchByLocation\":false,\"sort\":0,\"star\":\"\",\"startDate\":\"20160708\",\"uuid\":\"901c600d-acca-41c7-8f08-5226217ad6e2\"}\n\t[处理主站返回数据 ] costTime: 331ms
+\n\t\t酒店搜索主站返回广告数据条数:2,query param ：com.lvtu.common.model.rop.hotel.request.RopRequestBody@447688b\n\t\t酒店搜索转换广告数据：2条\n\t\titems.size:10,secondQuery:null\n\t\t[封装筛选调节] costTime: 0ms
+2016-07-07_18:29:14
+[api.com.search.searchHotel 3.0.0] costTime: 1212ms
+\n\t[封装查询所需参数 ] costTime: 1ms
+\n\t\thasSortOrFilter:false\n\t\t参数  ：{\"canFromCache\":false,\"cancelFlag\":\"y\",\"cityDistrictId\":\"60\",\"clientVersion\":0,\"distributors\":\"10000\",\"endDate\":\"20160709\",\"facilities\":\"\",\"filterAndSort\":false,\"keyword\":\"\",\"landmark\":\"\",\"page\":1,\"pageSize\":10,\"price\":\"\",\"saleFlag\":\"y\",\"searchByLocation\":false,\"sort\":0,\"star\":\"\",\"startDate\":\"20160708\",\"uuid\":\"fab5702f-2707-43c1-9bf1-57c63d414351\"}\n\t[处理主站返回数据 ] costTime: 56ms
+\n\t\t酒店搜索主站返回广告数据条数:2,query param ：com.lvtu.common.model.rop.hotel.request.RopRequestBody@27b4b263\n\t\t酒店搜索转换广告数据：2条\n\t\titems.size:10,secondQuery:null\n\t\t[封装筛选调节] costTime: 0ms
+2016-07-07_18:34:15
+[api.com.search.searchHotel 3.0.0] costTime: 1486ms
+\n\t[封装查询所需参数 ] costTime: 1ms
+\n\t\thasSortOrFilter:false\n\t\t参数  ：{\"canFromCache\":false,\"cancelFlag\":\"y\",\"cityDistrictId\":\"60\",\"clientVersion\":0,\"distributors\":\"10000\",\"endDate\":\"20160709\",\"facilities\":\"\",\"filterAndSort\":false,\"keyword\":\"\",\"landmark\":\"\",\"page\":1,\"pageSize\":10,\"price\":\"\",\"saleFlag\":\"y\",\"searchByLocation\":false,\"sort\":0,\"star\":\"\",\"startDate\":\"20160708\",\"uuid\":\"b70d7b29-4ef0-4123-b26d-a7b54624739b\"}\n\t[处理主站返回数据 ] costTime: 279ms
+\n\t\t酒店搜索主站返回广告数据条数:2,query param ：com.lvtu.common.model.rop.hotel.request.RopRequestBody@7d56f735\n\t\t酒店搜索转换广告数据：2条\n\t\titems.size:10,secondQuery:null\n\t\t[封装筛选调节] costTime: 1ms
+2016-07-07_18:39:18
+[api.com.search.searchHotel 3.0.0] costTime: 581ms
+\n\t[封装查询所需参数 ] costTime: 1ms
+\n\t\thasSortOrFilter:false\n\t\t参数  ：{\"canFromCache\":false,\"cancelFlag\":\"y\",\"cityDistrictId\":\"60\",\"clientVersion\":0,\"distributors\":\"10000\",\"endDate\":\"20160709\",\"facilities\":\"\",\"filterAndSort\":false,\"keyword\":\"\",\"landmark\":\"\",\"page\":1,\"pageSize\":10,\"price\":\"\",\"saleFlag\":\"y\",\"searchByLocation\":false,\"sort\":0,\"star\":\"\",\"startDate\":\"20160708\",\"uuid\":\"6d89ab09-6f38-4fec-961c-5296117ccdba\"}\n\t[处理主站返回数据 ] costTime: 53ms
+\n\t\t酒店搜索主站返回广告数据条数:2,query param ：com.lvtu.common.model.rop.hotel.request.RopRequestBody@10f25489\n\t\t酒店搜索转换广告数据：2条\n\t\titems.size:10,secondQuery:null\n\t\t[封装筛选调节] costTime: 0ms
+2016-07-07_18:44:19
+[api.com.search.searchHotel 3.0.0] costTime: 830ms
+\n\t[封装查询所需参数 ] costTime: 0ms
+\n\t\thasSortOrFilter:false\n\t\t参数  ：{\"canFromCache\":false,\"cancelFlag\":\"y\",\"cityDistrictId\":\"60\",\"clientVersion\":0,\"distributors\":\"10000\",\"endDate\":\"20160709\",\"facilities\":\"\",\"filterAndSort\":false,\"keyword\":\"\",\"landmark\":\"\",\"page\":1,\"pageSize\":10,\"price\":\"\",\"saleFlag\":\"y\",\"searchByLocation\":false,\"sort\":0,\"star\":\"\",\"startDate\":\"20160708\",\"uuid\":\"febbdc38-17d3-439d-aea3-f90203b6b9ac\"}\n\t[处理主站返回数据 ] costTime: 42ms
+\n\t\t酒店搜索主站返回广告数据条数:2,query param ：com.lvtu.common.model.rop.hotel.request.RopRequestBody@2d50a44d\n\t\t酒店搜索转换广告数据：2条\n\t\titems.size:10,secondQuery:null\n\t\t[封装筛选调节] costTime: 0ms
+2016-07-07_18:49:20
+[api.com.search.searchHotel 3.0.0] costTime: 769ms
+\n\t[封装查询所需参数 ] costTime: 1ms
+\n\t\thasSortOrFilter:false\n\t\t参数  ：{\"canFromCache\":false,\"cancelFlag\":\"y\",\"cityDistrictId\":\"60\",\"clientVersion\":0,\"distributors\":\"10000\",\"endDate\":\"20160709\",\"facilities\":\"\",\"filterAndSort\":false,\"keyword\":\"\",\"landmark\":\"\",\"page\":1,\"pageSize\":10,\"price\":\"\",\"saleFlag\":\"y\",\"searchByLocation\":false,\"sort\":0,\"star\":\"\",\"startDate\":\"20160708\",\"uuid\":\"2be7c662-4160-40bd-9ae1-ab4869a380c5\"}\n\t[处理主站返回数据 ] costTime: 40ms
+\n\t\t酒店搜索主站返回广告数据条数:2,query param ：com.lvtu.common.model.rop.hotel.request.RopRequestBody@338bd66c\n\t\t酒店搜索转换广告数据：2条\n\t\titems.size:10,secondQuery:null\n\t\t[封装筛选调节] costTime: 0ms
+2016-07-07_18:54:21
+[api.com.search.searchHotel 3.0.0] costTime: 1130ms
+\n\t[封装查询所需参数 ] costTime: 0ms
+\n\t\thasSortOrFilter:false\n\t\t参数  ：{\"canFromCache\":false,\"cancelFlag\":\"y\",\"cityDistrictId\":\"60\",\"clientVersion\":0,\"distributors\":\"10000\",\"endDate\":\"20160709\",\"facilities\":\"\",\"filterAndSort\":false,\"keyword\":\"\",\"landmark\":\"\",\"page\":1,\"pageSize\":10,\"price\":\"\",\"saleFlag\":\"y\",\"searchByLocation\":false,\"sort\":0,\"star\":\"\",\"startDate\":\"20160708\",\"uuid\":\"e807e095-0310-4726-a292-0cb8a958b654\"}\n\t[处理主站返回数据 ] costTime: 53ms
+\n\t\t酒店搜索主站返回广告数据条数:2,query param ：com.lvtu.common.model.rop.hotel.request.RopRequestBody@20c20692\n\t\t酒店搜索转换广告数据：2条\n\t\titems.size:10,secondQuery:null\n\t\t[封装筛选调节] costTime: 0ms
+2016-07-07_18:59:22
+[api.com.search.searchHotel 3.0.0] costTime: 646ms
+\n\t[封装查询所需参数 ] costTime: 1ms
+\n\t\thasSortOrFilter:false\n\t\t参数  ：{\"canFromCache\":false,\"cancelFlag\":\"y\",\"cityDistrictId\":\"60\",\"clientVersion\":0,\"distributors\":\"10000\",\"endDate\":\"20160709\",\"facilities\":\"\",\"filterAndSort\":false,\"keyword\":\"\",\"landmark\":\"\",\"page\":1,\"pageSize\":10,\"price\":\"\",\"saleFlag\":\"y\",\"searchByLocation\":false,\"sort\":0,\"star\":\"\",\"startDate\":\"20160708\",\"uuid\":\"ff0f3a26-d263-4054-a0aa-d6240aa8a74e\"}\n\t[处理主站返回数据 ] costTime: 37ms
+\n\t\t酒店搜索主站返回广告数据条数:2,query param ：com.lvtu.common.model.rop.hotel.request.RopRequestBody@7d18ed90\n\t\t酒店搜索转换广告数据：2条\n\t\titems.size:10,secondQuery:null\n\t\t[封装筛选调节] costTime: 0ms
+2016-07-07_19:04:25
+[api.com.search.searchHotel 3.0.0] costTime: 1060ms
+\n\t[封装查询所需参数 ] costTime: 1ms
+\n\t\thasSortOrFilter:false\n\t\t参数  ：{\"canFromCache\":false,\"cancelFlag\":\"y\",\"cityDistrictId\":\"60\",\"clientVersion\":0,\"distributors\":\"10000\",\"endDate\":\"20160709\",\"facilities\":\"\",\"filterAndSort\":false,\"keyword\":\"\",\"landmark\":\"\",\"page\":1,\"pageSize\":10,\"price\":\"\",\"saleFlag\":\"y\",\"searchByLocation\":false,\"sort\":0,\"star\":\"\",\"startDate\":\"20160708\",\"uuid\":\"5c380f9d-01f8-422a-80a6-fce6dd4040b8\"}\n\t[处理主站返回数据 ] costTime: 41ms
+\n\t\t酒店搜索主站返回广告数据条数:2,query param ：com.lvtu.common.model.rop.hotel.request.RopRequestBody@1a1fc17a\n\t\t酒店搜索转换广告数据：2条\n\t\titems.size:10,secondQuery:null\n\t\t[封装筛选调节] costTime: 0ms
+2016-07-07_19:09:27
+[api.com.search.searchHotel 3.0.0] costTime: 1054ms
+\n\t[封装查询所需参数 ] costTime: 0ms
+\n\t\thasSortOrFilter:false\n\t\t参数  ：{\"canFromCache\":false,\"cancelFlag\":\"y\",\"cityDistrictId\":\"60\",\"clientVersion\":0,\"distributors\":\"10000\",\"endDate\":\"20160709\",\"facilities\":\"\",\"filterAndSort\":false,\"keyword\":\"\",\"landmark\":\"\",\"page\":1,\"pageSize\":10,\"price\":\"\",\"saleFlag\":\"y\",\"searchByLocation\":false,\"sort\":0,\"star\":\"\",\"startDate\":\"20160708\",\"uuid\":\"331649d8-e189-4b8e-801d-d576cc179f49\"}\n\t[处理主站返回数据 ] costTime: 46ms
+\n\t\t酒店搜索主站返回广告数据条数:2,query param ：com.lvtu.common.model.rop.hotel.request.RopRequestBody@7fb0071d\n\t\t酒店搜索转换广告数据：2条\n\t\titems.size:10,secondQuery:null\n\t\t[封装筛选调节] costTime: 0ms
+
+[api.com.search.searchHotel 3.0.0] avgCostTime: 979.9ms TimeRange: 581 ~ 1486ms 
+[封装查询所需参数 ] avgCostTime: 0.6ms TimeRange: 0 ~ 1ms 
+[处理主站返回数据 ] avgCostTime: 97.8ms TimeRange: 37 ~ 331ms 
+[封装筛选调节] avgCostTime: 0.1ms TimeRange: 0 ~ 1ms 

@@ -1,0 +1,92 @@
+2016-07-07_18:24:12
+[api.com.ticket.order.countTicketPrice 1.0.0] costTime: -1ms
+\n\t[调用主站接口获取是否可以使用优惠券标识] costTime: 924ms
+\n\t\t[获取是否可以使用优惠券标识] costTime: 18ms
+\n\t\t[调用主站计算价格接口] costTime: 195ms
+\n\t\t[调用主站接口获取产品详情  (有缓存)] costTime: 32ms
+\n\t\t\t[调用主站接口获取产品详情（实际调用）] costTime: 14ms
+\n\t\t[调用主站接口获取可用优惠券] costTime: 99ms
+\n\t\t[自动填充优惠券和调用计算价格接口] costTime: 373ms
+2016-07-07_18:29:13
+[api.com.ticket.order.countTicketPrice 1.0.0] costTime: -1ms
+\n\t[调用主站接口获取是否可以使用优惠券标识] costTime: 682ms
+\n\t\t[获取是否可以使用优惠券标识] costTime: 16ms
+\n\t\t[调用主站计算价格接口] costTime: 245ms
+\n\t\t[调用主站接口获取产品详情  (有缓存)] costTime: 6ms
+\n\t\t[调用主站接口获取可用优惠券] costTime: 105ms
+\n\t\t[自动填充优惠券和调用计算价格接口] costTime: 288ms
+2016-07-07_18:34:14
+[api.com.ticket.order.countTicketPrice 1.0.0] costTime: -1ms
+\n\t[调用主站接口获取是否可以使用优惠券标识] costTime: 623ms
+\n\t\t[获取是否可以使用优惠券标识] costTime: 20ms
+\n\t\t[调用主站计算价格接口] costTime: 186ms
+\n\t\t[调用主站接口获取产品详情  (有缓存)] costTime: 1ms
+\n\t\t[调用主站接口获取可用优惠券] costTime: 88ms
+\n\t\t[自动填充优惠券和调用计算价格接口] costTime: 316ms
+2016-07-07_18:39:15
+[api.com.ticket.order.countTicketPrice 1.0.0] costTime: -1ms
+\n\t[调用主站接口获取是否可以使用优惠券标识] costTime: 851ms
+\n\t\t[获取是否可以使用优惠券标识] costTime: 19ms
+\n\t\t[调用主站计算价格接口] costTime: 195ms
+\n\t\t[调用主站接口获取产品详情  (有缓存)] costTime: 166ms
+\n\t\t\t[调用主站接口获取产品详情（实际调用）] costTime: 162ms
+\n\t\t[调用主站接口获取可用优惠券] costTime: 108ms
+\n\t\t[自动填充优惠券和调用计算价格接口] costTime: 353ms
+2016-07-07_18:44:16
+[api.com.ticket.order.countTicketPrice 1.0.0] costTime: -1ms
+\n\t[调用主站接口获取是否可以使用优惠券标识] costTime: 2995ms
+\n\t\t[获取是否可以使用优惠券标识] costTime: 20ms
+\n\t\t[调用主站计算价格接口] costTime: 965ms
+\n\t\t[调用主站接口获取产品详情  (有缓存)] costTime: 10ms
+\n\t\t[调用主站接口获取可用优惠券] costTime: 114ms
+\n\t\t[自动填充优惠券和调用计算价格接口] costTime: 1858ms
+2016-07-07_18:49:19
+[api.com.ticket.order.countTicketPrice 1.0.0] costTime: -1ms
+\n\t[调用主站接口获取是否可以使用优惠券标识] costTime: 752ms
+\n\t\t[获取是否可以使用优惠券标识] costTime: 36ms
+\n\t\t[调用主站计算价格接口] costTime: 186ms
+\n\t\t[调用主站接口获取产品详情  (有缓存)] costTime: 10ms
+\n\t\t[调用主站接口获取可用优惠券] costTime: 123ms
+\n\t\t[自动填充优惠券和调用计算价格接口] costTime: 369ms
+2016-07-07_18:54:20
+[api.com.ticket.order.countTicketPrice 1.0.0] costTime: -1ms
+\n\t[调用主站接口获取是否可以使用优惠券标识] costTime: 1329ms
+\n\t\t[获取是否可以使用优惠券标识] costTime: 27ms
+\n\t\t[调用主站计算价格接口] costTime: 212ms
+\n\t\t[调用主站接口获取产品详情  (有缓存)] costTime: 47ms
+\n\t\t\t[调用主站接口获取产品详情（实际调用）] costTime: 19ms
+\n\t\t[调用主站接口获取可用优惠券] costTime: 327ms
+\n\t\t[自动填充优惠券和调用计算价格接口] costTime: 673ms
+2016-07-07_18:59:21
+[api.com.ticket.order.countTicketPrice 1.0.0] costTime: -1ms
+\n\t[调用主站接口获取是否可以使用优惠券标识] costTime: 608ms
+\n\t\t[获取是否可以使用优惠券标识] costTime: 20ms
+\n\t\t[调用主站计算价格接口] costTime: 188ms
+\n\t\t[调用主站接口获取产品详情  (有缓存)] costTime: 1ms
+\n\t\t[调用主站接口获取可用优惠券] costTime: 118ms
+\n\t\t[自动填充优惠券和调用计算价格接口] costTime: 267ms
+2016-07-07_19:04:24
+[api.com.ticket.order.countTicketPrice 1.0.0] costTime: -1ms
+\n\t[调用主站接口获取是否可以使用优惠券标识] costTime: 610ms
+\n\t\t[获取是否可以使用优惠券标识] costTime: 11ms
+\n\t\t[调用主站计算价格接口] costTime: 196ms
+\n\t\t[调用主站接口获取产品详情  (有缓存)] costTime: 2ms
+\n\t\t[调用主站接口获取可用优惠券] costTime: 102ms
+\n\t\t[自动填充优惠券和调用计算价格接口] costTime: 282ms
+2016-07-07_19:09:24
+[api.com.ticket.order.countTicketPrice 1.0.0] costTime: -1ms
+\n\t[调用主站接口获取是否可以使用优惠券标识] costTime: 736ms
+\n\t\t[获取是否可以使用优惠券标识] costTime: 21ms
+\n\t\t[调用主站计算价格接口] costTime: 237ms
+\n\t\t[调用主站接口获取产品详情  (有缓存)] costTime: 50ms
+\n\t\t\t[调用主站接口获取产品详情（实际调用）] costTime: 17ms
+\n\t\t[调用主站接口获取可用优惠券] costTime: 109ms
+\n\t\t[自动填充优惠券和调用计算价格接口] costTime: 282ms
+
+[api.com.ticket.order.countTicketPrice 1.0.0] avgCostTime: -1ms TimeRange: -1 ~ -1ms 
+[调用主站接口获取是否可以使用优惠券标识] avgCostTime: 1011ms TimeRange: 608 ~ 2995ms 
+[获取是否可以使用优惠券标识] avgCostTime: 515.9ms TimeRange: 11 ~ 2995ms 
+[调用主站计算价格接口] avgCostTime: 280.5ms TimeRange: 186 ~ 965ms 
+[调用主站接口获取产品详情  (有缓存)] avgCostTime: ms TimeRange:  ~ ms 
+[调用主站接口获取产品详情（实际调用）] avgCostTime: 53ms TimeRange: 14 ~ 162ms 
+[调用主站接口获取可用优惠券] avgCostTime: 129.3ms TimeRange: 88 ~ 327ms 

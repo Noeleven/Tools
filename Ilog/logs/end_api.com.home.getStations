@@ -1,0 +1,66 @@
+2016-07-07_18:24:12
+[api.com.home.getStations 1.0.0] costTime: 6ms
+\n\t[调用主站接口] costTime: 3ms
+\n\t[类型转换] costTime: 2ms
+\n\t[添加直辖市] costTime: 0ms
+\n\t[拼音排序] costTime: 0ms
+2016-07-07_18:29:13
+[api.com.home.getStations 1.0.0] costTime: 34ms
+\n\t[调用主站接口] costTime: 21ms
+\n\t[类型转换] costTime: 4ms
+\n\t[添加直辖市] costTime: 1ms
+\n\t[拼音排序] costTime: 0ms
+2016-07-07_18:34:13
+[api.com.home.getStations 1.0.0] costTime: 35ms
+\n\t[调用主站接口] costTime: 25ms
+\n\t[类型转换] costTime: 3ms
+\n\t[添加直辖市] costTime: 0ms
+\n\t[拼音排序] costTime: 0ms
+2016-07-07_18:39:13
+[api.com.home.getStations 1.0.0] costTime: 11ms
+\n\t[调用主站接口] costTime: 7ms
+\n\t[类型转换] costTime: 2ms
+\n\t[添加直辖市] costTime: 0ms
+\n\t[拼音排序] costTime: 0ms
+2016-07-07_18:44:13
+[api.com.home.getStations 1.0.0] costTime: 11ms
+\n\t[调用主站接口] costTime: 6ms
+\n\t[类型转换] costTime: 4ms
+\n\t[添加直辖市] costTime: 0ms
+\n\t[拼音排序] costTime: 0ms
+2016-07-07_18:49:14
+[api.com.home.getStations 1.0.0] costTime: 7ms
+\n\t[调用主站接口] costTime: 4ms
+\n\t[类型转换] costTime: 2ms
+\n\t[添加直辖市] costTime: 0ms
+\n\t[拼音排序] costTime: 0ms
+2016-07-07_18:54:15
+[api.com.home.getStations 1.0.0] costTime: 17ms
+\n\t[调用主站接口] costTime: 8ms
+\n\t[类型转换] costTime: 3ms
+\n\t[添加直辖市] costTime: 0ms
+\n\t[拼音排序] costTime: 0ms
+2016-07-07_18:59:15
+[api.com.home.getStations 1.0.0] costTime: 20ms
+\n\t[调用主站接口] costTime: 15ms
+\n\t[类型转换] costTime: 2ms
+\n\t[添加直辖市] costTime: 0ms
+\n\t[拼音排序] costTime: 1ms
+2016-07-07_19:04:15
+[api.com.home.getStations 1.0.0] costTime: 32ms
+\n\t[调用主站接口] costTime: 17ms
+\n\t[类型转换] costTime: 3ms
+\n\t[添加直辖市] costTime: 1ms
+\n\t[拼音排序] costTime: 0ms
+2016-07-07_19:09:15
+[api.com.home.getStations 1.0.0] costTime: 31ms
+\n\t[调用主站接口] costTime: 19ms
+\n\t[类型转换] costTime: 5ms
+\n\t[添加直辖市] costTime: 3ms
+\n\t[拼音排序] costTime: 0ms
+
+[api.com.home.getStations 1.0.0] avgCostTime: 20.4ms TimeRange: 6 ~ 35ms 
+[调用主站接口] avgCostTime: 12.5ms TimeRange: 3 ~ 25ms 
+[类型转换] avgCostTime: 3ms TimeRange: 2 ~ 5ms 
+[添加直辖市] avgCostTime: 0.5ms TimeRange: 0 ~ 3ms 
+[拼音排序] avgCostTime: 0.1ms TimeRange: 0 ~ 1ms 

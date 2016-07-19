@@ -1,0 +1,264 @@
+2016-07-07_18:24:12
+[api.com.order.getOrderByProductType 1.0.0] costTime: 884ms
+\n\t[按产品类别查询订单] costTime: 314ms
+\n\t\t[各种品类订单总数] costTime: 98ms
+\n\t\t[查询各种品类订单] costTime: 13ms
+\n\t\t[获取VST其他订单] costTime: 80ms
+\n\t\t[处理订单详情] costTime: 67ms
+\n\t\t\t[处理门票详情] costTime: 0ms
+\n\t\t[添加在线退款功能] costTime: 7ms
+\n\t\t[判断销售渠道(团购/秒杀)] costTime: 0ms
+\n\t\t[判断订单中是否存在合同] costTime: 0ms
+\n\t\t[获取并设置目的相关信息] costTime: 9ms
+\n\t\t\t[根据产品ID查询目的地列表] costTime: 5ms
+\n\t\t\t[根据ID查询目的地] costTime: 2ms
+\n\t[获取订单详情-金额] costTime: 46ms
+\n\t[获取VST其他订单] costTime: 70ms
+\n\t[处理订单详情] costTime: 75ms
+\n\t\t[处理门票详情] costTime: 0ms
+\n\t[添加在线退款功能] costTime: 19ms
+\n\t[判断销售渠道(团购/秒杀)] costTime: 0ms
+\n\t[判断订单中是否存在合同] costTime: 0ms
+\n\t[获取并设置目的相关信息] costTime: 15ms
+\n\t\t[根据产品ID查询目的地列表] costTime: 9ms
+\n\t\t[根据ID查询目的地] costTime: 3ms
+2016-07-07_18:29:16
+[api.com.order.getOrderByProductType 1.0.0] costTime: 502ms
+\n\t[按产品类别查询订单] costTime: 237ms
+\n\t\t[各种品类订单总数] costTime: 6ms
+\n\t\t[查询各种品类订单] costTime: 13ms
+\n\t\t[获取VST其他订单] costTime: 65ms
+\n\t\t[处理订单详情] costTime: 93ms
+\n\t\t\t[处理门票详情] costTime: 0ms
+\n\t\t[添加在线退款功能] costTime: 9ms
+\n\t\t[判断销售渠道(团购/秒杀)] costTime: 0ms
+\n\t\t[判断订单中是否存在合同] costTime: 0ms
+\n\t\t[获取并设置目的相关信息] costTime: 12ms
+\n\t\t\t[根据产品ID查询目的地列表] costTime: 7ms
+\n\t\t\t[根据ID查询目的地] costTime: 3ms
+\n\t[获取订单详情-金额] costTime: 44ms
+\n\t[获取VST其他订单] costTime: 71ms
+\n\t[处理订单详情] costTime: 77ms
+\n\t\t[处理门票详情] costTime: 0ms
+\n\t[添加在线退款功能] costTime: 9ms
+\n\t[判断销售渠道(团购/秒杀)] costTime: 0ms
+\n\t[判断订单中是否存在合同] costTime: 0ms
+\n\t[获取并设置目的相关信息] costTime: 17ms
+\n\t\t[根据产品ID查询目的地列表] costTime: 10ms
+\n\t\t[根据ID查询目的地] costTime: 5ms
+2016-07-07_18:34:21
+[api.com.order.getOrderByProductType 1.0.0] costTime: 501ms
+\n\t[按产品类别查询订单] costTime: 222ms
+\n\t\t[各种品类订单总数] costTime: 8ms
+\n\t\t[查询各种品类订单] costTime: 12ms
+\n\t\t[获取VST其他订单] costTime: 73ms
+\n\t\t[处理订单详情] costTime: 78ms
+\n\t\t\t[处理门票详情] costTime: 0ms
+\n\t\t[添加在线退款功能] costTime: 8ms
+\n\t\t[判断销售渠道(团购/秒杀)] costTime: 0ms
+\n\t\t[判断订单中是否存在合同] costTime: 0ms
+\n\t\t[获取并设置目的相关信息] costTime: 10ms
+\n\t\t\t[根据产品ID查询目的地列表] costTime: 5ms
+\n\t\t\t[根据ID查询目的地] costTime: 4ms
+\n\t[获取订单详情-金额] costTime: 38ms
+\n\t[获取VST其他订单] costTime: 86ms
+\n\t[处理订单详情] costTime: 86ms
+\n\t\t[处理门票详情] costTime: 0ms
+\n\t[添加在线退款功能] costTime: 8ms
+\n\t[判断销售渠道(团购/秒杀)] costTime: 0ms
+\n\t[判断订单中是否存在合同] costTime: 0ms
+\n\t[获取并设置目的相关信息] costTime: 9ms
+\n\t\t[根据产品ID查询目的地列表] costTime: 5ms
+\n\t\t[根据ID查询目的地] costTime: 4ms
+2016-07-07_18:39:24
+[api.com.order.getOrderByProductType 1.0.0] costTime: 509ms
+\n\t[按产品类别查询订单] costTime: 219ms
+\n\t\t[各种品类订单总数] costTime: 6ms
+\n\t\t[查询各种品类订单] costTime: 15ms
+\n\t\t[获取VST其他订单] costTime: 64ms
+\n\t\t[处理订单详情] costTime: 78ms
+\n\t\t\t[处理门票详情] costTime: 0ms
+\n\t\t[添加在线退款功能] costTime: 7ms
+\n\t\t[判断销售渠道(团购/秒杀)] costTime: 0ms
+\n\t\t[判断订单中是否存在合同] costTime: 0ms
+\n\t\t[获取并设置目的相关信息] costTime: 9ms
+\n\t\t\t[根据产品ID查询目的地列表] costTime: 5ms
+\n\t\t\t[根据ID查询目的地] costTime: 3ms
+\n\t[获取订单详情-金额] costTime: 44ms
+\n\t[获取VST其他订单] costTime: 69ms
+\n\t[处理订单详情] costTime: 109ms
+\n\t\t[处理门票详情] costTime: 0ms
+\n\t[添加在线退款功能] costTime: 7ms
+\n\t[判断销售渠道(团购/秒杀)] costTime: 0ms
+\n\t[判断订单中是否存在合同] costTime: 0ms
+\n\t[获取并设置目的相关信息] costTime: 10ms
+\n\t\t[根据产品ID查询目的地列表] costTime: 7ms
+\n\t\t[根据ID查询目的地] costTime: 2ms
+2016-07-07_18:44:27
+[api.com.order.getOrderByProductType 1.0.0] costTime: 731ms
+\n\t[按产品类别查询订单] costTime: 491ms
+\n\t\t[各种品类订单总数] costTime: 10ms
+\n\t\t[查询各种品类订单] costTime: 13ms
+\n\t\t[获取VST其他订单] costTime: 70ms
+\n\t\t[处理订单详情] costTime: 82ms
+\n\t\t\t[处理门票详情] costTime: 0ms
+\n\t\t[添加在线退款功能] costTime: 9ms
+\n\t\t[判断销售渠道(团购/秒杀)] costTime: 0ms
+\n\t\t[判断订单中是否存在合同] costTime: 0ms
+\n\t\t[获取并设置目的相关信息] costTime: 265ms
+\n\t\t\t[根据产品ID查询目的地列表] costTime: 8ms
+\n\t\t\t[根据ID查询目的地] costTime: 257ms
+\n\t[获取订单详情-金额] costTime: 47ms
+\n\t[获取VST其他订单] costTime: 72ms
+\n\t[处理订单详情] costTime: 67ms
+\n\t\t[处理门票详情] costTime: 0ms
+\n\t[添加在线退款功能] costTime: 6ms
+\n\t[判断销售渠道(团购/秒杀)] costTime: 0ms
+\n\t[判断订单中是否存在合同] costTime: 0ms
+\n\t[获取并设置目的相关信息] costTime: 7ms
+\n\t\t[根据产品ID查询目的地列表] costTime: 5ms
+\n\t\t[根据ID查询目的地] costTime: 2ms
+2016-07-07_18:49:32
+[api.com.order.getOrderByProductType 1.0.0] costTime: 473ms
+\n\t[按产品类别查询订单] costTime: 236ms
+\n\t\t[各种品类订单总数] costTime: 7ms
+\n\t\t[查询各种品类订单] costTime: 17ms
+\n\t\t[获取VST其他订单] costTime: 79ms
+\n\t\t[处理订单详情] costTime: 71ms
+\n\t\t\t[处理门票详情] costTime: 0ms
+\n\t\t[添加在线退款功能] costTime: 8ms
+\n\t\t[判断销售渠道(团购/秒杀)] costTime: 0ms
+\n\t\t[判断订单中是否存在合同] costTime: 0ms
+\n\t\t[获取并设置目的相关信息] costTime: 13ms
+\n\t\t\t[根据产品ID查询目的地列表] costTime: 6ms
+\n\t\t\t[根据ID查询目的地] costTime: 4ms
+\n\t[获取订单详情-金额] costTime: 43ms
+\n\t[获取VST其他订单] costTime: 63ms
+\n\t[处理订单详情] costTime: 67ms
+\n\t\t[处理门票详情] costTime: 0ms
+\n\t[添加在线退款功能] costTime: 9ms
+\n\t[判断销售渠道(团购/秒杀)] costTime: 0ms
+\n\t[判断订单中是否存在合同] costTime: 0ms
+\n\t[获取并设置目的相关信息] costTime: 9ms
+\n\t\t[根据产品ID查询目的地列表] costTime: 5ms
+\n\t\t[根据ID查询目的地] costTime: 2ms
+2016-07-07_18:54:37
+[api.com.order.getOrderByProductType 1.0.0] costTime: 556ms
+\n\t[按产品类别查询订单] costTime: 241ms
+\n\t\t[各种品类订单总数] costTime: 5ms
+\n\t\t[查询各种品类订单] costTime: 19ms
+\n\t\t[获取VST其他订单] costTime: 66ms
+\n\t\t[处理订单详情] costTime: 82ms
+\n\t\t\t[处理门票详情] costTime: 0ms
+\n\t\t[添加在线退款功能] costTime: 6ms
+\n\t\t[判断销售渠道(团购/秒杀)] costTime: 0ms
+\n\t\t[判断订单中是否存在合同] costTime: 0ms
+\n\t\t[获取并设置目的相关信息] costTime: 8ms
+\n\t\t\t[根据产品ID查询目的地列表] costTime: 6ms
+\n\t\t\t[根据ID查询目的地] costTime: 2ms
+\n\t[获取订单详情-金额] costTime: 38ms
+\n\t[获取VST其他订单] costTime: 59ms
+\n\t[处理订单详情] costTime: 105ms
+\n\t\t[处理门票详情] costTime: 0ms
+\n\t[添加在线退款功能] costTime: 10ms
+\n\t[判断销售渠道(团购/秒杀)] costTime: 0ms
+\n\t[判断订单中是否存在合同] costTime: 0ms
+\n\t[获取并设置目的相关信息] costTime: 12ms
+\n\t\t[根据产品ID查询目的地列表] costTime: 6ms
+\n\t\t[根据ID查询目的地] costTime: 6ms
+2016-07-07_18:59:41
+[api.com.order.getOrderByProductType 1.0.0] costTime: 505ms
+\n\t[按产品类别查询订单] costTime: 265ms
+\n\t\t[各种品类订单总数] costTime: 6ms
+\n\t\t[查询各种品类订单] costTime: 13ms
+\n\t\t[获取VST其他订单] costTime: 70ms
+\n\t\t[处理订单详情] costTime: 110ms
+\n\t\t\t[处理门票详情] costTime: 0ms
+\n\t\t[添加在线退款功能] costTime: 14ms
+\n\t\t[判断销售渠道(团购/秒杀)] costTime: 0ms
+\n\t\t[判断订单中是否存在合同] costTime: 0ms
+\n\t\t[获取并设置目的相关信息] costTime: 15ms
+\n\t\t\t[根据产品ID查询目的地列表] costTime: 9ms
+\n\t\t\t[根据ID查询目的地] costTime: 6ms
+\n\t[获取订单详情-金额] costTime: 52ms
+\n\t[获取VST其他订单] costTime: 69ms
+\n\t[处理订单详情] costTime: 63ms
+\n\t\t[处理门票详情] costTime: 0ms
+\n\t[添加在线退款功能] costTime: 8ms
+\n\t[判断销售渠道(团购/秒杀)] costTime: 0ms
+\n\t[判断订单中是否存在合同] costTime: 0ms
+\n\t[获取并设置目的相关信息] costTime: 10ms
+\n\t\t[根据产品ID查询目的地列表] costTime: 6ms
+\n\t\t[根据ID查询目的地] costTime: 4ms
+2016-07-07_19:04:44
+[api.com.order.getOrderByProductType 1.0.0] costTime: 563ms
+\n\t[按产品类别查询订单] costTime: 271ms
+\n\t\t[各种品类订单总数] costTime: 5ms
+\n\t\t[查询各种品类订单] costTime: 14ms
+\n\t\t[获取VST其他订单] costTime: 71ms
+\n\t\t[处理订单详情] costTime: 102ms
+\n\t\t\t[处理门票详情] costTime: 0ms
+\n\t\t[添加在线退款功能] costTime: 9ms
+\n\t\t[判断销售渠道(团购/秒杀)] costTime: 0ms
+\n\t\t[判断订单中是否存在合同] costTime: 0ms
+\n\t\t[获取并设置目的相关信息] costTime: 28ms
+\n\t\t\t[根据产品ID查询目的地列表] costTime: 21ms
+\n\t\t\t[根据ID查询目的地] costTime: 3ms
+\n\t[获取订单详情-金额] costTime: 45ms
+\n\t[获取VST其他订单] costTime: 90ms
+\n\t[处理订单详情] costTime: 90ms
+\n\t\t[处理门票详情] costTime: 0ms
+\n\t[添加在线退款功能] costTime: 9ms
+\n\t[判断销售渠道(团购/秒杀)] costTime: 0ms
+\n\t[判断订单中是否存在合同] costTime: 0ms
+\n\t[获取并设置目的相关信息] costTime: 12ms
+\n\t\t[根据产品ID查询目的地列表] costTime: 7ms
+\n\t\t[根据ID查询目的地] costTime: 3ms
+2016-07-07_19:09:47
+[api.com.order.getOrderByProductType 1.0.0] costTime: 536ms
+\n\t[按产品类别查询订单] costTime: 252ms
+\n\t\t[各种品类订单总数] costTime: 6ms
+\n\t\t[查询各种品类订单] costTime: 17ms
+\n\t\t[获取VST其他订单] costTime: 80ms
+\n\t\t[处理订单详情] costTime: 85ms
+\n\t\t\t[处理门票详情] costTime: 0ms
+\n\t\t[添加在线退款功能] costTime: 7ms
+\n\t\t[判断销售渠道(团购/秒杀)] costTime: 0ms
+\n\t\t[判断订单中是否存在合同] costTime: 0ms
+\n\t\t[获取并设置目的相关信息] costTime: 13ms
+\n\t\t\t[根据产品ID查询目的地列表] costTime: 9ms
+\n\t\t\t[根据ID查询目的地] costTime: 4ms
+\n\t[获取订单详情-金额] costTime: 39ms
+\n\t[获取VST其他订单] costTime: 62ms
+\n\t[处理订单详情] costTime: 120ms
+\n\t\t[处理门票详情] costTime: 0ms
+\n\t[添加在线退款功能] costTime: 8ms
+\n\t[判断销售渠道(团购/秒杀)] costTime: 0ms
+\n\t[判断订单中是否存在合同] costTime: 0ms
+\n\t[获取并设置目的相关信息] costTime: 9ms
+\n\t\t[根据产品ID查询目的地列表] costTime: 6ms
+\n\t\t[根据ID查询目的地] costTime: 3ms
+
+[api.com.order.getOrderByProductType 1.0.0] avgCostTime: 576ms TimeRange: 473 ~ 884ms 
+[按产品类别查询订单] avgCostTime: 274.8ms TimeRange: 219 ~ 491ms 
+[各种品类订单总数] avgCostTime: 15.7ms TimeRange: 5 ~ 98ms 
+[查询各种品类订单] avgCostTime: 14.6ms TimeRange: 12 ~ 19ms 
+[获取VST其他订单] avgCostTime: 71.45ms TimeRange: 59 ~ 90ms 
+[处理订单详情] avgCostTime: 85.35ms TimeRange: 63 ~ 120ms 
+[处理门票详情] avgCostTime: 0ms TimeRange: 0 ~ 0ms 
+[添加在线退款功能] avgCostTime: 8.85ms TimeRange: 6 ~ 19ms 
+[判断销售渠道(团购/秒杀)] avgCostTime: 0ms TimeRange: 0 ~ 0ms 
+[判断订单中是否存在合同] avgCostTime: 0ms TimeRange: 0 ~ 0ms 
+[获取并设置目的相关信息] avgCostTime: 24.6ms TimeRange: 7 ~ 265ms 
+[根据产品ID查询目的地列表] avgCostTime: 7.35ms TimeRange: 5 ~ 21ms 
+[根据ID查询目的地] avgCostTime: 16.1ms TimeRange: 2 ~ 257ms 
+[获取订单详情-金额] avgCostTime: 43.6ms TimeRange: 38 ~ 52ms 
+[获取VST其他订单] avgCostTime: 71.45ms TimeRange: 59 ~ 90ms 
+[处理订单详情] avgCostTime: 85.35ms TimeRange: 63 ~ 120ms 
+[处理门票详情] avgCostTime: 0ms TimeRange: 0 ~ 0ms 
+[添加在线退款功能] avgCostTime: 8.85ms TimeRange: 6 ~ 19ms 
+[判断销售渠道(团购/秒杀)] avgCostTime: 0ms TimeRange: 0 ~ 0ms 
+[判断订单中是否存在合同] avgCostTime: 0ms TimeRange: 0 ~ 0ms 
+[获取并设置目的相关信息] avgCostTime: 24.6ms TimeRange: 7 ~ 265ms 
+[根据产品ID查询目的地列表] avgCostTime: 7.35ms TimeRange: 5 ~ 21ms 
+[根据ID查询目的地] avgCostTime: 16.1ms TimeRange: 2 ~ 257ms 

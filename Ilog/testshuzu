@@ -1,0 +1,68 @@
+#!/bin/bash
+#1. curl the url & save it to a file（以接口命名）.
+#2. anaylse to get debugMsg
+#3. 执行多次的结果保存到一个文件
+#4. count avg min max && print
+#5. 
+#usage
+
+if [ "$#" != 2 ]; then
+	echo "usage: nohup ILog.sh 执行次数 执行间隔时间秒 &"
+	echo "具体的接口URL需要在脚本中配" 
+	exit 2
+fi
+
+CYCLE=$1
+SLEEPTIME=$2
+URL=(
+"http://api3g2.lvmama.com/api/router/rest.do?method=api.com.ticket.quickorder.inputTicketQuickOrder&clientTimestamp=1468575638923&firstChannel=ANDROID&formate=json&globalLatitude=31.241869&osVersion=6.0&lvversionCode=60&lvversion=7.6.2&udid=869161026900324&globalLongitude=121.398388&secondChannel=XIAOMI&lvtukey=acd0ad8d3600e1c2ad5996ec3d0dc403&goodsIds=2777050&productId=622407&version=1.0.0&IS_DEBUG=1"
+)
+
+for u in ${URL[@]}
+do
+{
+	NAME="************"
+	#name file
+	SFILE="logs/src_$NAME"
+	LFILE="logs/log_$NAME"
+	TFILE="logs/tmp_$NAME"
+	RFILE="logs/end_$NAME"
+	for i in `seq ${CYCLE}`
+	do
+	#获取到接口的完整数据日志
+		now=`date +%Y-%m-%d_%H:%M:%S`
+		#限速800kb/s
+		curl --limit-rate 800k "$u" > $SFILE
+		echo $now >> $LFILE
+		sed 's/,/\n/g' $SFILE |grep debugMsg| awk -F '\"' '{ print $4 }' | sed 's/ms\\n/ms\n\\n/g' >> $LFILE
+		sleep ${SLEEPTIME}
+	done
+	#根据输出次数和行数的关系，计算最终结果行数（计算次数）
+	lines=`wc -l $LFILE | awk '{print $1}' `
+	Flines=`expr $lines / $CYCLE`
+	#根据行数，计算avg min max的函数
+	cp $LFILE $RFILE
+	echo "" >> $RFILE
+	for o in `seq 2 $Flines`
+		do
+			lineinfo=`sed -n ${o}p $LFILE | grep -o '\[.*\]'`
+			#passinfo=`sed -n ${o}p $LFILE | awk -F ":" '{print $2}'`
+		#获取每次测试每个步骤的costtime
+			tmpinfo=`echo $lineinfo | sed "s/\[//g;s/\]//g" `
+			cat $LFILE | grep "${tmpinfo}" | awk -F "costTime:" '{print $2}'|awk '{ print int($0) }'  > $TFILE
+		#计算
+			passavgTime=`cat $TFILE | awk '{sum+=$1}END{print sum/NR}'`
+			passMaxTime=`cat $TFILE | sort -n| tail -n 1`
+			passminTime=`cat $TFILE | sort -n| head -n 1`
+			passrangeTime="TimeRange: ${passminTime} ~ ${passMaxTime}"
+			echo "${lineinfo} avgCostTime: ${passavgTime}ms ${passrangeTime}ms " >> $RFILE
+	done
+	rm -f $SFILE $LFILE $TFILE
+	cat $RFILE | mutt -s "${NAME}_LOG" zhangqiang@lvmama.com
+} &
+done
+
+#发邮件方法
+#echo "" | mutt -s "" -t someone
+
+exit 0
