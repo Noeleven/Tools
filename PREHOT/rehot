@@ -1,0 +1,102 @@
+#! /bin/bash
+
+if [ "$#" != 4 ]; then
+	echo "usage: nohup  prehot 每次执行次数 单次间隔时间秒 总循环次数 每次间隔时间 &"
+	echo "建议参数为 10 5 100 720"
+	echo "具体的接口URL需要在脚本中配" 
+	exit 2
+fi
+
+CYCLE=$1
+SLEEPTIME=$2
+TCYCLE=$3
+TTIME=$4
+cacheURL=(
+"http://api3g2.lvmama.com/api/router/rest.do?method=api.com.groupbuy.getSeckillProductsByMark&clientTimestamp=1469093549535&firstChannel=ANDROID&formate=json&osVersion=6.0&lvversion=7.6.2&secondChannel=XIAOMI&seckillType=1&stationCode=SH&stationName=%E4%B8%8A%E6%B5%B7&page=1&version=1.0.0&pageSize=7&fromPlaceId=79&seckillType=1&productMark=BAOKUAN&groupSiteId=79&IS_DEBUG=1"
+"http://api3g2.lvmama.com/api/router/rest.do?method=api.com.groupbuy.getSeckillProductsByMark&clientTimestamp=1469093549535&firstChannel=ANDROID&formate=json&osVersion=6.0&lvversion=7.6.2&secondChannel=XIAOMI&seckillType=1&stationCode=SH&stationName=%E5%8C%85%E5%A4%B4&page=1&version=1.0.0&pageSize=7&fromPlaceId=29&seckillType=1&productMark=BAOKUAN&groupSiteId=29&IS_DEBUG=1"
+"http://api3g2.lvmama.com/api/router/rest.do?method=api.com.groupbuy.getGroupbuyIndex&clientTimestamp=1469091960595&firstChannel=ANDROID&formate=json&version=2.0.0&osVersion=6.0&lvversion=7.2.0&udid=869161026900324&stationName=上海&secondChannel=XIAOMI&IS_DEBUG=1&page=1&pageSize=4&groupSiteId=79"
+"http://api3g2.lvmama.com/api/router/rest.do?method=api.com.groupbuy.getGroupbuyIndex&clientTimestamp=1469091960595&firstChannel=ANDROID&formate=json&version=2.0.0&osVersion=6.0&lvversion=7.2.0&udid=869161026900324&stationName=包头&secondChannel=XIAOMI&IS_DEBUG=1&page=1&pageSize=4&groupSiteId=29"
+"http://api3g2.lvmama.com/api/router/rest.do?method=api.com.groupbuy.getHotCollections&firstChannel=ANDROID&formate=json&osVersion=6.0&secondChannel=XIAOMI&lvversion=7.2.0&version=2.0.0&IS_DEBUG=1&stationName=上海&page=1&pageSize=30&groupSiteId=79"
+"http://api3g2.lvmama.com/api/router/rest.do?method=api.com.groupbuy.getHotCollections&firstChannel=ANDROID&formate=json&osVersion=6.0&secondChannel=XIAOMI&lvversion=7.2.0&version=2.0.0&IS_DEBUG=1&stationName=包头&page=1&pageSize=30&groupSiteId=29"
+"http://api3g2.lvmama.com/api/router/rest.do?method=api.com.groupbuy.getHotCollections&version=3.0.0&page=1&pageSize=7&stationName=%E4%B8%8A%E6%B5%B7&seckillType=1&firstChannel=IPHONE&secondChannel=APPSTORE&lvversion=7.6.2&osVersion=7.1.1&format=json&IS_DEBUG=1&fromPlaceId=79"
+"http://api3g2.lvmama.com/api/router/rest.do?method=api.com.groupbuy.getHotCollections&version=3.0.0&page=1&pageSize=7&stationName=%E5%8C%85%E5%A4%B4&seckillType=1&firstChannel=IPHONE&secondChannel=APPSTORE&lvversion=7.6.2&osVersion=7.1.1&format=json&IS_DEBUG=1&fromPlaceId=29"
+)
+
+#curl 请求结果2个，一个curl时间，一个debug时间，一起存入endlog
+#curl 参数 限速 --limit-rate 800k 打印时间 -w %{time_namelookup}"\n"%{time_connect}"\n"%{time_starttransfer}"\n"%{time_total}"\n"%{speed_download}"\n"
+#设置主函数，间隔运行
+#crontab设置自动执行
+for u in ${cacheURL[@]}
+do
+{
+	tmpNAME=`echo ${u} | cut -d = -f 2 | awk -F '&' '{print $1}' `
+	Version=`echo ${u} | grep -o "&version=.*0" | awk -F '=' '{print $2}'`
+	if	[[ ${u} =~ "29" ]]; then
+		NAME="${tmpNAME}_Cache_$Version"
+	else
+		NAME="${tmpNAME}_NoCache_$Version"
+	fi
+	SFILE="/rd/shellstudy/Tools/PREHOT/log/src_$NAME"
+	LFILE="/rd/shellstudy/Tools/PREHOT/log/log_$NAME"
+	TFILE="/rd/shellstudy/Tools/PREHOT/log/tmp_$NAME"
+	CFILE="/rd/shellstudy/Tools/PREHOT/log/chart_$NAME"
+	for i in `seq ${TCYCLE}`
+	do
+		now=`date +%Y-%m-%d_%H:%M:%S`
+		echo $now >> $LFILE
+		for l in `seq ${CYCLE}`
+		do
+			curl  --limit-rate 800k  -w "\n"DNSTime"/s "%{time_namelookup}" "TCPTime"/s "%{time_connect}" "FirstSendTime"/s "%{time_starttransfer}" "TotalTime"/s "%{time_total}" "NetSpeed"b/s "%{speed_download}b/s"\n"   "$u"  > $SFILE
+			#先处理debug时间
+			LogTime=`jq .debugMsg $SFILE |sed 's/^\"//g;s/\"$//g'|sed 's/ms\\n/ms\n\\n/g' | grep $tmpNAME | awk '{print $4}'|awk '{ print int($0) }'` 
+			echo -e "LogTime/ms  ${LogTime}  \c" >> $LFILE
+			#继续处理传输时间
+			echo -e `tail -n1 $SFILE` >> $LFILE
+			#
+			sleep ${SLEEPTIME}
+		done
+	sleep ${TTIME}
+	done
+	
+	#写图表数据
+	grep -v 2016 $LFILE > $TFILE
+	echo -n "" > $CFILE
+	for o in `seq $CYCLE`
+	do 
+	echo "chartline ${o}" >> $CFILE
+	#这里需要取100条数据
+		if [[ ${CYCLE} -ne $o ]];then
+			awk "NR%${CYCLE}==${o}" $TFILE >> $CFILE
+		else
+			awk "NR%${CYCLE}==0" $TFILE >> $CFILE
+		fi
+	done
+	
+	#tail -n ${CYCLE}  $LFILE |awk '{print $2}' | sort -n
+	rm -f $SFILE $TFILE
+	#cat $RFILE | mutt -s "${NAME}_LOG" zhangqiang@lvmama.com
+} &
+done
+wait
+
+exit 0
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
