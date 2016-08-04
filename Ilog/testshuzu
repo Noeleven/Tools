@@ -23,10 +23,10 @@ do
 {
 	NAME="************"
 	#name file
-	SFILE="logs/src_$NAME"
-	LFILE="logs/log_$NAME"
-	TFILE="logs/tmp_$NAME"
-	RFILE="logs/end_$NAME"
+	SFILE="/rd/shellstudy/Tools/Ilog/logs/src_$NAME"
+	LFILE="/rd/shellstudy/Tools/Ilog/logs/log_$NAME"
+	TFILE="/rd/shellstudy/Tools/Ilog/logs/tmp_$NAME"
+	RFILE="/rd/shellstudy/Tools/Ilog/logs/end_$NAME"
 	for i in `seq ${CYCLE}`
 	do
 	#获取到接口的完整数据日志

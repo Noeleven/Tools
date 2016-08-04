@@ -14,12 +14,12 @@ TTIME=$4
 cacheURL=(
 "http://api3g2.lvmama.com/api/router/rest.do?method=api.com.groupbuy.getSeckillProductsByMark&clientTimestamp=1469093549535&firstChannel=ANDROID&formate=json&osVersion=6.0&lvversion=7.6.2&secondChannel=XIAOMI&seckillType=1&stationCode=SH&stationName=%E4%B8%8A%E6%B5%B7&page=1&version=1.0.0&pageSize=7&fromPlaceId=79&seckillType=1&productMark=BAOKUAN&groupSiteId=79&IS_DEBUG=1"
 "http://api3g2.lvmama.com/api/router/rest.do?method=api.com.groupbuy.getSeckillProductsByMark&clientTimestamp=1469093549535&firstChannel=ANDROID&formate=json&osVersion=6.0&lvversion=7.6.2&secondChannel=XIAOMI&seckillType=1&stationCode=SH&stationName=%E5%8C%85%E5%A4%B4&page=1&version=1.0.0&pageSize=7&fromPlaceId=29&seckillType=1&productMark=BAOKUAN&groupSiteId=29&IS_DEBUG=1"
-"http://api3g2.lvmama.com/api/router/rest.do?method=api.com.groupbuy.getGroupbuyIndex&clientTimestamp=1469091960595&firstChannel=ANDROID&formate=json&version=2.0.0&osVersion=6.0&lvversion=7.2.0&udid=869161026900324&stationName=上海&secondChannel=XIAOMI&IS_DEBUG=1&page=1&pageSize=4&groupSiteId=79"
-"http://api3g2.lvmama.com/api/router/rest.do?method=api.com.groupbuy.getGroupbuyIndex&clientTimestamp=1469091960595&firstChannel=ANDROID&formate=json&version=2.0.0&osVersion=6.0&lvversion=7.2.0&udid=869161026900324&stationName=包头&secondChannel=XIAOMI&IS_DEBUG=1&page=1&pageSize=4&groupSiteId=29"
-"http://api3g2.lvmama.com/api/router/rest.do?method=api.com.groupbuy.getHotCollections&firstChannel=ANDROID&formate=json&osVersion=6.0&secondChannel=XIAOMI&lvversion=7.2.0&version=2.0.0&IS_DEBUG=1&stationName=上海&page=1&pageSize=30&groupSiteId=79"
-"http://api3g2.lvmama.com/api/router/rest.do?method=api.com.groupbuy.getHotCollections&firstChannel=ANDROID&formate=json&osVersion=6.0&secondChannel=XIAOMI&lvversion=7.2.0&version=2.0.0&IS_DEBUG=1&stationName=包头&page=1&pageSize=30&groupSiteId=29"
-"http://api3g2.lvmama.com/api/router/rest.do?method=api.com.groupbuy.getHotCollections&version=3.0.0&page=1&pageSize=7&stationName=%E4%B8%8A%E6%B5%B7&seckillType=1&firstChannel=IPHONE&secondChannel=APPSTORE&lvversion=7.6.2&osVersion=7.1.1&format=json&IS_DEBUG=1&fromPlaceId=79"
-"http://api3g2.lvmama.com/api/router/rest.do?method=api.com.groupbuy.getHotCollections&version=3.0.0&page=1&pageSize=7&stationName=%E5%8C%85%E5%A4%B4&seckillType=1&firstChannel=IPHONE&secondChannel=APPSTORE&lvversion=7.6.2&osVersion=7.1.1&format=json&IS_DEBUG=1&fromPlaceId=29"
+"http://api3g2.lvmama.com/api/router/rest.do?method=api.com.groupbuy.getGroupbuyIndex&clientTimestamp=1469091960595&firstChannel=ANDROID&formate=json&version=2.0.0&osVersion=6.0&lvversion=7.2.0&udid=869161026900324&stationName=北京&secondChannel=XIAOMI&IS_DEBUG=1&page=1&pageSize=4&groupSiteId=1"
+"http://api3g2.lvmama.com/api/router/rest.do?method=api.com.groupbuy.getGroupbuyIndex&clientTimestamp=1469091960595&firstChannel=ANDROID&formate=json&version=2.0.0&osVersion=6.0&lvversion=7.2.0&udid=869161026900324&stationName=南昌&secondChannel=XIAOMI&IS_DEBUG=1&page=1&pageSize=4&groupSiteId=146"
+"http://api3g2.lvmama.com/api/router/rest.do?method=api.com.groupbuy.getHotCollections&firstChannel=ANDROID&formate=json&osVersion=6.0&secondChannel=XIAOMI&lvversion=7.2.0&version=2.0.0&stationName=天津&page=1&pageSize=30&groupSiteId=2&IS_DEBUG=1"
+"http://api3g2.lvmama.com/api/router/rest.do?method=api.com.groupbuy.getHotCollections&firstChannel=ANDROID&formate=json&osVersion=6.0&secondChannel=XIAOMI&lvversion=7.2.0&version=2.0.0&stationName=镇江&page=1&pageSize=30&groupSiteId=93&IS_DEBUG=1"
+"http://api3g2.lvmama.com/api/router/rest.do?method=api.com.groupbuy.getHotCollections&version=3.0.0&page=1&pageSize=7&stationName=北京&seckillType=1&firstChannel=IPHONE&secondChannel=APPSTORE&lvversion=7.6.2&osVersion=7.1.1&format=json&IS_DEBUG=1&fromPlaceId=1"
+"http://api3g2.lvmama.com/api/router/rest.do?method=api.com.groupbuy.getHotCollections&version=3.0.0&page=1&pageSize=7&stationName=厦门&seckillType=1&firstChannel=IPHONE&secondChannel=APPSTORE&lvversion=7.6.2&osVersion=7.1.1&format=json&IS_DEBUG=1&fromPlaceId=137"
 )
 
 #curl 请求结果2个，一个curl时间，一个debug时间，一起存入endlog
@@ -31,10 +31,10 @@ do
 {
 	tmpNAME=`echo ${u} | cut -d = -f 2 | awk -F '&' '{print $1}' `
 	Version=`echo ${u} | grep -o "&version=.*0" | awk -F '=' '{print $2}'`
-	if	[[ ${u} =~ "29" ]]; then
-		NAME="${tmpNAME}_Cache_$Version"
-	else
+	if	[[ ${u} =~ "Id=137" ]] || [[ ${u} =~ "Id=29" ]] || [[ ${u} =~ "Id=146" ]] || [[ ${u} =~ "Id=93" ]]; then
 		NAME="${tmpNAME}_NoCache_$Version"
+	else
+		NAME="${tmpNAME}_Cache_$Version"
 	fi
 	SFILE="/rd/shellstudy/Tools/PREHOT/log/src_$NAME"
 	LFILE="/rd/shellstudy/Tools/PREHOT/log/log_$NAME"
@@ -71,8 +71,7 @@ do
 			awk "NR%${CYCLE}==0" $TFILE >> $CFILE
 		fi
 	done
-	
-	#tail -n ${CYCLE}  $LFILE |awk '{print $2}' | sort -n
+
 	rm -f $SFILE $TFILE
 	#cat $RFILE | mutt -s "${NAME}_LOG" zhangqiang@lvmama.com
 } &

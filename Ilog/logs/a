@@ -1,0 +1,43 @@
+This is ApacheBench, Version 2.3 <$Revision: 1430300 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking trust.baidu.com (be patient).....done
+
+
+Server Software:        nginx
+Server Hostname:        trust.baidu.com
+Server Port:            80
+
+Document Path:          /vcard/v.js?siteid=651156&url=http%3A%2F%2Fm.lvmama.com%2Fwebapp%2Fticket%2Fpiao-182407&source=&rnd=1447018561&hm=1
+Document Length:        0 bytes
+
+Concurrency Level:      1
+Time taken for tests:   0.736 seconds
+Complete requests:      10
+Failed requests:        0
+Write errors:           0
+Total transferred:      1200 bytes
+HTML transferred:       0 bytes
+Requests per second:    13.60 [#/sec] (mean)
+Time per request:       73.551 [ms] (mean)
+Time per request:       73.551 [ms] (mean, across all concurrent requests)
+Transfer rate:          1.59 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:       27   31   3.4     31      39
+Processing:    37   41   2.2     41      44
+Waiting:       37   39   1.7     40      42
+Total:         65   72   4.2     73      80
+
+Percentage of the requests served within a certain time (ms)
+  50%     73
+  66%     75
+  75%     75
+  80%     76
+  90%     80
+  95%     80
+  98%     80
+  99%     80
+ 100%     80 (longest request)

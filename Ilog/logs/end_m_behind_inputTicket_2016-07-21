@@ -1,0 +1,66 @@
+2016-07-21_13:00:01
+[api.com.ticket.order.inputTicketOrder 3.0.0] costTime: 98ms
+\n\t[调用主站接口获取非组合套餐票产品详情] costTime: 25ms
+\n\t[掉用主站获取门票商品详情] costTime: 5ms
+\n\t[单票调用主站接口获取6个月内最近可售价格:商品ID：936668] costTime: 51ms
+\n\t[调用主站接口判断是不是长隆票] costTime: 11ms
+2016-07-21_13:15:01
+[api.com.ticket.order.inputTicketOrder 3.0.0] costTime: 132ms
+\n\t[调用主站接口获取非组合套餐票产品详情] costTime: 57ms
+\n\t[掉用主站获取门票商品详情] costTime: 4ms
+\n\t[单票调用主站接口获取6个月内最近可售价格:商品ID：936668] costTime: 48ms
+\n\t[调用主站接口判断是不是长隆票] costTime: 8ms
+2016-07-21_13:30:02
+[api.com.ticket.order.inputTicketOrder 3.0.0] costTime: 155ms
+\n\t[调用主站接口获取非组合套餐票产品详情] costTime: 84ms
+\n\t[掉用主站获取门票商品详情] costTime: 4ms
+\n\t[单票调用主站接口获取6个月内最近可售价格:商品ID：936668] costTime: 35ms
+\n\t[调用主站接口判断是不是长隆票] costTime: 14ms
+2016-07-21_13:45:02
+[api.com.ticket.order.inputTicketOrder 3.0.0] costTime: 105ms
+\n\t[调用主站接口获取非组合套餐票产品详情] costTime: 55ms
+\n\t[掉用主站获取门票商品详情] costTime: 3ms
+\n\t[单票调用主站接口获取6个月内最近可售价格:商品ID：936668] costTime: 26ms
+\n\t[调用主站接口判断是不是长隆票] costTime: 5ms
+2016-07-21_14:00:02
+[api.com.ticket.order.inputTicketOrder 3.0.0] costTime: 176ms
+\n\t[调用主站接口获取非组合套餐票产品详情] costTime: 118ms
+\n\t[掉用主站获取门票商品详情] costTime: 4ms
+\n\t[单票调用主站接口获取6个月内最近可售价格:商品ID：936668] costTime: 28ms
+\n\t[调用主站接口判断是不是长隆票] costTime: 7ms
+2016-07-21_14:15:02
+[api.com.ticket.order.inputTicketOrder 3.0.0] costTime: 84ms
+\n\t[调用主站接口获取非组合套餐票产品详情] costTime: 32ms
+\n\t[掉用主站获取门票商品详情] costTime: 2ms
+\n\t[单票调用主站接口获取6个月内最近可售价格:商品ID：936668] costTime: 40ms
+\n\t[调用主站接口判断是不是长隆票] costTime: 5ms
+2016-07-21_14:30:03
+[api.com.ticket.order.inputTicketOrder 3.0.0] costTime: 192ms
+\n\t[调用主站接口获取非组合套餐票产品详情] costTime: 75ms
+\n\t[掉用主站获取门票商品详情] costTime: 5ms
+\n\t[单票调用主站接口获取6个月内最近可售价格:商品ID：936668] costTime: 81ms
+\n\t[调用主站接口判断是不是长隆票] costTime: 10ms
+2016-07-21_14:45:03
+[api.com.ticket.order.inputTicketOrder 3.0.0] costTime: 178ms
+\n\t[调用主站接口获取非组合套餐票产品详情] costTime: 86ms
+\n\t[掉用主站获取门票商品详情] costTime: 19ms
+\n\t[单票调用主站接口获取6个月内最近可售价格:商品ID：936668] costTime: 19ms
+\n\t[调用主站接口判断是不是长隆票] costTime: 6ms
+2016-07-21_15:00:03
+[api.com.ticket.order.inputTicketOrder 3.0.0] costTime: 97ms
+\n\t[调用主站接口获取非组合套餐票产品详情] costTime: 45ms
+\n\t[掉用主站获取门票商品详情] costTime: 2ms
+\n\t[单票调用主站接口获取6个月内最近可售价格:商品ID：936668] costTime: 37ms
+\n\t[调用主站接口判断是不是长隆票] costTime: 5ms
+2016-07-21_15:15:03
+[api.com.ticket.order.inputTicketOrder 3.0.0] costTime: 82ms
+\n\t[调用主站接口获取非组合套餐票产品详情] costTime: 26ms
+\n\t[掉用主站获取门票商品详情] costTime: 3ms
+\n\t[单票调用主站接口获取6个月内最近可售价格:商品ID：936668] costTime: 38ms
+\n\t[调用主站接口判断是不是长隆票] costTime: 4ms
+
+[api.com.ticket.order.inputTicketOrder 3.0.0] avgCostTime: 129.9ms TimeRange: 82 ~ 192ms 
+[调用主站接口获取非组合套餐票产品详情] avgCostTime: 60.3ms TimeRange: 25 ~ 118ms 
+[掉用主站获取门票商品详情] avgCostTime: 5.1ms TimeRange: 2 ~ 19ms 
+[单票调用主站接口获取6个月内最近可售价格:商品ID：936668] avgCostTime: 40.3ms TimeRange: 19 ~ 81ms 
+[调用主站接口判断是不是长隆票] avgCostTime: 7.5ms TimeRange: 4 ~ 14ms 

@@ -18,15 +18,15 @@ SLEEPTIME=$2
 	NAME="a_before_inputTicket_1"
 	#name file
 	NAMETIME=`date +%Y-%m-%d`
-	SFILE="logs/src_$NAME"
-	LFILE="logs/log_$NAME"
-	TFILE="logs/tmp_$NAME"
-	RFILE="logs/end_${NAME}_${NAMETIME}"
+	SFILE="/rd/shellstudy/Tools/Ilog/logs/src_$NAME"
+	LFILE="/rd/shellstudy/Tools/Ilog/logs/log_$NAME"
+	TFILE="/rd/shellstudy/Tools/Ilog/logs/tmp_$NAME"
+	RFILE="/rd/shellstudy/Tools/Ilog/logs/end_${NAME}_${NAMETIME}"
 	for i in `seq ${CYCLE}`
 	do
 	#获取到接口的完整数据日志
 		now=`date +%Y-%m-%d_%H:%M:%S`
-		curl "http://api3g2.lvmama.com/api/router/rest.do?method=api.com.ticket.quickorder.inputTicketQuickOrder&clientTimestamp=1468899839870&firstChannel=ANDROID&formate=json&globalLatitude=31.241897&osVersion=6.0&lvversionCode=60&lvversion=7.6.2&udid=869161026900324&globalLongitude=121.398381&secondChannel=XIAOMI&lvtukey=abe216598795ec38e174f6e58ff35b54&goodsIds=2777050&productId=622407&version=1.0.0&IS_DEBUG=1" > $SFILE
+		curl 'http://api3g2.lvmama.com/api/router/rest.do?method=api.com.ticket.order.inputTicketOrder&version=2.0.0&clientTimestamp=1468899839870&firstChannel=ANDROID&formate=json&globalLatitude=31.241897&osVersion=6.0&lvversionCode=60&lvversion=7.6.2&udid=869161026900324&globalLongitude=121.398381&secondChannel=XIAOMI&lvtukey=abe216598795ec38e174f6e58ff35b54&goodsIds=936668&productId=181551&IS_DEBUG=1' -H 'Pragma: no-cache' -H 'Accept-Encoding: gzip, deflate, sdch' -H 'Accept-Language: zh-CN,zh;q=0.8' -H 'Upgrade-Insecure-Requests: 1' -H 'User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1' -H 'Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8' -H 'Cache-Control: no-cache' -H 'Cookie: CoreID6=18247111830914682331978&ci=90409730; uid=wKgKb1eDdg0a/FAsNPfrAg==; _lvTrack_u_ud=7DCF71CD-C288-4090-8C59-108CB1B9B674; cookieNumber=499; tele=4006-040-499; cm_mmc=CPS-_-lingke-_-a-_-a; utm_source=LINKTECH; utm_medium=CPS; losc=045050; source=LINKTECH; serviceId="http://www.lvmama.com"; ltInfo=A100200613; cpsId=f23bbc602a5ab47c8147a3ae1845002e; orderFromChannel=LINKTECH; oUC=015766045050; oUT=06130614; fingerprint=00a3550f50276422124e96b63422c7a9; __xsptplus443=443.2.1468460486.1468460590.3%231%7Cbaidu10%7Csem%7Ccpc%7C%25E9%25A9%25B4%25E5%25A6%2588%25E5%25A6%2588%7C%23%2330DYqEbUDrOpDvmZ1ITYGjC-xMs4EPIy%23; cityName=%u4E0A%u6D77; oIC=080561101763101763102414; oIT=0614061906190619; _lvTrack_u_sd=9FC152F5-6EA4-4BDD-AEE0-83C1DA48C63C; _lvTrack_firstVisitTime=1468999245455; _lvTrack_preVisitTime=1468999245456; _pzfxuvpc=1468412945901%7C1414897582695916025%7C12%7C1468999245954%7C4%7C1373720779442891994%7C1255083785594942898; lvsessionid=124a36fb-6e99-422a-9fdb-06fe2f4b7e5f_17433260; ticketCityName=%u4E0A%u6D77; cityStation=SH; cityTicketId=1; cityTicketPinyin=shanghai; __utma=30114658.1519742379.1468233198.1468993099.1469065058.21; __utmb=30114658.6.10.1469065058; __utmc=30114658; __utmz=30114658.1468906863.16.4.utmcsr=mp.weixin.qq.com|utmccn=(referral)|utmcmd=referral|utmcct=/; Hm_lvt_cb09ebb4692b521604e77f4bf0a61013=1469064751; Hm_lpvt_cb09ebb4692b521604e77f4bf0a61013=1469065300; 90409730_clogin=l=1469065057&v=1&e=1469067641104' -H 'Connection: keep-alive' --compressed > $SFILE
 		echo $now >> $LFILE
 		sed 's/,/\n/g' $SFILE |grep debugMsg| awk -F '\"' '{ print $4 }' | sed 's/ms\\n/ms\n\\n/g' >> $LFILE
 		sleep ${SLEEPTIME}

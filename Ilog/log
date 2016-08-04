@@ -15,9 +15,8 @@ fi
 CYCLE=$1
 SLEEPTIME=$2
 URL=(
-"http://api3g2.lvmama.com/api/router/rest.do?method=api.com.route.common.product.getRouteDetails&clientTimestamp=1467862828973&productDestId=9&formate=json&lvversionCode=60&lvversion=7.6.2&lvsessionid=236a705b-0f92-4280-84d9-e1358aade35c&globalLongitude=121.398379&secondChannel=XIAOMI&firstChannel=ANDROID&globalLatitude=31.24187&productId=810716&version=1.0.0&osVersion=6.0&udid=869161026900324&lvtukey=19fc1ca78c7fce08caaf1870d162251c&IS_DEBUG=1"
+"http://m.lvmama.com/api/router/rest.do?method=api.com.order.getOrderByProductType&version=1.0.0&IS_DEBUG=1&lvsessionid=6e9ed030-b964-4119-9add-80cbb70ae348&lvversion=7.6.1&page=1&pageSize=7&queryType=VISA"
 )
-
 
 
 for u in ${URL[@]}
@@ -25,10 +24,10 @@ do
 {
 	NAME=`echo $u | cut -d = -f 2 | awk -F "&" '{print $1}'`
 	#name file
-	SFILE="logs/src_$NAME"
-	LFILE="logs/log_$NAME"
-	TFILE="logs/tmp_$NAME"
-	RFILE="logs/end_$NAME"
+	SFILE="/rd/shellstudy/Tools/Ilog/logs/src_$NAME"
+	LFILE="/rd/shellstudy/Tools/Ilog/logs/log_$NAME"
+	TFILE="/rd/shellstudy/Tools/Ilog/logs/tmp_$NAME"
+	RFILE="/rd/shellstudy/Tools/Ilog/logs/end_$NAME"
 	for i in `seq ${CYCLE}`
 	do
 	#获取到接口的完整数据日志
@@ -64,7 +63,7 @@ do
 	cat $RFILE | mutt -s "${NAME}_LOG" zhangqiang@lvmama.com
 } &
 done
-
+wait
 #发邮件方法
 #echo "" | mutt -s "" -t someone
 

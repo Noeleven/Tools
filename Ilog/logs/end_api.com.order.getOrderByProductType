@@ -1,264 +1,2325 @@
-2016-07-07_18:24:12
-[api.com.order.getOrderByProductType 1.0.0] costTime: 884ms
-\n\t[按产品类别查询订单] costTime: 314ms
-\n\t\t[各种品类订单总数] costTime: 98ms
-\n\t\t[查询各种品类订单] costTime: 13ms
-\n\t\t[获取VST其他订单] costTime: 80ms
-\n\t\t[处理订单详情] costTime: 67ms
-\n\t\t\t[处理门票详情] costTime: 0ms
-\n\t\t[添加在线退款功能] costTime: 7ms
-\n\t\t[判断销售渠道(团购/秒杀)] costTime: 0ms
-\n\t\t[判断订单中是否存在合同] costTime: 0ms
-\n\t\t[获取并设置目的相关信息] costTime: 9ms
-\n\t\t\t[根据产品ID查询目的地列表] costTime: 5ms
-\n\t\t\t[根据ID查询目的地] costTime: 2ms
-\n\t[获取订单详情-金额] costTime: 46ms
-\n\t[获取VST其他订单] costTime: 70ms
-\n\t[处理订单详情] costTime: 75ms
-\n\t\t[处理门票详情] costTime: 0ms
-\n\t[添加在线退款功能] costTime: 19ms
-\n\t[判断销售渠道(团购/秒杀)] costTime: 0ms
-\n\t[判断订单中是否存在合同] costTime: 0ms
-\n\t[获取并设置目的相关信息] costTime: 15ms
-\n\t\t[根据产品ID查询目的地列表] costTime: 9ms
-\n\t\t[根据ID查询目的地] costTime: 3ms
-2016-07-07_18:29:16
-[api.com.order.getOrderByProductType 1.0.0] costTime: 502ms
-\n\t[按产品类别查询订单] costTime: 237ms
-\n\t\t[各种品类订单总数] costTime: 6ms
-\n\t\t[查询各种品类订单] costTime: 13ms
-\n\t\t[获取VST其他订单] costTime: 65ms
-\n\t\t[处理订单详情] costTime: 93ms
-\n\t\t\t[处理门票详情] costTime: 0ms
-\n\t\t[添加在线退款功能] costTime: 9ms
-\n\t\t[判断销售渠道(团购/秒杀)] costTime: 0ms
-\n\t\t[判断订单中是否存在合同] costTime: 0ms
-\n\t\t[获取并设置目的相关信息] costTime: 12ms
-\n\t\t\t[根据产品ID查询目的地列表] costTime: 7ms
-\n\t\t\t[根据ID查询目的地] costTime: 3ms
-\n\t[获取订单详情-金额] costTime: 44ms
-\n\t[获取VST其他订单] costTime: 71ms
-\n\t[处理订单详情] costTime: 77ms
-\n\t\t[处理门票详情] costTime: 0ms
-\n\t[添加在线退款功能] costTime: 9ms
-\n\t[判断销售渠道(团购/秒杀)] costTime: 0ms
-\n\t[判断订单中是否存在合同] costTime: 0ms
-\n\t[获取并设置目的相关信息] costTime: 17ms
-\n\t\t[根据产品ID查询目的地列表] costTime: 10ms
-\n\t\t[根据ID查询目的地] costTime: 5ms
-2016-07-07_18:34:21
-[api.com.order.getOrderByProductType 1.0.0] costTime: 501ms
-\n\t[按产品类别查询订单] costTime: 222ms
-\n\t\t[各种品类订单总数] costTime: 8ms
-\n\t\t[查询各种品类订单] costTime: 12ms
-\n\t\t[获取VST其他订单] costTime: 73ms
-\n\t\t[处理订单详情] costTime: 78ms
-\n\t\t\t[处理门票详情] costTime: 0ms
-\n\t\t[添加在线退款功能] costTime: 8ms
-\n\t\t[判断销售渠道(团购/秒杀)] costTime: 0ms
-\n\t\t[判断订单中是否存在合同] costTime: 0ms
-\n\t\t[获取并设置目的相关信息] costTime: 10ms
-\n\t\t\t[根据产品ID查询目的地列表] costTime: 5ms
-\n\t\t\t[根据ID查询目的地] costTime: 4ms
-\n\t[获取订单详情-金额] costTime: 38ms
-\n\t[获取VST其他订单] costTime: 86ms
-\n\t[处理订单详情] costTime: 86ms
-\n\t\t[处理门票详情] costTime: 0ms
-\n\t[添加在线退款功能] costTime: 8ms
-\n\t[判断销售渠道(团购/秒杀)] costTime: 0ms
-\n\t[判断订单中是否存在合同] costTime: 0ms
-\n\t[获取并设置目的相关信息] costTime: 9ms
-\n\t\t[根据产品ID查询目的地列表] costTime: 5ms
-\n\t\t[根据ID查询目的地] costTime: 4ms
-2016-07-07_18:39:24
-[api.com.order.getOrderByProductType 1.0.0] costTime: 509ms
-\n\t[按产品类别查询订单] costTime: 219ms
-\n\t\t[各种品类订单总数] costTime: 6ms
-\n\t\t[查询各种品类订单] costTime: 15ms
-\n\t\t[获取VST其他订单] costTime: 64ms
-\n\t\t[处理订单详情] costTime: 78ms
-\n\t\t\t[处理门票详情] costTime: 0ms
-\n\t\t[添加在线退款功能] costTime: 7ms
-\n\t\t[判断销售渠道(团购/秒杀)] costTime: 0ms
-\n\t\t[判断订单中是否存在合同] costTime: 0ms
-\n\t\t[获取并设置目的相关信息] costTime: 9ms
-\n\t\t\t[根据产品ID查询目的地列表] costTime: 5ms
-\n\t\t\t[根据ID查询目的地] costTime: 3ms
-\n\t[获取订单详情-金额] costTime: 44ms
-\n\t[获取VST其他订单] costTime: 69ms
-\n\t[处理订单详情] costTime: 109ms
-\n\t\t[处理门票详情] costTime: 0ms
-\n\t[添加在线退款功能] costTime: 7ms
-\n\t[判断销售渠道(团购/秒杀)] costTime: 0ms
-\n\t[判断订单中是否存在合同] costTime: 0ms
-\n\t[获取并设置目的相关信息] costTime: 10ms
-\n\t\t[根据产品ID查询目的地列表] costTime: 7ms
-\n\t\t[根据ID查询目的地] costTime: 2ms
-2016-07-07_18:44:27
-[api.com.order.getOrderByProductType 1.0.0] costTime: 731ms
-\n\t[按产品类别查询订单] costTime: 491ms
-\n\t\t[各种品类订单总数] costTime: 10ms
-\n\t\t[查询各种品类订单] costTime: 13ms
-\n\t\t[获取VST其他订单] costTime: 70ms
-\n\t\t[处理订单详情] costTime: 82ms
-\n\t\t\t[处理门票详情] costTime: 0ms
-\n\t\t[添加在线退款功能] costTime: 9ms
-\n\t\t[判断销售渠道(团购/秒杀)] costTime: 0ms
-\n\t\t[判断订单中是否存在合同] costTime: 0ms
-\n\t\t[获取并设置目的相关信息] costTime: 265ms
-\n\t\t\t[根据产品ID查询目的地列表] costTime: 8ms
-\n\t\t\t[根据ID查询目的地] costTime: 257ms
-\n\t[获取订单详情-金额] costTime: 47ms
-\n\t[获取VST其他订单] costTime: 72ms
-\n\t[处理订单详情] costTime: 67ms
-\n\t\t[处理门票详情] costTime: 0ms
-\n\t[添加在线退款功能] costTime: 6ms
-\n\t[判断销售渠道(团购/秒杀)] costTime: 0ms
-\n\t[判断订单中是否存在合同] costTime: 0ms
-\n\t[获取并设置目的相关信息] costTime: 7ms
-\n\t\t[根据产品ID查询目的地列表] costTime: 5ms
-\n\t\t[根据ID查询目的地] costTime: 2ms
-2016-07-07_18:49:32
-[api.com.order.getOrderByProductType 1.0.0] costTime: 473ms
-\n\t[按产品类别查询订单] costTime: 236ms
-\n\t\t[各种品类订单总数] costTime: 7ms
-\n\t\t[查询各种品类订单] costTime: 17ms
-\n\t\t[获取VST其他订单] costTime: 79ms
-\n\t\t[处理订单详情] costTime: 71ms
-\n\t\t\t[处理门票详情] costTime: 0ms
-\n\t\t[添加在线退款功能] costTime: 8ms
-\n\t\t[判断销售渠道(团购/秒杀)] costTime: 0ms
-\n\t\t[判断订单中是否存在合同] costTime: 0ms
-\n\t\t[获取并设置目的相关信息] costTime: 13ms
-\n\t\t\t[根据产品ID查询目的地列表] costTime: 6ms
-\n\t\t\t[根据ID查询目的地] costTime: 4ms
-\n\t[获取订单详情-金额] costTime: 43ms
-\n\t[获取VST其他订单] costTime: 63ms
-\n\t[处理订单详情] costTime: 67ms
-\n\t\t[处理门票详情] costTime: 0ms
-\n\t[添加在线退款功能] costTime: 9ms
-\n\t[判断销售渠道(团购/秒杀)] costTime: 0ms
-\n\t[判断订单中是否存在合同] costTime: 0ms
-\n\t[获取并设置目的相关信息] costTime: 9ms
-\n\t\t[根据产品ID查询目的地列表] costTime: 5ms
-\n\t\t[根据ID查询目的地] costTime: 2ms
-2016-07-07_18:54:37
-[api.com.order.getOrderByProductType 1.0.0] costTime: 556ms
-\n\t[按产品类别查询订单] costTime: 241ms
-\n\t\t[各种品类订单总数] costTime: 5ms
-\n\t\t[查询各种品类订单] costTime: 19ms
-\n\t\t[获取VST其他订单] costTime: 66ms
-\n\t\t[处理订单详情] costTime: 82ms
-\n\t\t\t[处理门票详情] costTime: 0ms
-\n\t\t[添加在线退款功能] costTime: 6ms
-\n\t\t[判断销售渠道(团购/秒杀)] costTime: 0ms
-\n\t\t[判断订单中是否存在合同] costTime: 0ms
-\n\t\t[获取并设置目的相关信息] costTime: 8ms
-\n\t\t\t[根据产品ID查询目的地列表] costTime: 6ms
-\n\t\t\t[根据ID查询目的地] costTime: 2ms
-\n\t[获取订单详情-金额] costTime: 38ms
-\n\t[获取VST其他订单] costTime: 59ms
-\n\t[处理订单详情] costTime: 105ms
-\n\t\t[处理门票详情] costTime: 0ms
-\n\t[添加在线退款功能] costTime: 10ms
-\n\t[判断销售渠道(团购/秒杀)] costTime: 0ms
-\n\t[判断订单中是否存在合同] costTime: 0ms
-\n\t[获取并设置目的相关信息] costTime: 12ms
-\n\t\t[根据产品ID查询目的地列表] costTime: 6ms
-\n\t\t[根据ID查询目的地] costTime: 6ms
-2016-07-07_18:59:41
-[api.com.order.getOrderByProductType 1.0.0] costTime: 505ms
-\n\t[按产品类别查询订单] costTime: 265ms
-\n\t\t[各种品类订单总数] costTime: 6ms
-\n\t\t[查询各种品类订单] costTime: 13ms
-\n\t\t[获取VST其他订单] costTime: 70ms
-\n\t\t[处理订单详情] costTime: 110ms
-\n\t\t\t[处理门票详情] costTime: 0ms
-\n\t\t[添加在线退款功能] costTime: 14ms
-\n\t\t[判断销售渠道(团购/秒杀)] costTime: 0ms
-\n\t\t[判断订单中是否存在合同] costTime: 0ms
-\n\t\t[获取并设置目的相关信息] costTime: 15ms
-\n\t\t\t[根据产品ID查询目的地列表] costTime: 9ms
-\n\t\t\t[根据ID查询目的地] costTime: 6ms
-\n\t[获取订单详情-金额] costTime: 52ms
-\n\t[获取VST其他订单] costTime: 69ms
-\n\t[处理订单详情] costTime: 63ms
-\n\t\t[处理门票详情] costTime: 0ms
-\n\t[添加在线退款功能] costTime: 8ms
-\n\t[判断销售渠道(团购/秒杀)] costTime: 0ms
-\n\t[判断订单中是否存在合同] costTime: 0ms
-\n\t[获取并设置目的相关信息] costTime: 10ms
-\n\t\t[根据产品ID查询目的地列表] costTime: 6ms
-\n\t\t[根据ID查询目的地] costTime: 4ms
-2016-07-07_19:04:44
-[api.com.order.getOrderByProductType 1.0.0] costTime: 563ms
-\n\t[按产品类别查询订单] costTime: 271ms
-\n\t\t[各种品类订单总数] costTime: 5ms
-\n\t\t[查询各种品类订单] costTime: 14ms
+2016-08-02_15:29:46
+[api.com.order.getOrderByProductType 1.0.0] costTime: 2010ms
+\n\t[按产品类别查询订单] costTime: 2009ms
+\n\t\t[各种品类订单总数] costTime: 3ms
+\n\t\t[查询各种品类订单] costTime: 7ms
 \n\t\t[获取VST其他订单] costTime: 71ms
-\n\t\t[处理订单详情] costTime: 102ms
-\n\t\t\t[处理门票详情] costTime: 0ms
-\n\t\t[添加在线退款功能] costTime: 9ms
-\n\t\t[判断销售渠道(团购/秒杀)] costTime: 0ms
-\n\t\t[判断订单中是否存在合同] costTime: 0ms
-\n\t\t[获取并设置目的相关信息] costTime: 28ms
-\n\t\t\t[根据产品ID查询目的地列表] costTime: 21ms
-\n\t\t\t[根据ID查询目的地] costTime: 3ms
-\n\t[获取订单详情-金额] costTime: 45ms
-\n\t[获取VST其他订单] costTime: 90ms
-\n\t[处理订单详情] costTime: 90ms
-\n\t\t[处理门票详情] costTime: 0ms
-\n\t[添加在线退款功能] costTime: 9ms
-\n\t[判断销售渠道(团购/秒杀)] costTime: 0ms
-\n\t[判断订单中是否存在合同] costTime: 0ms
-\n\t[获取并设置目的相关信息] costTime: 12ms
-\n\t\t[根据产品ID查询目的地列表] costTime: 7ms
-\n\t\t[根据ID查询目的地] costTime: 3ms
-2016-07-07_19:09:47
-[api.com.order.getOrderByProductType 1.0.0] costTime: 536ms
-\n\t[按产品类别查询订单] costTime: 252ms
+\n\t\t[处理订单详情] costTime: 188ms
+\n\t\t\t[预授券订单列表订单处理] costTime: 99ms
+\n\t\t\t[签证订单支付成功 获取签证状态] costTime: 26ms
+\n\t\t\t[添加在线退款功能] costTime: 8ms
+\n\t\t\t[判断销售渠道(团购/秒杀)] costTime: 0ms
+\n\t\t\t[判断订单中是否存在合同] costTime: 0ms
+\n\t\t\t[获取并设置目的相关信息] costTime: 4ms
+\n\t\t\t\t[根据产品ID查询目的地列表] costTime: 4ms
+\n\t\t[获取订单详情-金额] costTime: 46ms
+\n\t\t[获取VST其他订单] costTime: 49ms
+\n\t\t[处理订单详情] costTime: 156ms
+\n\t\t\t[预授券订单列表订单处理] costTime: 66ms
+\n\t\t\t[签证订单支付成功 获取签证状态] costTime: 31ms
+\n\t\t\t[添加在线退款功能] costTime: 9ms
+\n\t\t\t[判断销售渠道(团购/秒杀)] costTime: 0ms
+\n\t\t\t[判断订单中是否存在合同] costTime: 0ms
+\n\t\t\t[获取并设置目的相关信息] costTime: 4ms
+\n\t\t\t\t[根据产品ID查询目的地列表] costTime: 4ms
+\n\t\t[获取订单详情-金额] costTime: 49ms
+\n\t\t[获取VST其他订单] costTime: 58ms
+\n\t\t[处理订单详情] costTime: 160ms
+\n\t\t\t[预授券订单列表订单处理] costTime: 69ms
+\n\t\t\t[签证订单支付成功 获取签证状态] costTime: 32ms
+\n\t\t\t[添加在线退款功能] costTime: 8ms
+\n\t\t\t[判断销售渠道(团购/秒杀)] costTime: 0ms
+\n\t\t\t[判断订单中是否存在合同] costTime: 0ms
+\n\t\t\t[获取并设置目的相关信息] costTime: 5ms
+\n\t\t\t\t[根据产品ID查询目的地列表] costTime: 5ms
+\n\t\t[获取订单详情-金额] costTime: 52ms
+\n\t\t[获取VST其他订单] costTime: 56ms
+\n\t\t[处理订单详情] costTime: 155ms
+\n\t\t\t[预授券订单列表订单处理] costTime: 60ms
+\n\t\t\t[签证订单支付成功 获取签证状态] costTime: 22ms
+\n\t\t\t[添加在线退款功能] costTime: 8ms
+\n\t\t\t[判断销售渠道(团购/秒杀)] costTime: 0ms
+\n\t\t\t[判断订单中是否存在合同] costTime: 0ms
+\n\t\t\t[获取并设置目的相关信息] costTime: 6ms
+\n\t\t\t\t[根据产品ID查询目的地列表] costTime: 6ms
+\n\t\t[获取订单详情-金额] costTime: 43ms
+\n\t\t[获取VST其他订单] costTime: 57ms
+\n\t\t[处理订单详情] costTime: 184ms
+\n\t\t\t[预授券订单列表订单处理] costTime: 61ms
+\n\t\t\t[签证订单支付成功 获取签证状态] costTime: 42ms
+\n\t\t\t[添加在线退款功能] costTime: 7ms
+\n\t\t\t[判断销售渠道(团购/秒杀)] costTime: 0ms
+\n\t\t\t[判断订单中是否存在合同] costTime: 0ms
+\n\t\t\t[获取并设置目的相关信息] costTime: 6ms
+\n\t\t\t\t[根据产品ID查询目的地列表] costTime: 6ms
+\n\t\t[获取订单详情-金额] costTime: 48ms
+\n\t\t[获取VST其他订单] costTime: 62ms
+\n\t\t[处理订单详情] costTime: 159ms
+\n\t\t\t[预授券订单列表订单处理] costTime: 67ms
+\n\t\t\t[签证订单支付成功 获取签证状态] costTime: 21ms
+\n\t\t\t[添加在线退款功能] costTime: 13ms
+\n\t\t\t[判断销售渠道(团购/秒杀)] costTime: 0ms
+\n\t\t\t[判断订单中是否存在合同] costTime: 0ms
+\n\t\t\t[获取并设置目的相关信息] costTime: 7ms
+\n\t\t\t\t[根据产品ID查询目的地列表] costTime: 7ms
+\n\t\t[获取订单详情-金额] costTime: 42ms
+\n\t\t[获取VST其他订单] costTime: 85ms
+\n\t\t[处理订单详情] costTime: 238ms
+\n\t\t\t[预授券订单列表订单处理] costTime: 144ms
+\n\t\t\t[签证订单支付成功 获取签证状态] costTime: 32ms
+\n\t\t\t[添加在线退款功能] costTime: 7ms
+\n\t\t\t[判断销售渠道(团购/秒杀)] costTime: 0ms
+\n\t\t\t[判断订单中是否存在合同] costTime: 0ms
+\n\t\t\t[获取并设置目的相关信息] costTime: 4ms
+\n\t\t\t\t[根据产品ID查询目的地列表] costTime: 4ms
+\n\t\t[获取订单详情-金额] costTime: 40ms
+2016-08-02_15:41:28
+[api.com.order.getOrderByProductType 1.0.0] costTime: 1961ms
+\n\t[按产品类别查询订单] costTime: 1959ms
+\n\t\t[各种品类订单总数] costTime: 4ms
+\n\t\t[查询各种品类订单] costTime: 12ms
+\n\t\t[获取VST其他订单] costTime: 51ms
+\n\t\t[处理订单详情] costTime: 162ms
+\n\t\t\t[预授券订单列表订单处理] costTime: 86ms
+\n\t\t\t[签证订单支付成功 获取签证状态] costTime: 20ms
+\n\t\t\t[添加在线退款功能] costTime: 6ms
+\n\t\t\t[判断销售渠道(团购/秒杀)] costTime: 0ms
+\n\t\t\t[判断订单中是否存在合同] costTime: 0ms
+\n\t\t\t[获取并设置目的相关信息] costTime: 6ms
+\n\t\t\t\t[根据产品ID查询目的地列表] costTime: 6ms
+\n\t\t[获取订单详情-金额] costTime: 54ms
+\n\t\t[获取VST其他订单] costTime: 64ms
+\n\t\t[处理订单详情] costTime: 167ms
+\n\t\t\t[预授券订单列表订单处理] costTime: 71ms
+\n\t\t\t[签证订单支付成功 获取签证状态] costTime: 32ms
+\n\t\t\t[添加在线退款功能] costTime: 7ms
+\n\t\t\t[判断销售渠道(团购/秒杀)] costTime: 0ms
+\n\t\t\t[判断订单中是否存在合同] costTime: 0ms
+\n\t\t\t[获取并设置目的相关信息] costTime: 12ms
+\n\t\t\t\t[根据产品ID查询目的地列表] costTime: 12ms
+\n\t\t[获取订单详情-金额] costTime: 43ms
+\n\t\t[获取VST其他订单] costTime: 51ms
+\n\t\t[处理订单详情] costTime: 170ms
+\n\t\t\t[预授券订单列表订单处理] costTime: 71ms
+\n\t\t\t[签证订单支付成功 获取签证状态] costTime: 32ms
+\n\t\t\t[添加在线退款功能] costTime: 8ms
+\n\t\t\t[判断销售渠道(团购/秒杀)] costTime: 0ms
+\n\t\t\t[判断订单中是否存在合同] costTime: 0ms
+\n\t\t\t[获取并设置目的相关信息] costTime: 6ms
+\n\t\t\t\t[根据产品ID查询目的地列表] costTime: 6ms
+\n\t\t[获取订单详情-金额] costTime: 49ms
+\n\t\t[获取VST其他订单] costTime: 54ms
+\n\t\t[处理订单详情] costTime: 139ms
+\n\t\t\t[预授券订单列表订单处理] costTime: 69ms
+\n\t\t\t[签证订单支付成功 获取签证状态] costTime: 18ms
+\n\t\t\t[添加在线退款功能] costTime: 6ms
+\n\t\t\t[判断销售渠道(团购/秒杀)] costTime: 0ms
+\n\t\t\t[判断订单中是否存在合同] costTime: 0ms
+\n\t\t\t[获取并设置目的相关信息] costTime: 5ms
+\n\t\t\t\t[根据产品ID查询目的地列表] costTime: 5ms
+\n\t\t[获取订单详情-金额] costTime: 54ms
+\n\t\t[获取VST其他订单] costTime: 97ms
+\n\t\t[处理订单详情] costTime: 215ms
+\n\t\t\t[预授券订单列表订单处理] costTime: 121ms
+\n\t\t\t[签证订单支付成功 获取签证状态] costTime: 28ms
+\n\t\t\t[添加在线退款功能] costTime: 6ms
+\n\t\t\t[判断销售渠道(团购/秒杀)] costTime: 0ms
+\n\t\t\t[判断订单中是否存在合同] costTime: 1ms
+\n\t\t\t[获取并设置目的相关信息] costTime: 4ms
+\n\t\t\t\t[根据产品ID查询目的地列表] costTime: 4ms
+\n\t\t[获取订单详情-金额] costTime: 48ms
+\n\t\t[获取VST其他订单] costTime: 62ms
+\n\t\t[处理订单详情] costTime: 142ms
+\n\t\t\t[预授券订单列表订单处理] costTime: 53ms
+\n\t\t\t[签证订单支付成功 获取签证状态] costTime: 21ms
+\n\t\t\t[添加在线退款功能] costTime: 7ms
+\n\t\t\t[判断销售渠道(团购/秒杀)] costTime: 0ms
+\n\t\t\t[判断订单中是否存在合同] costTime: 0ms
+\n\t\t\t[获取并设置目的相关信息] costTime: 7ms
+\n\t\t\t\t[根据产品ID查询目的地列表] costTime: 7ms
+\n\t\t[获取订单详情-金额] costTime: 53ms
+\n\t\t[获取VST其他订单] costTime: 67ms
+\n\t\t[处理订单详情] costTime: 154ms
+\n\t\t\t[预授券订单列表订单处理] costTime: 71ms
+\n\t\t\t[签证订单支付成功 获取签证状态] costTime: 23ms
+\n\t\t\t[添加在线退款功能] costTime: 7ms
+\n\t\t\t[判断销售渠道(团购/秒杀)] costTime: 0ms
+\n\t\t\t[判断订单中是否存在合同] costTime: 0ms
+\n\t\t\t[获取并设置目的相关信息] costTime: 3ms
+\n\t\t\t\t[根据产品ID查询目的地列表] costTime: 3ms
+\n\t\t[获取订单详情-金额] costTime: 47ms
+2016-08-02_15:53:10
+[api.com.order.getOrderByProductType 1.0.0] costTime: 2677ms
+\n\t[按产品类别查询订单] costTime: 2675ms
+\n\t\t[各种品类订单总数] costTime: 3ms
+\n\t\t[查询各种品类订单] costTime: 8ms
+\n\t\t[获取VST其他订单] costTime: 122ms
+\n\t\t[处理订单详情] costTime: 179ms
+\n\t\t\t[预授券订单列表订单处理] costTime: 54ms
+\n\t\t\t[签证订单支付成功 获取签证状态] costTime: 23ms
+\n\t\t\t[添加在线退款功能] costTime: 8ms
+\n\t\t\t[判断销售渠道(团购/秒杀)] costTime: 0ms
+\n\t\t\t[判断订单中是否存在合同] costTime: 0ms
+\n\t\t\t[获取并设置目的相关信息] costTime: 44ms
+\n\t\t\t\t[根据产品ID查询目的地列表] costTime: 44ms
+\n\t\t[获取订单详情-金额] costTime: 60ms
+\n\t\t[获取VST其他订单] costTime: 75ms
+\n\t\t[处理订单详情] costTime: 201ms
+\n\t\t\t[预授券订单列表订单处理] costTime: 91ms
+\n\t\t\t[签证订单支付成功 获取签证状态] costTime: 52ms
+\n\t\t\t[添加在线退款功能] costTime: 7ms
+\n\t\t\t[判断销售渠道(团购/秒杀)] costTime: 0ms
+\n\t\t\t[判断订单中是否存在合同] costTime: 0ms
+\n\t\t\t[获取并设置目的相关信息] costTime: 5ms
+\n\t\t\t\t[根据产品ID查询目的地列表] costTime: 5ms
+\n\t\t[获取订单详情-金额] costTime: 58ms
+\n\t\t[获取VST其他订单] costTime: 57ms
+\n\t\t[处理订单详情] costTime: 390ms
+\n\t\t\t[预授券订单列表订单处理] costTime: 161ms
+\n\t\t\t[签证订单支付成功 获取签证状态] costTime: 20ms
+\n\t\t\t[添加在线退款功能] costTime: 95ms
+\n\t\t\t[判断销售渠道(团购/秒杀)] costTime: 0ms
+\n\t\t\t[判断订单中是否存在合同] costTime: 0ms
+\n\t\t\t[获取并设置目的相关信息] costTime: 58ms
+\n\t\t\t\t[根据产品ID查询目的地列表] costTime: 58ms
+\n\t\t[获取订单详情-金额] costTime: 77ms
+\n\t\t[获取VST其他订单] costTime: 56ms
+\n\t\t[处理订单详情] costTime: 145ms
+\n\t\t\t[预授券订单列表订单处理] costTime: 68ms
+\n\t\t\t[签证订单支付成功 获取签证状态] costTime: 14ms
+\n\t\t\t[添加在线退款功能] costTime: 9ms
+\n\t\t\t[判断销售渠道(团购/秒杀)] costTime: 0ms
+\n\t\t\t[判断订单中是否存在合同] costTime: 0ms
+\n\t\t\t[获取并设置目的相关信息] costTime: 4ms
+\n\t\t\t\t[根据产品ID查询目的地列表] costTime: 4ms
+\n\t\t[获取订单详情-金额] costTime: 54ms
+\n\t\t[获取VST其他订单] costTime: 54ms
+\n\t\t[处理订单详情] costTime: 160ms
+\n\t\t\t[预授券订单列表订单处理] costTime: 68ms
+\n\t\t\t[签证订单支付成功 获取签证状态] costTime: 23ms
+\n\t\t\t[添加在线退款功能] costTime: 7ms
+\n\t\t\t[判断销售渠道(团购/秒杀)] costTime: 0ms
+\n\t\t\t[判断订单中是否存在合同] costTime: 0ms
+\n\t\t\t[获取并设置目的相关信息] costTime: 7ms
+\n\t\t\t\t[根据产品ID查询目的地列表] costTime: 7ms
+\n\t\t[获取订单详情-金额] costTime: 62ms
+\n\t\t[获取VST其他订单] costTime: 43ms
+\n\t\t[处理订单详情] costTime: 280ms
+\n\t\t\t[预授券订单列表订单处理] costTime: 192ms
+\n\t\t\t[签证订单支付成功 获取签证状态] costTime: 21ms
+\n\t\t\t[添加在线退款功能] costTime: 7ms
+\n\t\t\t[判断销售渠道(团购/秒杀)] costTime: 0ms
+\n\t\t\t[判断订单中是否存在合同] costTime: 0ms
+\n\t\t\t[获取并设置目的相关信息] costTime: 6ms
+\n\t\t\t\t[根据产品ID查询目的地列表] costTime: 6ms
+\n\t\t[获取订单详情-金额] costTime: 61ms
+\n\t\t[获取VST其他订单] costTime: 95ms
+\n\t\t[处理订单详情] costTime: 380ms
+\n\t\t\t[预授券订单列表订单处理] costTime: 209ms
+\n\t\t\t[签证订单支付成功 获取签证状态] costTime: 30ms
+\n\t\t\t[添加在线退款功能] costTime: 88ms
+\n\t\t\t[判断销售渠道(团购/秒杀)] costTime: 0ms
+\n\t\t\t[判断订单中是否存在合同] costTime: 0ms
+\n\t\t\t[获取并设置目的相关信息] costTime: 6ms
+\n\t\t\t\t[根据产品ID查询目的地列表] costTime: 6ms
+\n\t\t[获取订单详情-金额] costTime: 55ms
+2016-08-02_16:04:53
+[api.com.order.getOrderByProductType 1.0.0] costTime: 2114ms
+\n\t[按产品类别查询订单] costTime: 2113ms
+\n\t\t[各种品类订单总数] costTime: 3ms
+\n\t\t[查询各种品类订单] costTime: 9ms
+\n\t\t[获取VST其他订单] costTime: 61ms
+\n\t\t[处理订单详情] costTime: 180ms
+\n\t\t\t[预授券订单列表订单处理] costTime: 65ms
+\n\t\t\t[签证订单支付成功 获取签证状态] costTime: 35ms
+\n\t\t\t[添加在线退款功能] costTime: 9ms
+\n\t\t\t[判断销售渠道(团购/秒杀)] costTime: 0ms
+\n\t\t\t[判断订单中是否存在合同] costTime: 0ms
+\n\t\t\t[获取并设置目的相关信息] costTime: 5ms
+\n\t\t\t\t[根据产品ID查询目的地列表] costTime: 5ms
+\n\t\t[获取订单详情-金额] costTime: 54ms
+\n\t\t[获取VST其他订单] costTime: 47ms
+\n\t\t[处理订单详情] costTime: 170ms
+\n\t\t\t[预授券订单列表订单处理] costTime: 69ms
+\n\t\t\t[签证订单支付成功 获取签证状态] costTime: 37ms
+\n\t\t\t[添加在线退款功能] costTime: 9ms
+\n\t\t\t[判断销售渠道(团购/秒杀)] costTime: 0ms
+\n\t\t\t[判断订单中是否存在合同] costTime: 0ms
+\n\t\t\t[获取并设置目的相关信息] costTime: 3ms
+\n\t\t\t\t[根据产品ID查询目的地列表] costTime: 3ms
+\n\t\t[获取订单详情-金额] costTime: 47ms
+\n\t\t[获取VST其他订单] costTime: 61ms
+\n\t\t[处理订单详情] costTime: 160ms
+\n\t\t\t[预授券订单列表订单处理] costTime: 70ms
+\n\t\t\t[签证订单支付成功 获取签证状态] costTime: 35ms
+\n\t\t\t[添加在线退款功能] costTime: 8ms
+\n\t\t\t[判断销售渠道(团购/秒杀)] costTime: 0ms
+\n\t\t\t[判断订单中是否存在合同] costTime: 0ms
+\n\t\t\t[获取并设置目的相关信息] costTime: 9ms
+\n\t\t\t\t[根据产品ID查询目的地列表] costTime: 9ms
+\n\t\t[获取订单详情-金额] costTime: 50ms
+\n\t\t[获取VST其他订单] costTime: 88ms
+\n\t\t[处理订单详情] costTime: 149ms
+\n\t\t\t[预授券订单列表订单处理] costTime: 53ms
+\n\t\t\t[签证订单支付成功 获取签证状态] costTime: 30ms
+\n\t\t\t[添加在线退款功能] costTime: 7ms
+\n\t\t\t[判断销售渠道(团购/秒杀)] costTime: 0ms
+\n\t\t\t[判断订单中是否存在合同] costTime: 0ms
+\n\t\t\t[获取并设置目的相关信息] costTime: 6ms
+\n\t\t\t\t[根据产品ID查询目的地列表] costTime: 6ms
+\n\t\t[获取订单详情-金额] costTime: 50ms
+\n\t\t[获取VST其他订单] costTime: 53ms
+\n\t\t[处理订单详情] costTime: 169ms
+\n\t\t\t[预授券订单列表订单处理] costTime: 66ms
+\n\t\t\t[签证订单支付成功 获取签证状态] costTime: 36ms
+\n\t\t\t[添加在线退款功能] costTime: 8ms
+\n\t\t\t[判断销售渠道(团购/秒杀)] costTime: 0ms
+\n\t\t\t[判断订单中是否存在合同] costTime: 0ms
+\n\t\t\t[获取并设置目的相关信息] costTime: 9ms
+\n\t\t\t\t[根据产品ID查询目的地列表] costTime: 9ms
+\n\t\t[获取订单详情-金额] costTime: 49ms
+\n\t\t[获取VST其他订单] costTime: 51ms
+\n\t\t[处理订单详情] costTime: 148ms
+\n\t\t\t[预授券订单列表订单处理] costTime: 52ms
+\n\t\t\t[签证订单支付成功 获取签证状态] costTime: 28ms
+\n\t\t\t[添加在线退款功能] costTime: 9ms
+\n\t\t\t[判断销售渠道(团购/秒杀)] costTime: 0ms
+\n\t\t\t[判断订单中是否存在合同] costTime: 0ms
+\n\t\t\t[获取并设置目的相关信息] costTime: 6ms
+\n\t\t\t\t[根据产品ID查询目的地列表] costTime: 6ms
+\n\t\t[获取订单详情-金额] costTime: 128ms
+\n\t\t[获取VST其他订单] costTime: 115ms
+\n\t\t[处理订单详情] costTime: 214ms
+\n\t\t\t[预授券订单列表订单处理] costTime: 117ms
+\n\t\t\t[签证订单支付成功 获取签证状态] costTime: 23ms
+\n\t\t\t[添加在线退款功能] costTime: 11ms
+\n\t\t\t[判断销售渠道(团购/秒杀)] costTime: 0ms
+\n\t\t\t[判断订单中是否存在合同] costTime: 0ms
+\n\t\t\t[获取并设置目的相关信息] costTime: 6ms
+\n\t\t\t\t[根据产品ID查询目的地列表] costTime: 6ms
+\n\t\t[获取订单详情-金额] costTime: 57ms
+2016-08-02_16:16:36
+[api.com.order.getOrderByProductType 1.0.0] costTime: 2628ms
+\n\t[按产品类别查询订单] costTime: 2625ms
+\n\t\t[各种品类订单总数] costTime: 12ms
+\n\t\t[查询各种品类订单] costTime: 9ms
+\n\t\t[获取VST其他订单] costTime: 68ms
+\n\t\t[处理订单详情] costTime: 421ms
+\n\t\t\t[预授券订单列表订单处理] costTime: 331ms
+\n\t\t\t[签证订单支付成功 获取签证状态] costTime: 25ms
+\n\t\t\t[添加在线退款功能] costTime: 8ms
+\n\t\t\t[判断销售渠道(团购/秒杀)] costTime: 0ms
+\n\t\t\t[判断订单中是否存在合同] costTime: 0ms
+\n\t\t\t[获取并设置目的相关信息] costTime: 5ms
+\n\t\t\t\t[根据产品ID查询目的地列表] costTime: 5ms
+\n\t\t[获取订单详情-金额] costTime: 99ms
+\n\t\t[获取VST其他订单] costTime: 63ms
+\n\t\t[处理订单详情] costTime: 180ms
+\n\t\t\t[预授券订单列表订单处理] costTime: 74ms
+\n\t\t\t[签证订单支付成功 获取签证状态] costTime: 35ms
+\n\t\t\t[添加在线退款功能] costTime: 10ms
+\n\t\t\t[判断销售渠道(团购/秒杀)] costTime: 0ms
+\n\t\t\t[判断订单中是否存在合同] costTime: 0ms
+\n\t\t\t[获取并设置目的相关信息] costTime: 5ms
+\n\t\t\t\t[根据产品ID查询目的地列表] costTime: 5ms
+\n\t\t[获取订单详情-金额] costTime: 61ms
+\n\t\t[获取VST其他订单] costTime: 63ms
+\n\t\t[处理订单详情] costTime: 237ms
+\n\t\t\t[预授券订单列表订单处理] costTime: 153ms
+\n\t\t\t[签证订单支付成功 获取签证状态] costTime: 23ms
+\n\t\t\t[添加在线退款功能] costTime: 8ms
+\n\t\t\t[判断销售渠道(团购/秒杀)] costTime: 0ms
+\n\t\t\t[判断订单中是否存在合同] costTime: 0ms
+\n\t\t\t[获取并设置目的相关信息] costTime: 4ms
+\n\t\t\t\t[根据产品ID查询目的地列表] costTime: 4ms
+\n\t\t[获取订单详情-金额] costTime: 56ms
+\n\t\t[获取VST其他订单] costTime: 81ms
+\n\t\t[处理订单详情] costTime: 303ms
+\n\t\t\t[预授券订单列表订单处理] costTime: 70ms
+\n\t\t\t[签证订单支付成功 获取签证状态] costTime: 26ms
+\n\t\t\t[添加在线退款功能] costTime: 10ms
+\n\t\t\t[判断销售渠道(团购/秒杀)] costTime: 0ms
+\n\t\t\t[判断订单中是否存在合同] costTime: 0ms
+\n\t\t\t[获取并设置目的相关信息] costTime: 4ms
+\n\t\t\t\t[根据产品ID查询目的地列表] costTime: 4ms
+\n\t\t[获取订单详情-金额] costTime: 64ms
+\n\t\t[获取VST其他订单] costTime: 59ms
+\n\t\t[处理订单详情] costTime: 148ms
+\n\t\t\t[预授券订单列表订单处理] costTime: 62ms
+\n\t\t\t[签证订单支付成功 获取签证状态] costTime: 23ms
+\n\t\t\t[添加在线退款功能] costTime: 9ms
+\n\t\t\t[判断销售渠道(团购/秒杀)] costTime: 0ms
+\n\t\t\t[判断订单中是否存在合同] costTime: 0ms
+\n\t\t\t[获取并设置目的相关信息] costTime: 5ms
+\n\t\t\t\t[根据产品ID查询目的地列表] costTime: 5ms
+\n\t\t[获取订单详情-金额] costTime: 69ms
+\n\t\t[获取VST其他订单] costTime: 65ms
+\n\t\t[处理订单详情] costTime: 216ms
+\n\t\t\t[预授券订单列表订单处理] costTime: 93ms
+\n\t\t\t[签证订单支付成功 获取签证状态] costTime: 15ms
+\n\t\t\t[添加在线退款功能] costTime: 21ms
+\n\t\t\t[判断销售渠道(团购/秒杀)] costTime: 0ms
+\n\t\t\t[判断订单中是否存在合同] costTime: 0ms
+\n\t\t\t[获取并设置目的相关信息] costTime: 24ms
+\n\t\t\t\t[根据产品ID查询目的地列表] costTime: 24ms
+\n\t\t[获取订单详情-金额] costTime: 71ms
+\n\t\t[获取VST其他订单] costTime: 62ms
+\n\t\t[处理订单详情] costTime: 163ms
+\n\t\t\t[预授券订单列表订单处理] costTime: 74ms
+\n\t\t\t[签证订单支付成功 获取签证状态] costTime: 20ms
+\n\t\t\t[添加在线退款功能] costTime: 6ms
+\n\t\t\t[判断销售渠道(团购/秒杀)] costTime: 0ms
+\n\t\t\t[判断订单中是否存在合同] costTime: 0ms
+\n\t\t\t[获取并设置目的相关信息] costTime: 7ms
+\n\t\t\t\t[根据产品ID查询目的地列表] costTime: 7ms
+\n\t\t[获取订单详情-金额] costTime: 54ms
+2016-08-02_16:28:19
+[api.com.order.getOrderByProductType 1.0.0] costTime: 2099ms
+\n\t[按产品类别查询订单] costTime: 2098ms
+\n\t\t[各种品类订单总数] costTime: 5ms
+\n\t\t[查询各种品类订单] costTime: 6ms
+\n\t\t[获取VST其他订单] costTime: 58ms
+\n\t\t[处理订单详情] costTime: 143ms
+\n\t\t\t[预授券订单列表订单处理] costTime: 57ms
+\n\t\t\t[签证订单支付成功 获取签证状态] costTime: 24ms
+\n\t\t\t[添加在线退款功能] costTime: 8ms
+\n\t\t\t[判断销售渠道(团购/秒杀)] costTime: 0ms
+\n\t\t\t[判断订单中是否存在合同] costTime: 0ms
+\n\t\t\t[获取并设置目的相关信息] costTime: 6ms
+\n\t\t\t\t[根据产品ID查询目的地列表] costTime: 6ms
+\n\t\t[获取订单详情-金额] costTime: 57ms
+\n\t\t[获取VST其他订单] costTime: 45ms
+\n\t\t[处理订单详情] costTime: 210ms
+\n\t\t\t[预授券订单列表订单处理] costTime: 107ms
+\n\t\t\t[签证订单支付成功 获取签证状态] costTime: 49ms
+\n\t\t\t[添加在线退款功能] costTime: 12ms
+\n\t\t\t[判断销售渠道(团购/秒杀)] costTime: 0ms
+\n\t\t\t[判断订单中是否存在合同] costTime: 0ms
+\n\t\t\t[获取并设置目的相关信息] costTime: 6ms
+\n\t\t\t\t[根据产品ID查询目的地列表] costTime: 6ms
+\n\t\t[获取订单详情-金额] costTime: 49ms
+\n\t\t[获取VST其他订单] costTime: 44ms
+\n\t\t[处理订单详情] costTime: 228ms
+\n\t\t\t[预授券订单列表订单处理] costTime: 63ms
+\n\t\t\t[签证订单支付成功 获取签证状态] costTime: 99ms
+\n\t\t\t[添加在线退款功能] costTime: 8ms
+\n\t\t\t[判断销售渠道(团购/秒杀)] costTime: 0ms
+\n\t\t\t[判断订单中是否存在合同] costTime: 0ms
+\n\t\t\t[获取并设置目的相关信息] costTime: 6ms
+\n\t\t\t\t[根据产品ID查询目的地列表] costTime: 6ms
+\n\t\t[获取订单详情-金额] costTime: 57ms
+\n\t\t[获取VST其他订单] costTime: 99ms
+\n\t\t[处理订单详情] costTime: 153ms
+\n\t\t\t[预授券订单列表订单处理] costTime: 66ms
+\n\t\t\t[签证订单支付成功 获取签证状态] costTime: 32ms
+\n\t\t\t[添加在线退款功能] costTime: 9ms
+\n\t\t\t[判断销售渠道(团购/秒杀)] costTime: 0ms
+\n\t\t\t[判断订单中是否存在合同] costTime: 0ms
+\n\t\t\t[获取并设置目的相关信息] costTime: 5ms
+\n\t\t\t\t[根据产品ID查询目的地列表] costTime: 5ms
+\n\t\t[获取订单详情-金额] costTime: 76ms
+\n\t\t[获取VST其他订单] costTime: 45ms
+\n\t\t[处理订单详情] costTime: 160ms
+\n\t\t\t[预授券订单列表订单处理] costTime: 77ms
+\n\t\t\t[签证订单支付成功 获取签证状态] costTime: 33ms
+\n\t\t\t[添加在线退款功能] costTime: 7ms
+\n\t\t\t[判断销售渠道(团购/秒杀)] costTime: 0ms
+\n\t\t\t[判断订单中是否存在合同] costTime: 0ms
+\n\t\t\t[获取并设置目的相关信息] costTime: 5ms
+\n\t\t\t\t[根据产品ID查询目的地列表] costTime: 5ms
+\n\t\t[获取订单详情-金额] costTime: 58ms
+\n\t\t[获取VST其他订单] costTime: 52ms
+\n\t\t[处理订单详情] costTime: 191ms
+\n\t\t\t[预授券订单列表订单处理] costTime: 82ms
+\n\t\t\t[签证订单支付成功 获取签证状态] costTime: 38ms
+\n\t\t\t[添加在线退款功能] costTime: 8ms
+\n\t\t\t[判断销售渠道(团购/秒杀)] costTime: 0ms
+\n\t\t\t[判断订单中是否存在合同] costTime: 0ms
+\n\t\t\t[获取并设置目的相关信息] costTime: 11ms
+\n\t\t\t\t[根据产品ID查询目的地列表] costTime: 11ms
+\n\t\t[获取订单详情-金额] costTime: 54ms
+\n\t\t[获取VST其他订单] costTime: 63ms
+\n\t\t[处理订单详情] costTime: 188ms
+\n\t\t\t[预授券订单列表订单处理] costTime: 61ms
+\n\t\t\t[签证订单支付成功 获取签证状态] costTime: 25ms
+\n\t\t\t[添加在线退款功能] costTime: 8ms
+\n\t\t\t[判断销售渠道(团购/秒杀)] costTime: 0ms
+\n\t\t\t[判断订单中是否存在合同] costTime: 0ms
+\n\t\t\t[获取并设置目的相关信息] costTime: 16ms
+\n\t\t\t\t[根据产品ID查询目的地列表] costTime: 16ms
+\n\t\t[获取订单详情-金额] costTime: 57ms
+2016-08-02_16:40:01
+[api.com.order.getOrderByProductType 1.0.0] costTime: 2538ms
+\n\t[按产品类别查询订单] costTime: 2534ms
+\n\t\t[各种品类订单总数] costTime: 8ms
+\n\t\t[查询各种品类订单] costTime: 11ms
+\n\t\t[获取VST其他订单] costTime: 64ms
+\n\t\t[处理订单详情] costTime: 187ms
+\n\t\t\t[预授券订单列表订单处理] costTime: 67ms
+\n\t\t\t[签证订单支付成功 获取签证状态] costTime: 23ms
+\n\t\t\t[添加在线退款功能] costTime: 8ms
+\n\t\t\t[判断销售渠道(团购/秒杀)] costTime: 0ms
+\n\t\t\t[判断订单中是否存在合同] costTime: 0ms
+\n\t\t\t[获取并设置目的相关信息] costTime: 6ms
+\n\t\t\t\t[根据产品ID查询目的地列表] costTime: 6ms
+\n\t\t[获取订单详情-金额] costTime: 70ms
+\n\t\t[获取VST其他订单] costTime: 53ms
+\n\t\t[处理订单详情] costTime: 276ms
+\n\t\t\t[预授券订单列表订单处理] costTime: 85ms
+\n\t\t\t[签证订单支付成功 获取签证状态] costTime: 72ms
+\n\t\t\t[添加在线退款功能] costTime: 9ms
+\n\t\t\t[判断销售渠道(团购/秒杀)] costTime: 0ms
+\n\t\t\t[判断订单中是否存在合同] costTime: 0ms
+\n\t\t\t[获取并设置目的相关信息] costTime: 6ms
+\n\t\t\t\t[根据产品ID查询目的地列表] costTime: 6ms
+\n\t\t[获取订单详情-金额] costTime: 49ms
+\n\t\t[获取VST其他订单] costTime: 60ms
+\n\t\t[处理订单详情] costTime: 289ms
+\n\t\t\t[预授券订单列表订单处理] costTime: 168ms
+\n\t\t\t[签证订单支付成功 获取签证状态] costTime: 25ms
+\n\t\t\t[添加在线退款功能] costTime: 9ms
+\n\t\t\t[判断销售渠道(团购/秒杀)] costTime: 0ms
+\n\t\t\t[判断订单中是否存在合同] costTime: 0ms
+\n\t\t\t[获取并设置目的相关信息] costTime: 19ms
+\n\t\t\t\t[根据产品ID查询目的地列表] costTime: 19ms
+\n\t\t[获取订单详情-金额] costTime: 63ms
+\n\t\t[获取VST其他订单] costTime: 72ms
+\n\t\t[处理订单详情] costTime: 255ms
+\n\t\t\t[预授券订单列表订单处理] costTime: 72ms
+\n\t\t\t[签证订单支付成功 获取签证状态] costTime: 72ms
+\n\t\t\t[添加在线退款功能] costTime: 36ms
+\n\t\t\t[判断销售渠道(团购/秒杀)] costTime: 0ms
+\n\t\t\t[判断订单中是否存在合同] costTime: 0ms
+\n\t\t\t[获取并设置目的相关信息] costTime: 5ms
+\n\t\t\t\t[根据产品ID查询目的地列表] costTime: 5ms
+\n\t\t[获取订单详情-金额] costTime: 57ms
+\n\t\t[获取VST其他订单] costTime: 63ms
+\n\t\t[处理订单详情] costTime: 216ms
+\n\t\t\t[预授券订单列表订单处理] costTime: 67ms
+\n\t\t\t[签证订单支付成功 获取签证状态] costTime: 41ms
+\n\t\t\t[添加在线退款功能] costTime: 7ms
+\n\t\t\t[判断销售渠道(团购/秒杀)] costTime: 0ms
+\n\t\t\t[判断订单中是否存在合同] costTime: 0ms
+\n\t\t\t[获取并设置目的相关信息] costTime: 60ms
+\n\t\t\t\t[根据产品ID查询目的地列表] costTime: 60ms
+\n\t\t[获取订单详情-金额] costTime: 50ms
+\n\t\t[获取VST其他订单] costTime: 40ms
+\n\t\t[处理订单详情] costTime: 209ms
+\n\t\t\t[预授券订单列表订单处理] costTime: 128ms
+\n\t\t\t[签证订单支付成功 获取签证状态] costTime: 30ms
+\n\t\t\t[添加在线退款功能] costTime: 11ms
+\n\t\t\t[判断销售渠道(团购/秒杀)] costTime: 0ms
+\n\t\t\t[判断订单中是否存在合同] costTime: 0ms
+\n\t\t\t[获取并设置目的相关信息] costTime: 10ms
+\n\t\t\t\t[根据产品ID查询目的地列表] costTime: 10ms
+\n\t\t[获取订单详情-金额] costTime: 45ms
+\n\t\t[获取VST其他订单] costTime: 56ms
+\n\t\t[处理订单详情] costTime: 261ms
+\n\t\t\t[预授券订单列表订单处理] costTime: 51ms
+\n\t\t\t[签证订单支付成功 获取签证状态] costTime: 31ms
+\n\t\t\t[添加在线退款功能] costTime: 7ms
+\n\t\t\t[判断销售渠道(团购/秒杀)] costTime: 0ms
+\n\t\t\t[判断订单中是否存在合同] costTime: 0ms
+\n\t\t\t[获取并设置目的相关信息] costTime: 131ms
+\n\t\t\t\t[根据产品ID查询目的地列表] costTime: 131ms
+\n\t\t[获取订单详情-金额] costTime: 80ms
+2016-08-02_16:51:44
+[api.com.order.getOrderByProductType 1.0.0] costTime: 2202ms
+\n\t[按产品类别查询订单] costTime: 2200ms
+\n\t\t[各种品类订单总数] costTime: 3ms
+\n\t\t[查询各种品类订单] costTime: 7ms
+\n\t\t[获取VST其他订单] costTime: 62ms
+\n\t\t[处理订单详情] costTime: 161ms
+\n\t\t\t[预授券订单列表订单处理] costTime: 71ms
+\n\t\t\t[签证订单支付成功 获取签证状态] costTime: 24ms
+\n\t\t\t[添加在线退款功能] costTime: 5ms
+\n\t\t\t[判断销售渠道(团购/秒杀)] costTime: 0ms
+\n\t\t\t[判断订单中是否存在合同] costTime: 0ms
+\n\t\t\t[获取并设置目的相关信息] costTime: 8ms
+\n\t\t\t\t[根据产品ID查询目的地列表] costTime: 8ms
+\n\t\t[获取订单详情-金额] costTime: 44ms
+\n\t\t[获取VST其他订单] costTime: 81ms
+\n\t\t[处理订单详情] costTime: 329ms
+\n\t\t\t[预授券订单列表订单处理] costTime: 225ms
+\n\t\t\t[签证订单支付成功 获取签证状态] costTime: 39ms
+\n\t\t\t[添加在线退款功能] costTime: 7ms
+\n\t\t\t[判断销售渠道(团购/秒杀)] costTime: 0ms
+\n\t\t\t[判断订单中是否存在合同] costTime: 0ms
+\n\t\t\t[获取并设置目的相关信息] costTime: 5ms
+\n\t\t\t\t[根据产品ID查询目的地列表] costTime: 5ms
+\n\t\t[获取订单详情-金额] costTime: 52ms
+\n\t\t[获取VST其他订单] costTime: 68ms
+\n\t\t[处理订单详情] costTime: 182ms
+\n\t\t\t[预授券订单列表订单处理] costTime: 92ms
+\n\t\t\t[签证订单支付成功 获取签证状态] costTime: 25ms
+\n\t\t\t[添加在线退款功能] costTime: 8ms
+\n\t\t\t[判断销售渠道(团购/秒杀)] costTime: 0ms
+\n\t\t\t[判断订单中是否存在合同] costTime: 0ms
+\n\t\t\t[获取并设置目的相关信息] costTime: 7ms
+\n\t\t\t\t[根据产品ID查询目的地列表] costTime: 7ms
+\n\t\t[获取订单详情-金额] costTime: 45ms
+\n\t\t[获取VST其他订单] costTime: 87ms
+\n\t\t[处理订单详情] costTime: 182ms
+\n\t\t\t[预授券订单列表订单处理] costTime: 68ms
+\n\t\t\t[签证订单支付成功 获取签证状态] costTime: 50ms
+\n\t\t\t[添加在线退款功能] costTime: 10ms
+\n\t\t\t[判断销售渠道(团购/秒杀)] costTime: 0ms
+\n\t\t\t[判断订单中是否存在合同] costTime: 0ms
+\n\t\t\t[获取并设置目的相关信息] costTime: 6ms
+\n\t\t\t\t[根据产品ID查询目的地列表] costTime: 6ms
+\n\t\t[获取订单详情-金额] costTime: 54ms
+\n\t\t[获取VST其他订单] costTime: 70ms
+\n\t\t[处理订单详情] costTime: 200ms
+\n\t\t\t[预授券订单列表订单处理] costTime: 61ms
+\n\t\t\t[签证订单支付成功 获取签证状态] costTime: 81ms
+\n\t\t\t[添加在线退款功能] costTime: 7ms
+\n\t\t\t[判断销售渠道(团购/秒杀)] costTime: 0ms
+\n\t\t\t[判断订单中是否存在合同] costTime: 0ms
+\n\t\t\t[获取并设置目的相关信息] costTime: 4ms
+\n\t\t\t\t[根据产品ID查询目的地列表] costTime: 4ms
+\n\t\t[获取订单详情-金额] costTime: 59ms
+\n\t\t[获取VST其他订单] costTime: 64ms
+\n\t\t[处理订单详情] costTime: 154ms
+\n\t\t\t[预授券订单列表订单处理] costTime: 71ms
+\n\t\t\t[签证订单支付成功 获取签证状态] costTime: 25ms
+\n\t\t\t[添加在线退款功能] costTime: 6ms
+\n\t\t\t[判断销售渠道(团购/秒杀)] costTime: 0ms
+\n\t\t\t[判断订单中是否存在合同] costTime: 0ms
+\n\t\t\t[获取并设置目的相关信息] costTime: 4ms
+\n\t\t\t\t[根据产品ID查询目的地列表] costTime: 4ms
+\n\t\t[获取订单详情-金额] costTime: 58ms
+\n\t\t[获取VST其他订单] costTime: 58ms
+\n\t\t[处理订单详情] costTime: 132ms
+\n\t\t\t[预授券订单列表订单处理] costTime: 51ms
+\n\t\t\t[签证订单支付成功 获取签证状态] costTime: 19ms
+\n\t\t\t[添加在线退款功能] costTime: 9ms
+\n\t\t\t[判断销售渠道(团购/秒杀)] costTime: 0ms
+\n\t\t\t[判断订单中是否存在合同] costTime: 0ms
+\n\t\t\t[获取并设置目的相关信息] costTime: 5ms
+\n\t\t\t\t[根据产品ID查询目的地列表] costTime: 5ms
+\n\t\t[获取订单详情-金额] costTime: 48ms
+2016-08-02_17:03:26
+[api.com.order.getOrderByProductType 1.0.0] costTime: 2255ms
+\n\t[按产品类别查询订单] costTime: 2252ms
+\n\t\t[各种品类订单总数] costTime: 3ms
+\n\t\t[查询各种品类订单] costTime: 10ms
+\n\t\t[获取VST其他订单] costTime: 60ms
+\n\t\t[处理订单详情] costTime: 184ms
+\n\t\t\t[预授券订单列表订单处理] costTime: 67ms
+\n\t\t\t[签证订单支付成功 获取签证状态] costTime: 36ms
+\n\t\t\t[添加在线退款功能] costTime: 12ms
+\n\t\t\t[判断销售渠道(团购/秒杀)] costTime: 0ms
+\n\t\t\t[判断订单中是否存在合同] costTime: 0ms
+\n\t\t\t[获取并设置目的相关信息] costTime: 6ms
+\n\t\t\t\t[根据产品ID查询目的地列表] costTime: 6ms
+\n\t\t[获取订单详情-金额] costTime: 51ms
+\n\t\t[获取VST其他订单] costTime: 56ms
+\n\t\t[处理订单详情] costTime: 239ms
+\n\t\t\t[预授券订单列表订单处理] costTime: 82ms
+\n\t\t\t[签证订单支付成功 获取签证状态] costTime: 35ms
+\n\t\t\t[添加在线退款功能] costTime: 14ms
+\n\t\t\t[判断销售渠道(团购/秒杀)] costTime: 0ms
+\n\t\t\t[判断订单中是否存在合同] costTime: 0ms
+\n\t\t\t[获取并设置目的相关信息] costTime: 5ms
+\n\t\t\t\t[根据产品ID查询目的地列表] costTime: 5ms
+\n\t\t[获取订单详情-金额] costTime: 170ms
+\n\t\t[获取VST其他订单] costTime: 50ms
+\n\t\t[处理订单详情] costTime: 197ms
+\n\t\t\t[预授券订单列表订单处理] costTime: 99ms
+\n\t\t\t[签证订单支付成功 获取签证状态] costTime: 22ms
+\n\t\t\t[添加在线退款功能] costTime: 7ms
+\n\t\t\t[判断销售渠道(团购/秒杀)] costTime: 0ms
+\n\t\t\t[判断订单中是否存在合同] costTime: 0ms
+\n\t\t\t[获取并设置目的相关信息] costTime: 7ms
+\n\t\t\t\t[根据产品ID查询目的地列表] costTime: 7ms
+\n\t\t[获取订单详情-金额] costTime: 44ms
+\n\t\t[获取VST其他订单] costTime: 59ms
+\n\t\t[处理订单详情] costTime: 215ms
+\n\t\t\t[预授券订单列表订单处理] costTime: 63ms
+\n\t\t\t[签证订单支付成功 获取签证状态] costTime: 27ms
+\n\t\t\t[添加在线退款功能] costTime: 11ms
+\n\t\t\t[判断销售渠道(团购/秒杀)] costTime: 0ms
+\n\t\t\t[判断订单中是否存在合同] costTime: 0ms
+\n\t\t\t[获取并设置目的相关信息] costTime: 7ms
+\n\t\t\t\t[根据产品ID查询目的地列表] costTime: 6ms
+\n\t\t[获取订单详情-金额] costTime: 60ms
+\n\t\t[获取VST其他订单] costTime: 57ms
+\n\t\t[处理订单详情] costTime: 221ms
+\n\t\t\t[预授券订单列表订单处理] costTime: 66ms
+\n\t\t\t[签证订单支付成功 获取签证状态] costTime: 44ms
+\n\t\t\t[添加在线退款功能] costTime: 12ms
+\n\t\t\t[判断销售渠道(团购/秒杀)] costTime: 0ms
+\n\t\t\t[判断订单中是否存在合同] costTime: 0ms
+\n\t\t\t[获取并设置目的相关信息] costTime: 46ms
+\n\t\t\t\t[根据产品ID查询目的地列表] costTime: 44ms
+\n\t\t[获取订单详情-金额] costTime: 53ms
+\n\t\t[获取VST其他订单] costTime: 60ms
+\n\t\t[处理订单详情] costTime: 143ms
+\n\t\t\t[预授券订单列表订单处理] costTime: 58ms
+\n\t\t\t[签证订单支付成功 获取签证状态] costTime: 23ms
+\n\t\t\t[添加在线退款功能] costTime: 9ms
+\n\t\t\t[判断销售渠道(团购/秒杀)] costTime: 0ms
+\n\t\t\t[判断订单中是否存在合同] costTime: 0ms
+\n\t\t\t[获取并设置目的相关信息] costTime: 9ms
+\n\t\t\t\t[根据产品ID查询目的地列表] costTime: 9ms
+\n\t\t[获取订单详情-金额] costTime: 51ms
+\n\t\t[获取VST其他订单] costTime: 53ms
+\n\t\t[处理订单详情] costTime: 159ms
+\n\t\t\t[预授券订单列表订单处理] costTime: 61ms
+\n\t\t\t[签证订单支付成功 获取签证状态] costTime: 32ms
+\n\t\t\t[添加在线退款功能] costTime: 9ms
+\n\t\t\t[判断销售渠道(团购/秒杀)] costTime: 0ms
+\n\t\t\t[判断订单中是否存在合同] costTime: 0ms
+\n\t\t\t[获取并设置目的相关信息] costTime: 5ms
+\n\t\t\t\t[根据产品ID查询目的地列表] costTime: 5ms
+\n\t\t[获取订单详情-金额] costTime: 50ms
+2016-08-02_17:15:09
+[api.com.order.getOrderByProductType 1.0.0] costTime: 2829ms
+\n\t[按产品类别查询订单] costTime: 2827ms
+\n\t\t[各种品类订单总数] costTime: 2ms
+\n\t\t[查询各种品类订单] costTime: 8ms
+\n\t\t[获取VST其他订单] costTime: 74ms
+\n\t\t[处理订单详情] costTime: 402ms
+\n\t\t\t[预授券订单列表订单处理] costTime: 109ms
+\n\t\t\t[签证订单支付成功 获取签证状态] costTime: 220ms
+\n\t\t\t[添加在线退款功能] costTime: 7ms
+\n\t\t\t[判断销售渠道(团购/秒杀)] costTime: 0ms
+\n\t\t\t[判断订单中是否存在合同] costTime: 0ms
+\n\t\t\t[获取并设置目的相关信息] costTime: 13ms
+\n\t\t\t\t[根据产品ID查询目的地列表] costTime: 13ms
+\n\t\t[获取订单详情-金额] costTime: 53ms
+\n\t\t[获取VST其他订单] costTime: 62ms
+\n\t\t[处理订单详情] costTime: 161ms
+\n\t\t\t[预授券订单列表订单处理] costTime: 62ms
+\n\t\t\t[签证订单支付成功 获取签证状态] costTime: 34ms
+\n\t\t\t[添加在线退款功能] costTime: 7ms
+\n\t\t\t[判断销售渠道(团购/秒杀)] costTime: 0ms
+\n\t\t\t[判断订单中是否存在合同] costTime: 0ms
+\n\t\t\t[获取并设置目的相关信息] costTime: 5ms
+\n\t\t\t\t[根据产品ID查询目的地列表] costTime: 5ms
+\n\t\t[获取订单详情-金额] costTime: 53ms
+\n\t\t[获取VST其他订单] costTime: 139ms
+\n\t\t[处理订单详情] costTime: 320ms
+\n\t\t\t[预授券订单列表订单处理] costTime: 214ms
+\n\t\t\t[签证订单支付成功 获取签证状态] costTime: 34ms
+\n\t\t\t[添加在线退款功能] costTime: 7ms
+\n\t\t\t[判断销售渠道(团购/秒杀)] costTime: 0ms
+\n\t\t\t[判断订单中是否存在合同] costTime: 0ms
+\n\t\t\t[获取并设置目的相关信息] costTime: 5ms
+\n\t\t\t\t[根据产品ID查询目的地列表] costTime: 5ms
+\n\t\t[获取订单详情-金额] costTime: 89ms
+\n\t\t[获取VST其他订单] costTime: 144ms
+\n\t\t[处理订单详情] costTime: 171ms
+\n\t\t\t[预授券订单列表订单处理] costTime: 57ms
+\n\t\t\t[签证订单支付成功 获取签证状态] costTime: 26ms
+\n\t\t\t[添加在线退款功能] costTime: 7ms
+\n\t\t\t[判断销售渠道(团购/秒杀)] costTime: 0ms
+\n\t\t\t[判断订单中是否存在合同] costTime: 0ms
+\n\t\t\t[获取并设置目的相关信息] costTime: 7ms
+\n\t\t\t\t[根据产品ID查询目的地列表] costTime: 7ms
+\n\t\t[获取订单详情-金额] costTime: 49ms
+\n\t\t[获取VST其他订单] costTime: 52ms
+\n\t\t[处理订单详情] costTime: 206ms
+\n\t\t\t[预授券订单列表订单处理] costTime: 96ms
+\n\t\t\t[签证订单支付成功 获取签证状态] costTime: 35ms
+\n\t\t\t[添加在线退款功能] costTime: 7ms
+\n\t\t\t[判断销售渠道(团购/秒杀)] costTime: 0ms
+\n\t\t\t[判断订单中是否存在合同] costTime: 0ms
+\n\t\t\t[获取并设置目的相关信息] costTime: 5ms
+\n\t\t\t\t[根据产品ID查询目的地列表] costTime: 5ms
+\n\t\t[获取订单详情-金额] costTime: 51ms
+\n\t\t[获取VST其他订单] costTime: 70ms
+\n\t\t[处理订单详情] costTime: 342ms
+\n\t\t\t[预授券订单列表订单处理] costTime: 228ms
+\n\t\t\t[签证订单支付成功 获取签证状态] costTime: 18ms
+\n\t\t\t[添加在线退款功能] costTime: 8ms
+\n\t\t\t[判断销售渠道(团购/秒杀)] costTime: 0ms
+\n\t\t\t[判断订单中是否存在合同] costTime: 0ms
+\n\t\t\t[获取并设置目的相关信息] costTime: 12ms
+\n\t\t\t\t[根据产品ID查询目的地列表] costTime: 12ms
+\n\t\t[获取订单详情-金额] costTime: 60ms
+\n\t\t[获取VST其他订单] costTime: 83ms
+\n\t\t[处理订单详情] costTime: 168ms
+\n\t\t\t[预授券订单列表订单处理] costTime: 61ms
+\n\t\t\t[签证订单支付成功 获取签证状态] costTime: 35ms
+\n\t\t\t[添加在线退款功能] costTime: 10ms
+\n\t\t\t[判断销售渠道(团购/秒杀)] costTime: 0ms
+\n\t\t\t[判断订单中是否存在合同] costTime: 0ms
+\n\t\t\t[获取并设置目的相关信息] costTime: 5ms
+\n\t\t\t\t[根据产品ID查询目的地列表] costTime: 5ms
+\n\t\t[获取订单详情-金额] costTime: 68ms
+2016-08-02_17:26:52
+[api.com.order.getOrderByProductType 1.0.0] costTime: 2093ms
+\n\t[按产品类别查询订单] costTime: 2092ms
+\n\t\t[各种品类订单总数] costTime: 3ms
+\n\t\t[查询各种品类订单] costTime: 7ms
+\n\t\t[获取VST其他订单] costTime: 63ms
+\n\t\t[处理订单详情] costTime: 137ms
+\n\t\t\t[预授券订单列表订单处理] costTime: 53ms
+\n\t\t\t[签证订单支付成功 获取签证状态] costTime: 27ms
+\n\t\t\t[添加在线退款功能] costTime: 10ms
+\n\t\t\t[判断销售渠道(团购/秒杀)] costTime: 0ms
+\n\t\t\t[判断订单中是否存在合同] costTime: 0ms
+\n\t\t\t[获取并设置目的相关信息] costTime: 6ms
+\n\t\t\t\t[根据产品ID查询目的地列表] costTime: 6ms
+\n\t\t[获取订单详情-金额] costTime: 45ms
+\n\t\t[获取VST其他订单] costTime: 55ms
+\n\t\t[处理订单详情] costTime: 225ms
+\n\t\t\t[预授券订单列表订单处理] costTime: 110ms
+\n\t\t\t[签证订单支付成功 获取签证状态] costTime: 37ms
+\n\t\t\t[添加在线退款功能] costTime: 8ms
+\n\t\t\t[判断销售渠道(团购/秒杀)] costTime: 0ms
+\n\t\t\t[判断订单中是否存在合同] costTime: 0ms
+\n\t\t\t[获取并设置目的相关信息] costTime: 5ms
+\n\t\t\t\t[根据产品ID查询目的地列表] costTime: 5ms
+\n\t\t[获取订单详情-金额] costTime: 57ms
+\n\t\t[获取VST其他订单] costTime: 62ms
+\n\t\t[处理订单详情] costTime: 197ms
+\n\t\t\t[预授券订单列表订单处理] costTime: 107ms
+\n\t\t\t[签证订单支付成功 获取签证状态] costTime: 25ms
+\n\t\t\t[添加在线退款功能] costTime: 9ms
+\n\t\t\t[判断销售渠道(团购/秒杀)] costTime: 0ms
+\n\t\t\t[判断订单中是否存在合同] costTime: 0ms
+\n\t\t\t[获取并设置目的相关信息] costTime: 5ms
+\n\t\t\t\t[根据产品ID查询目的地列表] costTime: 5ms
+\n\t\t[获取订单详情-金额] costTime: 92ms
+\n\t\t[获取VST其他订单] costTime: 65ms
+\n\t\t[处理订单详情] costTime: 161ms
+\n\t\t\t[预授券订单列表订单处理] costTime: 71ms
+\n\t\t\t[签证订单支付成功 获取签证状态] costTime: 24ms
+\n\t\t\t[添加在线退款功能] costTime: 11ms
+\n\t\t\t[判断销售渠道(团购/秒杀)] costTime: 0ms
+\n\t\t\t[判断订单中是否存在合同] costTime: 0ms
+\n\t\t\t[获取并设置目的相关信息] costTime: 4ms
+\n\t\t\t\t[根据产品ID查询目的地列表] costTime: 4ms
+\n\t\t[获取订单详情-金额] costTime: 56ms
+\n\t\t[获取VST其他订单] costTime: 63ms
+\n\t\t[处理订单详情] costTime: 183ms
+\n\t\t\t[预授券订单列表订单处理] costTime: 90ms
+\n\t\t\t[签证订单支付成功 获取签证状态] costTime: 32ms
+\n\t\t\t[添加在线退款功能] costTime: 9ms
+\n\t\t\t[判断销售渠道(团购/秒杀)] costTime: 0ms
+\n\t\t\t[判断订单中是否存在合同] costTime: 0ms
+\n\t\t\t[获取并设置目的相关信息] costTime: 6ms
+\n\t\t\t\t[根据产品ID查询目的地列表] costTime: 6ms
+\n\t\t[获取订单详情-金额] costTime: 39ms
+\n\t\t[获取VST其他订单] costTime: 47ms
+\n\t\t[处理订单详情] costTime: 159ms
+\n\t\t\t[预授券订单列表订单处理] costTime: 68ms
+\n\t\t\t[签证订单支付成功 获取签证状态] costTime: 21ms
+\n\t\t\t[添加在线退款功能] costTime: 7ms
+\n\t\t\t[判断销售渠道(团购/秒杀)] costTime: 0ms
+\n\t\t\t[判断订单中是否存在合同] costTime: 0ms
+\n\t\t\t[获取并设置目的相关信息] costTime: 5ms
+\n\t\t\t\t[根据产品ID查询目的地列表] costTime: 5ms
+\n\t\t[获取订单详情-金额] costTime: 59ms
+\n\t\t[获取VST其他订单] costTime: 87ms
+\n\t\t[处理订单详情] costTime: 164ms
+\n\t\t\t[预授券订单列表订单处理] costTime: 70ms
+\n\t\t\t[签证订单支付成功 获取签证状态] costTime: 26ms
+\n\t\t\t[添加在线退款功能] costTime: 6ms
+\n\t\t\t[判断销售渠道(团购/秒杀)] costTime: 0ms
+\n\t\t\t[判断订单中是否存在合同] costTime: 0ms
+\n\t\t\t[获取并设置目的相关信息] costTime: 5ms
+\n\t\t\t\t[根据产品ID查询目的地列表] costTime: 5ms
+\n\t\t[获取订单详情-金额] costTime: 66ms
+2016-08-02_17:38:34
+[api.com.order.getOrderByProductType 1.0.0] costTime: 2174ms
+\n\t[按产品类别查询订单] costTime: 2172ms
+\n\t\t[各种品类订单总数] costTime: 4ms
+\n\t\t[查询各种品类订单] costTime: 53ms
+\n\t\t[获取VST其他订单] costTime: 62ms
+\n\t\t[处理订单详情] costTime: 157ms
+\n\t\t\t[预授券订单列表订单处理] costTime: 64ms
+\n\t\t\t[签证订单支付成功 获取签证状态] costTime: 26ms
+\n\t\t\t[添加在线退款功能] costTime: 9ms
+\n\t\t\t[判断销售渠道(团购/秒杀)] costTime: 0ms
+\n\t\t\t[判断订单中是否存在合同] costTime: 0ms
+\n\t\t\t[获取并设置目的相关信息] costTime: 6ms
+\n\t\t\t\t[根据产品ID查询目的地列表] costTime: 6ms
+\n\t\t[获取订单详情-金额] costTime: 52ms
+\n\t\t[获取VST其他订单] costTime: 54ms
+\n\t\t[处理订单详情] costTime: 227ms
+\n\t\t\t[预授券订单列表订单处理] costTime: 117ms
+\n\t\t\t[签证订单支付成功 获取签证状态] costTime: 41ms
+\n\t\t\t[添加在线退款功能] costTime: 9ms
+\n\t\t\t[判断销售渠道(团购/秒杀)] costTime: 0ms
+\n\t\t\t[判断订单中是否存在合同] costTime: 0ms
+\n\t\t\t[获取并设置目的相关信息] costTime: 6ms
+\n\t\t\t\t[根据产品ID查询目的地列表] costTime: 6ms
+\n\t\t[获取订单详情-金额] costTime: 55ms
+\n\t\t[获取VST其他订单] costTime: 93ms
+\n\t\t[处理订单详情] costTime: 206ms
+\n\t\t\t[预授券订单列表订单处理] costTime: 110ms
+\n\t\t\t[签证订单支付成功 获取签证状态] costTime: 40ms
+\n\t\t\t[添加在线退款功能] costTime: 10ms
+\n\t\t\t[判断销售渠道(团购/秒杀)] costTime: 0ms
+\n\t\t\t[判断订单中是否存在合同] costTime: 0ms
+\n\t\t\t[获取并设置目的相关信息] costTime: 4ms
+\n\t\t\t\t[根据产品ID查询目的地列表] costTime: 4ms
+\n\t\t[获取订单详情-金额] costTime: 57ms
+\n\t\t[获取VST其他订单] costTime: 84ms
+\n\t\t[处理订单详情] costTime: 170ms
+\n\t\t\t[预授券订单列表订单处理] costTime: 80ms
+\n\t\t\t[签证订单支付成功 获取签证状态] costTime: 28ms
+\n\t\t\t[添加在线退款功能] costTime: 11ms
+\n\t\t\t[判断销售渠道(团购/秒杀)] costTime: 0ms
+\n\t\t\t[判断订单中是否存在合同] costTime: 0ms
+\n\t\t\t[获取并设置目的相关信息] costTime: 5ms
+\n\t\t\t\t[根据产品ID查询目的地列表] costTime: 5ms
+\n\t\t[获取订单详情-金额] costTime: 53ms
+\n\t\t[获取VST其他订单] costTime: 46ms
+\n\t\t[处理订单详情] costTime: 169ms
+\n\t\t\t[预授券订单列表订单处理] costTime: 55ms
+\n\t\t\t[签证订单支付成功 获取签证状态] costTime: 34ms
+\n\t\t\t[添加在线退款功能] costTime: 11ms
+\n\t\t\t[判断销售渠道(团购/秒杀)] costTime: 0ms
+\n\t\t\t[判断订单中是否存在合同] costTime: 0ms
+\n\t\t\t[获取并设置目的相关信息] costTime: 4ms
+\n\t\t\t\t[根据产品ID查询目的地列表] costTime: 4ms
+\n\t\t[获取订单详情-金额] costTime: 50ms
+\n\t\t[获取VST其他订单] costTime: 66ms
+\n\t\t[处理订单详情] costTime: 163ms
+\n\t\t\t[预授券订单列表订单处理] costTime: 54ms
+\n\t\t\t[签证订单支付成功 获取签证状态] costTime: 27ms
+\n\t\t\t[添加在线退款功能] costTime: 24ms
+\n\t\t\t[判断销售渠道(团购/秒杀)] costTime: 0ms
+\n\t\t\t[判断订单中是否存在合同] costTime: 0ms
+\n\t\t\t[获取并设置目的相关信息] costTime: 5ms
+\n\t\t\t\t[根据产品ID查询目的地列表] costTime: 5ms
+\n\t\t[获取订单详情-金额] costTime: 75ms
+\n\t\t[获取VST其他订单] costTime: 53ms
+\n\t\t[处理订单详情] costTime: 157ms
+\n\t\t\t[预授券订单列表订单处理] costTime: 66ms
+\n\t\t\t[签证订单支付成功 获取签证状态] costTime: 33ms
+\n\t\t\t[添加在线退款功能] costTime: 8ms
+\n\t\t\t[判断销售渠道(团购/秒杀)] costTime: 0ms
+\n\t\t\t[判断订单中是否存在合同] costTime: 0ms
+\n\t\t\t[获取并设置目的相关信息] costTime: 5ms
+\n\t\t\t\t[根据产品ID查询目的地列表] costTime: 5ms
+\n\t\t[获取订单详情-金额] costTime: 65ms
+2016-08-02_17:50:17
+[api.com.order.getOrderByProductType 1.0.0] costTime: 2018ms
+\n\t[按产品类别查询订单] costTime: 2015ms
+\n\t\t[各种品类订单总数] costTime: 4ms
+\n\t\t[查询各种品类订单] costTime: 9ms
+\n\t\t[获取VST其他订单] costTime: 49ms
+\n\t\t[处理订单详情] costTime: 145ms
+\n\t\t\t[预授券订单列表订单处理] costTime: 74ms
+\n\t\t\t[签证订单支付成功 获取签证状态] costTime: 17ms
+\n\t\t\t[添加在线退款功能] costTime: 7ms
+\n\t\t\t[判断销售渠道(团购/秒杀)] costTime: 0ms
+\n\t\t\t[判断订单中是否存在合同] costTime: 0ms
+\n\t\t\t[获取并设置目的相关信息] costTime: 5ms
+\n\t\t\t\t[根据产品ID查询目的地列表] costTime: 5ms
+\n\t\t[获取订单详情-金额] costTime: 56ms
+\n\t\t[获取VST其他订单] costTime: 45ms
+\n\t\t[处理订单详情] costTime: 157ms
+\n\t\t\t[预授券订单列表订单处理] costTime: 57ms
+\n\t\t\t[签证订单支付成功 获取签证状态] costTime: 39ms
+\n\t\t\t[添加在线退款功能] costTime: 10ms
+\n\t\t\t[判断销售渠道(团购/秒杀)] costTime: 0ms
+\n\t\t\t[判断订单中是否存在合同] costTime: 0ms
+\n\t\t\t[获取并设置目的相关信息] costTime: 8ms
+\n\t\t\t\t[根据产品ID查询目的地列表] costTime: 4ms
+\n\t\t[获取订单详情-金额] costTime: 58ms
+\n\t\t[获取VST其他订单] costTime: 52ms
+\n\t\t[处理订单详情] costTime: 174ms
+\n\t\t\t[预授券订单列表订单处理] costTime: 78ms
+\n\t\t\t[签证订单支付成功 获取签证状态] costTime: 22ms
+\n\t\t\t[添加在线退款功能] costTime: 10ms
+\n\t\t\t[判断销售渠道(团购/秒杀)] costTime: 0ms
+\n\t\t\t[判断订单中是否存在合同] costTime: 0ms
+\n\t\t\t[获取并设置目的相关信息] costTime: 5ms
+\n\t\t\t\t[根据产品ID查询目的地列表] costTime: 5ms
+\n\t\t[获取订单详情-金额] costTime: 43ms
+\n\t\t[获取VST其他订单] costTime: 140ms
+\n\t\t[处理订单详情] costTime: 152ms
+\n\t\t\t[预授券订单列表订单处理] costTime: 55ms
+\n\t\t\t[签证订单支付成功 获取签证状态] costTime: 28ms
+\n\t\t\t[添加在线退款功能] costTime: 7ms
+\n\t\t\t[判断销售渠道(团购/秒杀)] costTime: 0ms
+\n\t\t\t[判断订单中是否存在合同] costTime: 0ms
+\n\t\t\t[获取并设置目的相关信息] costTime: 6ms
+\n\t\t\t\t[根据产品ID查询目的地列表] costTime: 5ms
+\n\t\t[获取订单详情-金额] costTime: 50ms
+\n\t\t[获取VST其他订单] costTime: 45ms
+\n\t\t[处理订单详情] costTime: 199ms
+\n\t\t\t[预授券订单列表订单处理] costTime: 94ms
+\n\t\t\t[签证订单支付成功 获取签证状态] costTime: 41ms
+\n\t\t\t[添加在线退款功能] costTime: 9ms
+\n\t\t\t[判断销售渠道(团购/秒杀)] costTime: 0ms
+\n\t\t\t[判断订单中是否存在合同] costTime: 0ms
+\n\t\t\t[获取并设置目的相关信息] costTime: 8ms
+\n\t\t\t\t[根据产品ID查询目的地列表] costTime: 8ms
+\n\t\t[获取订单详情-金额] costTime: 52ms
+\n\t\t[获取VST其他订单] costTime: 96ms
+\n\t\t[处理订单详情] costTime: 147ms
+\n\t\t\t[预授券订单列表订单处理] costTime: 51ms
+\n\t\t\t[签证订单支付成功 获取签证状态] costTime: 22ms
+\n\t\t\t[添加在线退款功能] costTime: 9ms
+\n\t\t\t[判断销售渠道(团购/秒杀)] costTime: 0ms
+\n\t\t\t[判断订单中是否存在合同] costTime: 0ms
+\n\t\t\t[获取并设置目的相关信息] costTime: 7ms
+\n\t\t\t\t[根据产品ID查询目的地列表] costTime: 6ms
+\n\t\t[获取订单详情-金额] costTime: 52ms
+\n\t\t[获取VST其他订单] costTime: 52ms
+\n\t\t[处理订单详情] costTime: 183ms
+\n\t\t\t[预授券订单列表订单处理] costTime: 96ms
+\n\t\t\t[签证订单支付成功 获取签证状态] costTime: 23ms
+\n\t\t\t[添加在线退款功能] costTime: 9ms
+\n\t\t\t[判断销售渠道(团购/秒杀)] costTime: 0ms
+\n\t\t\t[判断订单中是否存在合同] costTime: 0ms
+\n\t\t\t[获取并设置目的相关信息] costTime: 5ms
+\n\t\t\t\t[根据产品ID查询目的地列表] costTime: 5ms
+\n\t\t[获取订单详情-金额] costTime: 48ms
+2016-08-02_18:01:59
+[api.com.order.getOrderByProductType 1.0.0] costTime: 2144ms
+\n\t[按产品类别查询订单] costTime: 2142ms
+\n\t\t[各种品类订单总数] costTime: 3ms
+\n\t\t[查询各种品类订单] costTime: 9ms
+\n\t\t[获取VST其他订单] costTime: 63ms
+\n\t\t[处理订单详情] costTime: 146ms
+\n\t\t\t[预授券订单列表订单处理] costTime: 63ms
+\n\t\t\t[签证订单支付成功 获取签证状态] costTime: 31ms
+\n\t\t\t[添加在线退款功能] costTime: 7ms
+\n\t\t\t[判断销售渠道(团购/秒杀)] costTime: 0ms
+\n\t\t\t[判断订单中是否存在合同] costTime: 0ms
+\n\t\t\t[获取并设置目的相关信息] costTime: 5ms
+\n\t\t\t\t[根据产品ID查询目的地列表] costTime: 5ms
+\n\t\t[获取订单详情-金额] costTime: 59ms
+\n\t\t[获取VST其他订单] costTime: 50ms
+\n\t\t[处理订单详情] costTime: 173ms
+\n\t\t\t[预授券订单列表订单处理] costTime: 81ms
+\n\t\t\t[签证订单支付成功 获取签证状态] costTime: 33ms
+\n\t\t\t[添加在线退款功能] costTime: 7ms
+\n\t\t\t[判断销售渠道(团购/秒杀)] costTime: 0ms
+\n\t\t\t[判断订单中是否存在合同] costTime: 0ms
+\n\t\t\t[获取并设置目的相关信息] costTime: 5ms
+\n\t\t\t\t[根据产品ID查询目的地列表] costTime: 5ms
+\n\t\t[获取订单详情-金额] costTime: 45ms
+\n\t\t[获取VST其他订单] costTime: 64ms
+\n\t\t[处理订单详情] costTime: 196ms
+\n\t\t\t[预授券订单列表订单处理] costTime: 117ms
+\n\t\t\t[签证订单支付成功 获取签证状态] costTime: 25ms
+\n\t\t\t[添加在线退款功能] costTime: 7ms
+\n\t\t\t[判断销售渠道(团购/秒杀)] costTime: 0ms
+\n\t\t\t[判断订单中是否存在合同] costTime: 0ms
+\n\t\t\t[获取并设置目的相关信息] costTime: 5ms
+\n\t\t\t\t[根据产品ID查询目的地列表] costTime: 5ms
+\n\t\t[获取订单详情-金额] costTime: 57ms
+\n\t\t[获取VST其他订单] costTime: 69ms
+\n\t\t[处理订单详情] costTime: 156ms
+\n\t\t\t[预授券订单列表订单处理] costTime: 70ms
+\n\t\t\t[签证订单支付成功 获取签证状态] costTime: 23ms
+\n\t\t\t[添加在线退款功能] costTime: 9ms
+\n\t\t\t[判断销售渠道(团购/秒杀)] costTime: 0ms
+\n\t\t\t[判断订单中是否存在合同] costTime: 0ms
+\n\t\t\t[获取并设置目的相关信息] costTime: 5ms
+\n\t\t\t\t[根据产品ID查询目的地列表] costTime: 5ms
+\n\t\t[获取订单详情-金额] costTime: 72ms
+\n\t\t[获取VST其他订单] costTime: 98ms
+\n\t\t[处理订单详情] costTime: 271ms
+\n\t\t\t[预授券订单列表订单处理] costTime: 71ms
+\n\t\t\t[签证订单支付成功 获取签证状态] costTime: 109ms
+\n\t\t\t[添加在线退款功能] costTime: 50ms
+\n\t\t\t[判断销售渠道(团购/秒杀)] costTime: 0ms
+\n\t\t\t[判断订单中是否存在合同] costTime: 0ms
+\n\t\t\t[获取并设置目的相关信息] costTime: 4ms
+\n\t\t\t\t[根据产品ID查询目的地列表] costTime: 4ms
+\n\t\t[获取订单详情-金额] costTime: 103ms
+\n\t\t[获取VST其他订单] costTime: 58ms
+\n\t\t[处理订单详情] costTime: 153ms
+\n\t\t\t[预授券订单列表订单处理] costTime: 60ms
+\n\t\t\t[签证订单支付成功 获取签证状态] costTime: 23ms
+\n\t\t\t[添加在线退款功能] costTime: 10ms
+\n\t\t\t[判断销售渠道(团购/秒杀)] costTime: 0ms
+\n\t\t\t[判断订单中是否存在合同] costTime: 0ms
+\n\t\t\t[获取并设置目的相关信息] costTime: 7ms
+\n\t\t\t\t[根据产品ID查询目的地列表] costTime: 7ms
+\n\t\t[获取订单详情-金额] costTime: 50ms
+\n\t\t[获取VST其他订单] costTime: 64ms
+\n\t\t[处理订单详情] costTime: 138ms
+\n\t\t\t[预授券订单列表订单处理] costTime: 56ms
+\n\t\t\t[签证订单支付成功 获取签证状态] costTime: 24ms
+\n\t\t\t[添加在线退款功能] costTime: 9ms
+\n\t\t\t[判断销售渠道(团购/秒杀)] costTime: 0ms
+\n\t\t\t[判断订单中是否存在合同] costTime: 0ms
+\n\t\t\t[获取并设置目的相关信息] costTime: 6ms
+\n\t\t\t\t[根据产品ID查询目的地列表] costTime: 6ms
+\n\t\t[获取订单详情-金额] costTime: 45ms
+2016-08-02_18:13:42
+[api.com.order.getOrderByProductType 1.0.0] costTime: 2273ms
+\n\t[按产品类别查询订单] costTime: 2272ms
 \n\t\t[各种品类订单总数] costTime: 6ms
-\n\t\t[查询各种品类订单] costTime: 17ms
+\n\t\t[查询各种品类订单] costTime: 9ms
+\n\t\t[获取VST其他订单] costTime: 52ms
+\n\t\t[处理订单详情] costTime: 186ms
+\n\t\t\t[预授券订单列表订单处理] costTime: 60ms
+\n\t\t\t[签证订单支付成功 获取签证状态] costTime: 63ms
+\n\t\t\t[添加在线退款功能] costTime: 7ms
+\n\t\t\t[判断销售渠道(团购/秒杀)] costTime: 0ms
+\n\t\t\t[判断订单中是否存在合同] costTime: 0ms
+\n\t\t\t[获取并设置目的相关信息] costTime: 11ms
+\n\t\t\t\t[根据产品ID查询目的地列表] costTime: 11ms
+\n\t\t[获取订单详情-金额] costTime: 64ms
+\n\t\t[获取VST其他订单] costTime: 51ms
+\n\t\t[处理订单详情] costTime: 265ms
+\n\t\t\t[预授券订单列表订单处理] costTime: 95ms
+\n\t\t\t[签证订单支付成功 获取签证状态] costTime: 105ms
+\n\t\t\t[添加在线退款功能] costTime: 7ms
+\n\t\t\t[判断销售渠道(团购/秒杀)] costTime: 0ms
+\n\t\t\t[判断订单中是否存在合同] costTime: 0ms
+\n\t\t\t[获取并设置目的相关信息] costTime: 9ms
+\n\t\t\t\t[根据产品ID查询目的地列表] costTime: 9ms
+\n\t\t[获取订单详情-金额] costTime: 48ms
+\n\t\t[获取VST其他订单] costTime: 52ms
+\n\t\t[处理订单详情] costTime: 327ms
+\n\t\t\t[预授券订单列表订单处理] costTime: 193ms
+\n\t\t\t[签证订单支付成功 获取签证状态] costTime: 72ms
+\n\t\t\t[添加在线退款功能] costTime: 6ms
+\n\t\t\t[判断销售渠道(团购/秒杀)] costTime: 0ms
+\n\t\t\t[判断订单中是否存在合同] costTime: 0ms
+\n\t\t\t[获取并设置目的相关信息] costTime: 5ms
+\n\t\t\t\t[根据产品ID查询目的地列表] costTime: 5ms
+\n\t\t[获取订单详情-金额] costTime: 44ms
+\n\t\t[获取VST其他订单] costTime: 57ms
+\n\t\t[处理订单详情] costTime: 151ms
+\n\t\t\t[预授券订单列表订单处理] costTime: 51ms
+\n\t\t\t[签证订单支付成功 获取签证状态] costTime: 39ms
+\n\t\t\t[添加在线退款功能] costTime: 12ms
+\n\t\t\t[判断销售渠道(团购/秒杀)] costTime: 0ms
+\n\t\t\t[判断订单中是否存在合同] costTime: 0ms
+\n\t\t\t[获取并设置目的相关信息] costTime: 5ms
+\n\t\t\t\t[根据产品ID查询目的地列表] costTime: 5ms
+\n\t\t[获取订单详情-金额] costTime: 71ms
+\n\t\t[获取VST其他订单] costTime: 58ms
+\n\t\t[处理订单详情] costTime: 216ms
+\n\t\t\t[预授券订单列表订单处理] costTime: 75ms
+\n\t\t\t[签证订单支付成功 获取签证状态] costTime: 56ms
+\n\t\t\t[添加在线退款功能] costTime: 23ms
+\n\t\t\t[判断销售渠道(团购/秒杀)] costTime: 0ms
+\n\t\t\t[判断订单中是否存在合同] costTime: 0ms
+\n\t\t\t[获取并设置目的相关信息] costTime: 6ms
+\n\t\t\t\t[根据产品ID查询目的地列表] costTime: 6ms
+\n\t\t[获取订单详情-金额] costTime: 65ms
+\n\t\t[获取VST其他订单] costTime: 75ms
+\n\t\t[处理订单详情] costTime: 161ms
+\n\t\t\t[预授券订单列表订单处理] costTime: 66ms
+\n\t\t\t[签证订单支付成功 获取签证状态] costTime: 23ms
+\n\t\t\t[添加在线退款功能] costTime: 9ms
+\n\t\t\t[判断销售渠道(团购/秒杀)] costTime: 0ms
+\n\t\t\t[判断订单中是否存在合同] costTime: 0ms
+\n\t\t\t[获取并设置目的相关信息] costTime: 5ms
+\n\t\t\t\t[根据产品ID查询目的地列表] costTime: 5ms
+\n\t\t[获取订单详情-金额] costTime: 50ms
+\n\t\t[获取VST其他订单] costTime: 57ms
+\n\t\t[处理订单详情] costTime: 160ms
+\n\t\t\t[预授券订单列表订单处理] costTime: 54ms
+\n\t\t\t[签证订单支付成功 获取签证状态] costTime: 45ms
+\n\t\t\t[添加在线退款功能] costTime: 7ms
+\n\t\t\t[判断销售渠道(团购/秒杀)] costTime: 0ms
+\n\t\t\t[判断订单中是否存在合同] costTime: 0ms
+\n\t\t\t[获取并设置目的相关信息] costTime: 4ms
+\n\t\t\t\t[根据产品ID查询目的地列表] costTime: 4ms
+\n\t\t[获取订单详情-金额] costTime: 47ms
+2016-08-02_18:25:24
+[api.com.order.getOrderByProductType 1.0.0] costTime: 2312ms
+\n\t[按产品类别查询订单] costTime: 2307ms
+\n\t\t[各种品类订单总数] costTime: 4ms
+\n\t\t[查询各种品类订单] costTime: 10ms
+\n\t\t[获取VST其他订单] costTime: 66ms
+\n\t\t[处理订单详情] costTime: 172ms
+\n\t\t\t[预授券订单列表订单处理] costTime: 80ms
+\n\t\t\t[签证订单支付成功 获取签证状态] costTime: 27ms
+\n\t\t\t[添加在线退款功能] costTime: 9ms
+\n\t\t\t[判断销售渠道(团购/秒杀)] costTime: 0ms
+\n\t\t\t[判断订单中是否存在合同] costTime: 0ms
+\n\t\t\t[获取并设置目的相关信息] costTime: 5ms
+\n\t\t\t\t[根据产品ID查询目的地列表] costTime: 5ms
+\n\t\t[获取订单详情-金额] costTime: 63ms
+\n\t\t[获取VST其他订单] costTime: 86ms
+\n\t\t[处理订单详情] costTime: 243ms
+\n\t\t\t[预授券订单列表订单处理] costTime: 136ms
+\n\t\t\t[签证订单支付成功 获取签证状态] costTime: 35ms
+\n\t\t\t[添加在线退款功能] costTime: 10ms
+\n\t\t\t[判断销售渠道(团购/秒杀)] costTime: 0ms
+\n\t\t\t[判断订单中是否存在合同] costTime: 0ms
+\n\t\t\t[获取并设置目的相关信息] costTime: 6ms
+\n\t\t\t\t[根据产品ID查询目的地列表] costTime: 6ms
+\n\t\t[获取订单详情-金额] costTime: 51ms
+\n\t\t[获取VST其他订单] costTime: 63ms
+\n\t\t[处理订单详情] costTime: 158ms
+\n\t\t\t[预授券订单列表订单处理] costTime: 65ms
+\n\t\t\t[签证订单支付成功 获取签证状态] costTime: 23ms
+\n\t\t\t[添加在线退款功能] costTime: 7ms
+\n\t\t\t[判断销售渠道(团购/秒杀)] costTime: 0ms
+\n\t\t\t[判断订单中是否存在合同] costTime: 0ms
+\n\t\t\t[获取并设置目的相关信息] costTime: 5ms
+\n\t\t\t\t[根据产品ID查询目的地列表] costTime: 5ms
+\n\t\t[获取订单详情-金额] costTime: 66ms
+\n\t\t[获取VST其他订单] costTime: 59ms
+\n\t\t[处理订单详情] costTime: 269ms
+\n\t\t\t[预授券订单列表订单处理] costTime: 163ms
+\n\t\t\t[签证订单支付成功 获取签证状态] costTime: 26ms
+\n\t\t\t[添加在线退款功能] costTime: 8ms
+\n\t\t\t[判断销售渠道(团购/秒杀)] costTime: 0ms
+\n\t\t\t[判断订单中是否存在合同] costTime: 0ms
+\n\t\t\t[获取并设置目的相关信息] costTime: 6ms
+\n\t\t\t\t[根据产品ID查询目的地列表] costTime: 6ms
+\n\t\t[获取订单详情-金额] costTime: 55ms
+\n\t\t[获取VST其他订单] costTime: 61ms
+\n\t\t[处理订单详情] costTime: 160ms
+\n\t\t\t[预授券订单列表订单处理] costTime: 68ms
+\n\t\t\t[签证订单支付成功 获取签证状态] costTime: 33ms
+\n\t\t\t[添加在线退款功能] costTime: 7ms
+\n\t\t\t[判断销售渠道(团购/秒杀)] costTime: 0ms
+\n\t\t\t[判断订单中是否存在合同] costTime: 0ms
+\n\t\t\t[获取并设置目的相关信息] costTime: 6ms
+\n\t\t\t\t[根据产品ID查询目的地列表] costTime: 6ms
+\n\t\t[获取订单详情-金额] costTime: 60ms
+\n\t\t[获取VST其他订单] costTime: 66ms
+\n\t\t[处理订单详情] costTime: 184ms
+\n\t\t\t[预授券订单列表订单处理] costTime: 98ms
+\n\t\t\t[签证订单支付成功 获取签证状态] costTime: 27ms
+\n\t\t\t[添加在线退款功能] costTime: 9ms
+\n\t\t\t[判断销售渠道(团购/秒杀)] costTime: 0ms
+\n\t\t\t[判断订单中是否存在合同] costTime: 0ms
+\n\t\t\t[获取并设置目的相关信息] costTime: 6ms
+\n\t\t\t\t[根据产品ID查询目的地列表] costTime: 6ms
+\n\t\t[获取订单详情-金额] costTime: 57ms
+\n\t\t[获取VST其他订单] costTime: 56ms
+\n\t\t[处理订单详情] costTime: 247ms
+\n\t\t\t[预授券订单列表订单处理] costTime: 150ms
+\n\t\t\t[签证订单支付成功 获取签证状态] costTime: 20ms
+\n\t\t\t[添加在线退款功能] costTime: 9ms
+\n\t\t\t[判断销售渠道(团购/秒杀)] costTime: 0ms
+\n\t\t\t[判断订单中是否存在合同] costTime: 0ms
+\n\t\t\t[获取并设置目的相关信息] costTime: 8ms
+\n\t\t\t\t[根据产品ID查询目的地列表] costTime: 8ms
+\n\t\t[获取订单详情-金额] costTime: 51ms
+2016-08-02_18:37:07
+[api.com.order.getOrderByProductType 1.0.0] costTime: 2377ms
+\n\t[按产品类别查询订单] costTime: 2375ms
+\n\t\t[各种品类订单总数] costTime: 4ms
+\n\t\t[查询各种品类订单] costTime: 8ms
+\n\t\t[获取VST其他订单] costTime: 59ms
+\n\t\t[处理订单详情] costTime: 459ms
+\n\t\t\t[预授券订单列表订单处理] costTime: 75ms
+\n\t\t\t[签证订单支付成功 获取签证状态] costTime: 31ms
+\n\t\t\t[添加在线退款功能] costTime: 8ms
+\n\t\t\t[判断销售渠道(团购/秒杀)] costTime: 0ms
+\n\t\t\t[判断订单中是否存在合同] costTime: 0ms
+\n\t\t\t[获取并设置目的相关信息] costTime: 15ms
+\n\t\t\t\t[根据产品ID查询目的地列表] costTime: 15ms
+\n\t\t[获取订单详情-金额] costTime: 59ms
+\n\t\t[获取VST其他订单] costTime: 52ms
+\n\t\t[处理订单详情] costTime: 195ms
+\n\t\t\t[预授券订单列表订单处理] costTime: 83ms
+\n\t\t\t[签证订单支付成功 获取签证状态] costTime: 35ms
+\n\t\t\t[添加在线退款功能] costTime: 9ms
+\n\t\t\t[判断销售渠道(团购/秒杀)] costTime: 0ms
+\n\t\t\t[判断订单中是否存在合同] costTime: 0ms
+\n\t\t\t[获取并设置目的相关信息] costTime: 7ms
+\n\t\t\t\t[根据产品ID查询目的地列表] costTime: 6ms
+\n\t\t[获取订单详情-金额] costTime: 54ms
+\n\t\t[获取VST其他订单] costTime: 68ms
+\n\t\t[处理订单详情] costTime: 179ms
+\n\t\t\t[预授券订单列表订单处理] costTime: 70ms
+\n\t\t\t[签证订单支付成功 获取签证状态] costTime: 37ms
+\n\t\t\t[添加在线退款功能] costTime: 8ms
+\n\t\t\t[判断销售渠道(团购/秒杀)] costTime: 0ms
+\n\t\t\t[判断订单中是否存在合同] costTime: 0ms
+\n\t\t\t[获取并设置目的相关信息] costTime: 5ms
+\n\t\t\t\t[根据产品ID查询目的地列表] costTime: 5ms
+\n\t\t[获取订单详情-金额] costTime: 53ms
+\n\t\t[获取VST其他订单] costTime: 58ms
+\n\t\t[处理订单详情] costTime: 172ms
+\n\t\t\t[预授券订单列表订单处理] costTime: 73ms
+\n\t\t\t[签证订单支付成功 获取签证状态] costTime: 27ms
+\n\t\t\t[添加在线退款功能] costTime: 9ms
+\n\t\t\t[判断销售渠道(团购/秒杀)] costTime: 0ms
+\n\t\t\t[判断订单中是否存在合同] costTime: 0ms
+\n\t\t\t[获取并设置目的相关信息] costTime: 9ms
+\n\t\t\t\t[根据产品ID查询目的地列表] costTime: 9ms
+\n\t\t[获取订单详情-金额] costTime: 72ms
+\n\t\t[获取VST其他订单] costTime: 87ms
+\n\t\t[处理订单详情] costTime: 193ms
+\n\t\t\t[预授券订单列表订单处理] costTime: 91ms
+\n\t\t\t[签证订单支付成功 获取签证状态] costTime: 34ms
+\n\t\t\t[添加在线退款功能] costTime: 11ms
+\n\t\t\t[判断销售渠道(团购/秒杀)] costTime: 0ms
+\n\t\t\t[判断订单中是否存在合同] costTime: 0ms
+\n\t\t\t[获取并设置目的相关信息] costTime: 5ms
+\n\t\t\t\t[根据产品ID查询目的地列表] costTime: 5ms
+\n\t\t[获取订单详情-金额] costTime: 54ms
+\n\t\t[获取VST其他订单] costTime: 65ms
+\n\t\t[处理订单详情] costTime: 155ms
+\n\t\t\t[预授券订单列表订单处理] costTime: 54ms
+\n\t\t\t[签证订单支付成功 获取签证状态] costTime: 28ms
+\n\t\t\t[添加在线退款功能] costTime: 12ms
+\n\t\t\t[判断销售渠道(团购/秒杀)] costTime: 0ms
+\n\t\t\t[判断订单中是否存在合同] costTime: 0ms
+\n\t\t\t[获取并设置目的相关信息] costTime: 12ms
+\n\t\t\t\t[根据产品ID查询目的地列表] costTime: 12ms
+\n\t\t[获取订单详情-金额] costTime: 56ms
+\n\t\t[获取VST其他订单] costTime: 60ms
+\n\t\t[处理订单详情] costTime: 158ms
+\n\t\t\t[预授券订单列表订单处理] costTime: 52ms
+\n\t\t\t[签证订单支付成功 获取签证状态] costTime: 24ms
+\n\t\t\t[添加在线退款功能] costTime: 9ms
+\n\t\t\t[判断销售渠道(团购/秒杀)] costTime: 0ms
+\n\t\t\t[判断订单中是否存在合同] costTime: 0ms
+\n\t\t\t[获取并设置目的相关信息] costTime: 6ms
+\n\t\t\t\t[根据产品ID查询目的地列表] costTime: 6ms
+\n\t\t[获取订单详情-金额] costTime: 55ms
+2016-08-02_18:48:50
+[api.com.order.getOrderByProductType 1.0.0] costTime: 2260ms
+\n\t[按产品类别查询订单] costTime: 2257ms
+\n\t\t[各种品类订单总数] costTime: 4ms
+\n\t\t[查询各种品类订单] costTime: 9ms
+\n\t\t[获取VST其他订单] costTime: 88ms
+\n\t\t[处理订单详情] costTime: 141ms
+\n\t\t\t[预授券订单列表订单处理] costTime: 51ms
+\n\t\t\t[签证订单支付成功 获取签证状态] costTime: 28ms
+\n\t\t\t[添加在线退款功能] costTime: 8ms
+\n\t\t\t[判断销售渠道(团购/秒杀)] costTime: 0ms
+\n\t\t\t[判断订单中是否存在合同] costTime: 1ms
+\n\t\t\t[获取并设置目的相关信息] costTime: 5ms
+\n\t\t\t\t[根据产品ID查询目的地列表] costTime: 5ms
+\n\t\t[获取订单详情-金额] costTime: 88ms
+\n\t\t[获取VST其他订单] costTime: 51ms
+\n\t\t[处理订单详情] costTime: 199ms
+\n\t\t\t[预授券订单列表订单处理] costTime: 63ms
+\n\t\t\t[签证订单支付成功 获取签证状态] costTime: 41ms
+\n\t\t\t[添加在线退款功能] costTime: 42ms
+\n\t\t\t[判断销售渠道(团购/秒杀)] costTime: 0ms
+\n\t\t\t[判断订单中是否存在合同] costTime: 0ms
+\n\t\t\t[获取并设置目的相关信息] costTime: 6ms
+\n\t\t\t\t[根据产品ID查询目的地列表] costTime: 4ms
+\n\t\t[获取订单详情-金额] costTime: 48ms
+\n\t\t[获取VST其他订单] costTime: 57ms
+\n\t\t[处理订单详情] costTime: 185ms
+\n\t\t\t[预授券订单列表订单处理] costTime: 77ms
+\n\t\t\t[签证订单支付成功 获取签证状态] costTime: 28ms
+\n\t\t\t[添加在线退款功能] costTime: 28ms
+\n\t\t\t[判断销售渠道(团购/秒杀)] costTime: 0ms
+\n\t\t\t[判断订单中是否存在合同] costTime: 0ms
+\n\t\t\t[获取并设置目的相关信息] costTime: 9ms
+\n\t\t\t\t[根据产品ID查询目的地列表] costTime: 9ms
+\n\t\t[获取订单详情-金额] costTime: 48ms
+\n\t\t[获取VST其他订单] costTime: 49ms
+\n\t\t[处理订单详情] costTime: 142ms
+\n\t\t\t[预授券订单列表订单处理] costTime: 58ms
+\n\t\t\t[签证订单支付成功 获取签证状态] costTime: 25ms
+\n\t\t\t[添加在线退款功能] costTime: 12ms
+\n\t\t\t[判断销售渠道(团购/秒杀)] costTime: 0ms
+\n\t\t\t[判断订单中是否存在合同] costTime: 0ms
+\n\t\t\t[获取并设置目的相关信息] costTime: 5ms
+\n\t\t\t\t[根据产品ID查询目的地列表] costTime: 5ms
+\n\t\t[获取订单详情-金额] costTime: 53ms
+\n\t\t[获取VST其他订单] costTime: 53ms
+\n\t\t[处理订单详情] costTime: 160ms
+\n\t\t\t[预授券订单列表订单处理] costTime: 61ms
+\n\t\t\t[签证订单支付成功 获取签证状态] costTime: 36ms
+\n\t\t\t[添加在线退款功能] costTime: 7ms
+\n\t\t\t[判断销售渠道(团购/秒杀)] costTime: 0ms
+\n\t\t\t[判断订单中是否存在合同] costTime: 0ms
+\n\t\t\t[获取并设置目的相关信息] costTime: 6ms
+\n\t\t\t\t[根据产品ID查询目的地列表] costTime: 6ms
+\n\t\t[获取订单详情-金额] costTime: 55ms
+\n\t\t[获取VST其他订单] costTime: 53ms
+\n\t\t[处理订单详情] costTime: 196ms
+\n\t\t\t[预授券订单列表订单处理] costTime: 111ms
+\n\t\t\t[签证订单支付成功 获取签证状态] costTime: 19ms
+\n\t\t\t[添加在线退款功能] costTime: 12ms
+\n\t\t\t[判断销售渠道(团购/秒杀)] costTime: 1ms
+\n\t\t\t[判断订单中是否存在合同] costTime: 0ms
+\n\t\t\t[获取并设置目的相关信息] costTime: 6ms
+\n\t\t\t\t[根据产品ID查询目的地列表] costTime: 6ms
+\n\t\t[获取订单详情-金额] costTime: 51ms
+\n\t\t[获取VST其他订单] costTime: 58ms
+\n\t\t[处理订单详情] costTime: 406ms
+\n\t\t\t[预授券订单列表订单处理] costTime: 312ms
+\n\t\t\t[签证订单支付成功 获取签证状态] costTime: 24ms
+\n\t\t\t[添加在线退款功能] costTime: 7ms
+\n\t\t\t[判断销售渠道(团购/秒杀)] costTime: 0ms
+\n\t\t\t[判断订单中是否存在合同] costTime: 0ms
+\n\t\t\t[获取并设置目的相关信息] costTime: 4ms
+\n\t\t\t\t[根据产品ID查询目的地列表] costTime: 4ms
+\n\t\t[获取订单详情-金额] costTime: 60ms
+2016-08-02_19:00:33
+[api.com.order.getOrderByProductType 1.0.0] costTime: 2171ms
+\n\t[按产品类别查询订单] costTime: 2168ms
+\n\t\t[各种品类订单总数] costTime: 2ms
+\n\t\t[查询各种品类订单] costTime: 9ms
+\n\t\t[获取VST其他订单] costTime: 51ms
+\n\t\t[处理订单详情] costTime: 156ms
+\n\t\t\t[预授券订单列表订单处理] costTime: 59ms
+\n\t\t\t[签证订单支付成功 获取签证状态] costTime: 32ms
+\n\t\t\t[添加在线退款功能] costTime: 8ms
+\n\t\t\t[判断销售渠道(团购/秒杀)] costTime: 0ms
+\n\t\t\t[判断订单中是否存在合同] costTime: 0ms
+\n\t\t\t[获取并设置目的相关信息] costTime: 8ms
+\n\t\t\t\t[根据产品ID查询目的地列表] costTime: 8ms
+\n\t\t[获取订单详情-金额] costTime: 73ms
+\n\t\t[获取VST其他订单] costTime: 85ms
+\n\t\t[处理订单详情] costTime: 245ms
+\n\t\t\t[预授券订单列表订单处理] costTime: 120ms
+\n\t\t\t[签证订单支付成功 获取签证状态] costTime: 36ms
+\n\t\t\t[添加在线退款功能] costTime: 40ms
+\n\t\t\t[判断销售渠道(团购/秒杀)] costTime: 0ms
+\n\t\t\t[判断订单中是否存在合同] costTime: 0ms
+\n\t\t\t[获取并设置目的相关信息] costTime: 6ms
+\n\t\t\t\t[根据产品ID查询目的地列表] costTime: 6ms
+\n\t\t[获取订单详情-金额] costTime: 53ms
+\n\t\t[获取VST其他订单] costTime: 64ms
+\n\t\t[处理订单详情] costTime: 232ms
+\n\t\t\t[预授券订单列表订单处理] costTime: 142ms
+\n\t\t\t[签证订单支付成功 获取签证状态] costTime: 24ms
+\n\t\t\t[添加在线退款功能] costTime: 9ms
+\n\t\t\t[判断销售渠道(团购/秒杀)] costTime: 0ms
+\n\t\t\t[判断订单中是否存在合同] costTime: 0ms
+\n\t\t\t[获取并设置目的相关信息] costTime: 6ms
+\n\t\t\t\t[根据产品ID查询目的地列表] costTime: 6ms
+\n\t\t[获取订单详情-金额] costTime: 55ms
+\n\t\t[获取VST其他订单] costTime: 62ms
+\n\t\t[处理订单详情] costTime: 197ms
+\n\t\t\t[预授券订单列表订单处理] costTime: 108ms
+\n\t\t\t[签证订单支付成功 获取签证状态] costTime: 30ms
+\n\t\t\t[添加在线退款功能] costTime: 7ms
+\n\t\t\t[判断销售渠道(团购/秒杀)] costTime: 0ms
+\n\t\t\t[判断订单中是否存在合同] costTime: 0ms
+\n\t\t\t[获取并设置目的相关信息] costTime: 6ms
+\n\t\t\t\t[根据产品ID查询目的地列表] costTime: 6ms
+\n\t\t[获取订单详情-金额] costTime: 51ms
+\n\t\t[获取VST其他订单] costTime: 51ms
+\n\t\t[处理订单详情] costTime: 159ms
+\n\t\t\t[预授券订单列表订单处理] costTime: 57ms
+\n\t\t\t[签证订单支付成功 获取签证状态] costTime: 36ms
+\n\t\t\t[添加在线退款功能] costTime: 7ms
+\n\t\t\t[判断销售渠道(团购/秒杀)] costTime: 0ms
+\n\t\t\t[判断订单中是否存在合同] costTime: 0ms
+\n\t\t\t[获取并设置目的相关信息] costTime: 13ms
+\n\t\t\t\t[根据产品ID查询目的地列表] costTime: 13ms
+\n\t\t[获取订单详情-金额] costTime: 66ms
+\n\t\t[获取VST其他订单] costTime: 55ms
+\n\t\t[处理订单详情] costTime: 145ms
+\n\t\t\t[预授券订单列表订单处理] costTime: 69ms
+\n\t\t\t[签证订单支付成功 获取签证状态] costTime: 25ms
+\n\t\t\t[添加在线退款功能] costTime: 8ms
+\n\t\t\t[判断销售渠道(团购/秒杀)] costTime: 0ms
+\n\t\t\t[判断订单中是否存在合同] costTime: 0ms
+\n\t\t\t[获取并设置目的相关信息] costTime: 5ms
+\n\t\t\t\t[根据产品ID查询目的地列表] costTime: 5ms
+\n\t\t[获取订单详情-金额] costTime: 52ms
+\n\t\t[获取VST其他订单] costTime: 60ms
+\n\t\t[处理订单详情] costTime: 191ms
+\n\t\t\t[预授券订单列表订单处理] costTime: 75ms
+\n\t\t\t[签证订单支付成功 获取签证状态] costTime: 52ms
+\n\t\t\t[添加在线退款功能] costTime: 11ms
+\n\t\t\t[判断销售渠道(团购/秒杀)] costTime: 0ms
+\n\t\t\t[判断订单中是否存在合同] costTime: 0ms
+\n\t\t\t[获取并设置目的相关信息] costTime: 8ms
+\n\t\t\t\t[根据产品ID查询目的地列表] costTime: 8ms
+\n\t\t[获取订单详情-金额] costTime: 53ms
+2016-08-02_19:12:15
+[api.com.order.getOrderByProductType 1.0.0] costTime: 2336ms
+\n\t[按产品类别查询订单] costTime: 2335ms
+\n\t\t[各种品类订单总数] costTime: 3ms
+\n\t\t[查询各种品类订单] costTime: 7ms
+\n\t\t[获取VST其他订单] costTime: 70ms
+\n\t\t[处理订单详情] costTime: 169ms
+\n\t\t\t[预授券订单列表订单处理] costTime: 71ms
+\n\t\t\t[签证订单支付成功 获取签证状态] costTime: 28ms
+\n\t\t\t[添加在线退款功能] costTime: 12ms
+\n\t\t\t[判断销售渠道(团购/秒杀)] costTime: 0ms
+\n\t\t\t[判断订单中是否存在合同] costTime: 0ms
+\n\t\t\t[获取并设置目的相关信息] costTime: 5ms
+\n\t\t\t\t[根据产品ID查询目的地列表] costTime: 5ms
+\n\t\t[获取订单详情-金额] costTime: 49ms
+\n\t\t[获取VST其他订单] costTime: 57ms
+\n\t\t[处理订单详情] costTime: 404ms
+\n\t\t\t[预授券订单列表订单处理] costTime: 74ms
+\n\t\t\t[签证订单支付成功 获取签证状态] costTime: 54ms
+\n\t\t\t[添加在线退款功能] costTime: 9ms
+\n\t\t\t[判断销售渠道(团购/秒杀)] costTime: 0ms
+\n\t\t\t[判断订单中是否存在合同] costTime: 0ms
+\n\t\t\t[获取并设置目的相关信息] costTime: 6ms
+\n\t\t\t\t[根据产品ID查询目的地列表] costTime: 6ms
+\n\t\t[获取订单详情-金额] costTime: 43ms
+\n\t\t[获取VST其他订单] costTime: 44ms
+\n\t\t[处理订单详情] costTime: 184ms
+\n\t\t\t[预授券订单列表订单处理] costTime: 94ms
+\n\t\t\t[签证订单支付成功 获取签证状态] costTime: 28ms
+\n\t\t\t[添加在线退款功能] costTime: 13ms
+\n\t\t\t[判断销售渠道(团购/秒杀)] costTime: 0ms
+\n\t\t\t[判断订单中是否存在合同] costTime: 0ms
+\n\t\t\t[获取并设置目的相关信息] costTime: 7ms
+\n\t\t\t\t[根据产品ID查询目的地列表] costTime: 7ms
+\n\t\t[获取订单详情-金额] costTime: 61ms
+\n\t\t[获取VST其他订单] costTime: 58ms
+\n\t\t[处理订单详情] costTime: 380ms
+\n\t\t\t[预授券订单列表订单处理] costTime: 298ms
+\n\t\t\t[签证订单支付成功 获取签证状态] costTime: 20ms
+\n\t\t\t[添加在线退款功能] costTime: 8ms
+\n\t\t\t[判断销售渠道(团购/秒杀)] costTime: 0ms
+\n\t\t\t[判断订单中是否存在合同] costTime: 0ms
+\n\t\t\t[获取并设置目的相关信息] costTime: 5ms
+\n\t\t\t\t[根据产品ID查询目的地列表] costTime: 5ms
+\n\t\t[获取订单详情-金额] costTime: 55ms
+\n\t\t[获取VST其他订单] costTime: 49ms
+\n\t\t[处理订单详情] costTime: 157ms
+\n\t\t\t[预授券订单列表订单处理] costTime: 58ms
+\n\t\t\t[签证订单支付成功 获取签证状态] costTime: 41ms
+\n\t\t\t[添加在线退款功能] costTime: 8ms
+\n\t\t\t[判断销售渠道(团购/秒杀)] costTime: 0ms
+\n\t\t\t[判断订单中是否存在合同] costTime: 0ms
+\n\t\t\t[获取并设置目的相关信息] costTime: 8ms
+\n\t\t\t\t[根据产品ID查询目的地列表] costTime: 8ms
+\n\t\t[获取订单详情-金额] costTime: 56ms
+\n\t\t[获取VST其他订单] costTime: 50ms
+\n\t\t[处理订单详情] costTime: 154ms
+\n\t\t\t[预授券订单列表订单处理] costTime: 68ms
+\n\t\t\t[签证订单支付成功 获取签证状态] costTime: 22ms
+\n\t\t\t[添加在线退款功能] costTime: 15ms
+\n\t\t\t[判断销售渠道(团购/秒杀)] costTime: 0ms
+\n\t\t\t[判断订单中是否存在合同] costTime: 0ms
+\n\t\t\t[获取并设置目的相关信息] costTime: 5ms
+\n\t\t\t\t[根据产品ID查询目的地列表] costTime: 5ms
+\n\t\t[获取订单详情-金额] costTime: 39ms
+\n\t\t[获取VST其他订单] costTime: 48ms
+\n\t\t[处理订单详情] costTime: 148ms
+\n\t\t\t[预授券订单列表订单处理] costTime: 60ms
+\n\t\t\t[签证订单支付成功 获取签证状态] costTime: 27ms
+\n\t\t\t[添加在线退款功能] costTime: 7ms
+\n\t\t\t[判断销售渠道(团购/秒杀)] costTime: 0ms
+\n\t\t\t[判断订单中是否存在合同] costTime: 0ms
+\n\t\t\t[获取并设置目的相关信息] costTime: 5ms
+\n\t\t\t\t[根据产品ID查询目的地列表] costTime: 5ms
+\n\t\t[获取订单详情-金额] costTime: 50ms
+2016-08-02_19:24:08
+[api.com.order.getOrderByProductType 1.0.0] costTime: 2393ms
+\n\t[按产品类别查询订单] costTime: 2392ms
+\n\t\t[各种品类订单总数] costTime: 5ms
+\n\t\t[查询各种品类订单] costTime: 7ms
+\n\t\t[获取VST其他订单] costTime: 86ms
+\n\t\t[处理订单详情] costTime: 183ms
+\n\t\t\t[预授券订单列表订单处理] costTime: 68ms
+\n\t\t\t[签证订单支付成功 获取签证状态] costTime: 42ms
+\n\t\t\t[添加在线退款功能] costTime: 7ms
+\n\t\t\t[判断销售渠道(团购/秒杀)] costTime: 0ms
+\n\t\t\t[判断订单中是否存在合同] costTime: 0ms
+\n\t\t\t[获取并设置目的相关信息] costTime: 5ms
+\n\t\t\t\t[根据产品ID查询目的地列表] costTime: 5ms
+\n\t\t[获取订单详情-金额] costTime: 47ms
+\n\t\t[获取VST其他订单] costTime: 65ms
+\n\t\t[处理订单详情] costTime: 228ms
+\n\t\t\t[预授券订单列表订单处理] costTime: 88ms
+\n\t\t\t[签证订单支付成功 获取签证状态] costTime: 41ms
+\n\t\t\t[添加在线退款功能] costTime: 7ms
+\n\t\t\t[判断销售渠道(团购/秒杀)] costTime: 0ms
+\n\t\t\t[判断订单中是否存在合同] costTime: 0ms
+\n\t\t\t[获取并设置目的相关信息] costTime: 5ms
+\n\t\t\t\t[根据产品ID查询目的地列表] costTime: 5ms
+\n\t\t[获取订单详情-金额] costTime: 72ms
+\n\t\t[获取VST其他订单] costTime: 67ms
+\n\t\t[处理订单详情] costTime: 193ms
+\n\t\t\t[预授券订单列表订单处理] costTime: 98ms
+\n\t\t\t[签证订单支付成功 获取签证状态] costTime: 23ms
+\n\t\t\t[添加在线退款功能] costTime: 9ms
+\n\t\t\t[判断销售渠道(团购/秒杀)] costTime: 0ms
+\n\t\t\t[判断订单中是否存在合同] costTime: 0ms
+\n\t\t\t[获取并设置目的相关信息] costTime: 7ms
+\n\t\t\t\t[根据产品ID查询目的地列表] costTime: 7ms
+\n\t\t[获取订单详情-金额] costTime: 124ms
+\n\t\t[获取VST其他订单] costTime: 58ms
+\n\t\t[处理订单详情] costTime: 142ms
+\n\t\t\t[预授券订单列表订单处理] costTime: 56ms
+\n\t\t\t[签证订单支付成功 获取签证状态] costTime: 21ms
+\n\t\t\t[添加在线退款功能] costTime: 10ms
+\n\t\t\t[判断销售渠道(团购/秒杀)] costTime: 0ms
+\n\t\t\t[判断订单中是否存在合同] costTime: 0ms
+\n\t\t\t[获取并设置目的相关信息] costTime: 8ms
+\n\t\t\t\t[根据产品ID查询目的地列表] costTime: 8ms
+\n\t\t[获取订单详情-金额] costTime: 57ms
+\n\t\t[获取VST其他订单] costTime: 59ms
+\n\t\t[处理订单详情] costTime: 198ms
+\n\t\t\t[预授券订单列表订单处理] costTime: 99ms
+\n\t\t\t[签证订单支付成功 获取签证状态] costTime: 31ms
+\n\t\t\t[添加在线退款功能] costTime: 7ms
+\n\t\t\t[判断销售渠道(团购/秒杀)] costTime: 0ms
+\n\t\t\t[判断订单中是否存在合同] costTime: 0ms
+\n\t\t\t[获取并设置目的相关信息] costTime: 4ms
+\n\t\t\t\t[根据产品ID查询目的地列表] costTime: 4ms
+\n\t\t[获取订单详情-金额] costTime: 59ms
+\n\t\t[获取VST其他订单] costTime: 55ms
+\n\t\t[处理订单详情] costTime: 150ms
+\n\t\t\t[预授券订单列表订单处理] costTime: 58ms
+\n\t\t\t[签证订单支付成功 获取签证状态] costTime: 18ms
+\n\t\t\t[添加在线退款功能] costTime: 7ms
+\n\t\t\t[判断销售渠道(团购/秒杀)] costTime: 0ms
+\n\t\t\t[判断订单中是否存在合同] costTime: 0ms
+\n\t\t\t[获取并设置目的相关信息] costTime: 5ms
+\n\t\t\t\t[根据产品ID查询目的地列表] costTime: 5ms
+\n\t\t[获取订单详情-金额] costTime: 259ms
+\n\t\t[获取VST其他订单] costTime: 61ms
+\n\t\t[处理订单详情] costTime: 158ms
+\n\t\t\t[预授券订单列表订单处理] costTime: 70ms
+\n\t\t\t[签证订单支付成功 获取签证状态] costTime: 24ms
+\n\t\t\t[添加在线退款功能] costTime: 12ms
+\n\t\t\t[判断销售渠道(团购/秒杀)] costTime: 0ms
+\n\t\t\t[判断订单中是否存在合同] costTime: 0ms
+\n\t\t\t[获取并设置目的相关信息] costTime: 5ms
+\n\t\t\t\t[根据产品ID查询目的地列表] costTime: 5ms
+\n\t\t[获取订单详情-金额] costTime: 58ms
+2016-08-02_19:35:56
+[api.com.order.getOrderByProductType 1.0.0] costTime: 2272ms
+\n\t[按产品类别查询订单] costTime: 2269ms
+\n\t\t[各种品类订单总数] costTime: 4ms
+\n\t\t[查询各种品类订单] costTime: 9ms
+\n\t\t[获取VST其他订单] costTime: 90ms
+\n\t\t[处理订单详情] costTime: 224ms
+\n\t\t\t[预授券订单列表订单处理] costTime: 146ms
+\n\t\t\t[签证订单支付成功 获取签证状态] costTime: 19ms
+\n\t\t\t[添加在线退款功能] costTime: 8ms
+\n\t\t\t[判断销售渠道(团购/秒杀)] costTime: 0ms
+\n\t\t\t[判断订单中是否存在合同] costTime: 0ms
+\n\t\t\t[获取并设置目的相关信息] costTime: 5ms
+\n\t\t\t\t[根据产品ID查询目的地列表] costTime: 5ms
+\n\t\t[获取订单详情-金额] costTime: 52ms
+\n\t\t[获取VST其他订单] costTime: 49ms
+\n\t\t[处理订单详情] costTime: 172ms
+\n\t\t\t[预授券订单列表订单处理] costTime: 82ms
+\n\t\t\t[签证订单支付成功 获取签证状态] costTime: 31ms
+\n\t\t\t[添加在线退款功能] costTime: 9ms
+\n\t\t\t[判断销售渠道(团购/秒杀)] costTime: 0ms
+\n\t\t\t[判断订单中是否存在合同] costTime: 0ms
+\n\t\t\t[获取并设置目的相关信息] costTime: 5ms
+\n\t\t\t\t[根据产品ID查询目的地列表] costTime: 5ms
+\n\t\t[获取订单详情-金额] costTime: 48ms
+\n\t\t[获取VST其他订单] costTime: 61ms
+\n\t\t[处理订单详情] costTime: 172ms
+\n\t\t\t[预授券订单列表订单处理] costTime: 71ms
+\n\t\t\t[签证订单支付成功 获取签证状态] costTime: 31ms
+\n\t\t\t[添加在线退款功能] costTime: 8ms
+\n\t\t\t[判断销售渠道(团购/秒杀)] costTime: 0ms
+\n\t\t\t[判断订单中是否存在合同] costTime: 0ms
+\n\t\t\t[获取并设置目的相关信息] costTime: 6ms
+\n\t\t\t\t[根据产品ID查询目的地列表] costTime: 6ms
+\n\t\t[获取订单详情-金额] costTime: 75ms
+\n\t\t[获取VST其他订单] costTime: 52ms
+\n\t\t[处理订单详情] costTime: 165ms
+\n\t\t\t[预授券订单列表订单处理] costTime: 61ms
+\n\t\t\t[签证订单支付成功 获取签证状态] costTime: 19ms
+\n\t\t\t[添加在线退款功能] costTime: 9ms
+\n\t\t\t[判断销售渠道(团购/秒杀)] costTime: 0ms
+\n\t\t\t[判断订单中是否存在合同] costTime: 0ms
+\n\t\t\t[获取并设置目的相关信息] costTime: 6ms
+\n\t\t\t\t[根据产品ID查询目的地列表] costTime: 5ms
+\n\t\t[获取订单详情-金额] costTime: 54ms
+\n\t\t[获取VST其他订单] costTime: 70ms
+\n\t\t[处理订单详情] costTime: 150ms
+\n\t\t\t[预授券订单列表订单处理] costTime: 51ms
+\n\t\t\t[签证订单支付成功 获取签证状态] costTime: 41ms
+\n\t\t\t[添加在线退款功能] costTime: 8ms
+\n\t\t\t[判断销售渠道(团购/秒杀)] costTime: 0ms
+\n\t\t\t[判断订单中是否存在合同] costTime: 0ms
+\n\t\t\t[获取并设置目的相关信息] costTime: 7ms
+\n\t\t\t\t[根据产品ID查询目的地列表] costTime: 5ms
+\n\t\t[获取订单详情-金额] costTime: 58ms
+\n\t\t[获取VST其他订单] costTime: 55ms
+\n\t\t[处理订单详情] costTime: 234ms
+\n\t\t\t[预授券订单列表订单处理] costTime: 119ms
+\n\t\t\t[签证订单支付成功 获取签证状态] costTime: 35ms
+\n\t\t\t[添加在线退款功能] costTime: 10ms
+\n\t\t\t[判断销售渠道(团购/秒杀)] costTime: 0ms
+\n\t\t\t[判断订单中是否存在合同] costTime: 0ms
+\n\t\t\t[获取并设置目的相关信息] costTime: 19ms
+\n\t\t\t\t[根据产品ID查询目的地列表] costTime: 16ms
+\n\t\t[获取订单详情-金额] costTime: 52ms
+\n\t\t[获取VST其他订单] costTime: 52ms
+\n\t\t[处理订单详情] costTime: 150ms
+\n\t\t\t[预授券订单列表订单处理] costTime: 57ms
+\n\t\t\t[签证订单支付成功 获取签证状态] costTime: 33ms
+\n\t\t\t[添加在线退款功能] costTime: 10ms
+\n\t\t\t[判断销售渠道(团购/秒杀)] costTime: 0ms
+\n\t\t\t[判断订单中是否存在合同] costTime: 0ms
+\n\t\t\t[获取并设置目的相关信息] costTime: 5ms
+\n\t\t\t\t[根据产品ID查询目的地列表] costTime: 5ms
+\n\t\t[获取订单详情-金额] costTime: 218ms
+2016-08-02_19:47:39
+[api.com.order.getOrderByProductType 1.0.0] costTime: 1969ms
+\n\t[按产品类别查询订单] costTime: 1968ms
+\n\t\t[各种品类订单总数] costTime: 2ms
+\n\t\t[查询各种品类订单] costTime: 9ms
+\n\t\t[获取VST其他订单] costTime: 56ms
+\n\t\t[处理订单详情] costTime: 172ms
+\n\t\t\t[预授券订单列表订单处理] costTime: 81ms
+\n\t\t\t[签证订单支付成功 获取签证状态] costTime: 26ms
+\n\t\t\t[添加在线退款功能] costTime: 8ms
+\n\t\t\t[判断销售渠道(团购/秒杀)] costTime: 0ms
+\n\t\t\t[判断订单中是否存在合同] costTime: 0ms
+\n\t\t\t[获取并设置目的相关信息] costTime: 5ms
+\n\t\t\t\t[根据产品ID查询目的地列表] costTime: 5ms
+\n\t\t[获取订单详情-金额] costTime: 53ms
+\n\t\t[获取VST其他订单] costTime: 54ms
+\n\t\t[处理订单详情] costTime: 156ms
+\n\t\t\t[预授券订单列表订单处理] costTime: 68ms
+\n\t\t\t[签证订单支付成功 获取签证状态] costTime: 26ms
+\n\t\t\t[添加在线退款功能] costTime: 10ms
+\n\t\t\t[判断销售渠道(团购/秒杀)] costTime: 0ms
+\n\t\t\t[判断订单中是否存在合同] costTime: 0ms
+\n\t\t\t[获取并设置目的相关信息] costTime: 8ms
+\n\t\t\t\t[根据产品ID查询目的地列表] costTime: 8ms
+\n\t\t[获取订单详情-金额] costTime: 54ms
+\n\t\t[获取VST其他订单] costTime: 54ms
+\n\t\t[处理订单详情] costTime: 174ms
+\n\t\t\t[预授券订单列表订单处理] costTime: 67ms
+\n\t\t\t[签证订单支付成功 获取签证状态] costTime: 27ms
+\n\t\t\t[添加在线退款功能] costTime: 17ms
+\n\t\t\t[判断销售渠道(团购/秒杀)] costTime: 0ms
+\n\t\t\t[判断订单中是否存在合同] costTime: 0ms
+\n\t\t\t[获取并设置目的相关信息] costTime: 4ms
+\n\t\t\t\t[根据产品ID查询目的地列表] costTime: 4ms
+\n\t\t[获取订单详情-金额] costTime: 59ms
+\n\t\t[获取VST其他订单] costTime: 59ms
+\n\t\t[处理订单详情] costTime: 145ms
+\n\t\t\t[预授券订单列表订单处理] costTime: 66ms
+\n\t\t\t[签证订单支付成功 获取签证状态] costTime: 21ms
+\n\t\t\t[添加在线退款功能] costTime: 7ms
+\n\t\t\t[判断销售渠道(团购/秒杀)] costTime: 0ms
+\n\t\t\t[判断订单中是否存在合同] costTime: 0ms
+\n\t\t\t[获取并设置目的相关信息] costTime: 5ms
+\n\t\t\t\t[根据产品ID查询目的地列表] costTime: 5ms
+\n\t\t[获取订单详情-金额] costTime: 58ms
+\n\t\t[获取VST其他订单] costTime: 57ms
+\n\t\t[处理订单详情] costTime: 166ms
+\n\t\t\t[预授券订单列表订单处理] costTime: 62ms
+\n\t\t\t[签证订单支付成功 获取签证状态] costTime: 37ms
+\n\t\t\t[添加在线退款功能] costTime: 7ms
+\n\t\t\t[判断销售渠道(团购/秒杀)] costTime: 0ms
+\n\t\t\t[判断订单中是否存在合同] costTime: 0ms
+\n\t\t\t[获取并设置目的相关信息] costTime: 5ms
+\n\t\t\t\t[根据产品ID查询目的地列表] costTime: 5ms
+\n\t\t[获取订单详情-金额] costTime: 50ms
+\n\t\t[获取VST其他订单] costTime: 55ms
+\n\t\t[处理订单详情] costTime: 215ms
+\n\t\t\t[预授券订单列表订单处理] costTime: 132ms
+\n\t\t\t[签证订单支付成功 获取签证状态] costTime: 21ms
+\n\t\t\t[添加在线退款功能] costTime: 6ms
+\n\t\t\t[判断销售渠道(团购/秒杀)] costTime: 0ms
+\n\t\t\t[判断订单中是否存在合同] costTime: 0ms
+\n\t\t\t[获取并设置目的相关信息] costTime: 10ms
+\n\t\t\t\t[根据产品ID查询目的地列表] costTime: 10ms
+\n\t\t[获取订单详情-金额] costTime: 57ms
+\n\t\t[获取VST其他订单] costTime: 48ms
+\n\t\t[处理订单详情] costTime: 140ms
+\n\t\t\t[预授券订单列表订单处理] costTime: 61ms
+\n\t\t\t[签证订单支付成功 获取签证状态] costTime: 18ms
+\n\t\t\t[添加在线退款功能] costTime: 7ms
+\n\t\t\t[判断销售渠道(团购/秒杀)] costTime: 0ms
+\n\t\t\t[判断订单中是否存在合同] costTime: 0ms
+\n\t\t\t[获取并设置目的相关信息] costTime: 4ms
+\n\t\t\t\t[根据产品ID查询目的地列表] costTime: 4ms
+\n\t\t[获取订单详情-金额] costTime: 75ms
+2016-08-02_19:59:22
+[api.com.order.getOrderByProductType 1.0.0] costTime: 1994ms
+\n\t[按产品类别查询订单] costTime: 1990ms
+\n\t\t[各种品类订单总数] costTime: 3ms
+\n\t\t[查询各种品类订单] costTime: 11ms
 \n\t\t[获取VST其他订单] costTime: 80ms
-\n\t\t[处理订单详情] costTime: 85ms
-\n\t\t\t[处理门票详情] costTime: 0ms
-\n\t\t[添加在线退款功能] costTime: 7ms
-\n\t\t[判断销售渠道(团购/秒杀)] costTime: 0ms
-\n\t\t[判断订单中是否存在合同] costTime: 0ms
-\n\t\t[获取并设置目的相关信息] costTime: 13ms
-\n\t\t\t[根据产品ID查询目的地列表] costTime: 9ms
-\n\t\t\t[根据ID查询目的地] costTime: 4ms
-\n\t[获取订单详情-金额] costTime: 39ms
-\n\t[获取VST其他订单] costTime: 62ms
-\n\t[处理订单详情] costTime: 120ms
-\n\t\t[处理门票详情] costTime: 0ms
-\n\t[添加在线退款功能] costTime: 8ms
-\n\t[判断销售渠道(团购/秒杀)] costTime: 0ms
-\n\t[判断订单中是否存在合同] costTime: 0ms
-\n\t[获取并设置目的相关信息] costTime: 9ms
-\n\t\t[根据产品ID查询目的地列表] costTime: 6ms
-\n\t\t[根据ID查询目的地] costTime: 3ms
+\n\t\t[处理订单详情] costTime: 151ms
+\n\t\t\t[预授券订单列表订单处理] costTime: 57ms
+\n\t\t\t[签证订单支付成功 获取签证状态] costTime: 26ms
+\n\t\t\t[添加在线退款功能] costTime: 8ms
+\n\t\t\t[判断销售渠道(团购/秒杀)] costTime: 0ms
+\n\t\t\t[判断订单中是否存在合同] costTime: 0ms
+\n\t\t\t[获取并设置目的相关信息] costTime: 7ms
+\n\t\t\t\t[根据产品ID查询目的地列表] costTime: 6ms
+\n\t\t[获取订单详情-金额] costTime: 51ms
+\n\t\t[获取VST其他订单] costTime: 53ms
+\n\t\t[处理订单详情] costTime: 193ms
+\n\t\t\t[预授券订单列表订单处理] costTime: 86ms
+\n\t\t\t[签证订单支付成功 获取签证状态] costTime: 43ms
+\n\t\t\t[添加在线退款功能] costTime: 8ms
+\n\t\t\t[判断销售渠道(团购/秒杀)] costTime: 0ms
+\n\t\t\t[判断订单中是否存在合同] costTime: 0ms
+\n\t\t\t[获取并设置目的相关信息] costTime: 5ms
+\n\t\t\t\t[根据产品ID查询目的地列表] costTime: 5ms
+\n\t\t[获取订单详情-金额] costTime: 52ms
+\n\t\t[获取VST其他订单] costTime: 56ms
+\n\t\t[处理订单详情] costTime: 166ms
+\n\t\t\t[预授券订单列表订单处理] costTime: 72ms
+\n\t\t\t[签证订单支付成功 获取签证状态] costTime: 27ms
+\n\t\t\t[添加在线退款功能] costTime: 8ms
+\n\t\t\t[判断销售渠道(团购/秒杀)] costTime: 0ms
+\n\t\t\t[判断订单中是否存在合同] costTime: 0ms
+\n\t\t\t[获取并设置目的相关信息] costTime: 9ms
+\n\t\t\t\t[根据产品ID查询目的地列表] costTime: 9ms
+\n\t\t[获取订单详情-金额] costTime: 64ms
+\n\t\t[获取VST其他订单] costTime: 52ms
+\n\t\t[处理订单详情] costTime: 163ms
+\n\t\t\t[预授券订单列表订单处理] costTime: 59ms
+\n\t\t\t[签证订单支付成功 获取签证状态] costTime: 39ms
+\n\t\t\t[添加在线退款功能] costTime: 9ms
+\n\t\t\t[判断销售渠道(团购/秒杀)] costTime: 0ms
+\n\t\t\t[判断订单中是否存在合同] costTime: 0ms
+\n\t\t\t[获取并设置目的相关信息] costTime: 7ms
+\n\t\t\t\t[根据产品ID查询目的地列表] costTime: 5ms
+\n\t\t[获取订单详情-金额] costTime: 53ms
+\n\t\t[获取VST其他订单] costTime: 56ms
+\n\t\t[处理订单详情] costTime: 196ms
+\n\t\t\t[预授券订单列表订单处理] costTime: 97ms
+\n\t\t\t[签证订单支付成功 获取签证状态] costTime: 33ms
+\n\t\t\t[添加在线退款功能] costTime: 10ms
+\n\t\t\t[判断销售渠道(团购/秒杀)] costTime: 0ms
+\n\t\t\t[判断订单中是否存在合同] costTime: 0ms
+\n\t\t\t[获取并设置目的相关信息] costTime: 5ms
+\n\t\t\t\t[根据产品ID查询目的地列表] costTime: 5ms
+\n\t\t[获取订单详情-金额] costTime: 58ms
+\n\t\t[获取VST其他订单] costTime: 62ms
+\n\t\t[处理订单详情] costTime: 163ms
+\n\t\t\t[预授券订单列表订单处理] costTime: 77ms
+\n\t\t\t[签证订单支付成功 获取签证状态] costTime: 22ms
+\n\t\t\t[添加在线退款功能] costTime: 11ms
+\n\t\t\t[判断销售渠道(团购/秒杀)] costTime: 0ms
+\n\t\t\t[判断订单中是否存在合同] costTime: 0ms
+\n\t\t\t[获取并设置目的相关信息] costTime: 5ms
+\n\t\t\t\t[根据产品ID查询目的地列表] costTime: 5ms
+\n\t\t[获取订单详情-金额] costTime: 56ms
+\n\t\t[获取VST其他订单] costTime: 69ms
+\n\t\t[处理订单详情] costTime: 126ms
+\n\t\t\t[预授券订单列表订单处理] costTime: 56ms
+\n\t\t\t[签证订单支付成功 获取签证状态] costTime: 16ms
+\n\t\t\t[添加在线退款功能] costTime: 6ms
+\n\t\t\t[判断销售渠道(团购/秒杀)] costTime: 0ms
+\n\t\t\t[判断订单中是否存在合同] costTime: 0ms
+\n\t\t\t[获取并设置目的相关信息] costTime: 6ms
+\n\t\t\t\t[根据产品ID查询目的地列表] costTime: 5ms
+\n\t\t[获取订单详情-金额] costTime: 49ms
+2016-08-02_20:11:04
+[api.com.order.getOrderByProductType 1.0.0] costTime: 2029ms
+\n\t[按产品类别查询订单] costTime: 2027ms
+\n\t\t[各种品类订单总数] costTime: 4ms
+\n\t\t[查询各种品类订单] costTime: 9ms
+\n\t\t[获取VST其他订单] costTime: 53ms
+\n\t\t[处理订单详情] costTime: 148ms
+\n\t\t\t[预授券订单列表订单处理] costTime: 75ms
+\n\t\t\t[签证订单支付成功 获取签证状态] costTime: 21ms
+\n\t\t\t[添加在线退款功能] costTime: 8ms
+\n\t\t\t[判断销售渠道(团购/秒杀)] costTime: 0ms
+\n\t\t\t[判断订单中是否存在合同] costTime: 0ms
+\n\t\t\t[获取并设置目的相关信息] costTime: 7ms
+\n\t\t\t\t[根据产品ID查询目的地列表] costTime: 7ms
+\n\t\t[获取订单详情-金额] costTime: 54ms
+\n\t\t[获取VST其他订单] costTime: 53ms
+\n\t\t[处理订单详情] costTime: 178ms
+\n\t\t\t[预授券订单列表订单处理] costTime: 69ms
+\n\t\t\t[签证订单支付成功 获取签证状态] costTime: 37ms
+\n\t\t\t[添加在线退款功能] costTime: 9ms
+\n\t\t\t[判断销售渠道(团购/秒杀)] costTime: 0ms
+\n\t\t\t[判断订单中是否存在合同] costTime: 0ms
+\n\t\t\t[获取并设置目的相关信息] costTime: 5ms
+\n\t\t\t\t[根据产品ID查询目的地列表] costTime: 5ms
+\n\t\t[获取订单详情-金额] costTime: 46ms
+\n\t\t[获取VST其他订单] costTime: 60ms
+\n\t\t[处理订单详情] costTime: 149ms
+\n\t\t\t[预授券订单列表订单处理] costTime: 63ms
+\n\t\t\t[签证订单支付成功 获取签证状态] costTime: 34ms
+\n\t\t\t[添加在线退款功能] costTime: 7ms
+\n\t\t\t[判断销售渠道(团购/秒杀)] costTime: 0ms
+\n\t\t\t[判断订单中是否存在合同] costTime: 0ms
+\n\t\t\t[获取并设置目的相关信息] costTime: 6ms
+\n\t\t\t\t[根据产品ID查询目的地列表] costTime: 6ms
+\n\t\t[获取订单详情-金额] costTime: 52ms
+\n\t\t[获取VST其他订单] costTime: 51ms
+\n\t\t[处理订单详情] costTime: 297ms
+\n\t\t\t[预授券订单列表订单处理] costTime: 52ms
+\n\t\t\t[签证订单支付成功 获取签证状态] costTime: 24ms
+\n\t\t\t[添加在线退款功能] costTime: 9ms
+\n\t\t\t[判断销售渠道(团购/秒杀)] costTime: 0ms
+\n\t\t\t[判断订单中是否存在合同] costTime: 0ms
+\n\t\t\t[获取并设置目的相关信息] costTime: 160ms
+\n\t\t\t\t[根据产品ID查询目的地列表] costTime: 160ms
+\n\t\t[获取订单详情-金额] costTime: 46ms
+\n\t\t[获取VST其他订单] costTime: 62ms
+\n\t\t[处理订单详情] costTime: 154ms
+\n\t\t\t[预授券订单列表订单处理] costTime: 55ms
+\n\t\t\t[签证订单支付成功 获取签证状态] costTime: 37ms
+\n\t\t\t[添加在线退款功能] costTime: 10ms
+\n\t\t\t[判断销售渠道(团购/秒杀)] costTime: 0ms
+\n\t\t\t[判断订单中是否存在合同] costTime: 0ms
+\n\t\t\t[获取并设置目的相关信息] costTime: 6ms
+\n\t\t\t\t[根据产品ID查询目的地列表] costTime: 6ms
+\n\t\t[获取订单详情-金额] costTime: 54ms
+\n\t\t[获取VST其他订单] costTime: 73ms
+\n\t\t[处理订单详情] costTime: 150ms
+\n\t\t\t[预授券订单列表订单处理] costTime: 66ms
+\n\t\t\t[签证订单支付成功 获取签证状态] costTime: 20ms
+\n\t\t\t[添加在线退款功能] costTime: 7ms
+\n\t\t\t[判断销售渠道(团购/秒杀)] costTime: 0ms
+\n\t\t\t[判断订单中是否存在合同] costTime: 0ms
+\n\t\t\t[获取并设置目的相关信息] costTime: 6ms
+\n\t\t\t\t[根据产品ID查询目的地列表] costTime: 6ms
+\n\t\t[获取订单详情-金额] costTime: 49ms
+\n\t\t[获取VST其他订单] costTime: 52ms
+\n\t\t[处理订单详情] costTime: 163ms
+\n\t\t\t[预授券订单列表订单处理] costTime: 75ms
+\n\t\t\t[签证订单支付成功 获取签证状态] costTime: 25ms
+\n\t\t\t[添加在线退款功能] costTime: 9ms
+\n\t\t\t[判断销售渠道(团购/秒杀)] costTime: 0ms
+\n\t\t\t[判断订单中是否存在合同] costTime: 0ms
+\n\t\t\t[获取并设置目的相关信息] costTime: 5ms
+\n\t\t\t\t[根据产品ID查询目的地列表] costTime: 5ms
+\n\t\t[获取订单详情-金额] costTime: 70ms
+2016-08-02_20:22:46
+[api.com.order.getOrderByProductType 1.0.0] costTime: 2039ms
+\n\t[按产品类别查询订单] costTime: 2036ms
+\n\t\t[各种品类订单总数] costTime: 3ms
+\n\t\t[查询各种品类订单] costTime: 6ms
+\n\t\t[获取VST其他订单] costTime: 57ms
+\n\t\t[处理订单详情] costTime: 159ms
+\n\t\t\t[预授券订单列表订单处理] costTime: 70ms
+\n\t\t\t[签证订单支付成功 获取签证状态] costTime: 19ms
+\n\t\t\t[添加在线退款功能] costTime: 8ms
+\n\t\t\t[判断销售渠道(团购/秒杀)] costTime: 0ms
+\n\t\t\t[判断订单中是否存在合同] costTime: 0ms
+\n\t\t\t[获取并设置目的相关信息] costTime: 4ms
+\n\t\t\t\t[根据产品ID查询目的地列表] costTime: 4ms
+\n\t\t[获取订单详情-金额] costTime: 55ms
+\n\t\t[获取VST其他订单] costTime: 61ms
+\n\t\t[处理订单详情] costTime: 245ms
+\n\t\t\t[预授券订单列表订单处理] costTime: 167ms
+\n\t\t\t[签证订单支付成功 获取签证状态] costTime: 28ms
+\n\t\t\t[添加在线退款功能] costTime: 7ms
+\n\t\t\t[判断销售渠道(团购/秒杀)] costTime: 0ms
+\n\t\t\t[判断订单中是否存在合同] costTime: 0ms
+\n\t\t\t[获取并设置目的相关信息] costTime: 5ms
+\n\t\t\t\t[根据产品ID查询目的地列表] costTime: 5ms
+\n\t\t[获取订单详情-金额] costTime: 49ms
+\n\t\t[获取VST其他订单] costTime: 56ms
+\n\t\t[处理订单详情] costTime: 188ms
+\n\t\t\t[预授券订单列表订单处理] costTime: 65ms
+\n\t\t\t[签证订单支付成功 获取签证状态] costTime: 38ms
+\n\t\t\t[添加在线退款功能] costTime: 9ms
+\n\t\t\t[判断销售渠道(团购/秒杀)] costTime: 0ms
+\n\t\t\t[判断订单中是否存在合同] costTime: 0ms
+\n\t\t\t[获取并设置目的相关信息] costTime: 6ms
+\n\t\t\t\t[根据产品ID查询目的地列表] costTime: 6ms
+\n\t\t[获取订单详情-金额] costTime: 44ms
+\n\t\t[获取VST其他订单] costTime: 62ms
+\n\t\t[处理订单详情] costTime: 186ms
+\n\t\t\t[预授券订单列表订单处理] costTime: 81ms
+\n\t\t\t[签证订单支付成功 获取签证状态] costTime: 28ms
+\n\t\t\t[添加在线退款功能] costTime: 7ms
+\n\t\t\t[判断销售渠道(团购/秒杀)] costTime: 0ms
+\n\t\t\t[判断订单中是否存在合同] costTime: 0ms
+\n\t\t\t[获取并设置目的相关信息] costTime: 16ms
+\n\t\t\t\t[根据产品ID查询目的地列表] costTime: 16ms
+\n\t\t[获取订单详情-金额] costTime: 48ms
+\n\t\t[获取VST其他订单] costTime: 60ms
+\n\t\t[处理订单详情] costTime: 158ms
+\n\t\t\t[预授券订单列表订单处理] costTime: 55ms
+\n\t\t\t[签证订单支付成功 获取签证状态] costTime: 40ms
+\n\t\t\t[添加在线退款功能] costTime: 7ms
+\n\t\t\t[判断销售渠道(团购/秒杀)] costTime: 0ms
+\n\t\t\t[判断订单中是否存在合同] costTime: 0ms
+\n\t\t\t[获取并设置目的相关信息] costTime: 5ms
+\n\t\t\t\t[根据产品ID查询目的地列表] costTime: 5ms
+\n\t\t[获取订单详情-金额] costTime: 49ms
+\n\t\t[获取VST其他订单] costTime: 54ms
+\n\t\t[处理订单详情] costTime: 189ms
+\n\t\t\t[预授券订单列表订单处理] costTime: 64ms
+\n\t\t\t[签证订单支付成功 获取签证状态] costTime: 73ms
+\n\t\t\t[添加在线退款功能] costTime: 7ms
+\n\t\t\t[判断销售渠道(团购/秒杀)] costTime: 0ms
+\n\t\t\t[判断订单中是否存在合同] costTime: 0ms
+\n\t\t\t[获取并设置目的相关信息] costTime: 5ms
+\n\t\t\t\t[根据产品ID查询目的地列表] costTime: 5ms
+\n\t\t[获取订单详情-金额] costTime: 61ms
+\n\t\t[获取VST其他订单] costTime: 51ms
+\n\t\t[处理订单详情] costTime: 148ms
+\n\t\t\t[预授券订单列表订单处理] costTime: 58ms
+\n\t\t\t[签证订单支付成功 获取签证状态] costTime: 30ms
+\n\t\t\t[添加在线退款功能] costTime: 8ms
+\n\t\t\t[判断销售渠道(团购/秒杀)] costTime: 0ms
+\n\t\t\t[判断订单中是否存在合同] costTime: 0ms
+\n\t\t\t[获取并设置目的相关信息] costTime: 5ms
+\n\t\t\t\t[根据产品ID查询目的地列表] costTime: 5ms
+\n\t\t[获取订单详情-金额] costTime: 47ms
+2016-08-02_20:34:28
+[api.com.order.getOrderByProductType 1.0.0] costTime: 2084ms
+\n\t[按产品类别查询订单] costTime: 2080ms
+\n\t\t[各种品类订单总数] costTime: 5ms
+\n\t\t[查询各种品类订单] costTime: 8ms
+\n\t\t[获取VST其他订单] costTime: 50ms
+\n\t\t[处理订单详情] costTime: 155ms
+\n\t\t\t[预授券订单列表订单处理] costTime: 72ms
+\n\t\t\t[签证订单支付成功 获取签证状态] costTime: 22ms
+\n\t\t\t[添加在线退款功能] costTime: 10ms
+\n\t\t\t[判断销售渠道(团购/秒杀)] costTime: 0ms
+\n\t\t\t[判断订单中是否存在合同] costTime: 0ms
+\n\t\t\t[获取并设置目的相关信息] costTime: 11ms
+\n\t\t\t\t[根据产品ID查询目的地列表] costTime: 11ms
+\n\t\t[获取订单详情-金额] costTime: 66ms
+\n\t\t[获取VST其他订单] costTime: 55ms
+\n\t\t[处理订单详情] costTime: 175ms
+\n\t\t\t[预授券订单列表订单处理] costTime: 75ms
+\n\t\t\t[签证订单支付成功 获取签证状态] costTime: 26ms
+\n\t\t\t[添加在线退款功能] costTime: 7ms
+\n\t\t\t[判断销售渠道(团购/秒杀)] costTime: 0ms
+\n\t\t\t[判断订单中是否存在合同] costTime: 0ms
+\n\t\t\t[获取并设置目的相关信息] costTime: 6ms
+\n\t\t\t\t[根据产品ID查询目的地列表] costTime: 6ms
+\n\t\t[获取订单详情-金额] costTime: 57ms
+\n\t\t[获取VST其他订单] costTime: 60ms
+\n\t\t[处理订单详情] costTime: 179ms
+\n\t\t\t[预授券订单列表订单处理] costTime: 84ms
+\n\t\t\t[签证订单支付成功 获取签证状态] costTime: 25ms
+\n\t\t\t[添加在线退款功能] costTime: 9ms
+\n\t\t\t[判断销售渠道(团购/秒杀)] costTime: 0ms
+\n\t\t\t[判断订单中是否存在合同] costTime: 0ms
+\n\t\t\t[获取并设置目的相关信息] costTime: 10ms
+\n\t\t\t\t[根据产品ID查询目的地列表] costTime: 10ms
+\n\t\t[获取订单详情-金额] costTime: 56ms
+\n\t\t[获取VST其他订单] costTime: 56ms
+\n\t\t[处理订单详情] costTime: 180ms
+\n\t\t\t[预授券订单列表订单处理] costTime: 92ms
+\n\t\t\t[签证订单支付成功 获取签证状态] costTime: 26ms
+\n\t\t\t[添加在线退款功能] costTime: 7ms
+\n\t\t\t[判断销售渠道(团购/秒杀)] costTime: 0ms
+\n\t\t\t[判断订单中是否存在合同] costTime: 0ms
+\n\t\t\t[获取并设置目的相关信息] costTime: 7ms
+\n\t\t\t\t[根据产品ID查询目的地列表] costTime: 7ms
+\n\t\t[获取订单详情-金额] costTime: 49ms
+\n\t\t[获取VST其他订单] costTime: 59ms
+\n\t\t[处理订单详情] costTime: 196ms
+\n\t\t\t[预授券订单列表订单处理] costTime: 85ms
+\n\t\t\t[签证订单支付成功 获取签证状态] costTime: 31ms
+\n\t\t\t[添加在线退款功能] costTime: 10ms
+\n\t\t\t[判断销售渠道(团购/秒杀)] costTime: 0ms
+\n\t\t\t[判断订单中是否存在合同] costTime: 0ms
+\n\t\t\t[获取并设置目的相关信息] costTime: 5ms
+\n\t\t\t\t[根据产品ID查询目的地列表] costTime: 5ms
+\n\t\t[获取订单详情-金额] costTime: 61ms
+\n\t\t[获取VST其他订单] costTime: 54ms
+\n\t\t[处理订单详情] costTime: 169ms
+\n\t\t\t[预授券订单列表订单处理] costTime: 62ms
+\n\t\t\t[签证订单支付成功 获取签证状态] costTime: 31ms
+\n\t\t\t[添加在线退款功能] costTime: 7ms
+\n\t\t\t[判断销售渠道(团购/秒杀)] costTime: 0ms
+\n\t\t\t[判断订单中是否存在合同] costTime: 0ms
+\n\t\t\t[获取并设置目的相关信息] costTime: 7ms
+\n\t\t\t\t[根据产品ID查询目的地列表] costTime: 7ms
+\n\t\t[获取订单详情-金额] costTime: 96ms
+\n\t\t[获取VST其他订单] costTime: 57ms
+\n\t\t[处理订单详情] costTime: 183ms
+\n\t\t\t[预授券订单列表订单处理] costTime: 66ms
+\n\t\t\t[签证订单支付成功 获取签证状态] costTime: 22ms
+\n\t\t\t[添加在线退款功能] costTime: 9ms
+\n\t\t\t[判断销售渠道(团购/秒杀)] costTime: 0ms
+\n\t\t\t[判断订单中是否存在合同] costTime: 0ms
+\n\t\t\t[获取并设置目的相关信息] costTime: 6ms
+\n\t\t\t\t[根据产品ID查询目的地列表] costTime: 6ms
+\n\t\t[获取订单详情-金额] costTime: 54ms
+2016-08-02_20:46:11
+[api.com.order.getOrderByProductType 1.0.0] costTime: 2197ms
+\n\t[按产品类别查询订单] costTime: 2193ms
+\n\t\t[各种品类订单总数] costTime: 5ms
+\n\t\t[查询各种品类订单] costTime: 9ms
+\n\t\t[获取VST其他订单] costTime: 56ms
+\n\t\t[处理订单详情] costTime: 197ms
+\n\t\t\t[预授券订单列表订单处理] costTime: 60ms
+\n\t\t\t[签证订单支付成功 获取签证状态] costTime: 31ms
+\n\t\t\t[添加在线退款功能] costTime: 8ms
+\n\t\t\t[判断销售渠道(团购/秒杀)] costTime: 0ms
+\n\t\t\t[判断订单中是否存在合同] costTime: 0ms
+\n\t\t\t[获取并设置目的相关信息] costTime: 46ms
+\n\t\t\t\t[根据产品ID查询目的地列表] costTime: 44ms
+\n\t\t[获取订单详情-金额] costTime: 45ms
+\n\t\t[获取VST其他订单] costTime: 63ms
+\n\t\t[处理订单详情] costTime: 270ms
+\n\t\t\t[预授券订单列表订单处理] costTime: 120ms
+\n\t\t\t[签证订单支付成功 获取签证状态] costTime: 48ms
+\n\t\t\t[添加在线退款功能] costTime: 12ms
+\n\t\t\t[判断销售渠道(团购/秒杀)] costTime: 0ms
+\n\t\t\t[判断订单中是否存在合同] costTime: 0ms
+\n\t\t\t[获取并设置目的相关信息] costTime: 6ms
+\n\t\t\t\t[根据产品ID查询目的地列表] costTime: 6ms
+\n\t\t[获取订单详情-金额] costTime: 60ms
+\n\t\t[获取VST其他订单] costTime: 53ms
+\n\t\t[处理订单详情] costTime: 207ms
+\n\t\t\t[预授券订单列表订单处理] costTime: 109ms
+\n\t\t\t[签证订单支付成功 获取签证状态] costTime: 26ms
+\n\t\t\t[添加在线退款功能] costTime: 11ms
+\n\t\t\t[判断销售渠道(团购/秒杀)] costTime: 0ms
+\n\t\t\t[判断订单中是否存在合同] costTime: 0ms
+\n\t\t\t[获取并设置目的相关信息] costTime: 10ms
+\n\t\t\t\t[根据产品ID查询目的地列表] costTime: 9ms
+\n\t\t[获取订单详情-金额] costTime: 62ms
+\n\t\t[获取VST其他订单] costTime: 48ms
+\n\t\t[处理订单详情] costTime: 158ms
+\n\t\t\t[预授券订单列表订单处理] costTime: 56ms
+\n\t\t\t[签证订单支付成功 获取签证状态] costTime: 33ms
+\n\t\t\t[添加在线退款功能] costTime: 12ms
+\n\t\t\t[判断销售渠道(团购/秒杀)] costTime: 0ms
+\n\t\t\t[判断订单中是否存在合同] costTime: 0ms
+\n\t\t\t[获取并设置目的相关信息] costTime: 6ms
+\n\t\t\t\t[根据产品ID查询目的地列表] costTime: 5ms
+\n\t\t[获取订单详情-金额] costTime: 59ms
+\n\t\t[获取VST其他订单] costTime: 88ms
+\n\t\t[处理订单详情] costTime: 192ms
+\n\t\t\t[预授券订单列表订单处理] costTime: 75ms
+\n\t\t\t[签证订单支付成功 获取签证状态] costTime: 35ms
+\n\t\t\t[添加在线退款功能] costTime: 7ms
+\n\t\t\t[判断销售渠道(团购/秒杀)] costTime: 0ms
+\n\t\t\t[判断订单中是否存在合同] costTime: 0ms
+\n\t\t\t[获取并设置目的相关信息] costTime: 5ms
+\n\t\t\t\t[根据产品ID查询目的地列表] costTime: 4ms
+\n\t\t[获取订单详情-金额] costTime: 48ms
+\n\t\t[获取VST其他订单] costTime: 57ms
+\n\t\t[处理订单详情] costTime: 190ms
+\n\t\t\t[预授券订单列表订单处理] costTime: 97ms
+\n\t\t\t[签证订单支付成功 获取签证状态] costTime: 22ms
+\n\t\t\t[添加在线退款功能] costTime: 12ms
+\n\t\t\t[判断销售渠道(团购/秒杀)] costTime: 0ms
+\n\t\t\t[判断订单中是否存在合同] costTime: 0ms
+\n\t\t\t[获取并设置目的相关信息] costTime: 8ms
+\n\t\t\t\t[根据产品ID查询目的地列表] costTime: 7ms
+\n\t\t[获取订单详情-金额] costTime: 56ms
+\n\t\t[获取VST其他订单] costTime: 62ms
+\n\t\t[处理订单详情] costTime: 153ms
+\n\t\t\t[预授券订单列表订单处理] costTime: 60ms
+\n\t\t\t[签证订单支付成功 获取签证状态] costTime: 25ms
+\n\t\t\t[添加在线退款功能] costTime: 9ms
+\n\t\t\t[判断销售渠道(团购/秒杀)] costTime: 0ms
+\n\t\t\t[判断订单中是否存在合同] costTime: 0ms
+\n\t\t\t[获取并设置目的相关信息] costTime: 10ms
+\n\t\t\t\t[根据产品ID查询目的地列表] costTime: 10ms
+\n\t\t[获取订单详情-金额] costTime: 48ms
+2016-08-02_20:57:59
+[api.com.order.getOrderByProductType 1.0.0] costTime: 1918ms
+\n\t[按产品类别查询订单] costTime: 1911ms
+\n\t\t[各种品类订单总数] costTime: 6ms
+\n\t\t[查询各种品类订单] costTime: 7ms
+\n\t\t[获取VST其他订单] costTime: 53ms
+\n\t\t[处理订单详情] costTime: 146ms
+\n\t\t\t[预授券订单列表订单处理] costTime: 56ms
+\n\t\t\t[签证订单支付成功 获取签证状态] costTime: 28ms
+\n\t\t\t[添加在线退款功能] costTime: 15ms
+\n\t\t\t[判断销售渠道(团购/秒杀)] costTime: 0ms
+\n\t\t\t[判断订单中是否存在合同] costTime: 0ms
+\n\t\t\t[获取并设置目的相关信息] costTime: 7ms
+\n\t\t\t\t[根据产品ID查询目的地列表] costTime: 7ms
+\n\t\t[获取订单详情-金额] costTime: 53ms
+\n\t\t[获取VST其他订单] costTime: 49ms
+\n\t\t[处理订单详情] costTime: 206ms
+\n\t\t\t[预授券订单列表订单处理] costTime: 92ms
+\n\t\t\t[签证订单支付成功 获取签证状态] costTime: 51ms
+\n\t\t\t[添加在线退款功能] costTime: 9ms
+\n\t\t\t[判断销售渠道(团购/秒杀)] costTime: 0ms
+\n\t\t\t[判断订单中是否存在合同] costTime: 0ms
+\n\t\t\t[获取并设置目的相关信息] costTime: 6ms
+\n\t\t\t\t[根据产品ID查询目的地列表] costTime: 6ms
+\n\t\t[获取订单详情-金额] costTime: 46ms
+\n\t\t[获取VST其他订单] costTime: 53ms
+\n\t\t[处理订单详情] costTime: 158ms
+\n\t\t\t[预授券订单列表订单处理] costTime: 71ms
+\n\t\t\t[签证订单支付成功 获取签证状态] costTime: 28ms
+\n\t\t\t[添加在线退款功能] costTime: 9ms
+\n\t\t\t[判断销售渠道(团购/秒杀)] costTime: 0ms
+\n\t\t\t[判断订单中是否存在合同] costTime: 0ms
+\n\t\t\t[获取并设置目的相关信息] costTime: 6ms
+\n\t\t\t\t[根据产品ID查询目的地列表] costTime: 6ms
+\n\t\t[获取订单详情-金额] costTime: 49ms
+\n\t\t[获取VST其他订单] costTime: 61ms
+\n\t\t[处理订单详情] costTime: 140ms
+\n\t\t\t[预授券订单列表订单处理] costTime: 52ms
+\n\t\t\t[签证订单支付成功 获取签证状态] costTime: 27ms
+\n\t\t\t[添加在线退款功能] costTime: 9ms
+\n\t\t\t[判断销售渠道(团购/秒杀)] costTime: 0ms
+\n\t\t\t[判断订单中是否存在合同] costTime: 0ms
+\n\t\t\t[获取并设置目的相关信息] costTime: 5ms
+\n\t\t\t\t[根据产品ID查询目的地列表] costTime: 5ms
+\n\t\t[获取订单详情-金额] costTime: 54ms
+\n\t\t[获取VST其他订单] costTime: 58ms
+\n\t\t[处理订单详情] costTime: 146ms
+\n\t\t\t[预授券订单列表订单处理] costTime: 48ms
+\n\t\t\t[签证订单支付成功 获取签证状态] costTime: 32ms
+\n\t\t\t[添加在线退款功能] costTime: 9ms
+\n\t\t\t[判断销售渠道(团购/秒杀)] costTime: 0ms
+\n\t\t\t[判断订单中是否存在合同] costTime: 0ms
+\n\t\t\t[获取并设置目的相关信息] costTime: 13ms
+\n\t\t\t\t[根据产品ID查询目的地列表] costTime: 13ms
+\n\t\t[获取订单详情-金额] costTime: 59ms
+\n\t\t[获取VST其他订单] costTime: 48ms
+\n\t\t[处理订单详情] costTime: 142ms
+\n\t\t\t[预授券订单列表订单处理] costTime: 58ms
+\n\t\t\t[签证订单支付成功 获取签证状态] costTime: 24ms
+\n\t\t\t[添加在线退款功能] costTime: 9ms
+\n\t\t\t[判断销售渠道(团购/秒杀)] costTime: 0ms
+\n\t\t\t[判断订单中是否存在合同] costTime: 0ms
+\n\t\t\t[获取并设置目的相关信息] costTime: 7ms
+\n\t\t\t\t[根据产品ID查询目的地列表] costTime: 6ms
+\n\t\t[获取订单详情-金额] costTime: 76ms
+\n\t\t[获取VST其他订单] costTime: 64ms
+\n\t\t[处理订单详情] costTime: 189ms
+\n\t\t\t[预授券订单列表订单处理] costTime: 94ms
+\n\t\t\t[签证订单支付成功 获取签证状态] costTime: 26ms
+\n\t\t\t[添加在线退款功能] costTime: 12ms
+\n\t\t\t[判断销售渠道(团购/秒杀)] costTime: 0ms
+\n\t\t\t[判断订单中是否存在合同] costTime: 0ms
+\n\t\t\t[获取并设置目的相关信息] costTime: 12ms
+\n\t\t\t\t[根据产品ID查询目的地列表] costTime: 12ms
+\n\t\t[获取订单详情-金额] costTime: 47ms
+2016-08-02_21:09:47
+[api.com.order.getOrderByProductType 1.0.0] costTime: 2489ms
+\n\t[按产品类别查询订单] costTime: 2488ms
+\n\t\t[各种品类订单总数] costTime: 3ms
+\n\t\t[查询各种品类订单] costTime: 8ms
+\n\t\t[获取VST其他订单] costTime: 57ms
+\n\t\t[处理订单详情] costTime: 334ms
+\n\t\t\t[预授券订单列表订单处理] costTime: 237ms
+\n\t\t\t[签证订单支付成功 获取签证状态] costTime: 23ms
+\n\t\t\t[添加在线退款功能] costTime: 6ms
+\n\t\t\t[判断销售渠道(团购/秒杀)] costTime: 0ms
+\n\t\t\t[判断订单中是否存在合同] costTime: 0ms
+\n\t\t\t[获取并设置目的相关信息] costTime: 5ms
+\n\t\t\t\t[根据产品ID查询目的地列表] costTime: 5ms
+\n\t\t[获取订单详情-金额] costTime: 79ms
+\n\t\t[获取VST其他订单] costTime: 111ms
+\n\t\t[处理订单详情] costTime: 171ms
+\n\t\t\t[预授券订单列表订单处理] costTime: 83ms
+\n\t\t\t[签证订单支付成功 获取签证状态] costTime: 29ms
+\n\t\t\t[添加在线退款功能] costTime: 7ms
+\n\t\t\t[判断销售渠道(团购/秒杀)] costTime: 0ms
+\n\t\t\t[判断订单中是否存在合同] costTime: 0ms
+\n\t\t\t[获取并设置目的相关信息] costTime: 6ms
+\n\t\t\t\t[根据产品ID查询目的地列表] costTime: 6ms
+\n\t\t[获取订单详情-金额] costTime: 48ms
+\n\t\t[获取VST其他订单] costTime: 68ms
+\n\t\t[处理订单详情] costTime: 429ms
+\n\t\t\t[预授券订单列表订单处理] costTime: 354ms
+\n\t\t\t[签证订单支付成功 获取签证状态] costTime: 25ms
+\n\t\t\t[添加在线退款功能] costTime: 7ms
+\n\t\t\t[判断销售渠道(团购/秒杀)] costTime: 0ms
+\n\t\t\t[判断订单中是否存在合同] costTime: 0ms
+\n\t\t\t[获取并设置目的相关信息] costTime: 5ms
+\n\t\t\t\t[根据产品ID查询目的地列表] costTime: 5ms
+\n\t\t[获取订单详情-金额] costTime: 54ms
+\n\t\t[获取VST其他订单] costTime: 39ms
+\n\t\t[处理订单详情] costTime: 214ms
+\n\t\t\t[预授券订单列表订单处理] costTime: 57ms
+\n\t\t\t[签证订单支付成功 获取签证状态] costTime: 21ms
+\n\t\t\t[添加在线退款功能] costTime: 7ms
+\n\t\t\t[判断销售渠道(团购/秒杀)] costTime: 0ms
+\n\t\t\t[判断订单中是否存在合同] costTime: 0ms
+\n\t\t\t[获取并设置目的相关信息] costTime: 7ms
+\n\t\t\t\t[根据产品ID查询目的地列表] costTime: 7ms
+\n\t\t[获取订单详情-金额] costTime: 72ms
+\n\t\t[获取VST其他订单] costTime: 53ms
+\n\t\t[处理订单详情] costTime: 171ms
+\n\t\t\t[预授券订单列表订单处理] costTime: 74ms
+\n\t\t\t[签证订单支付成功 获取签证状态] costTime: 36ms
+\n\t\t\t[添加在线退款功能] costTime: 7ms
+\n\t\t\t[判断销售渠道(团购/秒杀)] costTime: 0ms
+\n\t\t\t[判断订单中是否存在合同] costTime: 0ms
+\n\t\t\t[获取并设置目的相关信息] costTime: 6ms
+\n\t\t\t\t[根据产品ID查询目的地列表] costTime: 6ms
+\n\t\t[获取订单详情-金额] costTime: 52ms
+\n\t\t[获取VST其他订单] costTime: 56ms
+\n\t\t[处理订单详情] costTime: 160ms
+\n\t\t\t[预授券订单列表订单处理] costTime: 63ms
+\n\t\t\t[签证订单支付成功 获取签证状态] costTime: 28ms
+\n\t\t\t[添加在线退款功能] costTime: 11ms
+\n\t\t\t[判断销售渠道(团购/秒杀)] costTime: 0ms
+\n\t\t\t[判断订单中是否存在合同] costTime: 0ms
+\n\t\t\t[获取并设置目的相关信息] costTime: 6ms
+\n\t\t\t\t[根据产品ID查询目的地列表] costTime: 6ms
+\n\t\t[获取订单详情-金额] costTime: 61ms
+\n\t\t[获取VST其他订单] costTime: 55ms
+\n\t\t[处理订单详情] costTime: 138ms
+\n\t\t\t[预授券订单列表订单处理] costTime: 55ms
+\n\t\t\t[签证订单支付成功 获取签证状态] costTime: 25ms
+\n\t\t\t[添加在线退款功能] costTime: 7ms
+\n\t\t\t[判断销售渠道(团购/秒杀)] costTime: 0ms
+\n\t\t\t[判断订单中是否存在合同] costTime: 0ms
+\n\t\t\t[获取并设置目的相关信息] costTime: 6ms
+\n\t\t\t\t[根据产品ID查询目的地列表] costTime: 6ms
+\n\t\t[获取订单详情-金额] costTime: 55ms
 
-[api.com.order.getOrderByProductType 1.0.0] avgCostTime: 576ms TimeRange: 473 ~ 884ms 
-[按产品类别查询订单] avgCostTime: 274.8ms TimeRange: 219 ~ 491ms 
-[各种品类订单总数] avgCostTime: 15.7ms TimeRange: 5 ~ 98ms 
-[查询各种品类订单] avgCostTime: 14.6ms TimeRange: 12 ~ 19ms 
-[获取VST其他订单] avgCostTime: 71.45ms TimeRange: 59 ~ 90ms 
-[处理订单详情] avgCostTime: 85.35ms TimeRange: 63 ~ 120ms 
-[处理门票详情] avgCostTime: 0ms TimeRange: 0 ~ 0ms 
-[添加在线退款功能] avgCostTime: 8.85ms TimeRange: 6 ~ 19ms 
-[判断销售渠道(团购/秒杀)] avgCostTime: 0ms TimeRange: 0 ~ 0ms 
-[判断订单中是否存在合同] avgCostTime: 0ms TimeRange: 0 ~ 0ms 
-[获取并设置目的相关信息] avgCostTime: 24.6ms TimeRange: 7 ~ 265ms 
-[根据产品ID查询目的地列表] avgCostTime: 7.35ms TimeRange: 5 ~ 21ms 
-[根据ID查询目的地] avgCostTime: 16.1ms TimeRange: 2 ~ 257ms 
-[获取订单详情-金额] avgCostTime: 43.6ms TimeRange: 38 ~ 52ms 
-[获取VST其他订单] avgCostTime: 71.45ms TimeRange: 59 ~ 90ms 
-[处理订单详情] avgCostTime: 85.35ms TimeRange: 63 ~ 120ms 
-[处理门票详情] avgCostTime: 0ms TimeRange: 0 ~ 0ms 
-[添加在线退款功能] avgCostTime: 8.85ms TimeRange: 6 ~ 19ms 
-[判断销售渠道(团购/秒杀)] avgCostTime: 0ms TimeRange: 0 ~ 0ms 
-[判断订单中是否存在合同] avgCostTime: 0ms TimeRange: 0 ~ 0ms 
-[获取并设置目的相关信息] avgCostTime: 24.6ms TimeRange: 7 ~ 265ms 
-[根据产品ID查询目的地列表] avgCostTime: 7.35ms TimeRange: 5 ~ 21ms 
-[根据ID查询目的地] avgCostTime: 16.1ms TimeRange: 2 ~ 257ms 
+[api.com.order.getOrderByProductType 1.0.0] avgCostTime: 2228.5ms TimeRange: 1918 ~ 2829ms 
+[按产品类别查询订单] avgCostTime: 2226.03ms TimeRange: 1911 ~ 2827ms 
+[各种品类订单总数] avgCostTime: 4.1ms TimeRange: 2 ~ 12ms 
+[查询各种品类订单] avgCostTime: 10ms TimeRange: 6 ~ 53ms 
+[获取VST其他订单] avgCostTime: 62.6238ms TimeRange: 39 ~ 144ms 
+[处理订单详情] avgCostTime: 194.029ms TimeRange: 126 ~ 459ms 
+[预授券订单列表订单处理] avgCostTime: 86.5524ms TimeRange: 48 ~ 354ms 
+[签证订单支付成功 获取签证状态] avgCostTime: 32.5238ms TimeRange: 14 ~ 220ms 
+[添加在线退款功能] avgCostTime: 10.3429ms TimeRange: 5 ~ 95ms 
+[判断销售渠道(团购/秒杀)] avgCostTime: 0.0047619ms TimeRange: 0 ~ 1ms 
+[判断订单中是否存在合同] avgCostTime: 0.00952381ms TimeRange: 0 ~ 1ms 
+[获取并设置目的相关信息] avgCostTime: 8.88095ms TimeRange: 3 ~ 160ms 
+[根据产品ID查询目的地列表] avgCostTime: 8.74286ms TimeRange: 3 ~ 160ms 
+[获取订单详情-金额] avgCostTime: 59.1476ms TimeRange: 39 ~ 259ms 
+[获取VST其他订单] avgCostTime: 62.6238ms TimeRange: 39 ~ 144ms 
+[处理订单详情] avgCostTime: 194.029ms TimeRange: 126 ~ 459ms 
+[预授券订单列表订单处理] avgCostTime: 86.5524ms TimeRange: 48 ~ 354ms 
+[签证订单支付成功 获取签证状态] avgCostTime: 32.5238ms TimeRange: 14 ~ 220ms 
+[添加在线退款功能] avgCostTime: 10.3429ms TimeRange: 5 ~ 95ms 
+[判断销售渠道(团购/秒杀)] avgCostTime: 0.0047619ms TimeRange: 0 ~ 1ms 
+[判断订单中是否存在合同] avgCostTime: 0.00952381ms TimeRange: 0 ~ 1ms 
+[获取并设置目的相关信息] avgCostTime: 8.88095ms TimeRange: 3 ~ 160ms 
+[根据产品ID查询目的地列表] avgCostTime: 8.74286ms TimeRange: 3 ~ 160ms 
+[获取订单详情-金额] avgCostTime: 59.1476ms TimeRange: 39 ~ 259ms 
+[获取VST其他订单] avgCostTime: 62.6238ms TimeRange: 39 ~ 144ms 
+[处理订单详情] avgCostTime: 194.029ms TimeRange: 126 ~ 459ms 
+[预授券订单列表订单处理] avgCostTime: 86.5524ms TimeRange: 48 ~ 354ms 
+[签证订单支付成功 获取签证状态] avgCostTime: 32.5238ms TimeRange: 14 ~ 220ms 
+[添加在线退款功能] avgCostTime: 10.3429ms TimeRange: 5 ~ 95ms 
+[判断销售渠道(团购/秒杀)] avgCostTime: 0.0047619ms TimeRange: 0 ~ 1ms 
+[判断订单中是否存在合同] avgCostTime: 0.00952381ms TimeRange: 0 ~ 1ms 
+[获取并设置目的相关信息] avgCostTime: 8.88095ms TimeRange: 3 ~ 160ms 
+[根据产品ID查询目的地列表] avgCostTime: 8.74286ms TimeRange: 3 ~ 160ms 
+[获取订单详情-金额] avgCostTime: 59.1476ms TimeRange: 39 ~ 259ms 
+[获取VST其他订单] avgCostTime: 62.6238ms TimeRange: 39 ~ 144ms 
+[处理订单详情] avgCostTime: 194.029ms TimeRange: 126 ~ 459ms 
+[预授券订单列表订单处理] avgCostTime: 86.5524ms TimeRange: 48 ~ 354ms 
+[签证订单支付成功 获取签证状态] avgCostTime: 32.5238ms TimeRange: 14 ~ 220ms 
+[添加在线退款功能] avgCostTime: 10.3429ms TimeRange: 5 ~ 95ms 
+[判断销售渠道(团购/秒杀)] avgCostTime: 0.0047619ms TimeRange: 0 ~ 1ms 
+[判断订单中是否存在合同] avgCostTime: 0.00952381ms TimeRange: 0 ~ 1ms 
+[获取并设置目的相关信息] avgCostTime: 8.88095ms TimeRange: 3 ~ 160ms 
+[根据产品ID查询目的地列表] avgCostTime: 8.74286ms TimeRange: 3 ~ 160ms 
+[获取订单详情-金额] avgCostTime: 59.1476ms TimeRange: 39 ~ 259ms 
+[获取VST其他订单] avgCostTime: 62.6238ms TimeRange: 39 ~ 144ms 
+[处理订单详情] avgCostTime: 194.029ms TimeRange: 126 ~ 459ms 
+[预授券订单列表订单处理] avgCostTime: 86.5524ms TimeRange: 48 ~ 354ms 
+[签证订单支付成功 获取签证状态] avgCostTime: 32.5238ms TimeRange: 14 ~ 220ms 
+[添加在线退款功能] avgCostTime: 10.3429ms TimeRange: 5 ~ 95ms 
+[判断销售渠道(团购/秒杀)] avgCostTime: 0.0047619ms TimeRange: 0 ~ 1ms 
+[判断订单中是否存在合同] avgCostTime: 0.00952381ms TimeRange: 0 ~ 1ms 
+[获取并设置目的相关信息] avgCostTime: 8.88095ms TimeRange: 3 ~ 160ms 
+[根据产品ID查询目的地列表] avgCostTime: 8.74286ms TimeRange: 3 ~ 160ms 
+[获取订单详情-金额] avgCostTime: 59.1476ms TimeRange: 39 ~ 259ms 
+[获取VST其他订单] avgCostTime: 62.6238ms TimeRange: 39 ~ 144ms 
+[处理订单详情] avgCostTime: 194.029ms TimeRange: 126 ~ 459ms 
+[预授券订单列表订单处理] avgCostTime: 86.5524ms TimeRange: 48 ~ 354ms 
+[签证订单支付成功 获取签证状态] avgCostTime: 32.5238ms TimeRange: 14 ~ 220ms 
+[添加在线退款功能] avgCostTime: 10.3429ms TimeRange: 5 ~ 95ms 
+[判断销售渠道(团购/秒杀)] avgCostTime: 0.0047619ms TimeRange: 0 ~ 1ms 
+[判断订单中是否存在合同] avgCostTime: 0.00952381ms TimeRange: 0 ~ 1ms 
+[获取并设置目的相关信息] avgCostTime: 8.88095ms TimeRange: 3 ~ 160ms 
+[根据产品ID查询目的地列表] avgCostTime: 8.74286ms TimeRange: 3 ~ 160ms 
+[获取订单详情-金额] avgCostTime: 59.1476ms TimeRange: 39 ~ 259ms 
+[获取VST其他订单] avgCostTime: 62.6238ms TimeRange: 39 ~ 144ms 
+[处理订单详情] avgCostTime: 194.029ms TimeRange: 126 ~ 459ms 
+[预授券订单列表订单处理] avgCostTime: 86.5524ms TimeRange: 48 ~ 354ms 
+[签证订单支付成功 获取签证状态] avgCostTime: 32.5238ms TimeRange: 14 ~ 220ms 
+[添加在线退款功能] avgCostTime: 10.3429ms TimeRange: 5 ~ 95ms 
+[判断销售渠道(团购/秒杀)] avgCostTime: 0.0047619ms TimeRange: 0 ~ 1ms 
+[判断订单中是否存在合同] avgCostTime: 0.00952381ms TimeRange: 0 ~ 1ms 
+[获取并设置目的相关信息] avgCostTime: 8.88095ms TimeRange: 3 ~ 160ms 
+[根据产品ID查询目的地列表] avgCostTime: 8.74286ms TimeRange: 3 ~ 160ms 
+[获取订单详情-金额] avgCostTime: 59.1476ms TimeRange: 39 ~ 259ms 

@@ -1,0 +1,647 @@
+2016-07-21_16:35:11
+[api.com.ticket.order.getRelatedTicket 1.0.0] costTime: 3126ms
+\n\t[调用主站接口判断是不是长隆票] costTime: 10ms
+\n\t[掉用主站获取门票商品详情] costTime: 16ms
+\n\t[调用主站 获取关联销售商品列表] costTime: 2703ms
+\n\t[获取TNT优惠活动] costTime: 12ms
+\n\t[获取TNT优惠活动] costTime: 7ms
+\n\t[获取TNT优惠活动] costTime: 12ms
+\n\t[获取TNT优惠活动] costTime: 7ms
+\n\t[获取TNT优惠活动] costTime: 7ms
+\n\t[获取TNT优惠活动] costTime: 6ms
+\n\t[获取TNT优惠活动] costTime: 12ms
+\n\t[调用主站获取单门票时间价格表] costTime: 91ms
+2016-07-21_16:46:14
+[api.com.ticket.order.getRelatedTicket 1.0.0] costTime: 4067ms
+\n\t[调用主站接口判断是不是长隆票] costTime: 15ms
+\n\t[掉用主站获取门票商品详情] costTime: 3ms
+\n\t[调用主站 获取关联销售商品列表] costTime: 3818ms
+\n\t[获取TNT优惠活动] costTime: 10ms
+\n\t[获取TNT优惠活动] costTime: 8ms
+\n\t[获取TNT优惠活动] costTime: 11ms
+\n\t[获取TNT优惠活动] costTime: 7ms
+\n\t[获取TNT优惠活动] costTime: 7ms
+\n\t[获取TNT优惠活动] costTime: 7ms
+\n\t[获取TNT优惠活动] costTime: 6ms
+\n\t[调用主站获取单门票时间价格表] costTime: 55ms
+2016-07-21_16:57:19
+[api.com.ticket.order.getRelatedTicket 1.0.0] costTime: 489ms
+\n\t[调用主站接口判断是不是长隆票] costTime: 6ms
+\n\t[掉用主站获取门票商品详情] costTime: 10ms
+\n\t[获取TNT优惠活动] costTime: 12ms
+\n\t[获取TNT优惠活动] costTime: 6ms
+\n\t[获取TNT优惠活动] costTime: 11ms
+\n\t[获取TNT优惠活动] costTime: 8ms
+\n\t[获取TNT优惠活动] costTime: 9ms
+\n\t[获取TNT优惠活动] costTime: 8ms
+\n\t[获取TNT优惠活动] costTime: 7ms
+\n\t[调用主站获取单门票时间价格表] costTime: 60ms
+2016-07-21_17:08:19
+[api.com.ticket.order.getRelatedTicket 1.0.0] costTime: 2449ms
+\n\t[调用主站接口判断是不是长隆票] costTime: 10ms
+\n\t[掉用主站获取门票商品详情] costTime: 3ms
+\n\t[调用主站 获取关联销售商品列表] costTime: 2205ms
+\n\t[获取TNT优惠活动] costTime: 11ms
+\n\t[获取TNT优惠活动] costTime: 9ms
+\n\t[获取TNT优惠活动] costTime: 12ms
+\n\t[获取TNT优惠活动] costTime: 7ms
+\n\t[获取TNT优惠活动] costTime: 7ms
+\n\t[获取TNT优惠活动] costTime: 10ms
+\n\t[获取TNT优惠活动] costTime: 7ms
+\n\t[调用主站获取单门票时间价格表] costTime: 47ms
+2016-07-21_17:19:22
+[api.com.ticket.order.getRelatedTicket 1.0.0] costTime: 2510ms
+\n\t[调用主站接口判断是不是长隆票] costTime: 6ms
+\n\t[掉用主站获取门票商品详情] costTime: 3ms
+\n\t[调用主站 获取关联销售商品列表] costTime: 2275ms
+\n\t[获取TNT优惠活动] costTime: 11ms
+\n\t[获取TNT优惠活动] costTime: 8ms
+\n\t[获取TNT优惠活动] costTime: 11ms
+\n\t[获取TNT优惠活动] costTime: 7ms
+\n\t[获取TNT优惠活动] costTime: 8ms
+\n\t[获取TNT优惠活动] costTime: 7ms
+\n\t[获取TNT优惠活动] costTime: 7ms
+\n\t[调用主站获取单门票时间价格表] costTime: 50ms
+2016-07-21_17:30:25
+[api.com.ticket.order.getRelatedTicket 1.0.0] costTime: 2582ms
+\n\t[调用主站接口判断是不是长隆票] costTime: 7ms
+\n\t[掉用主站获取门票商品详情] costTime: 2ms
+\n\t[调用主站 获取关联销售商品列表] costTime: 2311ms
+\n\t[获取TNT优惠活动] costTime: 14ms
+\n\t[获取TNT优惠活动] costTime: 9ms
+\n\t[获取TNT优惠活动] costTime: 11ms
+\n\t[获取TNT优惠活动] costTime: 7ms
+\n\t[获取TNT优惠活动] costTime: 7ms
+\n\t[获取TNT优惠活动] costTime: 7ms
+\n\t[获取TNT优惠活动] costTime: 4ms
+\n\t[调用主站获取单门票时间价格表] costTime: 44ms
+2016-07-21_17:41:27
+[api.com.ticket.order.getRelatedTicket 1.0.0] costTime: 208ms
+\n\t[调用主站接口判断是不是长隆票] costTime: 6ms
+\n\t[掉用主站获取门票商品详情] costTime: 2ms
+\n\t[获取TNT优惠活动] costTime: 11ms
+\n\t[获取TNT优惠活动] costTime: 10ms
+\n\t[获取TNT优惠活动] costTime: 16ms
+\n\t[获取TNT优惠活动] costTime: 8ms
+\n\t[获取TNT优惠活动] costTime: 9ms
+\n\t[获取TNT优惠活动] costTime: 7ms
+\n\t[获取TNT优惠活动] costTime: 8ms
+\n\t[调用主站获取单门票时间价格表] costTime: 44ms
+2016-07-21_17:52:28
+[api.com.ticket.order.getRelatedTicket 1.0.0] costTime: 2348ms
+\n\t[调用主站接口判断是不是长隆票] costTime: 6ms
+\n\t[掉用主站获取门票商品详情] costTime: 2ms
+\n\t[调用主站 获取关联销售商品列表] costTime: 2079ms
+\n\t[获取TNT优惠活动] costTime: 15ms
+\n\t[获取TNT优惠活动] costTime: 8ms
+\n\t[获取TNT优惠活动] costTime: 11ms
+\n\t[获取TNT优惠活动] costTime: 7ms
+\n\t[获取TNT优惠活动] costTime: 8ms
+\n\t[获取TNT优惠活动] costTime: 8ms
+\n\t[获取TNT优惠活动] costTime: 9ms
+\n\t[调用主站获取单门票时间价格表] costTime: 49ms
+2016-07-21_18:03:30
+[api.com.ticket.order.getRelatedTicket 1.0.0] costTime: 501ms
+\n\t[调用主站接口判断是不是长隆票] costTime: 6ms
+\n\t[掉用主站获取门票商品详情] costTime: 5ms
+\n\t[获取TNT优惠活动] costTime: 12ms
+\n\t[获取TNT优惠活动] costTime: 10ms
+\n\t[获取TNT优惠活动] costTime: 14ms
+\n\t[获取TNT优惠活动] costTime: 11ms
+\n\t[获取TNT优惠活动] costTime: 9ms
+\n\t[获取TNT优惠活动] costTime: 9ms
+\n\t[获取TNT优惠活动] costTime: 8ms
+\n\t[调用主站获取单门票时间价格表] costTime: 49ms
+2016-07-21_18:14:31
+[api.com.ticket.order.getRelatedTicket 1.0.0] costTime: 260ms
+\n\t[调用主站接口判断是不是长隆票] costTime: 8ms
+\n\t[掉用主站获取门票商品详情] costTime: 2ms
+\n\t[获取TNT优惠活动] costTime: 13ms
+\n\t[获取TNT优惠活动] costTime: 9ms
+\n\t[获取TNT优惠活动] costTime: 11ms
+\n\t[获取TNT优惠活动] costTime: 7ms
+\n\t[获取TNT优惠活动] costTime: 6ms
+\n\t[获取TNT优惠活动] costTime: 9ms
+\n\t[获取TNT优惠活动] costTime: 9ms
+\n\t[调用主站获取单门票时间价格表] costTime: 36ms
+2016-07-21_18:25:31
+[api.com.ticket.order.getRelatedTicket 1.0.0] costTime: 2548ms
+\n\t[调用主站接口判断是不是长隆票] costTime: 7ms
+\n\t[掉用主站获取门票商品详情] costTime: 1ms
+\n\t[调用主站 获取关联销售商品列表] costTime: 2273ms
+\n\t[获取TNT优惠活动] costTime: 13ms
+\n\t[获取TNT优惠活动] costTime: 10ms
+\n\t[获取TNT优惠活动] costTime: 13ms
+\n\t[获取TNT优惠活动] costTime: 8ms
+\n\t[获取TNT优惠活动] costTime: 7ms
+\n\t[获取TNT优惠活动] costTime: 14ms
+\n\t[获取TNT优惠活动] costTime: 9ms
+\n\t[调用主站获取单门票时间价格表] costTime: 48ms
+2016-07-21_18:36:34
+[api.com.ticket.order.getRelatedTicket 1.0.0] costTime: 2750ms
+\n\t[调用主站接口判断是不是长隆票] costTime: 9ms
+\n\t[掉用主站获取门票商品详情] costTime: 3ms
+\n\t[调用主站 获取关联销售商品列表] costTime: 2301ms
+\n\t[获取TNT优惠活动] costTime: 11ms
+\n\t[获取TNT优惠活动] costTime: 6ms
+\n\t[获取TNT优惠活动] costTime: 13ms
+\n\t[获取TNT优惠活动] costTime: 8ms
+\n\t[获取TNT优惠活动] costTime: 8ms
+\n\t[获取TNT优惠活动] costTime: 9ms
+\n\t[获取TNT优惠活动] costTime: 6ms
+\n\t[调用主站获取单门票时间价格表] costTime: 258ms
+2016-07-21_18:47:37
+[api.com.ticket.order.getRelatedTicket 1.0.0] costTime: 319ms
+\n\t[调用主站接口判断是不是长隆票] costTime: 8ms
+\n\t[掉用主站获取门票商品详情] costTime: 3ms
+\n\t[获取TNT优惠活动] costTime: 14ms
+\n\t[获取TNT优惠活动] costTime: 8ms
+\n\t[获取TNT优惠活动] costTime: 11ms
+\n\t[获取TNT优惠活动] costTime: 8ms
+\n\t[获取TNT优惠活动] costTime: 8ms
+\n\t[获取TNT优惠活动] costTime: 7ms
+\n\t[获取TNT优惠活动] costTime: 9ms
+\n\t[调用主站获取单门票时间价格表] costTime: 86ms
+2016-07-21_18:58:37
+[api.com.ticket.order.getRelatedTicket 1.0.0] costTime: 258ms
+\n\t[调用主站接口判断是不是长隆票] costTime: 5ms
+\n\t[掉用主站获取门票商品详情] costTime: 2ms
+\n\t[获取TNT优惠活动] costTime: 10ms
+\n\t[获取TNT优惠活动] costTime: 7ms
+\n\t[获取TNT优惠活动] costTime: 14ms
+\n\t[获取TNT优惠活动] costTime: 7ms
+\n\t[获取TNT优惠活动] costTime: 8ms
+\n\t[获取TNT优惠活动] costTime: 7ms
+\n\t[获取TNT优惠活动] costTime: 13ms
+\n\t[调用主站获取单门票时间价格表] costTime: 51ms
+2016-07-21_19:09:38
+[api.com.ticket.order.getRelatedTicket 1.0.0] costTime: 2584ms
+\n\t[调用主站接口判断是不是长隆票] costTime: 8ms
+\n\t[掉用主站获取门票商品详情] costTime: 8ms
+\n\t[调用主站 获取关联销售商品列表] costTime: 2162ms
+\n\t[获取TNT优惠活动] costTime: 12ms
+\n\t[获取TNT优惠活动] costTime: 6ms
+\n\t[获取TNT优惠活动] costTime: 13ms
+\n\t[获取TNT优惠活动] costTime: 10ms
+\n\t[获取TNT优惠活动] costTime: 7ms
+\n\t[获取TNT优惠活动] costTime: 7ms
+\n\t[获取TNT优惠活动] costTime: 6ms
+\n\t[调用主站获取单门票时间价格表] costTime: 67ms
+2016-07-21_19:20:46
+[api.com.ticket.order.getRelatedTicket 1.0.0] costTime: 2719ms
+\n\t[调用主站接口判断是不是长隆票] costTime: 7ms
+\n\t[掉用主站获取门票商品详情] costTime: 3ms
+\n\t[调用主站 获取关联销售商品列表] costTime: 2427ms
+\n\t[获取TNT优惠活动] costTime: 12ms
+\n\t[获取TNT优惠活动] costTime: 8ms
+\n\t[获取TNT优惠活动] costTime: 13ms
+\n\t[获取TNT优惠活动] costTime: 8ms
+\n\t[获取TNT优惠活动] costTime: 7ms
+\n\t[获取TNT优惠活动] costTime: 23ms
+\n\t[获取TNT优惠活动] costTime: 8ms
+\n\t[调用主站获取单门票时间价格表] costTime: 64ms
+2016-07-21_19:31:55
+[api.com.ticket.order.getRelatedTicket 1.0.0] costTime: 2711ms
+\n\t[调用主站接口判断是不是长隆票] costTime: 7ms
+\n\t[掉用主站获取门票商品详情] costTime: 3ms
+\n\t[调用主站 获取关联销售商品列表] costTime: 2356ms
+\n\t[获取TNT优惠活动] costTime: 11ms
+\n\t[获取TNT优惠活动] costTime: 10ms
+\n\t[获取TNT优惠活动] costTime: 12ms
+\n\t[获取TNT优惠活动] costTime: 12ms
+\n\t[获取TNT优惠活动] costTime: 11ms
+\n\t[获取TNT优惠活动] costTime: 10ms
+\n\t[获取TNT优惠活动] costTime: 10ms
+\n\t[调用主站获取单门票时间价格表] costTime: 140ms
+2016-07-21_19:42:57
+[api.com.ticket.order.getRelatedTicket 1.0.0] costTime: 290ms
+\n\t[调用主站接口判断是不是长隆票] costTime: 6ms
+\n\t[掉用主站获取门票商品详情] costTime: 3ms
+\n\t[获取TNT优惠活动] costTime: 13ms
+\n\t[获取TNT优惠活动] costTime: 9ms
+\n\t[获取TNT优惠活动] costTime: 12ms
+\n\t[获取TNT优惠活动] costTime: 17ms
+\n\t[获取TNT优惠活动] costTime: 7ms
+\n\t[获取TNT优惠活动] costTime: 6ms
+\n\t[获取TNT优惠活动] costTime: 16ms
+\n\t[调用主站获取单门票时间价格表] costTime: 41ms
+2016-07-21_19:53:58
+[api.com.ticket.order.getRelatedTicket 1.0.0] costTime: 1199ms
+\n\t[调用主站接口判断是不是长隆票] costTime: 946ms
+\n\t[掉用主站获取门票商品详情] costTime: 5ms
+\n\t[获取TNT优惠活动] costTime: 11ms
+\n\t[获取TNT优惠活动] costTime: 6ms
+\n\t[获取TNT优惠活动] costTime: 10ms
+\n\t[获取TNT优惠活动] costTime: 8ms
+\n\t[获取TNT优惠活动] costTime: 8ms
+\n\t[获取TNT优惠活动] costTime: 10ms
+\n\t[获取TNT优惠活动] costTime: 6ms
+\n\t[调用主站获取单门票时间价格表] costTime: 48ms
+2016-07-21_20:05:05
+[api.com.ticket.order.getRelatedTicket 1.0.0] costTime: 2601ms
+\n\t[调用主站接口判断是不是长隆票] costTime: 7ms
+\n\t[掉用主站获取门票商品详情] costTime: 23ms
+\n\t\t[实际调用主站商品详情接口] costTime: 11ms
+\n\t[调用主站 获取关联销售商品列表] costTime: 2270ms
+\n\t[获取TNT优惠活动] costTime: 12ms
+\n\t[获取TNT优惠活动] costTime: 13ms
+\n\t[获取TNT优惠活动] costTime: 11ms
+\n\t[获取TNT优惠活动] costTime: 6ms
+\n\t[获取TNT优惠活动] costTime: 7ms
+\n\t[获取TNT优惠活动] costTime: 6ms
+\n\t[获取TNT优惠活动] costTime: 10ms
+\n\t[调用主站获取单门票时间价格表] costTime: 76ms
+2016-07-21_20:16:08
+[api.com.ticket.order.getRelatedTicket 1.0.0] costTime: 2765ms
+\n\t[调用主站接口判断是不是长隆票] costTime: 6ms
+\n\t[掉用主站获取门票商品详情] costTime: 34ms
+\n\t\t[实际调用主站商品详情接口] costTime: 26ms
+\n\t[调用主站 获取关联销售商品列表] costTime: 2478ms
+\n\t[获取TNT优惠活动] costTime: 14ms
+\n\t[获取TNT优惠活动] costTime: 10ms
+\n\t[获取TNT优惠活动] costTime: 10ms
+\n\t[获取TNT优惠活动] costTime: 7ms
+\n\t[获取TNT优惠活动] costTime: 10ms
+\n\t[获取TNT优惠活动] costTime: 8ms
+\n\t[获取TNT优惠活动] costTime: 10ms
+\n\t[调用主站获取单门票时间价格表] costTime: 44ms
+2016-07-21_20:27:21
+[api.com.ticket.order.getRelatedTicket 1.0.0] costTime: 630ms
+\n\t[调用主站接口判断是不是长隆票] costTime: 8ms
+\n\t[掉用主站获取门票商品详情] costTime: 9ms
+\n\t[获取TNT优惠活动] costTime: 38ms
+\n\t[获取TNT优惠活动] costTime: 7ms
+\n\t[获取TNT优惠活动] costTime: 15ms
+\n\t[获取TNT优惠活动] costTime: 11ms
+\n\t[获取TNT优惠活动] costTime: 13ms
+\n\t[获取TNT优惠活动] costTime: 15ms
+\n\t[获取TNT优惠活动] costTime: 7ms
+\n\t[调用主站获取单门票时间价格表] costTime: 58ms
+2016-07-21_20:38:22
+[api.com.ticket.order.getRelatedTicket 1.0.0] costTime: 3301ms
+\n\t[调用主站接口判断是不是长隆票] costTime: 6ms
+\n\t[掉用主站获取门票商品详情] costTime: 4ms
+\n\t[调用主站 获取关联销售商品列表] costTime: 2231ms
+\n\t[获取TNT优惠活动] costTime: 13ms
+\n\t[获取TNT优惠活动] costTime: 9ms
+\n\t[获取TNT优惠活动] costTime: 11ms
+\n\t[获取TNT优惠活动] costTime: 9ms
+\n\t[获取TNT优惠活动] costTime: 8ms
+\n\t[获取TNT优惠活动] costTime: 9ms
+\n\t[获取TNT优惠活动] costTime: 8ms
+\n\t[调用主站获取单门票时间价格表] costTime: 843ms
+2016-07-21_20:49:31
+[api.com.ticket.order.getRelatedTicket 1.0.0] costTime: 3931ms
+\n\t[调用主站接口判断是不是长隆票] costTime: 9ms
+\n\t[掉用主站获取门票商品详情] costTime: 1237ms
+\n\t\t[实际调用主站商品详情接口] costTime: 1211ms
+\n\t[调用主站 获取关联销售商品列表] costTime: 2189ms
+\n\t[获取TNT优惠活动] costTime: 13ms
+\n\t[获取TNT优惠活动] costTime: 7ms
+\n\t[获取TNT优惠活动] costTime: 21ms
+\n\t[获取TNT优惠活动] costTime: 7ms
+\n\t[获取TNT优惠活动] costTime: 9ms
+\n\t[获取TNT优惠活动] costTime: 15ms
+\n\t[获取TNT优惠活动] costTime: 12ms
+\n\t[调用主站获取单门票时间价格表] costTime: 66ms
+2016-07-21_21:00:40
+[api.com.ticket.order.getRelatedTicket 1.0.0] costTime: 3187ms
+\n\t[调用主站接口判断是不是长隆票] costTime: 7ms
+\n\t[掉用主站获取门票商品详情] costTime: 51ms
+\n\t\t[实际调用主站商品详情接口] costTime: 43ms
+\n\t[调用主站 获取关联销售商品列表] costTime: 2845ms
+\n\t[获取TNT优惠活动] costTime: 11ms
+\n\t[获取TNT优惠活动] costTime: 15ms
+\n\t[获取TNT优惠活动] costTime: 13ms
+\n\t[获取TNT优惠活动] costTime: 7ms
+\n\t[获取TNT优惠活动] costTime: 13ms
+\n\t[获取TNT优惠活动] costTime: 6ms
+\n\t[获取TNT优惠活动] costTime: 22ms
+\n\t[调用主站获取单门票时间价格表] costTime: 45ms
+2016-07-21_21:11:44
+[api.com.ticket.order.getRelatedTicket 1.0.0] costTime: 2871ms
+\n\t[调用主站接口判断是不是长隆票] costTime: 10ms
+\n\t[掉用主站获取门票商品详情] costTime: 3ms
+\n\t[调用主站 获取关联销售商品列表] costTime: 2289ms
+\n\t[获取TNT优惠活动] costTime: 223ms
+\n\t[获取TNT优惠活动] costTime: 10ms
+\n\t[获取TNT优惠活动] costTime: 14ms
+\n\t[获取TNT优惠活动] costTime: 10ms
+\n\t[获取TNT优惠活动] costTime: 7ms
+\n\t[获取TNT优惠活动] costTime: 6ms
+\n\t[获取TNT优惠活动] costTime: 6ms
+\n\t[调用主站获取单门票时间价格表] costTime: 132ms
+2016-07-21_21:22:47
+[api.com.ticket.order.getRelatedTicket 1.0.0] costTime: 2708ms
+\n\t[调用主站接口判断是不是长隆票] costTime: 22ms
+\n\t[掉用主站获取门票商品详情] costTime: 4ms
+\n\t[调用主站 获取关联销售商品列表] costTime: 2287ms
+\n\t[获取TNT优惠活动] costTime: 12ms
+\n\t[获取TNT优惠活动] costTime: 9ms
+\n\t[获取TNT优惠活动] costTime: 12ms
+\n\t[获取TNT优惠活动] costTime: 7ms
+\n\t[获取TNT优惠活动] costTime: 7ms
+\n\t[获取TNT优惠活动] costTime: 11ms
+\n\t[获取TNT优惠活动] costTime: 10ms
+\n\t[调用主站获取单门票时间价格表] costTime: 61ms
+2016-07-21_21:33:50
+[api.com.ticket.order.getRelatedTicket 1.0.0] costTime: 537ms
+\n\t[调用主站接口判断是不是长隆票] costTime: 6ms
+\n\t[掉用主站获取门票商品详情] costTime: 4ms
+\n\t[获取TNT优惠活动] costTime: 14ms
+\n\t[获取TNT优惠活动] costTime: 8ms
+\n\t[获取TNT优惠活动] costTime: 13ms
+\n\t[获取TNT优惠活动] costTime: 9ms
+\n\t[获取TNT优惠活动] costTime: 8ms
+\n\t[获取TNT优惠活动] costTime: 8ms
+\n\t[获取TNT优惠活动] costTime: 11ms
+\n\t[调用主站获取单门票时间价格表] costTime: 38ms
+2016-07-21_21:44:56
+[api.com.ticket.order.getRelatedTicket 1.0.0] costTime: 2596ms
+\n\t[调用主站接口判断是不是长隆票] costTime: 7ms
+\n\t[掉用主站获取门票商品详情] costTime: 3ms
+\n\t[调用主站 获取关联销售商品列表] costTime: 2276ms
+\n\t[获取TNT优惠活动] costTime: 12ms
+\n\t[获取TNT优惠活动] costTime: 12ms
+\n\t[获取TNT优惠活动] costTime: 14ms
+\n\t[获取TNT优惠活动] costTime: 13ms
+\n\t[获取TNT优惠活动] costTime: 7ms
+\n\t[获取TNT优惠活动] costTime: 9ms
+\n\t[获取TNT优惠活动] costTime: 9ms
+\n\t[调用主站获取单门票时间价格表] costTime: 44ms
+2016-07-21_21:55:59
+[api.com.ticket.order.getRelatedTicket 1.0.0] costTime: 652ms
+\n\t[调用主站接口判断是不是长隆票] costTime: 8ms
+\n\t[掉用主站获取门票商品详情] costTime: 3ms
+\n\t[获取TNT优惠活动] costTime: 20ms
+\n\t[获取TNT优惠活动] costTime: 13ms
+\n\t[获取TNT优惠活动] costTime: 19ms
+\n\t[获取TNT优惠活动] costTime: 9ms
+\n\t[获取TNT优惠活动] costTime: 16ms
+\n\t[获取TNT优惠活动] costTime: 10ms
+\n\t[获取TNT优惠活动] costTime: 7ms
+\n\t[调用主站获取单门票时间价格表] costTime: 57ms
+2016-07-21_22:07:00
+[api.com.ticket.order.getRelatedTicket 1.0.0] costTime: 348ms
+\n\t[调用主站接口判断是不是长隆票] costTime: 10ms
+\n\t[掉用主站获取门票商品详情] costTime: 2ms
+\n\t[获取TNT优惠活动] costTime: 12ms
+\n\t[获取TNT优惠活动] costTime: 12ms
+\n\t[获取TNT优惠活动] costTime: 13ms
+\n\t[获取TNT优惠活动] costTime: 9ms
+\n\t[获取TNT优惠活动] costTime: 11ms
+\n\t[获取TNT优惠活动] costTime: 10ms
+\n\t[获取TNT优惠活动] costTime: 8ms
+\n\t[调用主站获取单门票时间价格表] costTime: 62ms
+2016-07-21_22:18:06
+[api.com.ticket.order.getRelatedTicket 1.0.0] costTime: 446ms
+\n\t[调用主站接口判断是不是长隆票] costTime: 8ms
+\n\t[掉用主站获取门票商品详情] costTime: 2ms
+\n\t[获取TNT优惠活动] costTime: 10ms
+\n\t[获取TNT优惠活动] costTime: 8ms
+\n\t[获取TNT优惠活动] costTime: 15ms
+\n\t[获取TNT优惠活动] costTime: 8ms
+\n\t[获取TNT优惠活动] costTime: 8ms
+\n\t[获取TNT优惠活动] costTime: 9ms
+\n\t[获取TNT优惠活动] costTime: 10ms
+\n\t[调用主站获取单门票时间价格表] costTime: 42ms
+2016-07-21_22:29:12
+[api.com.ticket.order.getRelatedTicket 1.0.0] costTime: 2860ms
+\n\t[调用主站接口判断是不是长隆票] costTime: 8ms
+\n\t[掉用主站获取门票商品详情] costTime: 4ms
+\n\t[调用主站 获取关联销售商品列表] costTime: 2329ms
+\n\t[获取TNT优惠活动] costTime: 12ms
+\n\t[获取TNT优惠活动] costTime: 91ms
+\n\t[获取TNT优惠活动] costTime: 13ms
+\n\t[获取TNT优惠活动] costTime: 8ms
+\n\t[获取TNT优惠活动] costTime: 8ms
+\n\t[获取TNT优惠活动] costTime: 8ms
+\n\t[获取TNT优惠活动] costTime: 11ms
+\n\t[调用主站获取单门票时间价格表] costTime: 227ms
+2016-07-21_22:40:15
+[api.com.ticket.order.getRelatedTicket 1.0.0] costTime: 2652ms
+\n\t[调用主站接口判断是不是长隆票] costTime: 5ms
+\n\t[掉用主站获取门票商品详情] costTime: 3ms
+\n\t[调用主站 获取关联销售商品列表] costTime: 2371ms
+\n\t[获取TNT优惠活动] costTime: 12ms
+\n\t[获取TNT优惠活动] costTime: 13ms
+\n\t[获取TNT优惠活动] costTime: 13ms
+\n\t[获取TNT优惠活动] costTime: 6ms
+\n\t[获取TNT优惠活动] costTime: 40ms
+\n\t[获取TNT优惠活动] costTime: 7ms
+\n\t[获取TNT优惠活动] costTime: 11ms
+\n\t[调用主站获取单门票时间价格表] costTime: 35ms
+2016-07-21_22:51:18
+[api.com.ticket.order.getRelatedTicket 1.0.0] costTime: 2981ms
+\n\t[调用主站接口判断是不是长隆票] costTime: 9ms
+\n\t[掉用主站获取门票商品详情] costTime: 2ms
+\n\t[调用主站 获取关联销售商品列表] costTime: 2379ms
+\n\t[获取TNT优惠活动] costTime: 10ms
+\n\t[获取TNT优惠活动] costTime: 8ms
+\n\t[获取TNT优惠活动] costTime: 12ms
+\n\t[获取TNT优惠活动] costTime: 9ms
+\n\t[获取TNT优惠活动] costTime: 11ms
+\n\t[获取TNT优惠活动] costTime: 8ms
+\n\t[获取TNT优惠活动] costTime: 14ms
+\n\t[调用主站获取单门票时间价格表] costTime: 301ms
+2016-07-21_23:02:26
+[api.com.ticket.order.getRelatedTicket 1.0.0] costTime: 2637ms
+\n\t[调用主站接口判断是不是长隆票] costTime: 8ms
+\n\t[掉用主站获取门票商品详情] costTime: 2ms
+\n\t[调用主站 获取关联销售商品列表] costTime: 2408ms
+\n\t[获取TNT优惠活动] costTime: 12ms
+\n\t[获取TNT优惠活动] costTime: 14ms
+\n\t[获取TNT优惠活动] costTime: 11ms
+\n\t[获取TNT优惠活动] costTime: 7ms
+\n\t[获取TNT优惠活动] costTime: 7ms
+\n\t[获取TNT优惠活动] costTime: 7ms
+\n\t[获取TNT优惠活动] costTime: 7ms
+\n\t[调用主站获取单门票时间价格表] costTime: 38ms
+2016-07-21_23:13:29
+[api.com.ticket.order.getRelatedTicket 1.0.0] costTime: 267ms
+\n\t[调用主站接口判断是不是长隆票] costTime: 7ms
+\n\t[掉用主站获取门票商品详情] costTime: 3ms
+\n\t[获取TNT优惠活动] costTime: 10ms
+\n\t[获取TNT优惠活动] costTime: 7ms
+\n\t[获取TNT优惠活动] costTime: 17ms
+\n\t[获取TNT优惠活动] costTime: 9ms
+\n\t[获取TNT优惠活动] costTime: 8ms
+\n\t[获取TNT优惠活动] costTime: 10ms
+\n\t[获取TNT优惠活动] costTime: 6ms
+\n\t[调用主站获取单门票时间价格表] costTime: 44ms
+2016-07-21_23:24:35
+[api.com.ticket.order.getRelatedTicket 1.0.0] costTime: 304ms
+\n\t[调用主站接口判断是不是长隆票] costTime: 12ms
+\n\t[掉用主站获取门票商品详情] costTime: 2ms
+\n\t[获取TNT优惠活动] costTime: 11ms
+\n\t[获取TNT优惠活动] costTime: 6ms
+\n\t[获取TNT优惠活动] costTime: 9ms
+\n\t[获取TNT优惠活动] costTime: 7ms
+\n\t[获取TNT优惠活动] costTime: 6ms
+\n\t[获取TNT优惠活动] costTime: 8ms
+\n\t[获取TNT优惠活动] costTime: 5ms
+\n\t[调用主站获取单门票时间价格表] costTime: 86ms
+2016-07-21_23:35:35
+[api.com.ticket.order.getRelatedTicket 1.0.0] costTime: 2521ms
+\n\t[调用主站接口判断是不是长隆票] costTime: 7ms
+\n\t[掉用主站获取门票商品详情] costTime: 3ms
+\n\t[调用主站 获取关联销售商品列表] costTime: 2279ms
+\n\t[获取TNT优惠活动] costTime: 12ms
+\n\t[获取TNT优惠活动] costTime: 9ms
+\n\t[获取TNT优惠活动] costTime: 13ms
+\n\t[获取TNT优惠活动] costTime: 8ms
+\n\t[获取TNT优惠活动] costTime: 8ms
+\n\t[获取TNT优惠活动] costTime: 6ms
+\n\t[获取TNT优惠活动] costTime: 10ms
+\n\t[调用主站获取单门票时间价格表] costTime: 46ms
+2016-07-21_23:46:44
+[api.com.ticket.order.getRelatedTicket 1.0.0] costTime: 470ms
+\n\t[调用主站接口判断是不是长隆票] costTime: 8ms
+\n\t[掉用主站获取门票商品详情] costTime: 7ms
+\n\t[获取TNT优惠活动] costTime: 11ms
+\n\t[获取TNT优惠活动] costTime: 7ms
+\n\t[获取TNT优惠活动] costTime: 12ms
+\n\t[获取TNT优惠活动] costTime: 6ms
+\n\t[获取TNT优惠活动] costTime: 9ms
+\n\t[获取TNT优惠活动] costTime: 6ms
+\n\t[获取TNT优惠活动] costTime: 8ms
+\n\t[调用主站获取单门票时间价格表] costTime: 53ms
+2016-07-21_23:57:44
+[api.com.ticket.order.getRelatedTicket 1.0.0] costTime: 228ms
+\n\t[调用主站接口判断是不是长隆票] costTime: 7ms
+\n\t[掉用主站获取门票商品详情] costTime: 5ms
+\n\t[获取TNT优惠活动] costTime: 11ms
+\n\t[获取TNT优惠活动] costTime: 12ms
+\n\t[获取TNT优惠活动] costTime: 10ms
+\n\t[获取TNT优惠活动] costTime: 9ms
+\n\t[获取TNT优惠活动] costTime: 7ms
+\n\t[获取TNT优惠活动] costTime: 7ms
+\n\t[获取TNT优惠活动] costTime: 7ms
+\n\t[调用主站获取单门票时间价格表] costTime: 41ms
+2016-07-22_00:08:45
+[api.com.ticket.order.getRelatedTicket 1.0.0] costTime: 376ms
+\n\t[调用主站接口判断是不是长隆票] costTime: 7ms
+\n\t[掉用主站获取门票商品详情] costTime: 6ms
+\n\t[获取TNT优惠活动] costTime: 13ms
+\n\t[获取TNT优惠活动] costTime: 8ms
+\n\t[获取TNT优惠活动] costTime: 12ms
+\n\t[获取TNT优惠活动] costTime: 7ms
+\n\t[获取TNT优惠活动] costTime: 8ms
+\n\t[获取TNT优惠活动] costTime: 8ms
+\n\t[获取TNT优惠活动] costTime: 8ms
+\n\t[调用主站获取单门票时间价格表] costTime: 39ms
+2016-07-22_00:19:45
+[api.com.ticket.order.getRelatedTicket 1.0.0] costTime: 2346ms
+\n\t[调用主站接口判断是不是长隆票] costTime: 8ms
+\n\t[掉用主站获取门票商品详情] costTime: 2ms
+\n\t[调用主站 获取关联销售商品列表] costTime: 2027ms
+\n\t[获取TNT优惠活动] costTime: 19ms
+\n\t[获取TNT优惠活动] costTime: 8ms
+\n\t[获取TNT优惠活动] costTime: 12ms
+\n\t[获取TNT优惠活动] costTime: 6ms
+\n\t[获取TNT优惠活动] costTime: 7ms
+\n\t[获取TNT优惠活动] costTime: 7ms
+\n\t[获取TNT优惠活动] costTime: 11ms
+\n\t[调用主站获取单门票时间价格表] costTime: 126ms
+2016-07-22_00:30:48
+[api.com.ticket.order.getRelatedTicket 1.0.0] costTime: 472ms
+\n\t[调用主站接口判断是不是长隆票] costTime: 7ms
+\n\t[掉用主站获取门票商品详情] costTime: 2ms
+\n\t[获取TNT优惠活动] costTime: 14ms
+\n\t[获取TNT优惠活动] costTime: 211ms
+\n\t[获取TNT优惠活动] costTime: 13ms
+\n\t[获取TNT优惠活动] costTime: 12ms
+\n\t[获取TNT优惠活动] costTime: 9ms
+\n\t[获取TNT优惠活动] costTime: 10ms
+\n\t[获取TNT优惠活动] costTime: 7ms
+\n\t[调用主站获取单门票时间价格表] costTime: 56ms
+2016-07-22_00:41:49
+[api.com.ticket.order.getRelatedTicket 1.0.0] costTime: 2593ms
+\n\t[调用主站接口判断是不是长隆票] costTime: 9ms
+\n\t[掉用主站获取门票商品详情] costTime: 7ms
+\n\t[调用主站 获取关联销售商品列表] costTime: 2179ms
+\n\t[获取TNT优惠活动] costTime: 11ms
+\n\t[获取TNT优惠活动] costTime: 7ms
+\n\t[获取TNT优惠活动] costTime: 43ms
+\n\t[获取TNT优惠活动] costTime: 12ms
+\n\t[获取TNT优惠活动] costTime: 10ms
+\n\t[获取TNT优惠活动] costTime: 7ms
+\n\t[获取TNT优惠活动] costTime: 8ms
+\n\t[调用主站获取单门票时间价格表] costTime: 57ms
+2016-07-22_00:52:51
+[api.com.ticket.order.getRelatedTicket 1.0.0] costTime: 3107ms
+\n\t[调用主站接口判断是不是长隆票] costTime: 9ms
+\n\t[掉用主站获取门票商品详情] costTime: 4ms
+\n\t[调用主站 获取关联销售商品列表] costTime: 2768ms
+\n\t[获取TNT优惠活动] costTime: 12ms
+\n\t[获取TNT优惠活动] costTime: 75ms
+\n\t[获取TNT优惠活动] costTime: 14ms
+\n\t[获取TNT优惠活动] costTime: 8ms
+\n\t[获取TNT优惠活动] costTime: 7ms
+\n\t[获取TNT优惠活动] costTime: 10ms
+\n\t[获取TNT优惠活动] costTime: 9ms
+\n\t[调用主站获取单门票时间价格表] costTime: 46ms
+2016-07-22_01:03:55
+[api.com.ticket.order.getRelatedTicket 1.0.0] costTime: 2632ms
+\n\t[调用主站接口判断是不是长隆票] costTime: 7ms
+\n\t[掉用主站获取门票商品详情] costTime: 16ms
+\n\t[调用主站 获取关联销售商品列表] costTime: 2357ms
+\n\t[获取TNT优惠活动] costTime: 13ms
+\n\t[获取TNT优惠活动] costTime: 10ms
+\n\t[获取TNT优惠活动] costTime: 17ms
+\n\t[获取TNT优惠活动] costTime: 9ms
+\n\t[获取TNT优惠活动] costTime: 7ms
+\n\t[获取TNT优惠活动] costTime: 11ms
+\n\t[获取TNT优惠活动] costTime: 8ms
+\n\t[调用主站获取单门票时间价格表] costTime: 43ms
+2016-07-22_01:15:03
+[api.com.ticket.order.getRelatedTicket 1.0.0] costTime: 2564ms
+\n\t[调用主站接口判断是不是长隆票] costTime: 11ms
+\n\t[掉用主站获取门票商品详情] costTime: 3ms
+\n\t[调用主站 获取关联销售商品列表] costTime: 2277ms
+\n\t[获取TNT优惠活动] costTime: 11ms
+\n\t[获取TNT优惠活动] costTime: 8ms
+\n\t[获取TNT优惠活动] costTime: 11ms
+\n\t[获取TNT优惠活动] costTime: 7ms
+\n\t[获取TNT优惠活动] costTime: 7ms
+\n\t[获取TNT优惠活动] costTime: 10ms
+\n\t[获取TNT优惠活动] costTime: 8ms
+\n\t[调用主站获取单门票时间价格表] costTime: 39ms
+2016-07-22_01:26:11
+[api.com.ticket.order.getRelatedTicket 1.0.0] costTime: 2554ms
+\n\t[调用主站接口判断是不是长隆票] costTime: 7ms
+\n\t[掉用主站获取门票商品详情] costTime: 7ms
+\n\t[调用主站 获取关联销售商品列表] costTime: 2190ms
+\n\t[获取TNT优惠活动] costTime: 12ms
+\n\t[获取TNT优惠活动] costTime: 6ms
+\n\t[获取TNT优惠活动] costTime: 12ms
+\n\t[获取TNT优惠活动] costTime: 15ms
+\n\t[获取TNT优惠活动] costTime: 10ms
+\n\t[获取TNT优惠活动] costTime: 7ms
+\n\t[获取TNT优惠活动] costTime: 7ms
+\n\t[调用主站获取单门票时间价格表] costTime: 49ms
+2016-07-22_01:37:14
+[api.com.ticket.order.getRelatedTicket 1.0.0] costTime: 2380ms
+\n\t[调用主站接口判断是不是长隆票] costTime: 11ms
+\n\t[掉用主站获取门票商品详情] costTime: 2ms
+\n\t[调用主站 获取关联销售商品列表] costTime: 2075ms
+\n\t[获取TNT优惠活动] costTime: 13ms
+\n\t[获取TNT优惠活动] costTime: 6ms
+\n\t[获取TNT优惠活动] costTime: 69ms
+\n\t[获取TNT优惠活动] costTime: 7ms
+\n\t[获取TNT优惠活动] costTime: 7ms
+\n\t[获取TNT优惠活动] costTime: 8ms
+\n\t[获取TNT优惠活动] costTime: 7ms
+\n\t[调用主站获取单门票时间价格表] costTime: 45ms
+
+[api.com.ticket.order.getRelatedTicket 1.0.0] avgCostTime: 1888.7ms TimeRange: 208 ~ 4067ms 
+[调用主站接口判断是不是长隆票] avgCostTime: 26.88ms TimeRange: 5 ~ 946ms 
+[掉用主站获取门票商品详情] avgCostTime: 30.76ms TimeRange: 1 ~ 1237ms 
+[调用主站 获取关联销售商品列表] avgCostTime: 2368.19ms TimeRange: 2027 ~ 3818ms 
+[获取TNT优惠活动] avgCostTime: 11.78ms TimeRange: 4 ~ 223ms 
+[获取TNT优惠活动] avgCostTime: 11.78ms TimeRange: 4 ~ 223ms 
+[获取TNT优惠活动] avgCostTime: 11.78ms TimeRange: 4 ~ 223ms 
+[获取TNT优惠活动] avgCostTime: 11.78ms TimeRange: 4 ~ 223ms 
+[获取TNT优惠活动] avgCostTime: 11.78ms TimeRange: 4 ~ 223ms 
+[获取TNT优惠活动] avgCostTime: 11.78ms TimeRange: 4 ~ 223ms 
+[获取TNT优惠活动] avgCostTime: 11.78ms TimeRange: 4 ~ 223ms 

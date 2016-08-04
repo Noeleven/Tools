@@ -1,0 +1,7 @@
+#!/bin/bash
+
+nohup sh /rd/shellstudy/Tools/Ilog/mq1 10 900 &
+sleep 30
+nohup sh /rd/shellstudy/Tools/Ilog/mq2 10 900 &
+
+exit 0

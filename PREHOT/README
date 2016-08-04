@@ -1,0 +1,42 @@
+缓存预热测试方案
+
+1 针对4个接口采集URL
+	采集配置了缓存预热的参数
+			每个12分钟去循环打一批（10个），间隔5s
+	采集没有配置的参数
+			每个12分钟去循环打一批（10个），间隔5s
+	总共跑1天 24小时* 5次 一共120次数据
+	画图表：120次的没有波动的就是有预热的，有波动的就是没预热的
+	运行时间从凌晨到隔天凌晨
+	
+采集数据格式：一共8个接口，4个有缓存，4个没缓存
+文件命名：接口_nocache/cache_version
+log日志：打印所有的debug总时间
+curl时间：打印每次的curl首包时间
+输出格式：接口名称		version		lvversion	debug时间		首包时间
+
+8个接口
+每个接口一次跑10组数据
+一天循环120次，一共1200组数据
+数据包括：logtime	dnstime	tcptime	首包time	网络time	下载速度b/s（结果除以1024在除以8转换为KB/s）
+
+展示图表：
+每个时间的min，max，avg，120次数据画图
+
+
+有缓存预热
+http://api3g2.lvmama.com/api/router/rest.do?method=api.com.groupbuy.getSeckillProductsByMark&clientTimestamp=1469093549535&firstChannel=ANDROID&formate=json&osVersion=6.0&lvversion=7.6.2&secondChannel=XIAOMI&seckillType=1&stationCode=SH&stationName=%E4%B8%8A%E6%B5%B7&page=1&version=1.0.0&pageSize=7&fromPlaceId=79&seckillType=1&productMark=BAOKUAN&groupSiteId=79&IS_DEBUG=1
+无缓存预热
+http://api3g2.lvmama.com/api/router/rest.do?method=api.com.groupbuy.getSeckillProductsByMark&clientTimestamp=1469093549535&firstChannel=ANDROID&formate=json&osVersion=6.0&lvversion=7.6.2&secondChannel=XIAOMI&seckillType=1&stationCode=SH&stationName=%E5%8C%85%E5%A4%B4&page=1&version=1.0.0&pageSize=7&fromPlaceId=29&seckillType=1&productMark=BAOKUAN&groupSiteId=29&IS_DEBUG=1
+有缓存预热
+http://api3g2.lvmama.com/api/router/rest.do?method=api.com.groupbuy.getGroupbuyIndex&clientTimestamp=1469091960595&firstChannel=ANDROID&formate=json&version=2.0.0&osVersion=6.0&lvversion=7.2.0&udid=869161026900324&stationName=上海&secondChannel=XIAOMI&IS_DEBUG=1&page=1&pageSize=4&groupSiteId=79
+无缓存预热
+http://api3g2.lvmama.com/api/router/rest.do?method=api.com.groupbuy.getGroupbuyIndex&clientTimestamp=1469091960595&firstChannel=ANDROID&formate=json&version=2.0.0&osVersion=6.0&lvversion=7.2.0&udid=869161026900324&stationName=包头&secondChannel=XIAOMI&IS_DEBUG=1&page=1&pageSize=4&groupSiteId=29
+有缓存预热
+http://api3g2.lvmama.com/api/router/rest.do?method=api.com.groupbuy.getHotCollections&firstChannel=ANDROID&formate=json&osVersion=6.0&secondChannel=XIAOMI&lvversion=7.2.0&version=2.0.0&IS_DEBUG=1&stationName=上海&page=1&pageSize=30&groupSiteId=79
+无缓存预热
+http://api3g2.lvmama.com/api/router/rest.do?method=api.com.groupbuy.getHotCollections&firstChannel=ANDROID&formate=json&osVersion=6.0&secondChannel=XIAOMI&lvversion=7.2.0&version=2.0.0&IS_DEBUG=1&stationName=包头&page=1&pageSize=30&groupSiteId=29
+有缓存预热
+http://api3g2.lvmama.com/api/router/rest.do?method=api.com.groupbuy.getHotCollections&version=3.0.0&page=1&pageSize=7&stationName=%E4%B8%8A%E6%B5%B7&seckillType=1&firstChannel=IPHONE&secondChannel=APPSTORE&lvversion=7.6.2&osVersion=7.1.1&format=json&IS_DEBUG=1&fromPlaceId=79
+无缓存预热
+http://api3g2.lvmama.com/api/router/rest.do?method=api.com.groupbuy.getHotCollections&version=3.0.0&page=1&pageSize=7&stationName=%E5%8C%85%E5%A4%B4&seckillType=1&firstChannel=IPHONE&secondChannel=APPSTORE&lvversion=7.6.2&osVersion=7.1.1&format=json&IS_DEBUG=1&fromPlaceId=29
