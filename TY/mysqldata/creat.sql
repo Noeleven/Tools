@@ -1,8 +1,8 @@
 --
 -- CREATE DATABASE TINGYUN DATAS
 --
-DROP DATABASE IF EXISTS `tingyun`;
-CREATE DATABASE tingyun;
+-- DROP DATABASE IF EXISTS `tingyun`;
+-- CREATE DATABASE tingyun;
 use tingyun;
 DROP TABLE IF EXISTS `api`;
 CREATE TABLE `api` (
