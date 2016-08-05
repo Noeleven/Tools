@@ -1,13 +1,14 @@
 #!/bin/bash
 #datacheck
 echo "格式:./run 2017-07-29"
+dir=`pwd`
 date=$1
-sh src/data.sh $date
+sh ${dir}/data.sh $date
 echo "waiting for data ready...."
 sleep 60
 #nohup sh /rd/shellstudy/Tools/TY/reshandle.sh && echo "please wait....\n"
-nohup sh reshandle.sh && echo "please wait....\n"
+nohup sh ${dir}/reshandle.sh && echo "please wait....\n"
 #time /rd/shellstudy/Tools/TY/rpmhandle.sh
-time sh rpmhandle.sh
+time sh ${dir}/rpmhandle.sh
 echo "done\n please check your report: Report"
 
