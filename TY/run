@@ -2,7 +2,11 @@
 #datacheck
 echo "格式:./run 2017-07-29"
 dir=`pwd`
-echo "$dir"
+if [[ "$dir" =~ "TY"]]
+	pass
+else
+	dir="${dir}/TY"
+fi
 date=$1
 sh ${dir}/data.sh $date
 echo "waiting for data ready...."
