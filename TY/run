@@ -2,6 +2,7 @@
 #datacheck
 echo "格式:./run 2017-07-29"
 dir=`pwd`
+echo "$dir"
 date=$1
 sh ${dir}/data.sh $date
 echo "waiting for data ready...."
