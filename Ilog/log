@@ -35,7 +35,6 @@ do
 		#限速800kb/s
 		curl --limit-rate 800k "$u" > $SFILE
 		echo $now >> $LFILE
-		#sed 's/,/\n/g' $SFILE |grep debugMsg| awk -F '\"' '{ print $4 }' | sed 's/ms\\n/ms\n\\n/g' >> $LFILE
 		jq .debugMsg $SFILE |sed 's/^\"//g;s/\"$//g'|sed 's/ms\\n/ms\n\\n/g' >> $LFILE
 		sleep ${SLEEPTIME}
 	done

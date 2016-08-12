@@ -7,7 +7,7 @@ res_mlvmama="src/res_mlvmama"
 rpm_api3g2_ios="src/rpm_api3g2_ios"
 rpm_api3g2_a="src/rpm_api3g2_a"
 
-rpm_api3g_ios="src/rpm	_api3g_ios"
+rpm_api3g_ios="src/rpm_api3g_ios"
 rpm_api3g_a="src/rpm_api3g_a"
 
 rpm_mlvmama_ios="src/rpm_mlvmama_ios"
@@ -39,7 +39,7 @@ do
 			des=`mysql -u$username -p$password tingyun -N -e "select des from api where method='${method}'"`
 			if [[ $info =~ "POST" ]];then post=POST;else  post=NO;fi
 			if [[ $info =~ "https" ]];then https=HTTPS;else https=NO; fi
-			if [[ $info =~ "lvversion" ]];then lvversion=`echo $info | grep -o '7\.[0-9]\.[0-9]'`;else lvversion=NO;fi
+			if [[ $info =~ "lvversion" ]];then lvversion=`echo $info | grep -o '7\.[0-9]\.[0-9]'| sed 's/\.//g'`;else lvversion=NO;fi
 			if [[ $info =~ "&version" ]];then version=`echo $info | grep -o '[0-9]\.0\.0'`;else version=NO; fi
 			
 			echo "('${method}','${version}','${lvversion}','${https}','${post}','${value}','${des}','${host_id}')," >> $dores
