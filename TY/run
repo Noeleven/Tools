@@ -81,30 +81,58 @@ cat << EOF
 </head><body>
 <div class="container" style="padding-top:80px">
 <div class="row">
-<div class="panel panel-primary">
-<!-- Default panel contents -->
-<div class="panel-heading">接口简报</div>
+<div class="panel panel-lvmm">
+<div class="panel-heading">本期接口响应时间简报</div>
 <div class="panel-body">
-<p>接口数据（接口数）：${DataTotal} (${Total})</p></div>
-<table class="table table-hover table-condensed table-responsive"><thead><tr><th>时间</th><th>毫秒级</th><th>1~2秒</th><th>2~3秒</th><th>3~4秒</th><th>4~5秒</th><th>5秒以上</th></tr></thead><tbody><tr><th>${date}</th><td>${zs}</td><td>${os}</td><td>${ts}</td><td>${tts}</td><td>${fs}</td><td>${ffs}</td></tr></tbody></table></div></div><hr>
+<p>接口数据总数：${DataTotal}	| 去重后实际接口数：${Total}</p></div>
+<table class="table table-hover table-condensed table-responsive"><thead><tr><th>时间</th><th>毫秒级</th><th>1~2秒</th><th>2~3秒</th><th>3~4秒</th><th>4~5秒</th><th>5秒以上</th></tr></thead><tbody>
+<tr><th>${date}</th><td>${zs}</td><td>${os}</td><td>${ts}</td><td>${tts}</td><td>${fs}</td><td>${ffs}</td></tr></tbody></table></div></div><hr>
 <div class="row">
-<div class="col-md-6"><div class="panel panel-primary"><div class="panel-heading">APP版本：${nowversion}</div><div class="panel-body"><p>响应耗时超过3秒，且日访问量超过1000的接口，建议优先优化</p></div>
+<div class="panel panel-lvmm">
+<!-- Default panel contents -->
+<div class="panel-heading">本期建议优化列表，仅列出最新2个版本</div>
+<ul class="nav nav-tabs nav-justified" role="tablist">
+<li role="presentation" class="active"><a href="#topnow" aria-controls="topnow" role="tab" data-toggle="tab">APP版本：${nowversion}</a></li>
+<li role="presentation"><a href="#topprev" aria-controls="topprev" role="tab" data-toggle="tab">APP版本：${prevversion}</a></li>
+</ul>
+<div class="tab-content">
+<div role="tabpanel" class="tab-pane active" id="topnow">
+<div class="panel-body"><p>列出响应耗时超过3秒，且日访问量超过1000的接口，建议优先优化</p></div>
 <table class="table table-hover table-condensed table-responsive">
 <thead><tr><th>序号</th><th>HOST</th><th>描述</th><th>method</th><th>version</th><th>lvversion</th><th>是否HTTPS</th><th>是否POST</th><th>响应时间/秒</th><th>日访问量</th></tr></thead><tbody>
 EOF
 )>> TYreport.html
 #构造需要修复的新版本
+#构造颜色函数，ms ones twos threes fours fives
+judge_color()
+{
+	res=$t
+    if [[ `echo "$res<  1"|bc` -eq "1" ]];then
+        color=ms
+	elif [[ `echo "$res < 2"|bc` -eq "1" ]] && [[ `echo "$res > 1"|bc` -eq "1" ]] || [[ `echo "$res == 1"|bc` -eq "1" ]];then
+        color=ones
+    elif [[ `echo "$res < 3"|bc` -eq "1" ]] && [[ `echo "$res > 2"|bc` -eq "1" ]] || [[ `echo "$res == 2"|bc` -eq "1" ]];then
+        color=twos
+    elif [[ `echo "$res < 4"|bc` -eq "1" ]] && [[ `echo "$res > 3"|bc` -eq "1" ]] || [[ `echo "$res == 3"|bc` -eq "1" ]];then
+        color=threes
+    elif [[ `echo "$res < 5"|bc` -eq "1" ]] && [[ `echo "$res > 4"|bc` -eq "1" ]] || [[ `echo "$res == 4"|bc` -eq "1" ]];then
+        color=fours
+    else
+        color=fives
+    fi
+}
 p=0
 cat TopNew | while read line
 do
 p=`expr ${p} + 1`
-echo $line | awk  -F '|' '{print "<tr><th>'$p'</th><td>"$1"</td><td>"$2"</td><td>"$3"</td><td>"$4"</td><td>"$5"</td><td>"$6"</td><td>"$7"</td><td>"$8"</td><td>"$9"</td></tr>"}' >> TYreport.html
+t=`echo $line | awk -F '|' '{print $8}'`
+judge_color
+echo $line | awk -F '|' '{print "<tr><th scope="row">'$p'</th><td>"$1"</td><td>"$2"</td><td>"$3"</td><td>"$4"</td><td>"$5"</td><td>"$6"</td><td>"$7"</td><td class='$color'>"$8"</td><td>"$9"</td></tr>"}' >> TYreport.html
 done
 (
-cat << EOF				
-</tbody></table></div></div><div class="col-md-6"><div class="panel panel-primary">
-<div class="panel-heading">APP版本：${prevversion}</div>
-<div class="panel-body"><p>响应耗时超过3秒，且日访问量超过1000的接口，建议优先优化</p></div>
+cat << EOF	
+</tbody></table></div><div role="tabpanel" class="tab-pane" id="topprev">
+<div class="panel-body"><p>列出响应耗时超过3秒，且日访问量超过1000的接口，建议优先优化</p></div>
 <table class="table table-hover table-condensed table-responsive"><thead><tr><th>序号</th><th>HOST</th><th>描述</th><th>method</th><th>version</th><th>lvversion</th><th>是否HTTPS</th><th>是否POST</th><th>响应时间/秒</th><th>日访问量</th></tr></thead><tbody>
 EOF
 )>> TYreport.html
@@ -113,19 +141,24 @@ p=0
 cat TopPrev | while read line
 do
 p=`expr ${p} + 1`
-echo $line | awk -F '|' '{print "<tr><th>'$p'</th><td>"$1"</td><td>"$2"</td><td>"$3"</td><td>"$4"</td><td>"$5"</td><td>"$6"</td><td>"$7"</td><td>"$8"</td><td>"$9"</td></tr>"}' >> TYreport.html
+t=`echo $line | awk -F '|' '{print $8}'`
+judge_color
+echo $line | awk -F '|' '{print "<tr><th scope="row">'$p'</th><td>"$1"</td><td>"$2"</td><td>"$3"</td><td>"$4"</td><td>"$5"</td><td>"$6"</td><td>"$7"</td><td class='$color'>"$8"</td><td>"$9"</td></tr>"}' >> TYreport.html
 done
 (cat << EOF				
-</tbody></table></div></div></div>
-EOF
-)>> TYreport.html
-#构造新版本所有数据
-(cat << EOF
+</tbody></table></div>
+</div>
+</div>
+</div>
 <div class="row">
-<div class="col-md-6">
-<div class="panel panel-primary">
-<!-- Default panel contents -->
-<div class="panel-heading"> ${nowversion}版本接口响应排行</div>
+<div class="panel panel-lvmm">
+<div class="panel-heading">本期最新2个版本的APP接口数据</div>
+<ul class="nav nav-default nav-tabs nav-justified" role="tablist">
+<li role="presentation" class="active"><a href="#standnow" aria-controls="standnow" role="tab" data-toggle="tab">本期${nowversion}版本接口按响应排行</a></li>
+<li role="presentation"><a href="#standprev" aria-controls="standprev" role="tab" data-toggle="tab">本期${prevversion}版本接口按响应排行</a></li>
+</ul>
+<div class="tab-content">
+<div role="tabpanel" class="tab-pane active" id="standnow">
 <div class="panel-body"><p></p></div>
 <table class="table table-hover table-condensed table-responsive">
 <thead><tr><th>序号</th><th>HOST</th><th>描述</th><th>method</th><th>version</th><th>lvversion</th><th>是否HTTPS</th><th>是否POST</th><th>响应时间/秒</th><th>日访问量</th></tr>
@@ -136,18 +169,14 @@ p=0
 cat StandNew | while read line
 do
 p=`expr ${p} + 1`
-echo $line | awk  -F '|' '{print "<tr><th>'$p'</th><td>"$1"</td><td>"$2"</td><td>"$3"</td><td>"$4"</td><td>"$5"</td><td>"$6"</td><td>"$7"</td><td>"$8"</td><td>"$9"</td></tr>"}' >> TYreport.html
+t=`echo $line | awk -F '|' '{print $8}'`
+judge_color
+echo $line | awk -F '|' '{print "<tr><th scope="row">'$p'</th><td>"$1"</td><td>"$2"</td><td>"$3"</td><td>"$4"</td><td>"$5"</td><td>"$6"</td><td>"$7"</td><td class='$color'>"$8"</td><td>"$9"</td></tr>"}' >> TYreport.html
 done
 (cat << EOF				
-</tbody></table></div></div>
-EOF
-)>> TYreport.html
-#构造前一个版本所有数据
-(cat << EOF
-<div class="col-md-6">
-<div class="panel panel-primary">
-<!-- Default panel contents -->
-<div class="panel-heading"> ${prevversion}版本接口响应排行</div>
+</tbody></table>
+</div>
+<div role="tabpanel" class="tab-pane" id="standprev">
 <div class="panel-body"><p></p></div>
 <table class="table table-hover table-condensed table-responsive">
 <thead><tr><th>序号</th><th>HOST</th><th>描述</th><th>method</th><th>version</th><th>lvversion</th><th>是否HTTPS</th><th>是否POST</th><th>响应时间/秒</th><th>日访问量</th></tr>
@@ -158,19 +187,19 @@ p=0
 cat StandPrev | while read line
 do
 p=`expr ${p} + 1`
-echo $line | awk -F '|'  '{print "<tr><th>'$p'</th><td>"$1"</td><td>"$2"</td><td>"$3"</td><td>"$4"</td><td>"$5"</td><td>"$6"</td><td>"$7"</td><td>"$8"</td><td>"$9"</td></tr>"}' >> TYreport.html
+t=`echo $line | awk -F '|' '{print $8}'`
+judge_color
+echo $line | awk -F '|' '{print "<tr><th scope="row">'$p'</th><td>"$1"</td><td>"$2"</td><td>"$3"</td><td>"$4"</td><td>"$5"</td><td>"$6"</td><td>"$7"</td><td class='$color'>"$8"</td><td>"$9"</td></tr>"}' >> TYreport.html
 done
 (cat << EOF				
-</tbody></table></div></div></div>
-EOF
-)>> TYreport.html
-#构造所有数据
-(cat << EOF
+</tbody></table></div>
+</div>
+</div>
+</div>
 <div class="row">
-<div class="panel panel-primary">
-<!-- Default panel contents -->
+<div class="panel panel-lvmm">
 <div class="panel-heading"> 本期所有接口数据 </div>
-<div class="panel-body"><p></p></div>
+<div class="panel-body"><p>包含api3g2、api3g、m.lvmama三个域名，以响应时间排序</p></div>
 <table class="table table-hover table-condensed table-responsive">
 <thead><tr><th>序号</th><th>HOST</th><th>描述</th><th>method</th><th>version</th><th>lvversion</th><th>是否HTTPS</th><th>是否POST</th><th>响应时间/秒</th><th>日访问量</th></tr>
 </thead><tbody>
@@ -180,8 +209,11 @@ p=0
 cat Allist | while read line
 do
 p=`expr ${p} + 1`
-echo $line | awk  -F '|' '{print "<tr><th>'$p'</th><td>"$1"</td><td>"$2"</td><td>"$3"</td><td>"$4"</td><td>"$5"</td><td>"$6"</td><td>"$7"</td><td>"$8"</td><td>"$9"</td></tr>"}' >> TYreport.html
+t=`echo $line | awk -F '|' '{print $8}'`
+judge_color
+echo $line | awk -F '|' '{print "<tr><th scope="row">'$p'</th><td>"$1"</td><td>"$2"</td><td>"$3"</td><td>"$4"</td><td>"$5"</td><td>"$6"</td><td>"$7"</td><td class='$color'>"$8"</td><td>"$9"</td></tr>"}' >> TYreport.html
 done
+cat js >> TYreport.html
 (cat << EOF				
 </tbody></table></div></div></div></body></html>
 EOF
