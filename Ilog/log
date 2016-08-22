@@ -15,14 +15,8 @@ fi
 CYCLE=$1
 SLEEPTIME=$2
 URL=(
-"http://m.lvmama.com/api/router/rest.do?method=api.com.order.getOrderByProductType&version=1.0.0&IS_DEBUG=1&lvsessionid=6e9ed030-b964-4119-9add-80cbb70ae348&lvversion=7.6.1&page=1&pageSize=7&queryType=VISA"
-)
-
-
-for u in ${URL[@]}
-do
-{
-	NAME=`echo $u | cut -d = -f 2 | awk -F "&" '{print $1}'`
+"http://m.lvmama.com/trip/router/rest.do?method=api.com.trip.dest.getDistrictVo&version=1.0.0&destId=367&IS_DEBUG=1"
+"http://api3g2.lvmama.com/api/router/rest.do?method=api.com.trip.dest.getSeoVO&version=1.0.0&destId=3544&IS_DEBUG=1") for u in ${URL[@]} do { NAME=`echo $u | cut -d = -f 2 | awk -F "&" '{print $1}'`
 	#name file
 	SFILE="/rd/shellstudy/Tools/Ilog/logs/src_$NAME"
 	LFILE="/rd/shellstudy/Tools/Ilog/logs/log_$NAME"
@@ -31,7 +25,7 @@ do
 	for i in `seq ${CYCLE}`
 	do
 	#获取到接口的完整数据日志
-		now=`date +%Y-%m-%d_%H:%M:%S`
+		now=`date +%F_%H:%M:%S`
 		#限速800kb/s
 		curl --limit-rate 800k "$u" > $SFILE
 		echo $now >> $LFILE
@@ -43,11 +37,10 @@ do
 	Flines=`expr $lines / $CYCLE`
 	#根据行数，计算avg min max的函数
 	cp $LFILE $RFILE
-	echo "" >> $RFILE
+	echo '' >> $RFILE
 	for o in `seq 2 $Flines`
 		do
 			lineinfo=`sed -n ${o}p $LFILE | grep -o '\[.*\]'`
-			#passinfo=`sed -n ${o}p $LFILE | awk -F ":" '{print $2}'`
 		#获取每次测试每个步骤的costtime
 			tmpinfo=`echo $lineinfo | sed "s/\[//g;s/\]//g" `
 			cat $LFILE | grep "${tmpinfo}" | awk -F "costTime:" '{print $2}'|awk '{ print int($0) }'  > $TFILE

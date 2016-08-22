@@ -1,0 +1,32 @@
+#!/bin/bash
+#1. curl the url & save it to a file（以接口命名）.
+#2. anaylse to get debugMsg
+#3. 执行多次的结果保存到一个文件
+#4. count avg min max && print
+#5. 
+#usage
+
+if [ "$#" != 2 ]; then
+	echo "usage: nohup ILog.sh 执行次数 执行间隔时间秒 &"
+	echo "具体的接口URL需要在脚本中配" 
+	exit 2
+fi
+
+CYCLE=$1
+SLEEPTIME=$2
+
+	NAME="weixintest"
+	#name file
+	SFILE="logs/src_$NAME"
+	for i in `seq ${CYCLE}`
+	do
+	{
+	#获取到接口的完整数据日志
+		NAMETIME=`date +%F_%H:%M:%S`
+		echo $NAMETIME>> $SFILE
+		curl 'http://192.168.0.223/groupActivity/06a1d7571a86474f84a96ca2ea78fe1e' -H 'Pragma: no-cache' -H 'Accept-Encoding: gzip, deflate, sdch' -H 'Accept-Language: zh-CN,zh;q=0.8' -H 'Upgrade-Insecure-Requests: 1' -H 'User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.106 Safari/537.36' -H 'Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8' -H 'Cache-Control: no-cache' -H 'Cookie: CoreID6=95331738012214703752127&ci=90409730; uid=wKgKcFekJS0/yAmCIuiHAg==; cityName=%u4E0A%u6D77; lvsessionid=34b0b18b-8bbc-429f-836a-2ef789fd03c4_12651824; cmTPSet=Y; session_id=26130696a5892b33bb2ef992f3c869ba86ad69a47978b3e745ad94494c51a3d120454dbe99af2b285d152ba6f84da658; Hm_lvt_cb09ebb4692b521604e77f4bf0a61013=1470379955,1470644535; Hm_lpvt_cb09ebb4692b521604e77f4bf0a61013=1470644819; __utma=30114658.1426028791.1470375216.1470379822.1470644535.3; __utmb=30114658.4.10.1470644535; __utmc=30114658; __utmz=30114658.1470375216.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); 90409730_clogin=l=1470644535&v=1&e=1470646619053' -H 'Proxy-Connection: keep-alive' --compressed >> $SFILE
+		sleep ${SLEEPTIME}
+	} &
+	done
+
+exit 0

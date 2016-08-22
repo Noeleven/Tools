@@ -1,8 +1,0 @@
-/rd/shellstudy/Tools/Ilog/mq2: line 29: logs/src_m_befor_inputTicket_2: No such file or directory
-/rd/shellstudy/Tools/Ilog/mq2: line 30: logs/log_m_befor_inputTicket_2: No such file or directory
-sed: can't read logs/src_m_befor_inputTicket_2: No such file or directory
-/rd/shellstudy/Tools/Ilog/mq2: line 31: logs/log_m_befor_inputTicket_2: No such file or directory
-/rd/shellstudy/Tools/Ilog/mq1: line 29: logs/src_m_befor_inputTicket_1: No such file or directory
-/rd/shellstudy/Tools/Ilog/mq1: line 30: logs/log_m_befor_inputTicket_1: No such file or directory
-/rd/shellstudy/Tools/Ilog/mq1: line 31: logs/log_m_befor_inputTicket_1: No such file or directory
-sed: can't read logs/src_m_befor_inputTicket_1: No such file or directory
