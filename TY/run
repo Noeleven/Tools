@@ -226,8 +226,10 @@ EOF
 )>> $Hfile
 
 #创建个软连接到djongo目录
-rm -f /rd/pystudy/myweb/tyblog/templates/TYreport.html
-ln -s $Hfile /rd/pystudy/myweb/tyblog/templates/TYreport.html
+#rm -f /rd/pystudy/myweb/tyblog/templates/TYreport.html
+#ln -s $Hfile /rd/pystudy/myweb/tyblog/templates/TYreport.html
+rm -f /rd/pystudy/Intest/myweb/tyblog/templates/TYreport.html
+ln -s $Hfile /rd/pystudy/Intest/myweb/tyblog/templates/TYreport.html
 
 #最后发邮件
 
