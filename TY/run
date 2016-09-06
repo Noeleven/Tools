@@ -15,7 +15,7 @@ cd /rd/shellstudy/Tools/TY
 		echo "path : $dir"
 	fi
 #准备基础数据
-	# date=$1
+	date=$1
 	echo "=====waiting for data ready====="
 	sh ${dir}/data.sh && echo "======data ready!====="
 	echo "===== start res handle ====="
@@ -24,24 +24,24 @@ cd /rd/shellstudy/Tools/TY
 	echo "===== work done ====="
 	echo "please check your report: Report"
 
-##处理邮件数据
+# ##处理邮件数据
 	sed "s/\t/|/g;s/424892/api3g2/g;s/424891/api3g/g;s/41699/mlvmama/g" Report > ${dir}/files/new_report
 	
-	#以响应时间排序的所有接口数据
+	# #以响应时间排序的所有接口数据
 	sort -rn -t '|' -k 8 ${dir}/files/new_report > ${dir}/files/Allist
 	
-	#新版本2秒以上访问量大于1000的数据
+	# #新版本2秒以上访问量大于1000的数据
 	nowversion=`awk -F '|' '{print $5}' ${dir}/files/new_report| grep [0-9] |sort -u |tail -n1`
 	grep "|${nowversion}|" ${dir}/files/new_report | sort -rn -t '|' -k 9 |awk -F'|' '!a[$3_$4_$5_$6_$7]++'  |awk -F '|' '{if($8 > 2 && $9 > 1000 ){print}}' > ${dir}/files/TopNew
 	
-	#前一个版本2秒以上访问量大于1000的数据
+	# #前一个版本2秒以上访问量大于1000的数据
 	prevversion=`awk -F '|' '{print $5}' ${dir}/files/new_report| grep [0-9] |sort -u |tail -n2 | head -n1`
 	echo "now:${nowversion}  prev:${prevversion} "
 	grep "|${prevversion}|" ${dir}/files/new_report | sort -rn -t '|' -k 9 |awk -F'|' '!a[$3_$4_$5_$6_$7]++'  |awk -F '|' '{if($8 > 2 && $9 > 1000 ){print}}' > ${dir}/files/TopPrev
 	
-	#新版本不重复接口所有数据
+	# #新版本不重复接口所有数据
 	grep "|${nowversion}|" ${dir}/files/new_report | sort -rn -t '|' -k 8 | awk -F'|' '!a[$3_$4]++' > ${dir}/files/StandNew
-	#老版本不重复接口所有数据
+	# #老版本不重复接口所有数据
 	grep "|${prevversion}|" ${dir}/files/new_report | sort -rn -t '|' -k 8 | awk -F'|' '!a[$3_$4]++' > ${dir}/files/StandPrev
 	
 	#计算各接口占比
@@ -62,14 +62,25 @@ cd /rd/shellstudy/Tools/TY
 	fs=`awk 'BEGIN{printf "%.f%%\n",('${four}'/'${DataTotal}')*100}'`
 	ffs=`awk 'BEGIN{printf "%.f%%\n",('${five}'/'${DataTotal}')*100}'`
 
-	# echo "接口数据（接口数）：${DataTotal} (${Total})"
-	# echo "毫秒级：${zs}"
-	# echo "1~2秒：${os}"
-	# echo "2~3秒：${ts}"
-	# echo "3~4秒：${tts}"
-	# echo "4~5秒：${fs}"
-	# echo "5秒以上：${ffs}"
-
+	echo "接口数据（接口数）：${DataTotal} (${Total})"
+	echo "毫秒级：${zs}"
+	echo "1~2秒：${os}"
+	echo "2~3秒：${ts}"
+	echo "3~4秒：${tts}"
+	echo "4~5秒：${fs}"
+	echo "5秒以上：${ffs}"
+	
+	now_month=`date +%_m`
+	if [[ `date +%e` -ge '15' ]]
+	then
+		now_des="${now_month}月前2周"
+	else
+		now_des="`expr ${now_month} - 1`月后2周"
+	fi
+	echo $now_des
+mysql -plvmama tingyun <<EOF
+INSERT INTO ty_rate (des,ms_level,one_level,two_level,three_level,four_level,five_level) VALUES ("${now_des}","${zs}","${os}","${ts}","${tts}","${fs}","${ffs}");
+EOF
 #构造HTML
 da=`date +%F`
 Hfile=${dir}/reports/TYreport_${da}.html
@@ -79,7 +90,7 @@ cat << EOF
 <!DOCTYPE html>
 <html lang="zh-CN">
 <head>
-<meta charset="utf-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><title>LVMAMA 听云半月刊</title>
+<meta charset="utf-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><title>LVMAMA 听云半月刊 $now_des </title>
 <link href="http://cdn.bootcss.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
 EOF
 )>> $Hfile
@@ -93,8 +104,15 @@ cat << EOF
 <div class="panel-heading">本期接口响应时间简报</div>
 <div class="panel-body">
 <p>接口数据总数：${DataTotal}	| 去重后2版本实际接口数：${nowversion}/${Totalnew}  ${prevversion}/${Totalprev}</p></div>
-<table class="table table-hover table-condensed table-responsive"><thead><tr><th>时间</th><th>毫秒级</th><th>1~2秒</th><th>2~3秒</th><th>3~4秒</th><th>4~5秒</th><th>5秒以上</th></tr></thead><tbody>
-<tr><th>${date}</th><td>${zs}</td><td>${os}</td><td>${ts}</td><td>${tts}</td><td>${fs}</td><td>${ffs}</td></tr></tbody></table></div></div><hr>
+<table class="table table-hover table-condensed table-responsive"><thead><tr><th>#</th><th>时间区间</th><th>毫秒级</th><th>1~2秒</th><th>2~3秒</th><th>3~4秒</th><th>4~5秒</th><th>5秒以上</th></tr></thead>
+EOF
+)>> $Hfile
+# <tr><th>${date}</th><td>${zs}</td><td>${os}</td><td>${ts}</td><td>${tts}</td><td>${fs}</td><td>${ffs}</td></tr></table>
+depts=`mysql -plvmama tingyun -H -e "select * from ty_rate"`
+echo "$depts" | sed 's/<\/TR>/<\/TR>\n/g' |tail -n +2 >> $Hfile
+(
+cat << EOF
+</div></div><hr>
 <div class="row">
 <div class="panel panel-lvmm">
 <div class="panel-heading">本期建议优化列表，仅列出最新2个版本</div>
@@ -226,14 +244,12 @@ EOF
 )>> $Hfile
 
 #创建个软连接到djongo目录
-#rm -f /rd/pystudy/myweb/tyblog/templates/TYreport.html
-#ln -s $Hfile /rd/pystudy/myweb/tyblog/templates/TYreport.html
 rm -f /rd/pystudy/Intest/myweb/tyblog/templates/TYreport.html
 ln -s $Hfile /rd/pystudy/Intest/myweb/tyblog/templates/TYreport.html
 
 #最后发邮件
 
-subject='听云接口数据报告'
+# subject='听云接口数据报告'
 mailto='chendongdong@lvmama.com,baoli@lvmama.com,qinzubo@lvmama.com'
 chaosong='zhangfeng@lvmama.com,ltyangyang@lvmama.com,zhouyi@lvmama.com,zhangqiang@lvmama.com,yanpeipei@lvmama.com,guanguofeng@lvmama.com,tianqingyang@lvmama.com'
 text='<html><head></head><body><h1>听云APP接口半月数据</h1><p>由于邮件无法完整展示HTML样式，请下载附件打开 或 点下面链接公司内网打开</p><br ><a href="http://10.113.1.35:8000/tyreport/" target=_blank>点我点我</a><br><hr id="FMSigSeperator" style="width: 210px; height: 1px;" color="#b5c4df" size="1" align="left"> <div><span id="_FoxFROMNAME"><div style="MARGIN: 10px; FONT-FAMILY: verdana; FONT-SIZE: 10pt"><div>Send By Test Team</div></div></span></div></body></html>'
