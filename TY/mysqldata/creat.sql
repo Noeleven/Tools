@@ -45,4 +45,17 @@ CREATE TABLE `ty_r` (
   PRIMARY KEY (`r_id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 auto_increment=1;
 
+-- 创建历史响应占比表
+DROP TABLE IF EXISTS `ty_rate`;
+CREATE TABLE `ty_rate` (
+  `rate_id` int(10) NOT NULL AUTO_INCREMENT,
+  `des` char(100) NOT NULL,
+  `ms_level` char(10) ,
+  `one_level` char(10) ,
+  `two_level` char(10) ,
+  `three_level` char(10) ,
+  `four_level` char(10) ,
+  `five_level` char(10) ,
+  PRIMARY KEY (`rate_id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 auto_increment=1;
 

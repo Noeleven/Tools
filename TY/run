@@ -77,7 +77,6 @@ cd /rd/shellstudy/Tools/TY
 	else
 		now_des="`expr ${now_month} - 1`月后2周"
 	fi
-	echo $now_des
 mysql -plvmama tingyun <<EOF
 INSERT INTO ty_rate (des,ms_level,one_level,two_level,three_level,four_level,five_level) VALUES ("${now_des}","${zs}","${os}","${ts}","${tts}","${fs}","${ffs}");
 EOF
@@ -97,31 +96,24 @@ EOF
 cat ${dir}/files/cssfile >> $Hfile
 (
 cat << EOF
-</head><body>
-<div class="container" style="padding-top:80px">
-<div class="row">
-<div class="panel panel-lvmm">
-<div class="panel-heading">本期接口响应时间简报</div>
-<div class="panel-body">
-<p>接口数据总数：${DataTotal}	| 去重后2版本实际接口数：${nowversion}/${Totalnew}  ${prevversion}/${Totalprev}</p></div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.2.2/Chart.bundle.min.js"></script>
+</head><body><div class="container" style="padding-top:80px">
+<div class="row"><div class="panel panel-lvmm"><div class="panel-heading">本期接口响应时间简报</div>
+<div class="panel-body"><p>接口数据总数：${DataTotal}	| 去重后2版本实际接口数：${nowversion}/${Totalnew}  ${prevversion}/${Totalprev}</p>
+<div id="canvas-holder" style="width:75%;background-color:#f1f1f1;"><canvas id="chart-area1" /></canvas></div></div>
 <table class="table table-hover table-condensed table-responsive"><thead><tr><th>#</th><th>时间区间</th><th>毫秒级</th><th>1~2秒</th><th>2~3秒</th><th>3~4秒</th><th>4~5秒</th><th>5秒以上</th></tr></thead>
 EOF
 )>> $Hfile
-# <tr><th>${date}</th><td>${zs}</td><td>${os}</td><td>${ts}</td><td>${tts}</td><td>${fs}</td><td>${ffs}</td></tr></table>
 depts=`mysql -plvmama tingyun -H -e "select * from ty_rate"`
 echo "$depts" | sed 's/<\/TR>/<\/TR>\n/g' |tail -n +2 >> $Hfile
 (
 cat << EOF
-</div></div><hr>
-<div class="row">
-<div class="panel panel-lvmm">
+</div></div><hr><div class="row"><div class="panel panel-lvmm">
 <div class="panel-heading">本期建议优化列表，仅列出最新2个版本</div>
 <ul class="nav nav-tabs nav-justified" role="tablist">
 <li role="presentation" class="active"><a href="#topnow" aria-controls="topnow" role="tab" data-toggle="tab">APP版本：${nowversion}</a></li>
-<li role="presentation"><a href="#topprev" aria-controls="topprev" role="tab" data-toggle="tab">APP版本：${prevversion}</a></li>
-</ul>
-<div class="tab-content">
-<div role="tabpanel" class="tab-pane active" id="topnow">
+<li role="presentation"><a href="#topprev" aria-controls="topprev" role="tab" data-toggle="tab">APP版本：${prevversion}</a></li></ul>
+<div class="tab-content"><div role="tabpanel" class="tab-pane active" id="topnow">
 <div class="panel-body"><p>列出响应耗时超过2秒，且日访问量超过1000的接口，建议优先优化</p></div>
 <table class="table table-hover table-condensed table-responsive">
 <thead><tr><th>序号</th><th>HOST</th><th>描述</th><th>method</th><th>version</th><th>lvversion</th><th>是否HTTPS</th><th>是否POST</th><th>响应时间/秒</th><th>日访问量</th></tr></thead><tbody>
@@ -170,17 +162,15 @@ do
 	judge_color
 	echo $line | awk -F '|' '{print "<tr><th>'$p'</th><td>"$1"</td><td>"$2"</td><td>"$3"</td><td>"$4"</td><td>"$5"</td><td>"$6"</td><td>"$7"</td><td class='$color'>"$8"</td><td>"$9"</td></tr>"}' >> $Hfile
 done
-(cat << EOF				
+(
+cat << EOF
 </tbody></table></div></div></div></div>
-<div class="row">
-<div class="panel panel-lvmm">
+<div class="row"><div class="panel panel-lvmm">
 <div class="panel-heading">本期最新2个版本的APP接口数据</div>
 <ul class="nav nav-default nav-tabs nav-justified" role="tablist">
 <li role="presentation" class="active"><a href="#standnow" aria-controls="standnow" role="tab" data-toggle="tab">本期${nowversion}版本接口按响应排行</a></li>
-<li role="presentation"><a href="#standprev" aria-controls="standprev" role="tab" data-toggle="tab">本期${prevversion}版本接口按响应排行</a></li>
-</ul>
-<div class="tab-content">
-<div role="tabpanel" class="tab-pane active" id="standnow">
+<li role="presentation"><a href="#standprev" aria-controls="standprev" role="tab" data-toggle="tab">本期${prevversion}版本接口按响应排行</a></li></ul>
+<div class="tab-content"><div role="tabpanel" class="tab-pane active" id="standnow">
 <div class="panel-body"><p></p></div>
 <table class="table table-hover table-condensed table-responsive">
 <thead><tr><th>序号</th><th>HOST</th><th>描述</th><th>method</th><th>version</th><th>lvversion</th><th>是否HTTPS</th><th>是否POST</th><th>响应时间/秒</th><th>日访问量</th></tr>
@@ -198,11 +188,9 @@ done
 (cat << EOF				
 </tbody></table>
 </div>
-<div role="tabpanel" class="tab-pane" id="standprev">
-<div class="panel-body"><p></p></div>
+<div role="tabpanel" class="tab-pane" id="standprev"><div class="panel-body"><p></p></div>
 <table class="table table-hover table-condensed table-responsive">
-<thead><tr><th>序号</th><th>HOST</th><th>描述</th><th>method</th><th>version</th><th>lvversion</th><th>是否HTTPS</th><th>是否POST</th><th>响应时间/秒</th><th>日访问量</th></tr>
-</thead><tbody>
+<thead><tr><th>序号</th><th>HOST</th><th>描述</th><th>method</th><th>version</th><th>lvversion</th><th>是否HTTPS</th><th>是否POST</th><th>响应时间/秒</th><th>日访问量</th></tr></thead><tbody>
 EOF
 )>> $Hfile
 p=0
@@ -214,12 +202,7 @@ do
 	echo $line | awk -F '|' '{print "<tr><th>'$p'</th><td>"$1"</td><td>"$2"</td><td>"$3"</td><td>"$4"</td><td>"$5"</td><td>"$6"</td><td>"$7"</td><td class='$color'>"$8"</td><td>"$9"</td></tr>"}' >> $Hfile
 done
 (cat << EOF				
-</tbody></table></div>
-</div>
-</div>
-</div>
-<div class="row">
-<div class="panel panel-lvmm">
+</tbody></table></div></div></div></div><div class="row"><div class="panel panel-lvmm">
 <div class="panel-heading"> 本期所有接口数据 </div>
 <div class="panel-body"><p>包含api3g2、api3g、m.lvmama三个域名，以响应时间排序</p></div>
 <table class="table table-hover table-condensed table-responsive">
@@ -235,10 +218,134 @@ t=`echo $line | awk -F '|' '{print $8}'`
 judge_color
 echo $line | awk -F '|' '{print "<tr><th>'$p'</th><td>"$1"</td><td>"$2"</td><td>"$3"</td><td>"$4"</td><td>"$5"</td><td>"$6"</td><td>"$7"</td><td class='$color'>"$8"</td><td>"$9"</td></tr>"}' >> $Hfile
 done
+chart_labels=`mysql -plvmama tingyun -e "select * from ty_rate" | tail -n +2 |sed "s/%//g" |awk '{print $2}'`
+label_list=`echo $chart_labels|sed "s/ /\",\"/g;s/^/\"/g;s/$/\"/g"`
+msDate=`mysql -plvmama tingyun -e "select * from ty_rate" | tail -n +2 |sed "s/%//g" |awk '{print $3}'`
+oDate=`mysql -plvmama tingyun -e "select * from ty_rate" | tail -n +2 |sed "s/%//g" |awk '{print $4}'`
+tDate=`mysql -plvmama tingyun -e "select * from ty_rate" | tail -n +2 |sed "s/%//g" |awk '{print $5}'`
+ttDate=`mysql -plvmama tingyun -e "select * from ty_rate" | tail -n +2 |sed "s/%//g" |awk '{print $6}'`
+fDate=`mysql -plvmama tingyun -e "select * from ty_rate" | tail -n +2 |sed "s/%//g" |awk '{print $7}'`
+ffDate=`mysql -plvmama tingyun -e "select * from ty_rate" | tail -n +2 |sed "s/%//g" |awk '{print $8}'`
+ms_list=`echo $msDate|sed "s/ /,/g"`
+o_list=`echo $oDate|sed "s/ /,/g"`
+t_list=`echo $tDate|sed "s/ /,/g"`
+tt_list=`echo $ttDate|sed "s/ /,/g"`
+f_list=`echo $fDate|sed "s/ /,/g"`
+ff_list=`echo $ffDate|sed "s/ /,/g"`
 (cat << EOF				
 </tbody></table></div></div></div>
+<a class="x-goto-top" style="display: block;" href="#top">
+<div class="x-arrow"></div>
+<div class="x-stick"></div>
+</a>
 <script src="http://cdn.bootcss.com/jquery/3.1.0/jquery.min.js"></script>
 <script src="http://cdn.bootcss.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+<script>
+    var config = {
+        type: 'line',
+        data: {
+            labels: [
+EOF
+) >> $Hfile
+echo "$label_list," >>$Hfile
+(
+cat << EOF
+            ],
+            datasets: [
+		{
+			label: "毫秒",
+			borderColor : "rgba(102,204,255,1)",
+			strokeColor : "rgba(102,204,255,1)",
+			pointColor : "rgba(102,204,255,1)",
+			pointStrokeColor: "#fff",
+            pointHighlightFill: "#fff",
+            pointHighlightStroke: "rgba(220,220,220,1)",
+EOF
+) >> $Hfile
+echo "data:[$ms_list]," >>$Hfile
+(
+cat << EOF
+			fill:false,
+		},{
+		label: "1~2秒",
+			borderColor : "rgba(102,204,102,1)",
+			strokeColor : "rgba(102,204,102,1)",
+			pointColor : "rgba(102,204,102,1)",
+			pointStrokeColor: "#fff",
+            pointHighlightFill: "#fff",
+            pointHighlightStroke: "rgba(220,220,220,1)",
+EOF
+) >> $Hfile
+echo "data:[$o_list]," >>$Hfile
+(
+cat << EOF
+			fill:false,
+		},{
+			label: "2~3秒",
+			borderColor : "rgba(255,255,51,1)",
+			strokeColor : "rgba(255,255,51,1)",
+			pointColor : "rgba(255,255,51,1)",
+			pointStrokeColor: "#fff",
+            pointHighlightFill: "#fff",
+            pointHighlightStroke: "rgba(220,220,220,1)",
+EOF
+) >> $Hfile
+echo "data:[$t_list]," >>$Hfile
+(
+cat << EOF
+			fill:false,
+		},{
+			label: "3~4秒",
+			borderColor : "rgba(255,204,51,1)",
+			strokeColor : "rgba(255,204,51,1)",
+			pointColor : "rgba(255,204,51,1)",
+			pointStrokeColor: "#fff",
+            pointHighlightFill: "#fff",
+            pointHighlightStroke: "rgba(220,220,220,1)",
+EOF
+) >> $Hfile
+echo "data:[$tt_list]," >>$Hfile
+(
+cat << EOF
+			fill:false,
+		},{
+			label: "4~5秒",
+			borderColor : "rgba(255,153,51,1)",
+			strokeColor : "rgba(255,153,51,1)",
+			pointColor : "rgba(255,153,51,1)",
+			pointStrokeColor: "#fff",
+            pointHighlightFill: "#fff",
+            pointHighlightStroke: "rgba(220,220,220,1)",
+EOF
+) >> $Hfile
+echo "data:[$f_list]," >>$Hfile
+(
+cat << EOF
+			fill:false,
+		},{
+			label: "5秒以上",
+			borderColor : "rgba(255,102,51,1)",
+			strokeColor : "rgba(255,102,51,1)",
+			pointColor : "rgba(255,102,51,1)",
+			pointStrokeColor: "#fff",
+            pointHighlightFill: "#fff",
+            pointHighlightStroke: "rgba(220,220,220,1)",
+EOF
+) >> $Hfile
+echo "data:[$ff_list]," >>$Hfile
+(
+cat << EOF
+			fill:false,
+		}]}};
+    window.onload = function() {
+        var ctx1 = document.getElementById("chart-area1").getContext("2d");
+        window.myPie = new Chart(ctx1, config);};
+</script>
+<script>
+$(document).ready(function(){
+	$('.x-goto-top').click(function(){$('html,body').animate({scrollTop: '0px'}, 800);}); 
+})
+</script>
 </body></html>
 EOF
 )>> $Hfile

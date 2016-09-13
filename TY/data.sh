@@ -23,6 +23,7 @@
 #新数据获取方式
 
 datee=`date +%F`
+#datee="2016-09-01"
 
 curl "http://10.113.2.70:8080/htmlReport/tingyun/res_api3g2${datee}" 			> src/res_api3g2
 if [ ! -s src/res_api3g2 ];then
