@@ -1,12 +1,118 @@
 #!/bin/bash
+chart_labels=`mysql -plvmama tingyun -e "select * from ty_rate" | tail -n +2 |sed "s/%//g" |awk '{print $2}'`
+label_list=`echo $chart_labels|sed "s/ /\",\"/g;s/^/\"/g;s/$/\"/g"`
+msDate=`mysql -plvmama tingyun -e "select * from ty_rate" | tail -n +2 |sed "s/%//g" |awk '{print $3}'`
+oDate=`mysql -plvmama tingyun -e "select * from ty_rate" | tail -n +2 |sed "s/%//g" |awk '{print $4}'`
+tDate=`mysql -plvmama tingyun -e "select * from ty_rate" | tail -n +2 |sed "s/%//g" |awk '{print $5}'`
+ttDate=`mysql -plvmama tingyun -e "select * from ty_rate" | tail -n +2 |sed "s/%//g" |awk '{print $6}'`
+fDate=`mysql -plvmama tingyun -e "select * from ty_rate" | tail -n +2 |sed "s/%//g" |awk '{print $7}'`
+ffDate=`mysql -plvmama tingyun -e "select * from ty_rate" | tail -n +2 |sed "s/%//g" |awk '{print $8}'`
+ms_list=`echo $msDate|sed "s/ /,/g"`
+o_list=`echo $oDate|sed "s/ /,/g"`
+t_list=`echo $tDate|sed "s/ /,/g"`
+tt_list=`echo $ttDate|sed "s/ /,/g"`
+f_list=`echo $fDate|sed "s/ /,/g"`
+ff_list=`echo $ffDate|sed "s/ /,/g"`
 
-date=`date +%F`
+(
+cat << EOF
+<script>
+    var config = {
+        type: 'line',
+        data: {
+            labels: [
+EOF
+) >> b
+echo "$label_list," >>b
+(
+cat << EOF				
+            ],
+            datasets: [
+		{
+			label: "毫秒",
+			borderColor : "rgba(102,204,255,0.5)",
+			strokeColor : "rgba(220,220,220,1)",
+			pointColor : "rgba(220,220,220,1)",
+			pointStrokeColor : "#fff",
+EOF
+) >> b			
+echo "data:[$ms_list]," >>b
+(
+cat << EOF
+			fill:false,
+		},{
+		label: "1~2秒",
+			borderColor : "rgba(102,204,102,0.5)",
+			strokeColor : "rgba(220,220,220,1)",
+			pointColor : "rgba(220,220,220,1)",
+			pointStrokeColor : "#fff",
+EOF
+) >> b			
+echo "data:[$o_list]," >>b
+(
+cat << EOF
+			fill:false,
+		},{
+			label: "2~3秒",
+			borderColor : "rgba(255,255,153,0.5)",
+			strokeColor : "rgba(220,220,220,1)",
+			pointColor : "rgba(220,220,220,1)",
+			pointStrokeColor : "#fff",
+EOF
+) >> b			
+echo "data:[$t_list]," >>b
+(
+cat << EOF
+			fill:false,
+		},{
+			label: "3~4秒",
+			borderColor : "rgba(255,255,51,0.5)",
+			strokeColor : "rgba(220,220,220,1)",
+			pointColor : "rgba(220,220,220,1)",
+			pointStrokeColor : "#fff",
+EOF
+) >> b			
+echo "data:[$tt_list]," >>b
+(
+cat << EOF
+			fill:false,
+		},{
+			label: "4~5秒",
+			borderColor : "rgba(255,204,102,0.5)",
+			strokeColor : "rgba(220,220,220,1)",
+			pointColor : "rgba(220,220,220,1)",
+			pointStrokeColor : "#fff",
+EOF
+) >> b			
+echo "data:[$f_list]," >>b
+(
+cat << EOF
+			fill:false,
+		},{
+			label: "5秒以上",
+			borderColor : "rgba(255,102,51,0.5)",
+			strokeColor : "rgba(220,220,220,1)",
+			pointColor : "rgba(220,220,220,1)",
+			pointStrokeColor : "#fff",
+EOF
+) >> b			
+echo "data:[$ff_list]," >>b
+(
+cat << EOF
+			fill:false,
+		}
+		]}
+		};
+    window.onload = function() {
+        var ctx1 = document.getElementById("chart-area1").getContext("2d");
+        window.myPie = new Chart(ctx1, config);
+    };
+</script>
 
-subject='测试邮件'
-mailto='305820049@qq.com,qincui@lvmama.com'
-chaosong='zhangqiang@lvmama.com,tianqingyang@lvmama.com'
-text='<html><head></head><body><h1>听云APP接口半月数据</h1><p>由于邮件无法完整展示HTML样式，请下载附件打开 或 点下面链接公司内网打开</p><br ><a href="http://10.113.1.35:8000/tyreport/" target=_blank>点我点我</a><br><hr id="FMSigSeperator" style="width: 210px; height: 1px;" color="#b5c4df" size="1" align="left"> <div><span id="_FoxFROMNAME"><div style="MARGIN: 10px; FONT-FAMILY: verdana; FONT-SIZE: 10pt"><div>Send By Test Team</div></div></span></div></body></html>'
+EOF
+) >> b
 
-echo $text | mutt $mailto -c $chaosong -s $subject  -e 'set content_type="text/html"'  -a files/TopNew
+
+
 
 exit 0

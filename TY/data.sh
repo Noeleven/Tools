@@ -22,11 +22,21 @@
 
 #新数据获取方式
 
-datee=`date +%F`
+#datee=`date +%F`
 #datee="2016-09-01"
 
+m=`date +%Y-%m`
+d=`date +%d`
+if [[ $d -le 14 ]] && [[ $d -ge 01 ]]
+	then 
+	datee="${m}-01"
+else
+	datee="${m}-15"
+fi
+
 curl "http://10.113.2.70:8080/htmlReport/tingyun/res_api3g2${datee}" 			> src/res_api3g2
-if [ ! -s src/res_api3g2 ];then
+Rsize=`ls -l /rd/shellstudy/Tools/TY/src/res_api3g2 |awk '{print $5}'`
+if [[ $Rsize -le 2048 ]];then
 	echo 'empty file'
 	exit 2
 fi

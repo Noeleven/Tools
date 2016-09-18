@@ -97,11 +97,11 @@ cat ${dir}/files/cssfile >> $Hfile
 (
 cat << EOF
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.2.2/Chart.bundle.min.js"></script>
-</head><body><div class="container" style="padding-top:80px">
+</head><body><div class="container"><div class="page-header"><h1>听云接口报告</h1></div>
 <div class="row"><div class="panel panel-lvmm"><div class="panel-heading">本期接口响应时间简报</div>
 <div class="panel-body"><p>接口数据总数：${DataTotal}	| 去重后2版本实际接口数：${nowversion}/${Totalnew}  ${prevversion}/${Totalprev}</p>
-<div id="canvas-holder" style="width:75%;background-color:#f1f1f1;"><canvas id="chart-area1" /></canvas></div></div>
-<table class="table table-hover table-condensed table-responsive"><thead><tr><th>#</th><th>时间区间</th><th>毫秒级</th><th>1~2秒</th><th>2~3秒</th><th>3~4秒</th><th>4~5秒</th><th>5秒以上</th></tr></thead>
+<div id="canvas-holder" style="height:70%width:100%;background-color:#f1f1f1;"><canvas id="chart-area1" /></canvas></div></div>
+<table class="table table-hover table-condensed table-responsive"><thead><tr class="info"><th>#</th><th>时间区间</th><th>毫秒级</th><th>1~2秒</th><th>2~3秒</th><th>3~4秒</th><th>4~5秒</th><th>5秒以上</th></tr></thead>
 EOF
 )>> $Hfile
 depts=`mysql -plvmama tingyun -H -e "select * from ty_rate"`
@@ -116,7 +116,7 @@ cat << EOF
 <div class="tab-content"><div role="tabpanel" class="tab-pane active" id="topnow">
 <div class="panel-body"><p>列出响应耗时超过2秒，且日访问量超过1000的接口，建议优先优化</p></div>
 <table class="table table-hover table-condensed table-responsive">
-<thead><tr><th>序号</th><th>HOST</th><th>描述</th><th>method</th><th>version</th><th>lvversion</th><th>是否HTTPS</th><th>是否POST</th><th>响应时间/秒</th><th>日访问量</th></tr></thead><tbody>
+<thead><tr class="info"><th>序号</th><th>HOST</th><th>描述</th><th>method</th><th>version</th><th>lvversion</th><th>是否HTTPS</th><th>是否POST</th><th>响应时间/秒</th><th>日访问量</th></tr></thead><tbody>
 EOF
 )>> $Hfile
 #构造需要修复的新版本
@@ -150,7 +150,7 @@ done
 cat << EOF	
 </tbody></table></div><div role="tabpanel" class="tab-pane" id="topprev">
 <div class="panel-body"><p>列出响应耗时超过2秒，且日访问量超过1000的接口，建议优先优化</p></div>
-<table class="table table-hover table-condensed table-responsive"><thead><tr><th>序号</th><th>HOST</th><th>描述</th><th>method</th><th>version</th><th>lvversion</th><th>是否HTTPS</th><th>是否POST</th><th>响应时间/秒</th><th>日访问量</th></tr></thead><tbody>
+<table class="table table-hover table-condensed table-responsive"><thead><tr class="info"><th>序号</th><th>HOST</th><th>描述</th><th>method</th><th>version</th><th>lvversion</th><th>是否HTTPS</th><th>是否POST</th><th>响应时间/秒</th><th>日访问量</th></tr></thead><tbody>
 EOF
 )>> $Hfile
 #构造需要修复的前一个版本
@@ -173,7 +173,7 @@ cat << EOF
 <div class="tab-content"><div role="tabpanel" class="tab-pane active" id="standnow">
 <div class="panel-body"><p></p></div>
 <table class="table table-hover table-condensed table-responsive">
-<thead><tr><th>序号</th><th>HOST</th><th>描述</th><th>method</th><th>version</th><th>lvversion</th><th>是否HTTPS</th><th>是否POST</th><th>响应时间/秒</th><th>日访问量</th></tr>
+<thead><tr class="info"><th>序号</th><th>HOST</th><th>描述</th><th>method</th><th>version</th><th>lvversion</th><th>是否HTTPS</th><th>是否POST</th><th>响应时间/秒</th><th>日访问量</th></tr>
 </thead><tbody>
 EOF
 )>> $Hfile
@@ -190,7 +190,7 @@ done
 </div>
 <div role="tabpanel" class="tab-pane" id="standprev"><div class="panel-body"><p></p></div>
 <table class="table table-hover table-condensed table-responsive">
-<thead><tr><th>序号</th><th>HOST</th><th>描述</th><th>method</th><th>version</th><th>lvversion</th><th>是否HTTPS</th><th>是否POST</th><th>响应时间/秒</th><th>日访问量</th></tr></thead><tbody>
+<thead><tr class="info"><th>序号</th><th>HOST</th><th>描述</th><th>method</th><th>version</th><th>lvversion</th><th>是否HTTPS</th><th>是否POST</th><th>响应时间/秒</th><th>日访问量</th></tr></thead><tbody>
 EOF
 )>> $Hfile
 p=0
@@ -206,7 +206,7 @@ done
 <div class="panel-heading"> 本期所有接口数据 </div>
 <div class="panel-body"><p>包含api3g2、api3g、m.lvmama三个域名，以响应时间排序</p></div>
 <table class="table table-hover table-condensed table-responsive">
-<thead><tr><th>序号</th><th>HOST</th><th>描述</th><th>method</th><th>version</th><th>lvversion</th><th>是否HTTPS</th><th>是否POST</th><th>响应时间/秒</th><th>日访问量</th></tr>
+<thead><tr class="info"><th>序号</th><th>HOST</th><th>描述</th><th>method</th><th>version</th><th>lvversion</th><th>是否HTTPS</th><th>是否POST</th><th>响应时间/秒</th><th>日访问量</th></tr>
 </thead><tbody>
 EOF
 )>> $Hfile
@@ -255,9 +255,10 @@ cat << EOF
 		{
 			label: "毫秒",
 			borderColor : "rgba(102,204,255,1)",
-			strokeColor : "rgba(102,204,255,1)",
-			pointColor : "rgba(102,204,255,1)",
-			pointStrokeColor: "#fff",
+			borderCapStyle: 'butt',
+			backgroundColor : "rgba(102,204,255,0.2)",
+			pointBackgroundColor : "rgba(102,204,255,1)",
+			pointBorderColor: "#fff",
             pointHighlightFill: "#fff",
             pointHighlightStroke: "rgba(220,220,220,1)",
 EOF
@@ -265,13 +266,13 @@ EOF
 echo "data:[$ms_list]," >>$Hfile
 (
 cat << EOF
-			fill:false,
+			fill:true,
 		},{
-		label: "1~2秒",
 			borderColor : "rgba(102,204,102,1)",
-			strokeColor : "rgba(102,204,102,1)",
-			pointColor : "rgba(102,204,102,1)",
-			pointStrokeColor: "#fff",
+			borderCapStyle: 'butt',
+			backgroundColor : "rgba(102,204,102,0.3)",
+			pointBackgroundColor : "rgba(102,204,102,1)",
+			pointBorderColor: "#fff",
             pointHighlightFill: "#fff",
             pointHighlightStroke: "rgba(220,220,220,1)",
 EOF
@@ -283,9 +284,10 @@ cat << EOF
 		},{
 			label: "2~3秒",
 			borderColor : "rgba(255,255,51,1)",
-			strokeColor : "rgba(255,255,51,1)",
-			pointColor : "rgba(255,255,51,1)",
-			pointStrokeColor: "#fff",
+			borderCapStyle: 'butt',
+			backgroundColor : "rgba(255,255,51,0.4)",
+			pointBackgroundColor : "rgba(255,255,51,1)",
+			pointBorderColor: "#fff",
             pointHighlightFill: "#fff",
             pointHighlightStroke: "rgba(220,220,220,1)",
 EOF
@@ -297,9 +299,10 @@ cat << EOF
 		},{
 			label: "3~4秒",
 			borderColor : "rgba(255,204,51,1)",
-			strokeColor : "rgba(255,204,51,1)",
-			pointColor : "rgba(255,204,51,1)",
-			pointStrokeColor: "#fff",
+			borderCapStyle: 'butt',
+			backgroundColor : "rgba(255,204,51,0.5)",
+			pointBackgroundColor : "rgba(255,204,51,1)",
+			pointBorderColor: "#fff",
             pointHighlightFill: "#fff",
             pointHighlightStroke: "rgba(220,220,220,1)",
 EOF
@@ -311,9 +314,10 @@ cat << EOF
 		},{
 			label: "4~5秒",
 			borderColor : "rgba(255,153,51,1)",
-			strokeColor : "rgba(255,153,51,1)",
-			pointColor : "rgba(255,153,51,1)",
-			pointStrokeColor: "#fff",
+			borderCapStyle: 'butt',
+			backgroundColor : "rgba(255,153,51,0.6)",
+			pointBackgroundColor : "rgba(255,153,51,1)",
+			pointBorderColor: "#fff",
             pointHighlightFill: "#fff",
             pointHighlightStroke: "rgba(220,220,220,1)",
 EOF
@@ -325,9 +329,10 @@ cat << EOF
 		},{
 			label: "5秒以上",
 			borderColor : "rgba(255,102,51,1)",
-			strokeColor : "rgba(255,102,51,1)",
-			pointColor : "rgba(255,102,51,1)",
-			pointStrokeColor: "#fff",
+			borderCapStyle: 'butt',
+			backgroundColor : "rgba(255,102,51,0.7)",
+			pointBackgroundColor : "rgba(255,102,51,1)",
+			pointBorderColor: "#fff",
             pointHighlightFill: "#fff",
             pointHighlightStroke: "rgba(220,220,220,1)",
 EOF
@@ -342,8 +347,8 @@ cat << EOF
         window.myPie = new Chart(ctx1, config);};
 </script>
 <script>
-$(document).ready(function(){
-	$('.x-goto-top').click(function(){$('html,body').animate({scrollTop: '0px'}, 800);}); 
+\$(document).ready(function(){
+	\$('.x-goto-top').click(function(){\$('html,body').animate({scrollTop: '0px'}, 800);}); 
 })
 </script>
 </body></html>
@@ -356,11 +361,13 @@ ln -s $Hfile /rd/pystudy/Intest/myweb/tyblog/templates/TYreport.html
 
 #最后发邮件
 
-# subject='听云接口数据报告'
-mailto='chendongdong@lvmama.com,baoli@lvmama.com,qinzubo@lvmama.com'
+subject='听云接口数据报告'
+#mailto='chendongdong@lvmama.com,baoli@lvmama.com,qinzubo@lvmama.com'
+mailto='zhangqiang@lvmama.com'
 chaosong='zhangfeng@lvmama.com,ltyangyang@lvmama.com,zhouyi@lvmama.com,zhangqiang@lvmama.com,yanpeipei@lvmama.com,guanguofeng@lvmama.com,tianqingyang@lvmama.com'
 text='<html><head></head><body><h1>听云APP接口半月数据</h1><p>由于邮件无法完整展示HTML样式，请下载附件打开 或 点下面链接公司内网打开</p><br ><a href="http://10.113.1.35:8000/tyreport/" target=_blank>点我点我</a><br><hr id="FMSigSeperator" style="width: 210px; height: 1px;" color="#b5c4df" size="1" align="left"> <div><span id="_FoxFROMNAME"><div style="MARGIN: 10px; FONT-FAMILY: verdana; FONT-SIZE: 10pt"><div>Send By Test Team</div></div></span></div></body></html>'
 
-echo $text | mutt $mailto -c $chaosong -s $subject  -e 'set content_type="text/html"'  -a ${Hfile}
+#echo $text | mutt $mailto -c $chaosong -s $subject  -e 'set content_type="text/html"'  -a ${Hfile}
+echo $text | mutt $mailto -s $subject  -e 'set content_type="text/html"'  -a ${Hfile}
 echo "my work done, BYEBYE"
 exit 0
