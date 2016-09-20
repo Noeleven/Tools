@@ -21,7 +21,7 @@ def _format_addr(s):
 
 from_addr = 'zhangqiang@lvmama.com'
 to_addr = 'zhangqiang@lvmama.com'
-password = '851206Sqq'
+#password = ''
 smtp_server = 'smtp.exmail.qq.com'
 port = 25
 msg = MIMEMultipart()
