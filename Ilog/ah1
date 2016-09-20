@@ -15,20 +15,21 @@ fi
 CYCLE=$1
 SLEEPTIME=$2
 
-	NAME="a_behind_inputTicket"
+	NAME="a_behind_getRelatedTicket"
 	#name file
 	NAMETIME=`date +%Y-%m-%d`
 	SFILE="/rd/shellstudy/Tools/Ilog/logs/src_$NAME"
 	LFILE="/rd/shellstudy/Tools/Ilog/logs/log_$NAME"
 	TFILE="/rd/shellstudy/Tools/Ilog/logs/tmp_$NAME"
 	RFILE="/rd/shellstudy/Tools/Ilog/logs/end_${NAME}_${NAMETIME}"
+	header=`grep signal /rd/pystudy/conf |awk -F : '{print $2}'`
 	for i in `seq ${CYCLE}`
 	do
 	#获取到接口的完整数据日志
 		now=`date +%Y-%m-%d_%H:%M:%S`
-		curl "http://api3g2.lvmama.com/api/router/rest.do?method=api.com.ticket.order.inputTicketOrder&lvversionCode=61&lvversion=7.6.3&udid=869161026900324&lvsessionid=3bf3a443-6692-4280-9410-e28ccd7b4371&lvtukey=595befe85177f358b78827cdc7b94bf3&productId=181551&version=3.0.0&goodsIds=936668&IS_DEBUG=1" > $SFILE
+		curl -H $header "http://api3g2.lvmama.com/api/router/rest.do?method=api.com.ticket.order.getRelatedTicket&clientTimestamp=1470796013065&firstChannel=ANDROID&formate=json&globalLatitude=31.241877&osVersion=6.0&lvversionCode=62&lvversion=7.7.0&udid=869161026900324&lvsessionid=fd82f296-43de-4e75-8109-902e2e939824&globalLongitude=121.398366&secondChannel=LVMM&lvtukey=79c617caedaf61419b24ecc35ae7139b&date=2016-08-11&productId=181551&version=1.0.0&goodsIds=934907&IS_DEBUG=1" > $SFILE
 		echo $now >> $LFILE
-		sed 's/,/\n/g' $SFILE |grep debugMsg| awk -F '\"' '{ print $4 }' | sed 's/ms\\n/ms\n\\n/g' >> $LFILE
+		jq .debugMsg $SFILE |awk -F '\"' '{ print $2 }' | sed 's/ms\\n/ms\n\\n/g' >> $LFILE
 		sleep ${SLEEPTIME}
 	done
 	#根据输出次数和行数的关系，计算最终结果行数（计算次数）

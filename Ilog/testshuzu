@@ -14,6 +14,7 @@ fi
 
 CYCLE=$1
 SLEEPTIME=$2
+header=`grep signal /rd/pystudy/conf |awk -F : '{print $2}'`
 URL=(
 "http://api3g2.lvmama.com/api/router/rest.do?method=api.com.ticket.quickorder.inputTicketQuickOrder&clientTimestamp=1468575638923&firstChannel=ANDROID&formate=json&globalLatitude=31.241869&osVersion=6.0&lvversionCode=60&lvversion=7.6.2&udid=869161026900324&globalLongitude=121.398388&secondChannel=XIAOMI&lvtukey=acd0ad8d3600e1c2ad5996ec3d0dc403&goodsIds=2777050&productId=622407&version=1.0.0&IS_DEBUG=1"
 )
@@ -32,7 +33,7 @@ do
 	#获取到接口的完整数据日志
 		now=`date +%Y-%m-%d_%H:%M:%S`
 		#限速800kb/s
-		curl --limit-rate 800k "$u" > $SFILE
+		curl -H $header --limit-rate 800k "$u" > $SFILE
 		echo $now >> $LFILE
 		jq .debugMsg $SFILE |awk -F '\"' '{ print $2 }' | sed 's/ms\\n/ms\n\\n/g' >> $LFILE
 		sleep ${SLEEPTIME}
