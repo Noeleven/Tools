@@ -97,7 +97,7 @@ cat ${dir}/files/cssfile >> $Hfile
 (
 cat << EOF
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.2.2/Chart.bundle.min.js"></script>
-</head><body><div class="container"><div class="page-header"><h1>听云接口报告</h1></div>
+</head><body><div class="container"><div class="row"><div class="page-header"><h1>听云接口报告</h1><div class="text-right">友情链接:<a href="http://10.113.1.35:8000/intest/">自助接口性能监测平台</a></div></div></div>
 <div class="row"><div class="panel panel-lvmm"><div class="panel-heading">本期接口响应时间简报</div>
 <div class="panel-body"><p>接口数据总数：${DataTotal}	| 去重后2版本实际接口数：${nowversion}/${Totalnew}  ${prevversion}/${Totalprev}</p>
 <div id="canvas-holder" style="height:70%width:100%;background-color:#f1f1f1;"><canvas id="chart-area1" /></canvas></div></div>
