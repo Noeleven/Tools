@@ -19,7 +19,6 @@ dorpm="mysqldata/dorpm.sql"
 username=root
 password=lvmama
 
-
 #handle res_api3g2，格式不一，需要分开处理 name 行数和 value行数一致
 grep name ${res_api3g2} | awk -F "\"" '{print $4}' > tmp
 lines=`wc -l tmp | awk -F " " '{print $1}'`
@@ -40,7 +39,7 @@ do
 			if [[ $info =~ "POST" ]];then post=POST;else  post=NO;fi
 			if [[ $info =~ "https" ]];then https=HTTPS;else https=NO; fi
 			if [[ $info =~ "lvversion" ]];then lvversion=`echo $info | grep -o '7\.[0-9]\.[0-9]'| sed 's/\.//g'`;else lvversion=NO;fi
-			if [[ $info =~ "&version" ]];then version=`echo $info | grep -o '[0-9]\.0\.0'`;else version=NO; fi
+			if [[ $info =~ "&amp;version" ]];then version=`echo $info | grep -o '[0-9]\.0\.0'`;else version=NO; fi
 			
 			echo "('${method}','${version}','${lvversion}','${https}','${post}','${value}','${des}','${host_id}')," >> $dores
 		fi

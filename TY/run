@@ -91,12 +91,14 @@ cat << EOF
 <head>
 <meta charset="utf-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><title>LVMAMA 听云半月刊 $now_des </title>
 <link href="http://cdn.bootcss.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
+<link href="http://10.113.1.35:8000/static/css/bootstrap-table.min.css" rel="stylesheet">
 EOF
 )>> $Hfile
 cat ${dir}/files/cssfile >> $Hfile
 (
 cat << EOF
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.2.2/Chart.bundle.min.js"></script>
+<script src="http://10.113.1.35:8000/static/js/Chart.bundle.min.js"></script>
 </head><body><div class="container"><div class="row"><div class="page-header"><h1>听云接口报告</h1><div class="text-right">友情链接:<a href="http://10.113.1.35:8000/intest/">自助接口性能监测平台</a></div></div></div>
 <div class="row"><div class="panel panel-lvmm"><div class="panel-heading">本期接口响应时间简报</div>
 <div class="panel-body"><p>接口数据总数：${DataTotal}	| 去重后2版本实际接口数：${nowversion}/${Totalnew}  ${prevversion}/${Totalprev}</p>
@@ -115,8 +117,18 @@ cat << EOF
 <li role="presentation"><a href="#topprev" aria-controls="topprev" role="tab" data-toggle="tab">APP版本：${prevversion}</a></li></ul>
 <div class="tab-content"><div role="tabpanel" class="tab-pane active" id="topnow">
 <div class="panel-body"><p>列出响应耗时超过2秒，且日访问量超过1000的接口，建议优先优化</p></div>
-<table class="table table-hover table-condensed table-responsive">
-<thead><tr class="info"><th>序号</th><th>HOST</th><th>描述</th><th>method</th><th>version</th><th>lvversion</th><th>是否HTTPS</th><th>是否POST</th><th>响应时间/秒</th><th>日访问量</th></tr></thead><tbody>
+<table data-toggle="table" data-striped="true" data-show-refresh="true" data-show-columns="true" data-search="true" data-row-style="rowStyle" style="word-break:break-all;">
+<thead><tr>
+<th data-field="序号" data-sortable="true" data-width="1%">#</th>
+<th data-field="HOST" data-sortable="true" data-width="1%">HOST</th>
+<th data-field="描述" data-sortable="true" data-width="40%">描述</th>
+<th data-field="method" data-sortable="true" data-width="40%">method</th>
+<th data-field="version" data-sortable="true" data-width="1%">version</th>
+<th data-field="lvversion" data-sortable="true" data-width="1%">lvversion</th>
+<th data-field="是否HTTPS" data-sortable="true" data-width="1%">HTTPS</th>
+<th data-field="是否POST" data-sortable="true" data-width="1%">POST</th>
+<th data-field="响应时间" data-sortable="true" data-width="1%">响应时间/秒</th>
+<th data-field="日访问量" data-sortable="true" data-width="1%">日访问量</th></tr></thead><tbody>
 EOF
 )>> $Hfile
 #构造需要修复的新版本
@@ -144,13 +156,24 @@ do
 	p=`expr ${p} + 1`
 	t=`echo $line | awk -F '|' '{print $8}'`
 	judge_color
-	echo $line | awk -F '|' '{print "<tr><th>'$p'</th><td>"$1"</td><td>"$2"</td><td>"$3"</td><td>"$4"</td><td>"$5"</td><td>"$6"</td><td>"$7"</td><td class='$color'>"$8"</td><td>"$9"</td></tr>"}' >> $Hfile
+	echo $line | awk -F '|' '{print "<tr><td>'$p'</td><td>"$1"</td><td>"$2"</td><td>"$3"</td><td>"$4"</td><td>"$5"</td><td>"$6"</td><td>"$7"</td><td class='$color'>"$8"</td><td>"$9"</td></tr>"}' >> $Hfile
 done
 (
 cat << EOF	
 </tbody></table></div><div role="tabpanel" class="tab-pane" id="topprev">
 <div class="panel-body"><p>列出响应耗时超过2秒，且日访问量超过1000的接口，建议优先优化</p></div>
-<table class="table table-hover table-condensed table-responsive"><thead><tr class="info"><th>序号</th><th>HOST</th><th>描述</th><th>method</th><th>version</th><th>lvversion</th><th>是否HTTPS</th><th>是否POST</th><th>响应时间/秒</th><th>日访问量</th></tr></thead><tbody>
+<table data-toggle="table" data-striped="true" data-show-refresh="true" data-show-columns="true" data-search="true" data-row-style="rowStyle" style="word-break:break-all;">
+<thead><tr>
+<th data-field="序号" data-sortable="true" data-width="1%">#</th>
+<th data-field="HOST" data-sortable="true" data-width="1%">HOST</th>
+<th data-field="描述" data-sortable="true" data-width="40%">描述</th>
+<th data-field="method" data-sortable="true" data-width="40%">method</th>
+<th data-field="version" data-sortable="true" data-width="1%">version</th>
+<th data-field="lvversion" data-sortable="true" data-width="1%">lvversion</th>
+<th data-field="是否HTTPS" data-sortable="true" data-width="1%">HTTPS</th>
+<th data-field="是否POST" data-sortable="true" data-width="1%">POST</th>
+<th data-field="响应时间" data-sortable="true" data-width="1%">响应时间/秒</th>
+<th data-field="日访问量" data-sortable="true" data-width="1%">日访问量</th></tr></thead><tbody>
 EOF
 )>> $Hfile
 #构造需要修复的前一个版本
@@ -160,7 +183,7 @@ do
 	p=`expr ${p} + 1`
 	t=`echo $line | awk -F '|' '{print $8}'`
 	judge_color
-	echo $line | awk -F '|' '{print "<tr><th>'$p'</th><td>"$1"</td><td>"$2"</td><td>"$3"</td><td>"$4"</td><td>"$5"</td><td>"$6"</td><td>"$7"</td><td class='$color'>"$8"</td><td>"$9"</td></tr>"}' >> $Hfile
+	echo $line | awk -F '|' '{print "<tr><td>'$p'</td><td>"$1"</td><td>"$2"</td><td>"$3"</td><td>"$4"</td><td>"$5"</td><td>"$6"</td><td>"$7"</td><td class='$color'>"$8"</td><td>"$9"</td></tr>"}' >> $Hfile
 done
 (
 cat << EOF
@@ -172,8 +195,18 @@ cat << EOF
 <li role="presentation"><a href="#standprev" aria-controls="standprev" role="tab" data-toggle="tab">本期${prevversion}版本接口按响应排行</a></li></ul>
 <div class="tab-content"><div role="tabpanel" class="tab-pane active" id="standnow">
 <div class="panel-body"><p></p></div>
-<table class="table table-hover table-condensed table-responsive">
-<thead><tr class="info"><th>序号</th><th>HOST</th><th>描述</th><th>method</th><th>version</th><th>lvversion</th><th>是否HTTPS</th><th>是否POST</th><th>响应时间/秒</th><th>日访问量</th></tr>
+<table data-toggle="table" data-striped="true" data-show-refresh="true" data-show-columns="true" data-search="true" data-row-style="rowStyle" style="word-break:break-all;" data-height='700'>
+<thead><tr>
+<th data-field="序号" data-sortable="true" data-width="1%">#</th>
+<th data-field="HOST" data-sortable="true" data-width="1%">HOST</th>
+<th data-field="描述" data-sortable="true" data-width="40%">描述</th>
+<th data-field="method" data-sortable="true" data-width="40%">method</th>
+<th data-field="version" data-sortable="true" data-width="1%">version</th>
+<th data-field="lvversion" data-sortable="true" data-width="1%">lvversion</th>
+<th data-field="是否HTTPS" data-sortable="true" data-width="1%">HTTPS</th>
+<th data-field="是否POST" data-sortable="true" data-width="1%">POST</th>
+<th data-field="响应时间" data-sortable="true" data-width="1%">响应时间/秒</th>
+<th data-field="日访问量" data-sortable="true" data-width="1%">日访问量</th></tr>
 </thead><tbody>
 EOF
 )>> $Hfile
@@ -183,14 +216,24 @@ do
 	p=`expr ${p} + 1`
 	t=`echo $line | awk -F '|' '{print $8}'`
 	judge_color
-	echo $line | awk -F '|' '{print "<tr><th>'$p'</th><td>"$1"</td><td>"$2"</td><td>"$3"</td><td>"$4"</td><td>"$5"</td><td>"$6"</td><td>"$7"</td><td class='$color'>"$8"</td><td>"$9"</td></tr>"}' >> $Hfile
+	echo $line | awk -F '|' '{print "<tr><td>'$p'</td><td>"$1"</td><td>"$2"</td><td>"$3"</td><td>"$4"</td><td>"$5"</td><td>"$6"</td><td>"$7"</td><td class='$color'>"$8"</td><td>"$9"</td></tr>"}' >> $Hfile
 done
 (cat << EOF				
 </tbody></table>
 </div>
 <div role="tabpanel" class="tab-pane" id="standprev"><div class="panel-body"><p></p></div>
-<table class="table table-hover table-condensed table-responsive">
-<thead><tr class="info"><th>序号</th><th>HOST</th><th>描述</th><th>method</th><th>version</th><th>lvversion</th><th>是否HTTPS</th><th>是否POST</th><th>响应时间/秒</th><th>日访问量</th></tr></thead><tbody>
+<table data-toggle="table" data-striped="true" data-show-refresh="true" data-show-columns="true" data-search="true" data-row-style="rowStyle" style="word-break:break-all;" data-height='700'>
+<thead><tr>
+<th data-field="序号" data-sortable="true" data-width="1%">#</th>
+<th data-field="HOST" data-sortable="true" data-width="1%">HOST</th>
+<th data-field="描述" data-sortable="true" data-width="40%">描述</th>
+<th data-field="method" data-sortable="true" data-width="40%">method</th>
+<th data-field="version" data-sortable="true" data-width="1%">version</th>
+<th data-field="lvversion" data-sortable="true" data-width="1%">lvversion</th>
+<th data-field="是否HTTPS" data-sortable="true" data-width="1%">HTTPS</th>
+<th data-field="是否POST" data-sortable="true" data-width="1%">POST</th>
+<th data-field="响应时间" data-sortable="true" data-width="1%">响应时间/秒</th>
+<th data-field="日访问量" data-sortable="true" data-width="1%">日访问量</th></tr></thead><tbody>
 EOF
 )>> $Hfile
 p=0
@@ -199,14 +242,24 @@ do
 	p=`expr ${p} + 1`
 	t=`echo $line | awk -F '|' '{print $8}'`
 	judge_color
-	echo $line | awk -F '|' '{print "<tr><th>'$p'</th><td>"$1"</td><td>"$2"</td><td>"$3"</td><td>"$4"</td><td>"$5"</td><td>"$6"</td><td>"$7"</td><td class='$color'>"$8"</td><td>"$9"</td></tr>"}' >> $Hfile
+	echo $line | awk -F '|' '{print "<tr><td>'$p'</td><td>"$1"</td><td>"$2"</td><td>"$3"</td><td>"$4"</td><td>"$5"</td><td>"$6"</td><td>"$7"</td><td class='$color'>"$8"</td><td>"$9"</td></tr>"}' >> $Hfile
 done
 (cat << EOF				
 </tbody></table></div></div></div></div><div class="row"><div class="panel panel-lvmm">
 <div class="panel-heading"> 本期所有接口数据 </div>
 <div class="panel-body"><p>包含api3g2、api3g、m.lvmama三个域名，以响应时间排序</p></div>
-<table class="table table-hover table-condensed table-responsive">
-<thead><tr class="info"><th>序号</th><th>HOST</th><th>描述</th><th>method</th><th>version</th><th>lvversion</th><th>是否HTTPS</th><th>是否POST</th><th>响应时间/秒</th><th>日访问量</th></tr>
+<table data-toggle="table" data-striped="true" data-show-refresh="true" data-show-columns="true" data-search="true" data-row-style="rowStyle" style="word-break:break-all;" data-height='700'>
+<thead><tr>
+<th data-field="序号" data-sortable="true" data-width="1%">#</th>
+<th data-field="HOST" data-sortable="true" data-width="1%">HOST</th>
+<th data-field="描述" data-sortable="true" data-width="40%">描述</th>
+<th data-field="method" data-sortable="true" data-width="40%">method</th>
+<th data-field="version" data-sortable="true" data-width="1%">version</th>
+<th data-field="lvversion" data-sortable="true" data-width="1%">lvversion</th>
+<th data-field="是否HTTPS" data-sortable="true" data-width="1%">HTTPS</th>
+<th data-field="是否POST" data-sortable="true" data-width="1%">POST</th>
+<th data-field="响应时间" data-sortable="true" data-width="1%">响应时间/秒</th>
+<th data-field="日访问量" data-sortable="true" data-width="1%">日访问量</th></tr>
 </thead><tbody>
 EOF
 )>> $Hfile
@@ -216,7 +269,7 @@ do
 p=`expr ${p} + 1`
 t=`echo $line | awk -F '|' '{print $8}'`
 judge_color
-echo $line | awk -F '|' '{print "<tr><th>'$p'</th><td>"$1"</td><td>"$2"</td><td>"$3"</td><td>"$4"</td><td>"$5"</td><td>"$6"</td><td>"$7"</td><td class='$color'>"$8"</td><td>"$9"</td></tr>"}' >> $Hfile
+echo $line | awk -F '|' '{print "<tr><td>'$p'</td><td>"$1"</td><td>"$2"</td><td>"$3"</td><td>"$4"</td><td>"$5"</td><td>"$6"</td><td>"$7"</td><td class='$color'>"$8"</td><td>"$9"</td></tr>"}' >> $Hfile
 done
 chart_labels=`mysql -plvmama tingyun -e "select * from ty_rate" | tail -n +2 |sed "s/%//g" |awk '{print $2}'`
 label_list=`echo $chart_labels|sed "s/ /\",\"/g;s/^/\"/g;s/$/\"/g"`
@@ -240,6 +293,8 @@ ff_list=`echo $ffDate|sed "s/ /,/g"`
 </a>
 <script src="http://cdn.bootcss.com/jquery/3.1.0/jquery.min.js"></script>
 <script src="http://cdn.bootcss.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+<script src="http://10.113.1.35:8000/static/js/bootstrap-table.min.js"></script>
+<script src="http://10.113.1.35:8000/static/js/bootstrap-table-zh-CN.min.js"></script>
 <script>
     var config = {
         type: 'line',
@@ -268,6 +323,7 @@ echo "data:[$ms_list]," >>$Hfile
 cat << EOF
 			fill:true,
 		},{
+			label: "1~2秒",
 			borderColor : "rgba(102,204,102,1)",
 			borderCapStyle: 'butt',
 			backgroundColor : "rgba(102,204,102,0.3)",
@@ -365,7 +421,7 @@ subject='听云接口数据报告'
 mailto='chendongdong@lvmama.com,baoli@lvmama.com,qinzubo@lvmama.com'
 #mailto='zhangqiang@lvmama.com'
 chaosong='zhangfeng@lvmama.com,ltyangyang@lvmama.com,zhouyi@lvmama.com,zhangqiang@lvmama.com,yanpeipei@lvmama.com,guanguofeng@lvmama.com,tianqingyang@lvmama.com'
-text='<html><head></head><body><h1>听云APP接口半月数据</h1><p>由于邮件无法完整展示HTML样式，请下载附件打开 或 点下面链接公司内网打开</p><br ><a href="http://10.113.1.35:8000/tyreport/" target=_blank>点我点我</a><br><hr id="FMSigSeperator" style="width: 210px; height: 1px;" color="#b5c4df" size="1" align="left"> <div><span id="_FoxFROMNAME"><div style="MARGIN: 10px; FONT-FAMILY: verdana; FONT-SIZE: 10pt"><div>Send By Test Team</div></div></span></div></body></html>'
+text='<html><head></head><body><h1>听云APP接口半月数据</h1><p>由于邮件无法完整展示HTML样式，请下载附件打开 或 点下面链接公司内网打开</p><br ><a href="http://10.113.1.35:8000/tyreport" target=_blank>点我点我</a><br><hr id="FMSigSeperator" style="width: 210px; height: 1px;" color="#b5c4df" size="1" align="left"> <div><span id="_FoxFROMNAME"><div style="MARGIN: 10px; FONT-FAMILY: verdana; FONT-SIZE: 10pt"><div>Send By Test Team</div></div></span></div></body></html>'
 
 echo $text | mutt $mailto -c $chaosong -s $subject  -e 'set content_type="text/html"'  -a ${Hfile}
 echo "my work done, BYEBYE"

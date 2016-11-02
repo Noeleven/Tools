@@ -34,7 +34,7 @@ do
 			value_rpm=`grep value ${rpm_api3g2_a} | sed -n ${i}p | awk -F ":" '{print $2}'|sed "s/ //g;s/\r//g" `
 			value=`awk 'BEGIN{printf("%d\n",'${value_rpm}'*1440+0.5)}'` 
 			if [[ $info =~ "lvversion" ]];then lvversion=`echo $info | grep -o '7\.[0-9]\.[0-9]'|sed 's/\.//g'`;else lvversion=NO;fi
-			if [[ $info =~ "&version" ]];then version=`echo $info | grep -o '[0-9]\.0\.0'`;else version=NO; fi
+			if [[ $info =~ "&amp;version" ]];then version=`echo $info | grep -o '[0-9]\.0\.0'`;else version=NO; fi
 			echo "${method} ${lvversion} ${version} ${value}" >> tmp00
 	else
 	continue
@@ -49,7 +49,7 @@ do
 			value_rpm=`grep value ${rpm_api3g2_ios} | sed -n ${i}p | awk -F ":" '{print $2}'|sed "s/ //g;s/\r//g" `
 			value=`awk 'BEGIN{printf("%d\n",'${value_rpm}'*1440+0.5)}'` 
 			if [[ $info1 =~ "lvversion" ]];then lvversion=`echo $info | grep -o '7\.[0-9]\.[0-9]'|sed 's/\.//g'`;else lvversion=NO;fi
-			if [[ $info1 =~ "&version" ]];then version=`echo $info1 | grep -o '[0-9]\.0\.0'`;else version=NO; fi
+			if [[ $info1 =~ "&amp;version" ]];then version=`echo $info1 | grep -o '[0-9]\.0\.0'`;else version=NO; fi
 			echo "${method} ${lvversion} ${version} ${value}" >> tmp11
 	else
 	continue
